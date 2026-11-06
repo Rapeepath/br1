@@ -1,0 +1,57 @@
+/* Chunky rounded segments: ginger on peach */
+.meter {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 4px;
+  width: 112px;
+  flex: none;
+}
+
+.meter__seg {
+  height: 10px;
+  border-radius: var(--radius-pill);
+  background: var(--meter-off);
+}
+
+.meter__seg.is-on {
+  background: var(--meter-on);
+  box-shadow: inset 0 -2px 0 rgb(0 0 0 / 0.08);
+}
+
+/* With the score shown: five fixed segments plus the number in a small mint bubble */
+.meter--value {
+  grid-template-columns: repeat(5, 20px) auto;
+  width: auto;
+}
+
+.meter__value {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: var(--space-3);
+  border-radius: 50%;
+  background: var(--soft);
+  color: var(--on-soft);
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+@media (forced-colors: active) {
+  .meter__seg {
+    border: 1px solid CanvasText;
+    background: Canvas;
+  }
+
+  .meter__seg.is-on {
+    background: CanvasText;
+  }
+
+  .meter__value {
+    border: 1px solid CanvasText;
+  }
+}

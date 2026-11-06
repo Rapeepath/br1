@@ -1,0 +1,167 @@
+.privacy {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.privacy-note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--tint-sky);
+  color: var(--on-sky);
+  font-weight: 600;
+}
+
+.privacy-note svg {
+  flex: none;
+  margin-top: 2px;
+}
+
+.privacy-updated {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  box-shadow: var(--elev-1), var(--clay);
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.privacy-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: var(--fs-sm);
+}
+
+.privacy-table th,
+.privacy-table td {
+  padding: var(--space-3);
+  border-bottom: 1px dashed var(--line-strong);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.privacy-table thead th {
+  border-bottom: 2px solid var(--line-strong);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.privacy-table tbody th {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.privacy-table td {
+  color: var(--ink-muted);
+}
+
+.privacy-table:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+
+.privacy-cols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5);
+}
+
+.privacy-list {
+  display: grid;
+  gap: var(--space-3);
+  list-style: none;
+}
+
+.privacy-list li {
+  position: relative;
+  padding-left: 28px;
+  color: var(--ink-muted);
+  line-height: 1.65;
+}
+
+.privacy-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 16px;
+  height: 16px;
+  background: var(--meter-on);
+  -webkit-mask: var(--paw) center / contain no-repeat;
+  mask: var(--paw) center / contain no-repeat;
+}
+
+.privacy-list--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3) var(--space-6);
+}
+
+@media (max-width: 900px) {
+  .privacy-cols,
+  .privacy-list--two {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Phones: each row of the data table becomes a labelled card */
+@media (max-width: 720px) {
+  .privacy-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  .privacy-table table,
+  .privacy-table tbody,
+  .privacy-table tr,
+  .privacy-table th,
+  .privacy-table td {
+    display: block;
+  }
+
+  .privacy-table tr {
+    padding: var(--space-3) 0;
+    border-bottom: 2px dashed var(--line-strong);
+  }
+
+  .privacy-table tbody th,
+  .privacy-table td {
+    padding: var(--space-1) 0;
+    border: 0;
+  }
+
+  .privacy-table tbody th {
+    font-size: var(--fs-md);
+  }
+
+  .privacy-table td::before {
+    content: attr(data-label);
+    display: block;
+    color: var(--ink-subtle);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+  }
+}
+
+/* Phone and email each on their own line, never split at a hyphen */
+.privacy-contact {
+  display: grid;
+  justify-items: start;
+  gap: 2px;
+}
+
+.privacy-contact a {
+  white-space: nowrap;
+}

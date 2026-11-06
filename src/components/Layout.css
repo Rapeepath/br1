@@ -1,0 +1,456 @@
+/* Friendly header: cream glass bar; the current page sits in a soft mint pill */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  min-height: var(--header-h);
+}
+
+.wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.wordmark:hover {
+  color: var(--ink);
+}
+
+/* The odd eyes sit in a little white bubble, like a badge */
+.wordmark .odd-eyes {
+  box-sizing: content-box;
+  padding: 9px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  box-shadow: var(--elev-1), var(--clay);
+}
+
+.wordmark__text {
+  display: grid;
+  gap: 2px;
+}
+
+.wordmark__name {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.wordmark__sub {
+  color: var(--ink-subtle);
+  font-size: var(--fs-2xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+}
+
+.wordmark--lg .wordmark__name {
+  font-size: 1.75rem;
+}
+
+.site-nav {
+  margin-left: auto;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: var(--space-1);
+  padding: 4px;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  box-shadow: inset 0 0 0 1px var(--line);
+  list-style: none;
+}
+
+.site-nav a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 40px;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-pill);
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+.site-nav a:hover {
+  background: var(--overlay);
+  color: var(--ink);
+}
+
+.site-nav a.active {
+  background: var(--soft);
+  color: var(--on-soft);
+  box-shadow: var(--clay);
+}
+
+@media (forced-colors: active) {
+  .site-nav a.active {
+    outline: 2px solid Highlight;
+    outline-offset: -2px;
+  }
+}
+
+/* Phone-only part: the tab icons (header) */
+.site-nav__icon {
+  display: none;
+}
+
+.site-nav__count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: var(--radius-pill);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--tint-butter);
+  color: var(--on-butter);
+  box-shadow: var(--elev-1), var(--clay);
+  transition: rotate 400ms var(--ease-spring), background-color 200ms ease;
+}
+
+.theme-toggle:hover {
+  rotate: -20deg;
+}
+
+/* Language switch: a quiet text link beside the theme toggle */
+.lang-switch {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-pill);
+  color: var(--ink-muted);
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.lang-switch:hover {
+  background: var(--soft);
+  color: var(--on-soft);
+}
+
+/* The header's call to action (contact / book a visit); phones reach it from the page instead */
+.site-header__cta {
+  flex: none;
+}
+
+@media (max-width: 1100px) {
+  .site-header__cta {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .site-footer__inner {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* The simulation notice, above the fine print */
+.site-footer__note {
+  max-width: 80ch;
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--line);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}
+main {
+  display: block;
+  min-height: 60vh;
+  padding-bottom: var(--space-8);
+}
+
+/* Pages that end in a full-bleed band run straight into the footer */
+main:has(> .guide-band:last-child) {
+  padding-bottom: 0;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* Footer: a peach sheet with rounded shoulders, like a card tucked under the page */
+.site-footer {
+  margin-top: var(--space-6);
+  padding-top: var(--space-8);
+  border-radius: 40px 40px 0 0;
+  background: var(--band);
+  font-size: var(--fs-sm);
+  color: var(--ink-muted);
+}
+
+main:has(> .guide-band:last-child) + .site-footer {
+  margin-top: 0;
+}
+
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr) minmax(0, 1.25fr) minmax(0, 1.45fr);
+  gap: var(--space-6) var(--space-7);
+  padding-bottom: var(--space-7);
+}
+
+.site-footer__brand p {
+  max-width: 46ch;
+  margin-top: var(--space-4);
+}
+
+.site-footer__title {
+  margin-bottom: var(--space-3);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+
+.site-footer__links {
+  display: grid;
+  gap: var(--space-1);
+  list-style: none;
+}
+
+.site-footer__links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  color: var(--ink-muted);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer__links a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.site-footer__meta {
+  color: var(--ink-muted);
+}
+
+.site-footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
+  padding-block: var(--space-5);
+  border-top: 2px dashed var(--line-strong);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}
+
+/* Leave room for the floating compare tray only while it is shown */
+body:has(.compare-tray) .site-footer {
+  padding-bottom: 88px;
+}
+
+@media (max-width: 960px) {
+  .site-header__inner {
+    gap: var(--space-4);
+  }
+
+  .site-nav a {
+    padding: 0 var(--space-3);
+  }
+}
+
+@media (max-width: 720px) {
+  /* Two-row header would eat a fifth of a phone screen if it stayed pinned */
+  .site-header {
+    position: static;
+  }
+
+  .site-header__inner {
+    flex-wrap: wrap;
+    gap: 0 var(--space-3);
+    min-height: 64px;
+    padding-top: var(--space-2);
+  }
+
+  .theme-toggle {
+    margin-left: auto;
+  }
+
+  .site-nav {
+    order: 3;
+    width: 100%;
+    margin: var(--space-1) 0 var(--space-3);
+  }
+
+  /* Four equal pills, each wide enough (≥124px) here for the label and the compare count side by side */
+  .site-nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2px;
+  }
+
+  .site-nav a {
+    justify-content: center;
+    width: 100%;
+    min-height: 44px;
+    padding: 0 4px;
+    font-size: 0.875rem;
+  }
+
+  .site-footer {
+    border-radius: 28px 28px 0 0;
+  }
+
+  .site-footer__inner {
+    grid-template-columns: 1fr;
+  }
+
+  /* Plain links two by two, so the menus stay short without turning into tiles */
+  .site-footer__links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-4);
+  }
+
+  .site-footer__links a {
+    min-height: 44px;
+  }
+}
+
+/*
+  Phones: four labels plus a count can't share one row of pills at 320–412px without touching, so
+  the menu becomes a tab row like a shop app's: four equal tabs, icon over label, every label whole.
+  The current page gets the desktop's mint pill behind its icon, and the compare count sits on that
+  icon's corner, clear of the label.
+*/
+@media (max-width: 560px) {
+  .site-nav ul {
+    padding: 4px;
+    border-radius: 20px;
+  }
+
+  .site-nav a {
+    display: grid;
+    grid-template-areas:
+      'icon'
+      'label';
+    justify-items: center;
+    align-content: center;
+    gap: 2px;
+    min-height: 56px;
+    padding: 5px 0;
+    border-radius: 16px;
+    font-size: var(--fs-2xs);
+    line-height: 1.35;
+  }
+
+  .site-nav a:hover,
+  .site-nav a.active {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .site-nav a.active {
+    font-weight: 800;
+  }
+
+  .site-nav__icon {
+    grid-area: icon;
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 28px;
+    border-radius: var(--radius-pill);
+    transition: background-color 200ms ease;
+  }
+
+  .site-nav a:hover .site-nav__icon {
+    background: var(--overlay);
+  }
+
+  .site-nav a.active .site-nav__icon {
+    background: var(--soft);
+    box-shadow: var(--clay);
+  }
+
+  .site-nav__label {
+    grid-area: label;
+  }
+
+  .site-nav__count {
+    grid-area: icon;
+    align-self: start;
+    justify-self: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    translate: 19px -5px;
+    box-shadow: 0 0 0 2px var(--surface);
+  }
+
+  /* Footer: a compact back page — brand, the menus two by two, the notice, then fine print */
+  .site-footer {
+    padding-top: var(--space-7);
+  }
+
+  .site-footer__inner {
+    gap: var(--space-5);
+    padding-bottom: var(--space-5);
+  }
+
+  .site-footer__title {
+    margin-bottom: var(--space-2);
+  }
+
+  .site-footer__bottom {
+    display: grid;
+    gap: 0;
+    padding-block: var(--space-4);
+  }
+}
+
+/* The narrowest phones: a half step smaller keeps clear air (≥13px) between neighbouring labels */
+@media (max-width: 340px) {
+  .site-nav a {
+    font-size: 0.71875rem;
+  }
+}
+
+@media (max-width: 720px) {
+  :root {
+    /* Header is not sticky on phones, so in-page jumps need no clearance */
+    --header-offset: 0px;
+  }
+}

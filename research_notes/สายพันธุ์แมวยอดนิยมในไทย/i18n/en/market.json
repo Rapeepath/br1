@@ -1,0 +1,114 @@
+{
+  "priceFactors": [
+    "Whether the cat has pedigree papers from an international association (CFA, TICA, WCF); papered cats cost several times more",
+    "Whether it is sold as a pet (spayed/neutered or not for breeding) or with breeding and show rights, which costs much more",
+    "Coat color, eye color and standout traits, such as an odd-eyed Khao Manee or a short-legged Munchkin",
+    "Imported bloodlines or parents with show championship titles",
+    "What the price includes, such as vaccines, a microchip, spaying/neutering, genetic disease testing and a health guarantee",
+    "The type of sale, such as co-ownership with the cattery, which costs less but comes with binding conditions"
+  ],
+  "buyerChecklist": [
+    {
+      "title": "At least 12 weeks old",
+      "detail": "Good catteries keep kittens with their mother until about 3–4 months of age before they move to a new home."
+    },
+    {
+      "title": "Pedigree papers",
+      "detail": "Check the name of the issuing association and that the parents' names match the kitten you are buying."
+    },
+    {
+      "title": "Vaccination record",
+      "detail": "It must have the vaccine stickers, the dates given and the vet's signature, complete for the kitten's age."
+    },
+    {
+      "title": "Deworming and disease test history",
+      "detail": "Ask for the deworming history and the FIV (feline AIDS) and FeLV (feline leukemia) test results, if available."
+    },
+    {
+      "title": "Microchip",
+      "detail": "Check that it has been implanted and that the number matches the documents, which is required for registration in Bangkok."
+    },
+    {
+      "title": "Contract and health guarantee",
+      "detail": "It should state in writing which diseases are covered, the guarantee period and any spay/neuter conditions."
+    },
+    {
+      "title": "See the parents and where they live",
+      "detail": "Visit the cattery or make a video call to check the cleanliness, health and temperament of the parent cats."
+    },
+    {
+      "title": "Beware of scammers",
+      "detail": "Do not transfer the full amount before you have verified the seller's identity and seen the actual kitten."
+    }
+  ],
+  "vaccineSchedule": [
+    {
+      "age": "6–8 weeks",
+      "vaccines": "Core combination vaccine (FVRCP) dose 1, covering feline panleukopenia and cat flu (FHV-1 and FCV)",
+      "note": "Most animal hospitals in Thailand start at 8 weeks."
+    },
+    {
+      "age": "10–12 weeks",
+      "vaccines": "Core vaccine dose 2, plus FeLV dose 1 if the cat is at risk",
+      "note": "Doses are given 2–4 weeks apart."
+    },
+    {
+      "age": "14–16 weeks",
+      "vaccines": "Final core vaccine dose, first rabies dose and FeLV dose 2",
+      "note": "The final core vaccine dose should be given at 16 weeks of age or older."
+    },
+    {
+      "age": "26 weeks (about 6 months)",
+      "vaccines": "Core vaccine booster",
+      "note": "A new WSAVA 2024 recommendation that replaces waiting until 1 year of age."
+    },
+    {
+      "age": "1 year",
+      "vaccines": "Rabies booster, plus the core vaccine as recommended by your vet",
+      "note": null
+    },
+    {
+      "age": "Every year after that",
+      "vaccines": "Rabies every year; core vaccine every 1–3 years depending on risk",
+      "note": "An annual health check is still advisable even when the core vaccine is not due every year."
+    }
+  ],
+  "legalNotes": [
+    "Cats are a controlled animal under the Rabies Act B.E. 2535 (1992), added in 2017. Owners must have them vaccinated against rabies and keep the certificate.",
+    "In Bangkok, from 10 January 2026, cats must be microchipped and registered within 120 days of birth or within 30 days of being brought to live in Bangkok, free of charge at Bangkok Metropolitan Administration (BMA) clinics.",
+    "Bangkok limits the number of animals by the size of the home; for example, a condo unit smaller than 80 m² may keep 1 animal (animals already kept and registered by 9 April 2026 are exempt). Violators face a fine of up to 25,000 baht.",
+    "The leopard cat is a protected wild animal, so possessing one or crossing it with a Bengal is illegal. Buy a Bengal with pedigree papers from a registered cattery."
+  ],
+  "ownershipCost": {
+    "monthly": [
+      { "item": "Dry food" },
+      { "item": "Wet food and treats" },
+      { "item": "Cat litter" },
+      { "item": "Flea, tick and worm prevention" },
+      { "item": "Pet insurance (optional)" },
+      { "item": "Bathing and grooming for longhaired cats (per visit)" }
+    ],
+    "oneTime": [
+      { "item": "Starter equipment (litter box, bowls, scratcher, carrier)" },
+      { "item": "Kitten vaccination course" },
+      { "item": "Spay/neuter surgery" },
+      { "item": "Pre-surgical blood test" },
+      { "item": "Annual booster vaccines" },
+      { "item": "Recommended emergency fund" }
+    ]
+  },
+  "adoption": [
+    {
+      "name": "Soi Dog Foundation",
+      "detail": "Cats can be adopted with no adoption fee, and every cat is already spayed/neutered, vaccinated and microchipped (Phuket)."
+    },
+    {
+      "name": "Rak Maw Foundation",
+      "detail": "Helps treat and spay/neuter stray cats at temples and in communities, and finds new homes for cats that are ready for adoption."
+    },
+    {
+      "name": "Lanta Animal Welfare",
+      "detail": "An animal rescue center on Koh Lanta, Krabi, that spays/neuters, vaccinates and rehomes stray cats."
+    }
+  ]
+}

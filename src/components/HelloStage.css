@@ -1,0 +1,391 @@
+/*
+  Home first screen (HelloStage.tsx): a big three-line headline with two photo capsules set into it, the
+  lede and actions beside it, and every breed as a round portrait along the bottom.
+*/
+.hello {
+  position: relative;
+  overflow: hidden;
+  padding-block: clamp(2.5rem, 1.5rem + 4vw, 5.5rem) var(--space-6);
+  background: var(--paper);
+}
+
+.hello__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 23rem);
+  grid-template-areas:
+    'title aside'
+    'rail  rail';
+  align-items: end;
+  gap: var(--space-6) var(--space-7);
+}
+
+/* ---------- Headline ---------- */
+.hello__titlebox {
+  grid-area: title;
+  min-width: 0;
+  container-type: inline-size;
+}
+
+/* The longest line ("สำหรับบ้านคุณ", "for your home?") is about 7 em wide, so 1/7.2 of the box keeps all three
+   lines whole at any width, up to the display size */
+.hello__title {
+  display: grid;
+  justify-items: start;
+  color: var(--ink);
+  font-size: min(6.75rem, calc(100cqi / 7.2));
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.12;
+}
+
+.hello__line {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+/* The photo capsule: a pill as tall as the letters, a white rim, tilted like a sticker */
+.blink {
+  position: relative;
+  display: inline-block;
+  flex: none;
+  width: 1.62em;
+  height: 0.86em;
+  margin-inline: 0.14em;
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  box-shadow: 0 0 0 0.06em var(--surface), var(--elev-3);
+  rotate: var(--tilt, 0deg);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.blink__lid {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  background: var(--tint-peach);
+}
+
+.blink__lid img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.blink__next {
+  visibility: hidden;
+}
+
+/* ---------- Aside: lede + actions ---------- */
+.hello__aside {
+  grid-area: aside;
+  padding-bottom: 0.9rem;
+}
+
+.hello__lede {
+  color: var(--ink-muted);
+  font-size: var(--fs-lg);
+  line-height: 1.7;
+}
+
+.hello__actions {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.hello__actions .btn {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hello__kittens {
+  justify-content: center !important;
+  gap: var(--space-2);
+}
+
+/* ---------- Breed rail ---------- */
+.hello__rail {
+  grid-area: rail;
+  margin-top: var(--space-6);
+}
+
+.hello__rail-title {
+  margin-bottom: var(--space-3);
+  color: var(--ink-subtle);
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.hello__breeds {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--space-3);
+  list-style: none;
+}
+
+.hello__breed {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2);
+  color: var(--ink);
+  text-align: center;
+  text-decoration: none;
+}
+
+.hello__portrait {
+  position: relative;
+  display: block;
+  width: min(100%, 92px);
+  aspect-ratio: 1;
+  padding: 4px;
+  border-radius: 50%;
+  background: var(--tone-bg);
+  box-shadow: var(--elev-2), var(--clay);
+  transition:
+    translate 320ms var(--ease-spring),
+    box-shadow 240ms var(--ease);
+}
+
+.hello__portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* A little name tag on the Thai breeds */
+.hello__thai {
+  position: absolute;
+  right: -4px;
+  bottom: 2px;
+  padding: 1px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--tint-butter);
+  color: var(--on-butter);
+  box-shadow: 0 0 0 2px var(--surface);
+  font-family: var(--font-display);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hello__name {
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.hello__breed:hover .hello__portrait,
+.hello__breed:focus-visible .hello__portrait {
+  translate: 0 -5px;
+  box-shadow: var(--elev-3), var(--clay);
+}
+
+.hello__breed:hover .hello__name {
+  color: var(--accent);
+}
+
+.hello__breed:focus-visible {
+  outline: none;
+}
+
+.hello__breed:focus-visible .hello__portrait {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+/* ---------- Motion: one load sequence, the blink, and a lift that answers the pointer ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .hello__line {
+    animation: hello-rise 760ms var(--ease) both;
+  }
+
+  .hello__line:nth-child(2) {
+    animation-delay: 90ms;
+  }
+
+  .hello__line:nth-child(3) {
+    animation-delay: 180ms;
+  }
+
+  /* Each capsule opens its eyes once the words are in (on the capsule itself, so a later blink on the lid
+     never restarts it) */
+  .blink {
+    animation: blink-open 640ms var(--ease) 420ms both;
+  }
+
+  .hello__line:nth-child(2) .blink {
+    animation-delay: 580ms;
+  }
+
+  .blink.is-blinking .blink__lid {
+    animation: blink-lid 620ms cubic-bezier(0.45, 0, 0.25, 1);
+  }
+
+  .hello__aside {
+    animation: hello-fade 700ms var(--ease) 320ms both;
+  }
+
+  .hello__breeds > li {
+    animation: hello-pop 560ms var(--ease-spring) both;
+    animation-delay: calc(480ms + var(--i, 0) * 45ms);
+  }
+
+  .hello__breed:hover .hello__portrait img {
+    animation: hello-purr 420ms var(--ease);
+  }
+}
+
+@keyframes hello-rise {
+  from {
+    opacity: 0;
+    translate: 0 0.35em;
+  }
+}
+
+@keyframes hello-fade {
+  from {
+    opacity: 0;
+    translate: 0 10px;
+  }
+}
+
+@keyframes blink-open {
+  from {
+    scale: 1 0.06;
+  }
+  70% {
+    scale: 1 1.04;
+  }
+  to {
+    scale: 1 1;
+  }
+}
+
+/* A cat's slow blink: the lid closes, rests a moment, and opens on a different cat */
+@keyframes blink-lid {
+  0% {
+    scale: 1 1;
+  }
+  42% {
+    scale: 1 0.06;
+  }
+  58% {
+    scale: 1 0.06;
+  }
+  100% {
+    scale: 1 1;
+  }
+}
+
+@keyframes hello-pop {
+  from {
+    opacity: 0;
+    scale: 0.6;
+  }
+}
+
+@keyframes hello-purr {
+  30% {
+    rotate: -4deg;
+  }
+  65% {
+    rotate: 3deg;
+  }
+}
+
+/* ---------- Narrower screens ---------- */
+@media (max-width: 1080px) {
+  .hello__breeds {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    row-gap: var(--space-5);
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .hello__inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'title'
+      'aside'
+      'rail';
+    gap: var(--space-5);
+  }
+
+  .hello__aside {
+    max-width: 36rem;
+    padding-bottom: 0;
+  }
+
+  .hello__actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .hello {
+    padding-top: var(--space-6);
+  }
+
+  .hello__title {
+    line-height: 1.16;
+  }
+
+  .hello__lede {
+    font-size: var(--fs-md);
+  }
+
+  .hello__actions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hello__actions .btn {
+    justify-content: center;
+  }
+
+  /* Portraits become a row you swipe, peeking past the edge so it reads as scrollable */
+  .hello__rail {
+    margin-top: var(--space-3);
+  }
+
+  .hello__breeds {
+    display: flex;
+    gap: var(--space-3);
+    margin-inline: calc(-1 * var(--gutter));
+    padding: 6px var(--gutter) var(--space-2);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scroll-padding-inline: var(--gutter);
+    scrollbar-width: none;
+  }
+
+  .hello__breeds::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hello__breeds > li {
+    flex: none;
+    width: 74px;
+    scroll-snap-align: start;
+  }
+
+}
+
+@media (forced-colors: active) {
+  .hello__portrait {
+    border: 2px solid CanvasText;
+  }
+}

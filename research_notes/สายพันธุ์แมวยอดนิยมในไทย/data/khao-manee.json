@@ -1,0 +1,140 @@
+{
+  "id": "khao-manee",
+  "nameTh": "ขาวมณี",
+  "nameEn": "Khao Manee",
+  "group": "thai",
+  "origin": "ประเทศไทย",
+  "recognizedBy": ["CFA", "TICA", "WCF"],
+  "tagline": "อัญมณีสีขาวแห่งสยาม ดวงตาประกายเพชร",
+  "summary": "ขาวมณีหรือขาวปลอดเป็นแมวไทยขนสั้นสีขาวล้วน ได้ฉายาว่า Diamond Eye จากดวงตาที่เป็นประกาย ซึ่งอาจเป็นสีฟ้า เหลือง เขียว หรือสองสี รูปร่างปานกลาง ปราดเปรียว ฉลาด ขี้เล่น และชอบนอนตัก",
+  "history": "CFA ระบุว่าขาวมณีปรากฏในตำราแมวสมัยอยุธยา แต่บางแหล่งชี้ว่าบันทึกที่ชัดเจนเริ่มในสมัยรัตนโกสินทร์ และเป็นแมวโปรดในราชสำนักสมัยรัชกาลที่ 5 Colleen Freymuth นำเข้าสหรัฐฯ ครั้งแรกในปี 2542 (ค.ศ. 1999) จากนั้น TICA ให้สถานะแชมเปียนในปี 2558 (ค.ศ. 2015) และ CFA รับจดทะเบียนในปี 2561 (ค.ศ. 2018) ต่อมาเมื่อ 18 พ.ย. 2568 ขาวมณีเป็นหนึ่งในแมวไทย 5 สายพันธุ์ที่คณะรัฐมนตรีเห็นชอบให้เป็นเอกลักษณ์ประจำชาติ",
+  "size": "medium",
+  "weightKg": { "female": [2.7, 3.6], "male": [3.6, 5.0] },
+  "lifespanYears": [10, 12],
+  "coat": {
+    "length": "short",
+    "texture": "สั้น ละเอียด แนบตัว ไม่มีขนชั้นใน",
+    "colors": ["ขาวล้วน (Solid white)"]
+  },
+  "appearance": [
+    "ขนสีขาวบริสุทธิ์เป็นเงา จมูกและอุ้งเท้าสีชมพู",
+    "ดวงตาสีฟ้า เหลือง/ทอง เขียว หรือสองสี (odd-eyed)",
+    "หัวทรงลิ่มดัดแปลง ปลายจมูกกับปลายหูเป็นสามเหลี่ยมด้านเท่า",
+    "ลำตัวขนาดกลาง กล้ามเนื้อแน่น ยืดหยุ่น ไม่ล่ำหนา",
+    "ลูกแมวอาจมีขนสีแซม ซึ่งควรจางหายภายในราว 18 เดือน"
+  ],
+  "temperament": ["ฉลาด", "ขี้สงสัย", "ช่างพูด", "ขี้เล่นซุกซน", "ชอบนอนตัก", "เข้ากับคนง่าย"],
+  "ratings": {
+    "energy": 3,
+    "affection": 4,
+    "vocal": 5,
+    "intelligence": 4,
+    "grooming": 2,
+    "shedding": 3,
+    "kidFriendly": 3,
+    "petFriendly": 3,
+    "socialNeeds": 3
+  },
+  "care": {
+    "grooming": "แปรงขนด้วยแปรงยางเป็นประจำเพื่อเก็บขนร่วง และอาบน้ำเป็นครั้งคราวเพื่อให้ขนขาวสะอาด",
+    "exercise": "ชอบเล่นเกมและปีนป่าย บางตัวชอบขึ้นเกาะไหล่ ควรมีของเล่นและเวลาเล่นด้วยทุกวัน",
+    "diet": "ให้อาหารครบถ้วนตามวัยและคุมน้ำหนัก เพื่อรักษารูปร่างกล้ามเนื้อแน่นแบบปราดเปรียวตามมาตรฐาน",
+    "environment": "ควรเลี้ยงในบ้านหรือให้หลบแดดจัด เพราะหูและจมูกของแมวขาวไวต่อแสง UV ส่วนแมวที่หูหนวกควรอยู่ในบ้านเท่านั้น เพราะไม่ได้ยินอันตราย"
+  },
+  "health": [
+    {
+      "name": "หูหนวกแต่กำเนิด (Congenital deafness)",
+      "detail": "แมวขาวเสี่ยงหูหนวก โดยเฉพาะตัวที่ตาสีฟ้า ส่วนแมวตาสองสีอาจหนวกข้างเดียว ซึ่งมักเป็นข้างที่ตาสีฟ้า",
+      "screening": "ตรวจการได้ยินด้วย BAER หรือ OAE ซึ่ง GCCF กำหนดให้ต้องตรวจก่อนจดทะเบียน"
+    },
+    {
+      "name": "มะเร็งผิวหนังชนิดสความัส (Squamous cell carcinoma)",
+      "detail": "แมวขาวที่โดนแดดนานเสี่ยงเกิดแผลแดงตกสะเก็ดที่ปลายหูและจมูก ซึ่งอาจลุกลามเป็นมะเร็ง",
+      "screening": "ลดการโดนแดดจัด และพาพบสัตวแพทย์หากแผลที่หูหรือจมูกไม่หาย"
+    }
+  ],
+  "welfareNote": "ประชากรขาวมณีนอกประเทศไทยยังมีน้อย GCCF เตือนว่าการผสมเลือดชิดอาจทำให้ตัวเล็กลงและสุขภาพแย่ลง และการเน้นคัดแต่แมวตาสองสีจะทำให้ฐานพันธุกรรมแคบ ผู้ซื้อจึงควรขอผลตรวจการได้ยิน (BAER) ของลูกแมว",
+  "idealFor": [
+    "ผู้ที่ชอบแมวขี้เล่นและช่างคุย",
+    "บ้านที่เลี้ยงแมวแบบระบบปิด",
+    "ผู้ที่หลงใหลแมวไทยโบราณหายาก"
+  ],
+  "considerations": [
+    "หายากและมักมีราคาสูง ควรเลือกฟาร์มที่น่าเชื่อถือ",
+    "ควรตรวจการได้ยินก่อนรับเลี้ยง",
+    "ขนขาวเห็นคราบง่าย และต้องระวังแสงแดด"
+  ],
+  "funFact": "ในไทยเดิมเรียกแมวชนิดนี้ว่าขาวปลอด ก่อนจะได้ชื่อขาวมณีซึ่งแปลว่าอัญมณีสีขาวในสมัยรัชกาลที่ 5",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Khao_Manee_Lily.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_Lily.jpg",
+    "author": "Lunile",
+    "license": "CC BY-SA 4.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/khao-manee-1.jpg",
+      "srcSmall": "images/gallery/khao-manee-1-sm.jpg",
+      "width": 1600,
+      "height": 778,
+      "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_%22Gally%22.jpg",
+      "author": "Zackrow",
+      "license": "CC BY-SA 4.0",
+      "alt": "ขาวมณีเพศเมียตาสองสี (เหลืองอำพันและฟ้า) หมอบรับแสงแดด",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/khao-manee-2.jpg",
+      "srcSmall": "images/gallery/khao-manee-2-sm.jpg",
+      "width": 1600,
+      "height": 1200,
+      "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_%22Leela%22.jpg",
+      "author": "Janet Poulsen",
+      "license": "CC BY-SA 3.0",
+      "alt": "ขาวมณีตาสองสีชื่อลีลา หมอบบนเบาะขนนุ่ม",
+      "focus": "45% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/khao-manee-3.jpg",
+      "srcSmall": "images/gallery/khao-manee-3-sm.jpg",
+      "width": 1600,
+      "height": 2133,
+      "page": "https://commons.wikimedia.org/wiki/File:Khaomanee_cat.jpg",
+      "author": "Octavio.hgc",
+      "license": "CC BY-SA 4.0",
+      "alt": "ขาวมณีตาสองสีเกาะกิ่งต้นไม้",
+      "focus": "50% 25%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/khao-manee-4.jpg",
+      "srcSmall": "images/gallery/khao-manee-4-sm.jpg",
+      "width": 1600,
+      "height": 1198,
+      "page": "https://commons.wikimedia.org/wiki/File:Khao_manee.JPG",
+      "author": "Ritadesbois",
+      "license": "CC BY-SA 3.0",
+      "alt": "ขาวมณีเพศเมียวัยสาวนอนบนผ้าปูที่นอนสีขาว เห็นตาสองสี",
+      "focus": "30% 55%"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – Khao Manee breed profile", "url": "https://cfa.org/breed/khao-manee/" },
+    { "title": "TICA – Khaomanee breed", "url": "https://tica.org/khaomanee-breeders?catid=79&id=846%3Akhaomanee-breed&view=article" },
+    { "title": "WCF – Khao Manee breed standard (2019)", "url": "https://wcf.de/pdf-en/breed/Khao_Manee_2019-09-29_EN.pdf" },
+    { "title": "WCF – EMS code championship status", "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf" },
+    { "title": "FIFe – EMS system (01.07.2026)", "url": "https://fifeweb.org/wp-content/uploads/2023/12/ems_system_en.pdf" },
+    { "title": "GCCF – Khao Manee registration & breeding policy", "url": "https://www.gccfcats.org/wp-content/uploads/2025/05/Khao-Manee.Reg_.Policy-SOP.pdf" },
+    { "title": "GCCF – Unrecognised breeds", "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/" },
+    { "title": "ACFA – Khao Manee breed standard", "url": "https://acfacat.com/Kahomanee.htm" },
+    { "title": "PetMD – Ear Cancer (Squamous Cell Carcinoma) in Cats", "url": "https://www.petmd.com/cat/conditions/cancer/c_ct_squamous_cell_carcinoma_ear" },
+    { "title": "The Cat API data (mirror) – Khao Manee", "url": "https://cat-data-pages.onrender.com/cats/Khao%20Manee" },
+    { "title": "Wikipedia – Khao Manee", "url": "https://en.wikipedia.org/wiki/Khao_Manee" },
+    { "title": "วิกิพีเดีย – แมวขาวมณี", "url": "https://th.wikipedia.org/wiki/แมวขาวมณี" },
+    { "title": "Time Out Bangkok – Five Thai cat breeds now official national treasures", "url": "https://www.timeout.com/bangkok/th/news/five-thai-cat-breeds-now-official-national-treasures-111925" },
+    { "title": "ฐานเศรษฐกิจ – ครม. เห็นชอบแมวไทยเป็นเอกลักษณ์ประจำชาติ", "url": "https://www.thansettakij.com/lifestyle/644492" }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "american-shorthair",
+  "nameTh": "อเมริกัน ช็อตแฮร์",
+  "nameEn": "American Shorthair",
+  "group": "international",
+  "origin": "สหรัฐอเมริกา",
+  "recognizedBy": ["CFA", "TICA"],
+  "tagline": "แมวลายเงินคลาสสิก ใจดี เลี้ยงง่าย",
+  "summary": "อเมริกัน ช็อตแฮร์เป็นแมวขนาดกลาง ร่างกายแข็งแรง กล้ามเนื้อแน่น ขนสั้นหนาดูแลง่าย โดดเด่นด้วยลายวนสีเงินแบบคลาสสิก นิสัยใจเย็น รักครอบครัวแต่ไม่ติดแจ เข้ากับเด็กและสัตว์เลี้ยงอื่นได้ดี จึงเหมาะกับผู้เลี้ยงมือใหม่",
+  "history": "บรรพบุรุษคือแมวที่เดินทางมากับเรือของผู้อพยพชาวยุโรปสู่อเมริกาเหนือเพื่อจับหนู เดิมเรียกว่า Domestic Shorthair และเป็นหนึ่งในสายพันธุ์แรก ๆ ที่ CFA รับรองเมื่อก่อตั้งในปี ค.ศ. 1906 ก่อนเปลี่ยนชื่อเป็น American Shorthair ในช่วงกลางทศวรรษ 1960",
+  "size": "medium",
+  "weightKg": { "female": [2.5, 5.5], "male": [5, 7] },
+  "lifespanYears": [15, 20],
+  "coat": {
+    "length": "short",
+    "texture": "ขนสั้น หนาแน่น เนื้อขนค่อนข้างแข็งและเป็นเงา",
+    "colors": ["ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)", "ลายสลิดสีน้ำตาล (บราวน์แทบบี้)", "ลายสลิดสีส้ม (เรดแทบบี้)", "ขาว", "ดำ", "สองสี (ไบคัลเลอร์)"]
+  },
+  "appearance": [
+    "ลำตัวกำยำ อกกว้าง กล้ามเนื้อแน่น",
+    "หัวกว้าง แก้มเต็ม ปากสั้นค่อนข้างเหลี่ยม",
+    "ตากลมโตตั้งห่างกัน",
+    "หูขนาดกลาง ปลายมน",
+    "ลายวนแบบคลาสสิกบนสีเงินคือภาพจำของสายพันธุ์"
+  ],
+  "temperament": ["ใจเย็น", "อ่อนโยน", "ขี้เล่นพอดี", "รักอิสระ", "ฉลาด", "ปรับตัวเก่ง"],
+  "ratings": {
+    "energy": 3,
+    "affection": 4,
+    "vocal": 2,
+    "intelligence": 3,
+    "grooming": 2,
+    "shedding": 3,
+    "kidFriendly": 4,
+    "petFriendly": 5,
+    "socialNeeds": 3
+  },
+  "care": {
+    "grooming": "ขนสั้นดูแลง่าย หวีหรือแปรงอย่างน้อยสัปดาห์ละครั้งเพื่อลดขนร่วง และแทบไม่ต้องอาบน้ำ",
+    "exercise": "พลังงานปานกลาง ควรเล่นด้วยทุกวัน มีคอนโดแมวให้ปีน และของเล่นล่าเหยื่อเพื่อกระตุ้นสัญชาตญาณนักล่า",
+    "diet": "อ้วนง่ายถ้าให้กินไม่จำกัด ควรตวงอาหารและแบ่งเป็น 2–3 มื้อต่อวัน พร้อมแปรงฟันเป็นประจำ",
+    "environment": "อยู่ได้ทั้งคอนโดและบ้าน เล่นเองได้โดยไม่เรียกร้องความสนใจมาก ควรมีที่ปีนและหน้าต่างให้นั่งดูนก"
+  },
+  "health": [
+    {
+      "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+      "detail": "สายพันธุ์นี้อยู่ในกลุ่มเสี่ยง โรคอาจนำไปสู่หัวใจล้มเหลวหรือลิ่มเลือดอุดตันจนขาหลังเป็นอัมพาต",
+      "screening": "ตรวจอัลตราซาวนด์หัวใจ (Echocardiography) และขอผลตรวจหัวใจของพ่อแม่พันธุ์"
+    },
+    {
+      "name": "ภาวะอ้วน (Obesity)",
+      "detail": "มีแนวโน้มน้ำหนักเกินหากกินมากและเคลื่อนไหวน้อย",
+      "screening": "ชั่งน้ำหนักและประเมินรูปร่างทุกครั้งที่พบสัตวแพทย์"
+    },
+    {
+      "name": "โรคเหงือกและฟัน (Dental disease)",
+      "detail": "พบบ่อยแต่ป้องกันได้ด้วยการแปรงฟันและขูดหินปูนตามคำแนะนำของสัตวแพทย์",
+      "screening": "ตรวจช่องปากประจำปีโดยสัตวแพทย์"
+    }
+  ],
+  "welfareNote": null,
+  "idealFor": [
+    "ผู้เลี้ยงมือใหม่ที่อยากได้แมวเลี้ยงง่าย",
+    "ครอบครัวที่มีเด็ก ผู้สูงอายุ หรือสุนัข",
+    "คนทำงานที่อยากได้แมวไม่ติดแจ อยู่คอนโดได้"
+  ],
+  "considerations": [
+    "ต้องคุมอาหาร เพราะอ้วนง่าย",
+    "ควรขอผลตรวจหัวใจ (HCM) ของพ่อแม่พันธุ์",
+    "หลายตัวไม่ชอบให้อุ้มนาน ชอบอยู่ใกล้ ๆ มากกว่า"
+  ],
+  "funFact": "อเมริกัน ช็อตแฮร์จะโตเต็มที่และมีลักษณะสายพันธุ์สมบูรณ์ที่สุดเมื่ออายุราว 3–4 ปี",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/American_shorthair_blotched_tabby.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:American_shorthair_blotched_tabby.jpg",
+    "author": "Tomo",
+    "license": "CC BY 2.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/american-shorthair-1.jpg",
+      "srcSmall": "images/gallery/american-shorthair-1-sm.jpg",
+      "width": 1600,
+      "height": 1088,
+      "page": "https://commons.wikimedia.org/wiki/File:ASH_Russeller%E2%80%99s_Cleopatra_of_Solid_Fold_(4496229769).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "อเมริกัน ช็อตแฮร์เพศเมียลายหินอ่อนสีเงิน (ซิลเวอร์แทบบี้) ในงานประกวดแมว"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/american-shorthair-2.jpg",
+      "srcSmall": "images/gallery/american-shorthair-2-sm.jpg",
+      "width": 1600,
+      "height": 2133,
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D1%88%D1%91%D1%80%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0,_%D0%9C%D0%A1%D0%A5%D0%90.jpg",
+      "author": "Mocmuk",
+      "license": "CC BY 4.0",
+      "alt": "อเมริกัน ช็อตแฮร์ลายสลิดสีเงินนั่งบนตอไม้ในสวน",
+      "focus": "50% 55%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/american-shorthair-3.jpg",
+      "srcSmall": "images/gallery/american-shorthair-3-sm.jpg",
+      "width": 1600,
+      "height": 1601,
+      "page": "https://commons.wikimedia.org/wiki/File:American_shorthair_cat_Portrait_(cropped).jpg",
+      "author": "lisa cee (Lisa Campeau)",
+      "license": "CC BY 2.0",
+      "alt": "ด้านข้างของอเมริกัน ช็อตแฮร์ลายหินอ่อนสีน้ำตาล (บราวน์แทบบี้) ในสวน",
+      "focus": "55% 45%"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – American Shorthair breed profile", "url": "https://cfa.org/breed/american-shorthair/" },
+    { "title": "TICA – American Shorthair", "url": "https://tica.org/breed/american-shorthair/" },
+    { "title": "VCA Animal Hospitals – American Shorthair", "url": "https://vcahospitals.com/know-your-pet/cat-breeds/american-shorthair" },
+    { "title": "PetMD – American Shorthair", "url": "https://www.petmd.com/cat/breeds/american-shorthair" },
+    { "title": "Cornell Feline Health Center – Hypertrophic Cardiomyopathy", "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy" },
+    { "title": "GCCF – Unrecognised Breeds (American Shorthair: not applied, probable acceptance)", "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/" },
+    { "title": "FIFe Breeding & Registration Rules (non-recognised breeds list, AMS)", "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf" },
+    { "title": "Wikipedia – American Shorthair (weights by sex)", "url": "https://en.wikipedia.org/wiki/American_Shorthair" },
+    { "title": "The Cat API breeds data (archived 2025-12-09)", "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds" }
+  ]
+}

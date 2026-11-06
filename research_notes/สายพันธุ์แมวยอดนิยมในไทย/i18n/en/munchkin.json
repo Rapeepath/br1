@@ -1,0 +1,90 @@
+{
+  "id": "munchkin",
+  "origin": "United States",
+  "tagline": "A mischievous short-legged cat, more agile than it looks",
+  "summary": "The Munchkin is a short-legged cat that arose from a natural mutation. Its body is normal-sized, but its long leg bones are shorter than those of other cats. It is cheerful, playful and inquisitive, and it gets along well with people and other animals. However, this form of disproportionate dwarfism raises welfare concerns, so many associations do not recognize the breed.",
+  "history": "In 1983, a music teacher named Sandra Hochenedel in Louisiana, USA, found a pregnant short-legged cat and named her Blackberry. Her male kitten, Toulouse, became a founder of the breed alongside his mother. TICA accepted the Munchkin into its new breed development program in 1994 and granted it championship status in 2003.",
+  "coat": {
+    "texture": "Short, semi-dense and soft (a longhaired version also exists)",
+    "colors": [
+      "White",
+      "Black",
+      "Orange (red)",
+      "Tabby",
+      "Calico",
+      "Bicolor"
+    ]
+  },
+  "appearance": [
+    "All four legs are clearly shorter than an average cat's",
+    "Normal-sized body; they do not stay kitten-sized forever",
+    "Leg bones may be slightly bowed",
+    "Low-slung build with nimble movement",
+    "Every color and pattern, in both short and long coats"
+  ],
+  "temperament": [
+    "Cheerful",
+    "Very playful",
+    "Curious",
+    "Sociable",
+    "Intelligent",
+    "Self-confident"
+  ],
+  "care": {
+    "grooming": "Comb shorthairs once a week and longhairs twice a week. Because of their short legs, some cannot fully groom their back and rear end, so owners should help out.",
+    "exercise": "High energy and loves chasing toys. Play with them every day, and give them low, step-by-step climbing routes instead of high jumps.",
+    "diet": "No special diet is needed, but split food into 2–3 measured meals a day and control weight so it does not strain the legs and joints.",
+    "environment": "Provide a low cat tree or ramps, a low-rimmed water bowl or a cat fountain, and a litter box that is easy to get in and out of. Watch for limping, reluctance to jump, a tilted stance or abnormal breathing."
+  },
+  "health": [
+    {
+      "name": "Osteoarthritis",
+      "detail": "The cartilage abnormality caused by the short-leg gene raises the risk of osteoarthritis and mobility problems with age.",
+      "screening": "Regular bone and joint checks, X-rays when signs appear, and weight control."
+    },
+    {
+      "name": "Limb deformity",
+      "detail": "A small study that imaged the bones of 5 dwarf cats found that every one had bowed or twisted leg bones in all four legs.",
+      "screening": "X-rays to assess bone and joint alignment if the cat walks abnormally."
+    },
+    {
+      "name": "Lordosis",
+      "detail": "An abnormal inward dip of the spine present from birth has been reported and can cause back pain or a tilted stance, but how common it is is not yet known.",
+      "screening": "Have a vet examine and X-ray the cat from kittenhood."
+    },
+    {
+      "name": "Pectus excavatum",
+      "detail": "A sunken breastbone has been reported and, in severe cases, it can press on the heart and lungs.",
+      "screening": "Examine and X-ray the chest in kittens; moderate to severe cases may need surgery."
+    }
+  ],
+  "welfareNote": "The short legs come from a dominant dwarfism gene (UGDH), and kittens that inherit two copies die in the womb. FIFe and GCCF therefore do not recognize the breed for health reasons (nor does CFA), the state of Victoria (Australia) bans breeding it, and Scottish Government guidance states that breeding it is likely to breach licensing conditions.",
+  "idealFor": [
+    "Homes that want a playful, sociable cat",
+    "Families with children or other pets",
+    "People with time to play and to adapt their home for short legs"
+  ],
+  "considerations": [
+    "Long-term health data are still conflicting, so be prepared to care for their joints as they age",
+    "Avoid Munchkin × Scottish Fold crosses and ask for the parents' TRPV4 gene test results",
+    "Many associations do not recognize the breed, and some countries restrict breeding"
+  ],
+  "funFact": "Despite their short legs, Munchkins can still climb; they just tend to go up one step at a time rather than leaping to the top of a cabinet in one go.",
+  "price": {
+    "note": "Short-legged cats cost more than long-legged ones, and short-legged British Shorthair crosses usually command the highest prices."
+  },
+  "gallery": [
+    {
+      "alt": "Female silver tortoiseshell tabby Munchkin at a cat show"
+    },
+    {
+      "alt": "Blue-and-white Munchkin stretching on the grass, its short legs clearly visible"
+    },
+    {
+      "alt": "Gray-and-white Munchkin stretched out on a wooden floor, showing its short legs"
+    },
+    {
+      "alt": "Video: a long-haired white-and-orange Munchkin walking around a cat café in Tokyo"
+    }
+  ]
+}

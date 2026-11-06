@@ -1,0 +1,159 @@
+{
+  "id": "persian",
+  "nameTh": "เปอร์เซีย",
+  "nameEn": "Persian",
+  "group": "international",
+  "origin": "อิหร่าน (เปอร์เซีย) พัฒนาสายพันธุ์ต่อในอังกฤษ",
+  "recognizedBy": ["CFA", "TICA", "FIFe", "GCCF", "WCF"],
+  "tagline": "เจ้าหญิงขนฟูหน้ากลม ผู้รักความสงบ",
+  "summary": "เปอร์เซียเป็นแมวขนยาวหน้ากลม ขึ้นชื่อเรื่องนิสัยอ่อนโยน เงียบ และชอบนอนเล่นใกล้เจ้าของ แต่ต้องหวีขนทุกวันและเช็ดรอบดวงตาเป็นประจำ ใบหน้าที่แบนมากเสี่ยงต่อปัญหาการหายใจ ตา และฟัน จึงควรเลือกจากผู้เพาะพันธุ์ที่ตรวจโรคและไม่เน้นหน้าแบนสุดขั้ว",
+  "history": "มีบันทึกว่าในปี ค.ศ. 1626 พ่อค้าชาวอิตาลี ปิเอโตร เดลลา วัลเล นำแมวขนยาวจากเปอร์เซียเข้าสู่ยุโรป ต่อมาผู้เพาะพันธุ์ในอังกฤษพัฒนาให้มีรูปร่างล่ำ จมูกสั้น และขนหนาแน่น เปอร์เซียร่วมงานประกวดแมวที่คริสตัลพาเลซ ลอนดอน ปี ค.ศ. 1871 และเป็นหนึ่งในสายพันธุ์แรก ๆ ที่ CFA รับรองเมื่อก่อตั้งในปี ค.ศ. 1906",
+  "size": "medium",
+  "weightKg": { "female": [3, 5], "male": [5, 7] },
+  "lifespanYears": [10, 16],
+  "coat": {
+    "length": "long",
+    "texture": "ขนยาว หนา เนื้อละเอียดเงางาม มีขนชั้นในฟู",
+    "colors": ["ขาว", "ดำ", "บลู (เทาอมฟ้า)", "แดงและครีม", "ชินชิลล่า/ซิลเวอร์", "ลายแต้มสีแบบหิมาลายัน"]
+  },
+  "appearance": [
+    "หัวกลมใหญ่ แก้มป่อง",
+    "จมูกสั้นกว้าง ใบหน้าแบน",
+    "ตากลมโตตั้งห่างกัน",
+    "หูเล็กปลายมน",
+    "ตัวล่ำเตี้ย ขาสั้นแข็งแรง ขนยาวฟูทั้งตัว"
+  ],
+  "temperament": ["อ่อนโยน", "เงียบสงบ", "ขี้อ้อน", "รักบ้าน", "ชอบกิจวัตรเดิม"],
+  "ratings": {
+    "energy": 1,
+    "affection": 5,
+    "vocal": 1,
+    "intelligence": 3,
+    "grooming": 5,
+    "shedding": 4,
+    "kidFriendly": 3,
+    "petFriendly": 3,
+    "socialNeeds": 4
+  },
+  "care": {
+    "grooming": "หวีขนด้วยหวีโลหะซี่ยาวทุกวันเพื่อกันขนพันเป็นก้อน อาบน้ำเป็นครั้งคราวแล้วเป่าให้แห้งสนิท และเช็ดคราบน้ำตาใต้ตาด้วยผ้านุ่มชุบน้ำทุกวัน",
+    "exercise": "พลังงานต่ำ ชอบอยู่บนพื้นมากกว่าปีนป่าย ควรชวนเล่นเบา ๆ ด้วยไม้ล่อแมวทุกวันเพื่อคุมน้ำหนัก และงดเล่นหนักตอนอากาศร้อน",
+    "diet": "อ้วนง่าย ควรตวงอาหารและคุมแคลอรี เลือกเม็ดอาหารที่รูปทรงหยิบกินง่ายสำหรับขากรรไกรสั้น และมีน้ำสะอาดให้ตลอดเวลา",
+    "environment": "ควรเลี้ยงในบ้าน ในอากาศร้อนแบบไทยต้องมีห้องแอร์หรือมุมเย็นและน้ำสะอาดเสมอ เพราะแมวหน้าแบนขนยาวระบายความร้อนได้ยากและเสี่ยงโรคลมแดด"
+  },
+  "health": [
+    {
+      "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+      "detail": "โรคทางพันธุกรรมแบบยีนเด่นจากการกลายพันธุ์ของยีน PKD1 ทำให้เกิดถุงน้ำในไตจนไตวาย ข้อมูลปี ค.ศ. 2004 พบในเปอร์เซียราว 38% ทั่วโลก ซึ่งลดลงแล้วหลังมีการตรวจ DNA ส่วนโรคไตทุกสาเหตุรวมกันเป็นสาเหตุการตายอันดับหนึ่งของเปอร์เซียในอังกฤษ (23.4%)",
+      "screening": "ตรวจ DNA ยีน PKD1 ของพ่อแม่พันธุ์ (GCCF บังคับสำหรับแมวพ่อแม่พันธุ์ตั้งแต่ปี ค.ศ. 2016) และอัลตราซาวนด์ไต"
+    },
+    {
+      "name": "ทางเดินหายใจอุดกั้นจากใบหน้าสั้น (Brachycephalic Obstructive Airway Syndrome)",
+      "detail": "รูจมูกแคบและโครงจมูกสั้นทำให้หายใจลำบาก หายใจเสียงดัง และทนร้อนได้น้อย โดยแมวที่หน้าแบนกว่ามีคะแนนปัญหาการหายใจสูงกว่า",
+      "screening": "เลือกแมวที่รูจมูกเปิดกว้างและหายใจเงียบขณะหลับ หากกรนหรือหายใจทางปากควรพบสัตวแพทย์"
+    },
+    {
+      "name": "น้ำตาไหลและคราบน้ำตา (Epiphora)",
+      "detail": "ท่อน้ำตาของแมวหน้าแบนวางตัวผิดแนวจนน้ำตาระบายลงจมูกได้ไม่ดี ทำให้น้ำตาไหลตลอดและเกิดคราบใต้ตา พบอาการตาแฉะ 5.8% ในเปอร์เซียที่รับการรักษาในอังกฤษ",
+      "screening": "เช็ดรอบดวงตาทุกวัน และพบสัตวแพทย์หากตาแดง ขี้ตาข้น หรือหรี่ตา"
+    },
+    {
+      "name": "โรคปริทันต์และฟันเรียงผิดแนว (Periodontal disease / Dental malocclusion)",
+      "detail": "ขากรรไกรที่สั้นทำให้ฟันกรามน้อยด้านบนเบียดผิดแนวมากขึ้นตามความแบนของหน้า และโรคปริทันต์พบ 11.3% ในเปอร์เซียในอังกฤษ",
+      "screening": "ตรวจช่องปากกับสัตวแพทย์เป็นประจำ และฝึกแปรงฟันตั้งแต่เป็นลูกแมว"
+    },
+    {
+      "name": "ขนพันเป็นก้อนและปัญหาผิวหนัง (Haircoat & skin disorders)",
+      "detail": "ปัญหาขนเป็นความผิดปกติที่พบบ่อยที่สุดในเปอร์เซียในอังกฤษ (12.7%) เพราะขนยาวหนาจนแมวเลียทำความสะอาดเองไม่ทั่ว",
+      "screening": "หวีขนทุกวัน และให้ช่างตัดแต่งขนมืออาชีพช่วยเมื่อขนพันแน่น"
+    },
+    {
+      "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA)",
+      "detail": "โรคทางพันธุกรรมที่ทำให้จอประสาทตาเสื่อมจนมองไม่เห็น มีรายงานในสายพันธุ์เปอร์เซีย",
+      "screening": "มีการตรวจ DNA ควรขอผลตรวจของพ่อแม่พันธุ์จากผู้เพาะพันธุ์"
+    }
+  ],
+  "welfareNote": "การเพาะพันธุ์ให้หน้าแบนสุดขั้วสัมพันธ์กับปัญหาตา การหายใจ และฟันที่รุนแรงขึ้น ผู้ซื้อควรเลือกแมวหน้าแบบดอลล์เฟซ (หน้าตุ๊กตา) หรือคลาสสิกที่ยังเห็นสันจมูก รูจมูกเปิด ไม่มีน้ำตาไหลตลอดเวลา และหายใจไม่มีเสียง",
+  "idealFor": [
+    "คนที่ชอบบ้านเงียบและจังหวะชีวิตสบาย ๆ",
+    "ผู้มีเวลาหวีขนและเช็ดหน้าให้ทุกวัน",
+    "คอนโดหรือบ้านที่มีห้องแอร์"
+  ],
+  "considerations": [
+    "ต้องหวีขนทุกวัน ไม่เช่นนั้นขนพันเป็นก้อน",
+    "ไม่ทนร้อน ต้องมีที่เย็นตลอดหน้าร้อน",
+    "ควรขอผลตรวจ PKD และ PRA ของพ่อแม่พันธุ์"
+  ],
+  "funFact": "ในอังกฤษยังเรียกเปอร์เซียว่า Longhair ส่วนในสหรัฐอเมริกาเรียกเปอร์เซียลายแต้มสีว่าหิมาลายัน (Himalayan)",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Persian-Cat-Kali-7-years-old.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Persian-Cat-Kali-7-years-old.JPG",
+    "author": "Mohammad-Reza Sabetghadam / PersianDutchNetwork",
+    "license": "CC BY-SA 4.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/persian-1.jpg",
+      "srcSmall": "images/gallery/persian-1-sm.jpg",
+      "width": 1600,
+      "height": 1072,
+      "page": "https://commons.wikimedia.org/wiki/File:PER_Malinka_Gerakl_of_Jem-Dandy_(4162420198).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "เปอร์เซียสีแดงขาว (เรดแทบบี้แวน) หน้าสั้นแบน ขนยาวฟูรอบหน้า"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/persian-2.jpg",
+      "srcSmall": "images/gallery/persian-2-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Stock-latte_(52750893698).jpg",
+      "author": "Reba Spike",
+      "license": "CC BY 2.0",
+      "alt": "เปอร์เซียหน้าแบนเดินบนสนามหญ้าท่ามกลางดอกแดฟโฟดิล",
+      "focus": "50% 60%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/persian-3.jpg",
+      "srcSmall": "images/gallery/persian-3-sm.jpg",
+      "width": 1600,
+      "height": 1000,
+      "page": "https://commons.wikimedia.org/wiki/File:Persian_Cat_Trio_(51016541380).jpg",
+      "author": "Reba Spike",
+      "license": "CC BY 2.0",
+      "alt": "เปอร์เซียสามตัวสีดำ สีครีมขาว และสีเทาขาว นั่งบนสนามหญ้าในสวนสาธารณะ",
+      "focus": "50% 65%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/persian-4.jpg",
+      "srcSmall": "images/gallery/persian-4-sm.jpg",
+      "width": 1600,
+      "height": 1200,
+      "page": "https://commons.wikimedia.org/wiki/File:Sekumpulan_anak_kucing_Persia.jpg",
+      "author": "Bibazi",
+      "license": "CC BY 4.0",
+      "alt": "ลูกแมวเปอร์เซียพี่น้องสี่ตัวลายสลิดสีน้ำตาล นั่งบนพื้นกระเบื้อง"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – Persian breed profile", "url": "https://cfa.org/breed/persian/" },
+    { "title": "GCCF – Persian", "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/persian/" },
+    { "title": "VCA Animal Hospitals – Persian", "url": "https://vcahospitals.com/know-your-pet/cat-breeds/persian" },
+    { "title": "O'Neill et al. 2019, Persian cats under first opinion veterinary care in the UK (Scientific Reports)", "url": "https://www.nature.com/articles/s41598-019-49317-4" },
+    { "title": "Teng et al. 2024, Life tables of annual life expectancy in UK cats (JFMS)", "url": "https://journals.sagepub.com/doi/full/10.1177/1098612X241234556" },
+    { "title": "Sieslack et al. 2021, Brachycephaly grade vs exophthalmos, airways and dental malalignment in Persian cats (PLoS ONE)", "url": "https://doi.org/10.1371/journal.pone.0254420" },
+    { "title": "Farnworth et al. 2016, Flat feline faces: brachycephaly and respiratory abnormalities (PLoS ONE)", "url": "https://doi.org/10.1371/journal.pone.0161777" },
+    { "title": "Breit et al. 2003, The course of the nasolacrimal duct in brachycephalic cats", "url": "https://doi.org/10.1046/j.1439-0264.2003.00464.x" },
+    { "title": "Lyons et al. 2004, Feline polycystic kidney disease mutation identified in PKD1 (JASN)", "url": "https://doi.org/10.1097/01.ASN.0000141776.38527.BB" },
+    { "title": "PDSA – Heatstroke in cats", "url": "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/conditions/heatstroke-in-cats" },
+    { "title": "Royal Canin UK – Persian", "url": "https://www.royalcanin.com/uk/cats/breeds/persian" },
+    { "title": "FIFe – Breeds list", "url": "https://fifeweb.org/cats/breeds/" },
+    { "title": "WCF – Persian breed standard (PDF)", "url": "https://wcf.de/pdf-en/breed/PER_en_2022-01-25.pdf" },
+    { "title": "World Cat Congress – Persian comparison among member organisations", "url": "https://worldcatcongress.org/wp/cat_breed_comp_per.php" },
+    { "title": "The Cat API breeds data (archived snapshot 2025-12-09)", "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds" }
+  ]
+}

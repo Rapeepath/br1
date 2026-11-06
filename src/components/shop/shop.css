@@ -1,0 +1,244 @@
+/*
+  Shared look of the shop pages (contact, booking, kittens, care, cost, FAQ, privacy): the guide's soft
+  pastel page head, rounded white sheets on a peach band, and small reusable parts.
+*/
+.shop-head {
+  position: relative;
+  overflow: hidden;
+  padding-block: var(--space-8) var(--space-7);
+  background:
+    radial-gradient(520px 360px at 92% 0%, color-mix(in srgb, var(--soft) 85%, transparent), transparent 70%),
+    radial-gradient(440px 340px at 0% 100%, color-mix(in srgb, var(--tint-peach) 80%, transparent), transparent 70%),
+    radial-gradient(340px 240px at 58% 100%, color-mix(in srgb, var(--tint-mint) 70%, transparent), transparent 70%),
+    var(--paper);
+}
+
+.shop-head__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  align-items: end;
+  gap: var(--space-5) var(--space-7);
+}
+
+.shop-head h1 {
+  font-size: var(--fs-page);
+}
+
+.shop-head__lede {
+  max-width: 46ch;
+  color: var(--ink-muted);
+  font-size: var(--fs-lg);
+  line-height: 1.7;
+  text-wrap: pretty;
+}
+
+.shop-head__crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  color: var(--accent);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.shop-head__crumb:hover {
+  text-decoration: underline;
+}
+
+.shop-head__aside > * + * {
+  margin-top: var(--space-4);
+}
+
+/* A peach band holding the page's white sheets */
+.shop-band {
+  padding-block: var(--space-7) var(--space-8);
+  border-radius: 40px;
+  background: var(--band);
+}
+
+.shop-sheet {
+  padding: var(--space-6);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.shop-sheet > h2 {
+  font-size: var(--fs-xl);
+}
+
+.shop-sheet > h2 + * {
+  margin-top: var(--space-4);
+}
+
+.shop-cols {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  align-items: start;
+  gap: var(--space-6);
+}
+
+.shop-stack {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.shop-section + .shop-section {
+  margin-top: var(--space-8);
+}
+
+.shop-section > h2 {
+  margin-bottom: var(--space-3);
+}
+
+.shop-section__lede {
+  max-width: 60ch;
+  margin-bottom: var(--space-5);
+  color: var(--ink-muted);
+}
+
+/* Label–value list (store details, kitten facts) */
+.shop-facts {
+  display: grid;
+  gap: 0;
+}
+
+.shop-facts > div {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: var(--space-3);
+  padding-block: var(--space-3);
+  border-bottom: 1px dashed var(--line-strong);
+}
+
+.shop-facts > div:last-child {
+  border-bottom: 0;
+}
+
+.shop-facts dt {
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.shop-facts dd {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Status pills: tint + ink + icon/word, never colour alone */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 28px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--tone-bg, var(--tint-sky));
+  color: var(--tone-ink, var(--on-sky));
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+/* A done/success panel after a form is sent */
+.done-card {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  background: var(--tint-mint);
+  color: var(--on-mint);
+}
+
+.done-card h2,
+.done-card h3 {
+  color: var(--ink);
+}
+
+.done-card__ref {
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.done-card p {
+  color: var(--ink-muted);
+}
+
+/* Offline / empty states: a direction, not a mood */
+.empty-card {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-3);
+  padding: var(--space-6);
+  border: 2px dashed var(--line-strong);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--ink-muted);
+}
+
+.empty-card__title {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+/* Placeholder blocks while live data loads (no layout jump when it arrives) */
+.skeleton {
+  border-radius: var(--radius-md);
+  background: linear-gradient(90deg, var(--surface-sunk), var(--band), var(--surface-sunk));
+  background-size: 200% 100%;
+  animation: skeleton 1.4s ease-in-out infinite;
+}
+
+@keyframes skeleton {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .shop-head__inner,
+  .shop-cols {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .shop-head {
+    padding-block: var(--space-7) var(--space-6);
+  }
+
+  .shop-band {
+    border-radius: 28px;
+    padding-block: var(--space-6) var(--space-7);
+  }
+
+  .shop-sheet {
+    padding: var(--space-5) var(--space-4);
+    border-radius: var(--radius-md);
+  }
+
+  .shop-facts > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+}

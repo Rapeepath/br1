@@ -1,0 +1,90 @@
+{
+  "id": "maine-coon",
+  "origin": "United States (Maine)",
+  "tagline": "The fluffy gentle giant from Maine",
+  "summary": "The Maine Coon is one of the largest pedigree cat breeds, with a thick, shaggy coat, a bushy plumed tail and large ears. It is kind, friendly and intelligent and gets along well with children and other pets, which has earned it the nickname \"gentle giant.\"",
+  "history": "The Maine Coon is a natural breed from New England, particularly the US state of Maine, with records dating back to the 1850s. A brown tabby named Cosey won Best Cat at the first cat show in the United States in 1895, and CFA granted the breed championship status in 1976.",
+  "coat": {
+    "texture": "Thick, glossy double coat, short on the shoulders and long on the belly and hind legs",
+    "colors": [
+      "Brown tabby",
+      "Silver tabby",
+      "Black",
+      "White",
+      "Red and cream",
+      "Bicolor"
+    ]
+  },
+  "appearance": [
+    "Large, long, rectangular body with heavy bones and a broad chest",
+    "Large, high-set ears, often with tufts of fur at the tips",
+    "Long, bushy, plumed tail",
+    "Thick, fluffy fur around the neck and on the hind legs, like a pair of fluffy pants",
+    "Large paws with tufts of fur between the toes"
+  ],
+  "temperament": [
+    "Kind and gentle",
+    "Friendly",
+    "Intelligent and easy to train",
+    "Playful",
+    "Devoted to family",
+    "Undemanding"
+  ],
+  "care": {
+    "grooming": "Comb 2–3 times a week for 5–10 minutes each time to prevent mats, especially on the belly and hind legs, and comb more often during shedding season.",
+    "exercise": "Loves to play and can be trained, for example to fetch or to walk on a leash. Invite them to play 2–3 times a day for 10–15 minutes each session.",
+    "diet": "Feed a complete, high-protein cat food split into 3–4 measured meals a day rather than leaving food out all day, to control weight and reduce strain on the hips.",
+    "environment": "Needs plenty of space and a tall cat tree with a base sturdy enough to take its weight. In Thailand's hot, humid climate, keep them in a well-ventilated or air-conditioned home with clean water at all times, and avoid strenuous play in the heat of the day."
+  },
+  "health": [
+    {
+      "name": "Hypertrophic cardiomyopathy (HCM)",
+      "detail": "Maine Coons carry the MYBPC3 A31P mutation, which is associated with this disease. Cats that inherit the gene from both parents are at much higher risk than cats with a single copy.",
+      "screening": "MYBPC3 A31P DNA test from a cheek swab, combined with periodic heart ultrasound (echocardiography), because a negative DNA result does not guarantee the cat will not develop the disease."
+    },
+    {
+      "name": "Hip dysplasia",
+      "detail": "Common in Maine Coons: OFA registry data found it in about 25% of cats and a Swedish screening program in about 37%, and signs grow more severe with age and body weight.",
+      "screening": "X-ray the breeding parents' hips before mating and keep the cat at a healthy weight."
+    },
+    {
+      "name": "Spinal muscular atrophy (SMA)",
+      "detail": "A recessive inherited disease. Affected kittens start to walk with a wobble and lose muscle in the hind legs at around 3–4 months of age. It is not fatal but it is disabling.",
+      "screening": "SMA DNA test for the breeding parents, and never mate two carriers."
+    },
+    {
+      "name": "Pyruvate kinase deficiency",
+      "detail": "A recessively inherited anemia caused by the breakdown of red blood cells, and the Maine Coon is one of the breeds for which testing is recommended.",
+      "screening": "PKLR gene DNA test for the breeding parents."
+    }
+  ],
+  "welfareNote": "Choose a breeder who can show the breeding parents' HCM and SMA DNA results as well as their hip X-ray results.",
+  "idealFor": [
+    "Families with children or other pets, including dogs",
+    "Homes with enough room for a big cat and a tall cat tree",
+    "People who want a smart, playful cat that is not clingy"
+  ],
+  "considerations": [
+    "Large size means higher food and equipment costs than an average cat, and they mature slowly, taking up to 3 years to reach full size",
+    "The thick coat needs regular combing, and heat needs managing in Thailand's climate",
+    "Heart and hip checks should be done periodically"
+  ],
+  "funFact": "The Maine Coon is the state cat of Maine, and so many have extra toes (polydactyl) that TICA has recognized the Maine Coon Polydactyl as a separate breed since 2015.",
+  "price": {
+    "note": "Very cheap cats may not be purebred, while cats with pedigree papers and a large, standard-conforming frame cost several tens of thousands of baht."
+  },
+  "gallery": [
+    {
+      "alt": "Male black classic tabby Maine Coon with prominent ear tufts"
+    },
+    {
+      "alt": "Silver tabby Maine Coon in the snow, licking its lips"
+    },
+    {
+      "alt": "Tortoiseshell Maine Coon with green eyes lying in the grass"
+    },
+    {
+      "alt": "Brown tabby Maine Coon kitten sitting up"
+    }
+  ]
+}

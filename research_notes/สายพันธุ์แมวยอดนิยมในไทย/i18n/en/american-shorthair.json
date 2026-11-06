@@ -1,0 +1,82 @@
+{
+  "id": "american-shorthair",
+  "origin": "United States",
+  "tagline": "The classic silver tabby, good-natured and easy to keep",
+  "summary": "The American Shorthair is a medium-sized, robust cat with firm muscles and a short, thick coat that is easy to care for, and it is best known for its classic swirled silver tabby pattern. It is easygoing and loves its family without being clingy, and it gets along well with children and other pets, which makes it a good choice for first-time owners.",
+  "history": "Its ancestors were cats that sailed with European immigrants to North America to catch mice. Originally called the Domestic Shorthair, it was one of the first breeds CFA recognized when the association was founded in 1906, and it was renamed the American Shorthair in the mid-1960s.",
+  "coat": {
+    "texture": "Short and dense, with a fairly hard, glossy texture",
+    "colors": [
+      "Silver tabby",
+      "Brown tabby",
+      "Red tabby",
+      "White",
+      "Black",
+      "Bicolor"
+    ]
+  },
+  "appearance": [
+    "Sturdy body with a broad chest and firm muscles",
+    "Broad head, full cheeks and a short, rather square muzzle",
+    "Large round eyes set wide apart",
+    "Medium-sized ears with rounded tips",
+    "The classic swirled pattern on silver is the breed's signature look"
+  ],
+  "temperament": [
+    "Easygoing",
+    "Gentle",
+    "Moderately playful",
+    "Independent",
+    "Intelligent",
+    "Adaptable"
+  ],
+  "care": {
+    "grooming": "The short coat is easy to care for. Comb or brush at least once a week to reduce shedding; baths are rarely needed.",
+    "exercise": "Moderate energy. Play with them every day and provide a cat tree to climb and prey-style toys to stimulate their hunting instincts.",
+    "diet": "They gain weight easily if fed without limits, so measure their food and split it into 2–3 meals a day, and brush their teeth regularly.",
+    "environment": "Does well in a condo or a house and can play alone without demanding much attention. Provide places to climb and a window for watching birds."
+  },
+  "health": [
+    {
+      "name": "Hypertrophic cardiomyopathy (HCM)",
+      "detail": "The breed is in an at-risk group. The disease can lead to heart failure or to blood clots that paralyze the hind legs.",
+      "screening": "Heart ultrasound (echocardiography), and ask for the breeding parents' heart screening results."
+    },
+    {
+      "name": "Obesity",
+      "detail": "Tends to become overweight if they eat a lot and move little.",
+      "screening": "Weigh them and assess body condition at every vet visit."
+    },
+    {
+      "name": "Dental disease",
+      "detail": "Common, but preventable with toothbrushing and scaling as recommended by your vet.",
+      "screening": "An annual oral exam by a vet."
+    }
+  ],
+  "welfareNote": null,
+  "idealFor": [
+    "First-time owners who want an easy-care cat",
+    "Families with children, older people or dogs",
+    "Working people who want an independent cat that can live in a condo"
+  ],
+  "considerations": [
+    "Food must be controlled, as they gain weight easily",
+    "Ask for the breeding parents' heart (HCM) screening results",
+    "Many dislike being held for long and prefer to stay close by"
+  ],
+  "funFact": "The American Shorthair reaches full maturity, with its breed type fully developed, at around 3–4 years of age.",
+  "price": {
+    "note": "Most listings at a few thousand baht come without papers, while cats with pedigree papers and clear markings cost several tens of thousands of baht."
+  },
+  "gallery": [
+    {
+      "alt": "Female silver classic tabby American Shorthair at a cat show"
+    },
+    {
+      "alt": "Silver tabby American Shorthair sitting on a tree stump in a garden"
+    },
+    {
+      "alt": "Profile of a brown classic tabby American Shorthair in a garden"
+    }
+  ]
+}

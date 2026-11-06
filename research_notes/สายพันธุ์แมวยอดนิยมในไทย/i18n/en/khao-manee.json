@@ -1,0 +1,75 @@
+{
+  "id": "khao-manee",
+  "origin": "Thailand",
+  "tagline": "The white jewel of Siam, with diamond-bright eyes",
+  "summary": "The Khao Manee, or Khao Plort, is an all-white Thai shorthair nicknamed the Diamond Eye for its sparkling eyes, which may be blue, yellow, green or two different colors. It has a medium, agile build and is intelligent, playful and fond of napping on laps.",
+  "history": "The CFA states that the Khao Manee appears in the Ayutthaya-period Tamra Maew, though some sources suggest that clear records begin in the Rattanakosin period, when it was a favorite of the royal court in the reign of King Rama V. Colleen Freymuth first imported the breed to the United States in 1999; TICA then granted championship status in 2015 and the CFA accepted it for registration in 2018. On 18 November 2025 the Khao Manee was one of five Thai cat breeds approved by the Cabinet as symbols of Thai national identity.",
+  "coat": {
+    "texture": "Short, fine and close-lying, with no undercoat",
+    "colors": [
+      "Solid white"
+    ]
+  },
+  "appearance": [
+    "Pure, glossy white coat with a pink nose and paw pads",
+    "Blue, yellow/gold, green or odd-colored (odd-eyed) eyes",
+    "Modified wedge-shaped head; the nose tip and ear tips form an equilateral triangle",
+    "Medium-sized body with firm, supple muscles, not heavy-set",
+    "Kittens may have a few colored hairs, which should fade within about 18 months"
+  ],
+  "temperament": [
+    "Intelligent",
+    "Curious",
+    "Talkative",
+    "Playful and mischievous",
+    "Loves napping on laps",
+    "Gets on easily with people"
+  ],
+  "care": {
+    "grooming": "Brush regularly with a rubber brush to remove loose hair, and bathe occasionally to keep the white coat clean.",
+    "exercise": "Enjoys games and climbing, and some like to perch on your shoulder. Provide toys and playtime together every day.",
+    "diet": "Feed a complete diet suited to its life stage and control its weight to keep the firm, agile, muscular build of the breed standard.",
+    "environment": "Keep it indoors or out of strong sun, as a white cat's ears and nose are sensitive to UV light. Deaf cats should live strictly indoors because they cannot hear danger."
+  },
+  "health": [
+    {
+      "name": "Congenital deafness",
+      "detail": "White cats are at risk of deafness, especially those with blue eyes. Odd-eyed cats may be deaf in one ear, usually on the blue-eyed side.",
+      "screening": "Hearing test by BAER or OAE, which the GCCF requires before registration."
+    },
+    {
+      "name": "Squamous cell carcinoma",
+      "detail": "White cats exposed to the sun for long periods risk red, crusting sores on the ear tips and nose, which may develop into cancer.",
+      "screening": "Limit exposure to strong sun, and see a vet if a sore on the ears or nose does not heal."
+    }
+  ],
+  "welfareNote": "There are still few Khao Manee outside Thailand. The GCCF warns that close inbreeding can lead to smaller size and poorer health, and that selecting only for odd eyes narrows the gene pool, so buyers should ask for the kitten's hearing (BAER) test result.",
+  "idealFor": [
+    "People who love a playful, chatty cat",
+    "Homes that keep their cats strictly indoors",
+    "Enthusiasts of rare, ancient Thai breeds"
+  ],
+  "considerations": [
+    "Rare and often expensive, so choose a reputable cattery",
+    "Have its hearing tested before taking it home",
+    "The white coat shows stains easily, and it needs protecting from the sun"
+  ],
+  "funFact": "In Thailand this cat was originally called Khao Plort, before it was given the name Khao Manee, meaning \"white gem\", in the reign of King Rama V.",
+  "price": {
+    "note": "Odd eyes (blue and yellow) and bloodlines from well-known catteries push the price up considerably."
+  },
+  "gallery": [
+    {
+      "alt": "Female Khao Manee with odd eyes, one amber and one blue, resting in the sunlight"
+    },
+    {
+      "alt": "Odd-eyed Khao Manee named Leela crouching on a fluffy cushion"
+    },
+    {
+      "alt": "Odd-eyed Khao Manee perched in a tree"
+    },
+    {
+      "alt": "Young female Khao Manee lying on a white sheet, showing its odd eyes"
+    }
+  ]
+}

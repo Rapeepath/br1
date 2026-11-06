@@ -1,0 +1,209 @@
+/* Kitten tiles: the breed photo in a rounded plate, then name, sex, colour, age and price */
+.kitten-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: var(--space-5);
+  list-style: none;
+}
+
+.kitten-grid > li {
+  display: flex;
+  min-width: 0;
+}
+
+.kitten-card {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+  transition:
+    translate 220ms var(--ease-spring),
+    box-shadow 220ms ease;
+}
+
+@media (hover: hover) {
+  .kitten-card:hover {
+    translate: 0 -3px;
+    box-shadow: var(--elev-3), var(--clay);
+  }
+}
+
+.kitten-card:focus-within {
+  box-shadow: var(--elev-3), var(--clay);
+}
+
+.kitten-card__media {
+  position: relative;
+  display: block;
+  margin: 10px 10px 0;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: calc(var(--radius-lg) - 8px);
+  background: var(--tint-peach);
+}
+
+.kitten-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.kitten-card__status {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.kitten-card__status .pill {
+  box-shadow: var(--elev-1);
+}
+
+.kitten-card__body {
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  flex: 1;
+  padding: var(--space-3) var(--space-4) var(--space-4);
+}
+
+.kitten-card__breed {
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.kitten-card__name {
+  font-size: var(--fs-lg);
+  line-height: 1.35;
+}
+
+.kitten-card__name a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.kitten-card__name a:hover {
+  color: var(--accent);
+}
+
+/* The whole tile is a pointer target for the name link */
+.kitten-card__name a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.kitten-card__name a:focus-visible {
+  outline: none;
+}
+
+.kitten-card:has(.kitten-card__name a:focus-visible) {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.kitten-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px var(--space-3);
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+}
+
+.kitten-sex {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+}
+
+.kitten-sex--male {
+  color: var(--on-sky);
+}
+
+.kitten-sex--female {
+  color: var(--on-rose);
+}
+
+.kitten-card__age {
+  display: grid;
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+}
+
+.kitten-card__soon {
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}
+
+.kitten-card__price {
+  margin-top: auto;
+  padding-top: var(--space-2);
+  color: var(--figure);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 800;
+}
+
+.kitten-card--compact .kitten-card__name {
+  font-size: var(--fs-md);
+}
+
+.kitten-card--compact .kitten-card__price {
+  font-size: var(--fs-md);
+}
+
+/* Phones: a two-up grid with every tile the same shape */
+@media (max-width: 560px) {
+  .kitten-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-3);
+  }
+
+  .kitten-card {
+    border-radius: var(--radius-md);
+  }
+
+  .kitten-card__media {
+    margin: 6px 6px 0;
+    aspect-ratio: 1;
+    border-radius: calc(var(--radius-md) - 4px);
+  }
+
+  .kitten-card__status {
+    left: 6px;
+    top: 6px;
+  }
+
+  .kitten-card__status .pill {
+    min-height: 24px;
+    padding: 0 var(--space-2);
+    font-size: var(--fs-2xs);
+  }
+
+  .kitten-card__body {
+    padding: var(--space-2) 10px var(--space-3);
+  }
+
+  .kitten-card__name {
+    font-size: var(--fs-md);
+  }
+
+  .kitten-card__meta,
+  .kitten-card__age {
+    font-size: var(--fs-xs);
+  }
+
+  .kitten-card__price {
+    font-size: var(--fs-md);
+  }
+}

@@ -1,0 +1,2788 @@
+[
+  {
+    "id": "siamese",
+    "nameTh": "วิเชียรมาศ",
+    "nameEn": "Siamese",
+    "group": "thai",
+    "origin": "ประเทศไทย",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "แมวเก้าแต้มตาสีฟ้า ช่างพูดและติดคน",
+    "summary": "วิเชียรมาศคือแมวไทยโบราณขนสั้นสีครีม มีแต้มสีเข้มที่หน้า หู เท้า และหาง กับดวงตาสีฟ้าสด เป็นต้นแบบของแมวสยามที่โด่งดังไปทั่วโลก นิสัยช่างพูด ฉลาด และผูกพันกับเจ้าของมาก จึงเหมาะกับบ้านที่มีเวลาให้แมว",
+    "history": "วิเชียรมาศปรากฏในสมุดข่อยตำราแมว (Tamra Maew) ซึ่งเชื่อว่าแต่งในสมัยอยุธยา (ค.ศ. 1350–1767) และเก็บรักษาไว้ที่หอสมุดแห่งชาติ แมวคู่แรกที่ไปถึงอังกฤษคือ Pho และ Mia ในปี 2427 (ค.ศ. 1884) และ CFA รับรองตั้งแต่ก่อตั้งในปี 2449 (ค.ศ. 1906) ต่อมาสายประกวดตะวันตกถูกคัดให้หน้าแหลมและตัวเพรียวยาวขึ้น ส่วนแบบดั้งเดิมยังคงอยู่ในชื่อสายพันธุ์ Thai หรือ Old-style Siamese และเมื่อ 18 พ.ย. 2568 คณะรัฐมนตรีเห็นชอบให้แมวไทยรวมถึงวิเชียรมาศเป็นเอกลักษณ์ประจำชาติ",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        3.6,
+        5.4
+      ],
+      "male": [
+        4.5,
+        6.8
+      ]
+    },
+    "lifespanYears": [
+      10,
+      15
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "สั้น ละเอียด เงางาม แนบลำตัว",
+      "colors": [
+        "ซีลพอยต์ (Seal point)",
+        "บลูพอยต์ (Blue point)",
+        "ช็อกโกแลตพอยต์ (Chocolate point)",
+        "ไลแลคพอยต์ (Lilac point)",
+        "เรด/ครีมพอยต์ (บางสมาคม)",
+        "แทบบี้/ทอร์ตี้พอยต์ (บางสมาคม)"
+      ]
+    },
+    "appearance": [
+      "แต้มสีเข้ม 9 จุด: หน้า หู 2 ข้าง เท้า 4 ข้าง หาง และอวัยวะเพศ",
+      "ดวงตาสีฟ้าเข้มสดใส ทรงอัลมอนด์",
+      "ลำตัวขนาดกลาง ยาวเพรียว มีกล้ามเนื้อ",
+      "ลูกแมวเกิดมาขาวครีม แต้มสีค่อย ๆ เข้มขึ้นตามวัย",
+      "สายไทยหัวมนกว่า ส่วนสายประกวดตะวันตกหัวทรงลิ่มแหลมยาว"
+    ],
+    "temperament": [
+      "ช่างพูด",
+      "ติดเจ้าของ",
+      "ฉลาดมาก",
+      "ขี้อ้อน",
+      "กระตือรือร้น",
+      "เรียกร้องความสนใจ"
+    ],
+    "ratings": {
+      "energy": 5,
+      "affection": 5,
+      "vocal": 5,
+      "intelligence": 5,
+      "grooming": 1,
+      "shedding": 2,
+      "kidFriendly": 4,
+      "petFriendly": 4,
+      "socialNeeds": 5
+    },
+    "care": {
+      "grooming": "ขนสั้นดูแลง่าย แปรงหรือลูบด้วยมือสัปดาห์ละครั้งก็พอ ช่วยเก็บขนร่วงและเพิ่มความผูกพัน",
+      "exercise": "ชอบปีนที่สูงและเล่นเกมที่ใช้สมอง ควรมีคอนโดแมว ที่ลับเล็บ ของเล่น และเวลาเล่นด้วยทุกวัน บางตัวฝึกให้คาบของกลับมาได้",
+      "diet": "ให้อาหารครบถ้วนตามวัยและคุมน้ำหนักให้อยู่ในเกณฑ์ เพราะงานวิจัยพบว่าแมวน้ำหนักเกินมีอายุขัยสั้นลง",
+      "environment": "ไม่ชอบอยู่ลำพังนาน เหมาะกับบ้านที่มีคนอยู่บ่อยหรือเลี้ยงเป็นคู่ และควรเก็บผ้าและพลาสติกให้พ้นมือ เพราะบางสายเลือดชอบกินสิ่งที่ไม่ใช่อาหาร (pica)"
+    },
+    "health": [
+      {
+        "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA-rdAc)",
+        "detail": "โรคทางพันธุกรรมแบบยีนด้อย (ยีน CEP290) ที่ทำให้ตาค่อย ๆ บอด มักเริ่มมีอาการราว 1–2 ปี และบอดเมื่อราว 3–5 ปี",
+        "screening": "ตรวจ DNA หายีน rdAc ในพ่อแม่ก่อนผสมพันธุ์ (เช่น UC Davis VGL, Langford Vets)"
+      },
+      {
+        "name": "อะไมลอยโดสิส (Systemic/Hepatic Amyloidosis)",
+        "detail": "โปรตีนอะไมลอยด์สะสมในอวัยวะ โดยเฉพาะตับ ทำให้ตับเปราะและอาจแตกจนตกเลือดในช่องท้อง",
+        "screening": "ยังไม่มีการตรวจทางพันธุกรรม ควรสอบถามประวัติสุขภาพสายเลือดและตรวจสุขภาพเป็นประจำ"
+      },
+      {
+        "name": "หอบหืด/ไอเรื้อรัง (Feline asthma)",
+        "detail": "พบอาการไอเรื้อรังจากหลอดลมได้บ่อยกว่าแมวทั่วไป",
+        "screening": null
+      },
+      {
+        "name": "มะเร็งต่อมน้ำเหลืองในช่องอก (Mediastinal lymphoma)",
+        "detail": "บางสายเลือดมีแนวโน้มเป็นมะเร็งต่อมน้ำเหลืองและเนื้องอกในลำไส้",
+        "screening": null
+      },
+      {
+        "name": "ข้อสะโพกผิดรูป (Hip Dysplasia)",
+        "detail": "อาจมีแนวโน้มเป็นโรคข้อสะโพกผิดรูป ซึ่งทำให้ปวดข้อหรือเดินผิดปกติ",
+        "screening": null
+      }
+    ],
+    "welfareNote": "สายประกวดตะวันตกยุคใหม่ถูกคัดให้หัวแหลมและตัวผอมยาวกว่าวิเชียรมาศดั้งเดิมมาก ผู้ซื้อควรเลือกฟาร์มที่ตรวจ DNA โรค PRA และเปิดเผยประวัติสุขภาพของพ่อแม่",
+    "idealFor": [
+      "ผู้ที่อยู่บ้านบ่อยหรือทำงานที่บ้าน",
+      "คนที่ชอบแมวช่างคุยและเดินตามติด",
+      "บ้านที่พร้อมเลี้ยงสองตัวเป็นเพื่อนกัน"
+    ],
+    "considerations": [
+      "เสียงดังและเรียกร้องความสนใจสูง",
+      "ไม่เหมาะกับบ้านที่ไม่มีคนอยู่ทั้งวัน",
+      "อาจไม่ชอบสัตว์เลี้ยงอื่นมาแย่งความรักจากเจ้าของ"
+    ],
+    "funFact": "แต้มสีของวิเชียรมาศเกิดจากยีนที่ไวต่ออุณหภูมิ ส่วนที่เย็นกว่าของร่างกายจึงมีสีเข้ม และแมวที่อยู่ในที่อากาศหนาวขนตัวจะเข้มขึ้นด้วย",
+    "image": {
+      "src": "images/siamese.jpg",
+      "srcSmall": "images/siamese-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Seal_Old_Style_Siamese_Thai.jpg",
+      "author": "Adolpha (English Wikipedia)",
+      "license": "CC BY-SA 3.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/siamese-1.jpg",
+        "srcSmall": "images/gallery/siamese-1-sm.jpg",
+        "width": 1600,
+        "height": 1168,
+        "page": "https://commons.wikimedia.org/wiki/File:THA_%D0%92%D0%B0%D1%80%D1%81%D0%B0%D0%B2%D0%B8%D1%8F_%D0%9C%D1%8D%D0%B4%D0%B6%D0%B8%D0%BA_%D0%9A%D1%8D%D1%82_(5467698506).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "วิเชียรมาศแต้มสีน้ำตาลเข้ม (ซีลพอยต์) ตาสีฟ้า หน้ามนแบบสายไทยดั้งเดิม ถ่ายในงานประกวดแมว",
+        "focus": "40% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/siamese-2.jpg",
+        "srcSmall": "images/gallery/siamese-2-sm.jpg",
+        "width": 1600,
+        "height": 1600,
+        "page": "https://commons.wikimedia.org/wiki/File:Ramzez_Kot_syjamski.jpg",
+        "author": "SyjamskiKot",
+        "license": "CC BY-SA 3.0",
+        "alt": "วิเชียรมาศสายดั้งเดิมแต้มสีน้ำตาลเข้ม นั่งกลางแจ้งหน้าพุ่มไม้สีเขียว ตาเหล่เล็กน้อย",
+        "focus": "50% 30%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/siamese-3.jpg",
+        "srcSmall": "images/gallery/siamese-3-sm.jpg",
+        "width": 1600,
+        "height": 900,
+        "page": "https://commons.wikimedia.org/wiki/File:Thai_Cats.jpg",
+        "author": "Thiago MTB",
+        "license": "CC BY-SA 4.0",
+        "alt": "วิเชียรมาศสองตัวนอนหลับบนเตียง เห็นแต้มสีเข้มที่หน้า หู ขา และหาง"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/siamese-4.jpg",
+        "srcSmall": "images/gallery/siamese-4-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Filhote_de_gato_siam%C3%AAs.JPG",
+        "author": "Rodrigo Padula",
+        "license": "CC BY-SA 3.0",
+        "alt": "ลูกแมววิเชียรมาศเพศเมียหมอบบนโต๊ะไม้หน้าชั้นหนังสือ",
+        "focus": "35% 35%"
+      }
+    ],
+    "welfareFlag": false,
+    "price": {
+      "min": 2000,
+      "max": 10000,
+      "confidence": "medium",
+      "note": "ลูกแมวทั่วไปราคาหลักพัน ราคาสูงขึ้นเมื่อมีใบเพ็ดดีกรีหรือมาจากสายพ่อแม่ที่ลักษณะตรงมาตรฐาน"
+    },
+    "sources": [
+      {
+        "title": "CFA – Siamese breed profile",
+        "url": "https://cfa.org/breed/siamese/"
+      },
+      {
+        "title": "GCCF – Siamese breed page",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/siamese/"
+      },
+      {
+        "title": "FIFe – EMS system (01.07.2026)",
+        "url": "https://fifeweb.org/wp-content/uploads/2023/12/ems_system_en.pdf"
+      },
+      {
+        "title": "FIFe – Thai breed page",
+        "url": "https://fifeweb.org/cats/breeds/thai/"
+      },
+      {
+        "title": "WCF – EMS code championship status",
+        "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+      },
+      {
+        "title": "WCF – Siamese breed standard (2023)",
+        "url": "https://wcf.de/pdf-en/breed/SIA-EN_2023-01-01.pdf"
+      },
+      {
+        "title": "WCF – Thai breed standard (2024)",
+        "url": "https://wcf.de/pdf-en/breed/THA_en_2024-12-05.pdf"
+      },
+      {
+        "title": "PDSA – Siamese breed information",
+        "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/kittens-cats/siamese"
+      },
+      {
+        "title": "VCA Animal Hospitals – Amyloidosis in Cats",
+        "url": "https://vcahospitals.com/know-your-pet/amyloidosis-in-cats"
+      },
+      {
+        "title": "Langford Vets – Progressive Retinal Atrophy (rdAc)",
+        "url": "https://langfordvets.co.uk/media/zk2jup41/progressive-retinal-atrophy-rdac.pdf"
+      },
+      {
+        "title": "UC Davis VGL – PRA rdAc test",
+        "url": "https://vgl.ucdavis.edu/test/pra-rdac"
+      },
+      {
+        "title": "Phys.org – UK cat life tables (J Feline Med Surg, 2024)",
+        "url": "https://phys.org/news/2024-05-life-reveals-longest-shortest-cats.html"
+      },
+      {
+        "title": "The Cat API data (mirror) – Siamese",
+        "url": "https://cat-data-pages.onrender.com/cats/Siamese"
+      },
+      {
+        "title": "Wikipedia – Thai cat",
+        "url": "https://en.wikipedia.org/wiki/Thai_cat"
+      },
+      {
+        "title": "วิกิพีเดีย – วิเชียรมาศ",
+        "url": "https://th.wikipedia.org/wiki/วิเชียรมาศ"
+      },
+      {
+        "title": "เดลินิวส์ – การเดินทางของ 'วิฬาร์' สมุดไทย 'ตำราแมวไทย'",
+        "url": "https://www.dailynews.co.th/articles/2620459/"
+      },
+      {
+        "title": "ฐานเศรษฐกิจ – ครม. เห็นชอบแมวไทยเป็นเอกลักษณ์ประจำชาติ",
+        "url": "https://www.thansettakij.com/lifestyle/644492"
+      }
+    ]
+  },
+  {
+    "id": "korat",
+    "nameTh": "โคราช (สีสวาด)",
+    "nameEn": "Korat",
+    "group": "thai",
+    "origin": "ประเทศไทย (นครราชสีมา)",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "แมวนำโชคสีดอกเลา ตาเขียวเป็นประกาย",
+    "summary": "โคราชหรือสีสวาดเป็นแมวไทยขนสั้นที่มีสีเดียวคือเทาฟ้าปลายขนสีเงิน หัวรูปหัวใจ ดวงตาโตสีเขียว ตัวขนาดกลางแต่หนักแน่นเกินขนาด เป็นแมวที่ฉลาด ผูกพันกับเจ้าของ และค่อนข้างเงียบ คนไทยถือเป็นแมวมงคลที่มักมอบให้คู่บ่าวสาว",
+    "history": "โคราชบันทึกอยู่ในสมุดข่อยตำราแมวสมัยอยุธยาในชื่อมาเลศหรือดอกเลา และยังใช้ในพิธีแห่แมวขอฝน แมวคู่แรกชื่อ Nara และ Darra ถูกนำไปสหรัฐฯ ในปี 2502 (ค.ศ. 1959) แล้ว CFA ให้สถานะแชมเปียนในปี 2509 (ค.ศ. 1966) และ GCCF ในปี 2527 (ค.ศ. 1984) ต่อมาเมื่อ 18 พ.ย. 2568 แมวมาเลศเป็นหนึ่งในแมวไทย 5 สายพันธุ์ที่คณะรัฐมนตรีเห็นชอบให้เป็นเอกลักษณ์ประจำชาติ",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        3,
+        4
+      ],
+      "male": [
+        3.5,
+        5
+      ]
+    },
+    "lifespanYears": [
+      10,
+      18
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "ขนชั้นเดียว สั้น ละเอียด เงา แนบตัว",
+      "colors": [
+        "เทาฟ้าปลายขนสีเงิน (Silver-tipped blue) เท่านั้น"
+      ]
+    },
+    "appearance": [
+      "หัวรูปหัวใจเมื่อมองจากด้านหน้า",
+      "ตาโตกลมสีเขียวสด (ลูกแมวตาเหลือง/อำพัน เขียวเต็มที่เมื่อ 2–4 ปี)",
+      "ปลายขนสีเงินเป็นประกาย ยิ่งขนสั้นยิ่งเห็นเงาเงินชัด",
+      "ตัวไม่ใหญ่แต่หนักแน่นเกินขนาด กล้ามเนื้อแน่น",
+      "หูใหญ่ ปลายมน ตั้งสูงบนศีรษะ"
+    ],
+    "temperament": [
+      "ฉลาดมาก",
+      "ผูกพันเจ้าของ",
+      "ค่อนข้างเงียบ",
+      "ขี้เล่น",
+      "หวงของ",
+      "ไม่ชอบเสียงดัง"
+    ],
+    "ratings": {
+      "energy": 4,
+      "affection": 5,
+      "vocal": 2,
+      "intelligence": 5,
+      "grooming": 1,
+      "shedding": 2,
+      "kidFriendly": 4,
+      "petFriendly": 4,
+      "socialNeeds": 5
+    },
+    "care": {
+      "grooming": "ขนชั้นเดียวร่วงน้อย หวีหรือแปรงเบา ๆ สัปดาห์ละครั้ง แล้วลูบด้วยมือหรือผ้าชามัวร์ให้ขนเงา",
+      "exercise": "พลังงานค่อนข้างสูงและชอบเล่นเรียนรู้กลต่าง ๆ ควรมีของเล่นและที่ปีนป่าย ฝึกใส่สายจูงได้ หากออกนอกบ้านควรอยู่ในพื้นที่ปิดล้อม",
+      "diet": "ให้อาหารครบถ้วนตามวัยและคุมน้ำหนักให้พอดี โคราชมีไขมันในตัวต่ำ จึงควรแจ้งสัตวแพทย์ก่อนวางยาสลบทุกครั้ง",
+      "environment": "ชอบบ้านที่สงบ ตกใจง่ายกับเสียงดังหรือการเคลื่อนไหวกะทันหัน และไม่ชอบถูกทิ้งไว้ลำพังนาน เพราะอาจเกิดความเครียดจากการแยกจากเจ้าของ"
+    },
+    "health": [
+      {
+        "name": "แกงกลิโอซิโดซิส GM1 (GM1 gangliosidosis)",
+        "detail": "โรคพันธุกรรมแบบยีนด้อย (ยีน GLB1) ที่ทำลายระบบประสาท ลูกแมวเริ่มสั่นราว 3 เดือน และเสียชีวิตเมื่อราว 9–10 เดือน",
+        "screening": "ตรวจ DNA พ่อแม่ก่อนผสมพันธุ์ ซึ่ง FIFe และ GCCF กำหนดให้ต้องตรวจหรือมีพ่อแม่ที่ผลตรวจปลอดโรค"
+      },
+      {
+        "name": "แกงกลิโอซิโดซิส GM2 (GM2 gangliosidosis)",
+        "detail": "โรคพันธุกรรมแบบยีนด้อย (ยีน HEXB) เริ่มสั่นและเดินเซตั้งแต่ราว 4 สัปดาห์ และเสียชีวิตก่อนอายุ 8 เดือน",
+        "screening": "ตรวจ DNA (เช่น UC Davis VGL, Langford Vets) และห้ามผสมพาหะกับพาหะ"
+      },
+      {
+        "name": "หลอดเลือดแดงแข็ง (Atherosclerosis)",
+        "detail": "พบยีนด้อยที่ทำให้คอเลสเตอรอลสะสมในผนังหลอดเลือดแดง จนอาจนำไปสู่ภาวะหัวใจล้มเหลว",
+        "screening": "มีการตรวจ DNA ตั้งแต่ปี 2568 (ค.ศ. 2025) และผู้เพาะใน GCCF กำลังตรวจทุกสายเลือด"
+      }
+    ],
+    "welfareNote": "ประชากรโคราชมีขนาดเล็ก และแมวในต่างประเทศสืบสายเลือดย้อนไปถึงแมวจากไทย ผู้ซื้อควรขอใบผลตรวจ GM1/GM2 และหลอดเลือดแดงแข็ง (ถ้ามี) ของพ่อแม่ก่อนรับลูกแมว",
+    "idealFor": [
+      "บ้านที่สงบและมีคนอยู่บ่อย",
+      "ผู้ที่อยากได้แมวฉลาด ติดเจ้าของ แต่ไม่ส่งเสียงมาก",
+      "ครอบครัวที่มีเด็กซึ่งเล่นกับแมวอย่างอ่อนโยน"
+    ],
+    "considerations": [
+      "ไม่ชอบถูกทิ้งไว้ลำพังนาน อาจเครียดจากการแยกจากเจ้าของ",
+      "ไม่ชอบบ้านวุ่นวาย และมักอยากเป็นใหญ่เหนือสัตว์เลี้ยงตัวอื่น",
+      "ต้องขอผลตรวจโรคพันธุกรรมจากผู้เพาะทุกครั้ง"
+    ],
+    "funFact": "คนไทยเปรียบประกายตาของโคราชว่าเหมือนหยดน้ำค้างบนใบบัว และชื่อสีสวาดมาจากสีของเมล็ดต้นสวาด",
+    "image": {
+      "src": "images/korat.jpg",
+      "srcSmall": "images/korat-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Korat_cat_wikipedia.jpg",
+      "author": "Jacques Julien Photo",
+      "license": "CC BY-SA 4.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/korat-1.jpg",
+        "srcSmall": "images/gallery/korat-1-sm.jpg",
+        "width": 1218,
+        "height": 985,
+        "page": "https://commons.wikimedia.org/wiki/File:KOR_1149.jpg",
+        "author": "Heikki Siltala, catza.net",
+        "license": "CC BY 3.0",
+        "alt": "ใบหน้าโคราชขนสีเทาฟ้าปลายเงิน ตาสีเขียวสด ในงานแสดงของชมรมแมวโคราชฟินแลนด์",
+        "focus": "25% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/korat-2.jpg",
+        "srcSmall": "images/gallery/korat-2-sm.jpg",
+        "width": 1368,
+        "height": 1790,
+        "page": "https://commons.wikimedia.org/wiki/File:Korat_Sisters.jpg",
+        "author": "Therealbs2002",
+        "license": "CC BY-SA 3.0",
+        "alt": "โคราชสองพี่น้องนั่งเคียงกันริมหน้าต่าง ตาสีเหลืองอำพัน",
+        "focus": "50% 30%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/korat-3.jpg",
+        "srcSmall": "images/gallery/korat-3-sm.jpg",
+        "width": 1600,
+        "height": 1200,
+        "page": "https://commons.wikimedia.org/wiki/File:Korat_Family.jpg",
+        "author": "Max BOUCHE (Korat Club de France)",
+        "license": "CC BY 2.5",
+        "alt": "แม่แมวโคราชกับลูกแมวทั้งครอกบนผ้าห่มสีชมพู ลูกแมวยังมีตาสีฟ้า"
+      }
+    ],
+    "welfareFlag": false,
+    "price": {
+      "min": 2500,
+      "max": 6500,
+      "confidence": "low",
+      "note": "ส่วนใหญ่ขายหลักพัน ตัวที่ฟาร์มยืนยันสายพันธุ์แท้หรือสายประกวดอาจแพงถึงหลักหมื่น"
+    },
+    "sources": [
+      {
+        "title": "CFA – Korat breed profile",
+        "url": "https://cfa.org/breed/korat/"
+      },
+      {
+        "title": "GCCF – Korat breed page",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/korat/"
+      },
+      {
+        "title": "GCCF – Korat & Thai Breeding Policy",
+        "url": "https://www.gccfcats.org/wp-content/uploads/2021/10/KoratThai.BP_.pdf"
+      },
+      {
+        "title": "FIFe – Breeding & Registration Rules (01.07.2026)",
+        "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf"
+      },
+      {
+        "title": "FIFe – EMS system (01.07.2026)",
+        "url": "https://fifeweb.org/wp-content/uploads/2023/12/ems_system_en.pdf"
+      },
+      {
+        "title": "WCF – Korat breed standard",
+        "url": "https://wcf.de/pdf-en/breed/KOR_en_2010-01-01.pdf"
+      },
+      {
+        "title": "WCF – EMS code championship status",
+        "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+      },
+      {
+        "title": "Langford Vets – Korat GM1 Gangliosidosis",
+        "url": "https://langfordvets.co.uk/media/ffeb41y0/korat-gm1-gangliosidosis.pdf"
+      },
+      {
+        "title": "Langford Vets – Korat GM2 Gangliosidosis",
+        "url": "https://langfordvets.co.uk/media/h4llu5ic/korat-gm2-gangliosidosis.pdf"
+      },
+      {
+        "title": "UC Davis VGL – Korat GM1 Gangliosidosis",
+        "url": "https://vgl.ucdavis.edu/test/korat-gm1"
+      },
+      {
+        "title": "UC Davis VGL – Korat GM2 Gangliosidosis",
+        "url": "https://vgl.ucdavis.edu/test/korat-gm2"
+      },
+      {
+        "title": "Purina NZ – Korat cat breed",
+        "url": "https://www.purina.co.nz/cats/cat-breeds/korat/"
+      },
+      {
+        "title": "The Cat API data (mirror) – Korat",
+        "url": "https://cat-data-pages.onrender.com/cats/Korat"
+      },
+      {
+        "title": "Wikipedia – Korat",
+        "url": "https://en.wikipedia.org/wiki/Korat_cat"
+      },
+      {
+        "title": "เดลินิวส์ – การเดินทางของ 'วิฬาร์' สมุดไทย 'ตำราแมวไทย'",
+        "url": "https://www.dailynews.co.th/articles/2620459/"
+      },
+      {
+        "title": "ฐานเศรษฐกิจ – ครม. เห็นชอบแมวไทยเป็นเอกลักษณ์ประจำชาติ",
+        "url": "https://www.thansettakij.com/lifestyle/644492"
+      }
+    ]
+  },
+  {
+    "id": "khao-manee",
+    "nameTh": "ขาวมณี",
+    "nameEn": "Khao Manee",
+    "group": "thai",
+    "origin": "ประเทศไทย",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "WCF"
+    ],
+    "tagline": "อัญมณีสีขาวแห่งสยาม ดวงตาประกายเพชร",
+    "summary": "ขาวมณีหรือขาวปลอดเป็นแมวไทยขนสั้นสีขาวล้วน ได้ฉายาว่า Diamond Eye จากดวงตาที่เป็นประกาย ซึ่งอาจเป็นสีฟ้า เหลือง เขียว หรือสองสี รูปร่างปานกลาง ปราดเปรียว ฉลาด ขี้เล่น และชอบนอนตัก",
+    "history": "CFA ระบุว่าขาวมณีปรากฏในตำราแมวสมัยอยุธยา แต่บางแหล่งชี้ว่าบันทึกที่ชัดเจนเริ่มในสมัยรัตนโกสินทร์ และเป็นแมวโปรดในราชสำนักสมัยรัชกาลที่ 5 Colleen Freymuth นำเข้าสหรัฐฯ ครั้งแรกในปี 2542 (ค.ศ. 1999) จากนั้น TICA ให้สถานะแชมเปียนในปี 2558 (ค.ศ. 2015) และ CFA รับจดทะเบียนในปี 2561 (ค.ศ. 2018) ต่อมาเมื่อ 18 พ.ย. 2568 ขาวมณีเป็นหนึ่งในแมวไทย 5 สายพันธุ์ที่คณะรัฐมนตรีเห็นชอบให้เป็นเอกลักษณ์ประจำชาติ",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        2.7,
+        3.6
+      ],
+      "male": [
+        3.6,
+        5
+      ]
+    },
+    "lifespanYears": [
+      10,
+      12
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "สั้น ละเอียด แนบตัว ไม่มีขนชั้นใน",
+      "colors": [
+        "ขาวล้วน (Solid white)"
+      ]
+    },
+    "appearance": [
+      "ขนสีขาวบริสุทธิ์เป็นเงา จมูกและอุ้งเท้าสีชมพู",
+      "ดวงตาสีฟ้า เหลือง/ทอง เขียว หรือสองสี (odd-eyed)",
+      "หัวทรงลิ่มดัดแปลง ปลายจมูกกับปลายหูเป็นสามเหลี่ยมด้านเท่า",
+      "ลำตัวขนาดกลาง กล้ามเนื้อแน่น ยืดหยุ่น ไม่ล่ำหนา",
+      "ลูกแมวอาจมีขนสีแซม ซึ่งควรจางหายภายในราว 18 เดือน"
+    ],
+    "temperament": [
+      "ฉลาด",
+      "ขี้สงสัย",
+      "ช่างพูด",
+      "ขี้เล่นซุกซน",
+      "ชอบนอนตัก",
+      "เข้ากับคนง่าย"
+    ],
+    "ratings": {
+      "energy": 3,
+      "affection": 4,
+      "vocal": 5,
+      "intelligence": 4,
+      "grooming": 2,
+      "shedding": 3,
+      "kidFriendly": 3,
+      "petFriendly": 3,
+      "socialNeeds": 3
+    },
+    "care": {
+      "grooming": "แปรงขนด้วยแปรงยางเป็นประจำเพื่อเก็บขนร่วง และอาบน้ำเป็นครั้งคราวเพื่อให้ขนขาวสะอาด",
+      "exercise": "ชอบเล่นเกมและปีนป่าย บางตัวชอบขึ้นเกาะไหล่ ควรมีของเล่นและเวลาเล่นด้วยทุกวัน",
+      "diet": "ให้อาหารครบถ้วนตามวัยและคุมน้ำหนัก เพื่อรักษารูปร่างกล้ามเนื้อแน่นแบบปราดเปรียวตามมาตรฐาน",
+      "environment": "ควรเลี้ยงในบ้านหรือให้หลบแดดจัด เพราะหูและจมูกของแมวขาวไวต่อแสง UV ส่วนแมวที่หูหนวกควรอยู่ในบ้านเท่านั้น เพราะไม่ได้ยินอันตราย"
+    },
+    "health": [
+      {
+        "name": "หูหนวกแต่กำเนิด (Congenital deafness)",
+        "detail": "แมวขาวเสี่ยงหูหนวก โดยเฉพาะตัวที่ตาสีฟ้า ส่วนแมวตาสองสีอาจหนวกข้างเดียว ซึ่งมักเป็นข้างที่ตาสีฟ้า",
+        "screening": "ตรวจการได้ยินด้วย BAER หรือ OAE ซึ่ง GCCF กำหนดให้ต้องตรวจก่อนจดทะเบียน"
+      },
+      {
+        "name": "มะเร็งผิวหนังชนิดสความัส (Squamous cell carcinoma)",
+        "detail": "แมวขาวที่โดนแดดนานเสี่ยงเกิดแผลแดงตกสะเก็ดที่ปลายหูและจมูก ซึ่งอาจลุกลามเป็นมะเร็ง",
+        "screening": "ลดการโดนแดดจัด และพาพบสัตวแพทย์หากแผลที่หูหรือจมูกไม่หาย"
+      }
+    ],
+    "welfareNote": "ประชากรขาวมณีนอกประเทศไทยยังมีน้อย GCCF เตือนว่าการผสมเลือดชิดอาจทำให้ตัวเล็กลงและสุขภาพแย่ลง และการเน้นคัดแต่แมวตาสองสีจะทำให้ฐานพันธุกรรมแคบ ผู้ซื้อจึงควรขอผลตรวจการได้ยิน (BAER) ของลูกแมว",
+    "idealFor": [
+      "ผู้ที่ชอบแมวขี้เล่นและช่างคุย",
+      "บ้านที่เลี้ยงแมวแบบระบบปิด",
+      "ผู้ที่หลงใหลแมวไทยโบราณหายาก"
+    ],
+    "considerations": [
+      "หายากและมักมีราคาสูง ควรเลือกฟาร์มที่น่าเชื่อถือ",
+      "ควรตรวจการได้ยินก่อนรับเลี้ยง",
+      "ขนขาวเห็นคราบง่าย และต้องระวังแสงแดด"
+    ],
+    "funFact": "ในไทยเดิมเรียกแมวชนิดนี้ว่าขาวปลอด ก่อนจะได้ชื่อขาวมณีซึ่งแปลว่าอัญมณีสีขาวในสมัยรัชกาลที่ 5",
+    "image": {
+      "src": "images/khao-manee.jpg",
+      "srcSmall": "images/khao-manee-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_Lily.jpg",
+      "author": "Lunile",
+      "license": "CC BY-SA 4.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/khao-manee-1.jpg",
+        "srcSmall": "images/gallery/khao-manee-1-sm.jpg",
+        "width": 1600,
+        "height": 778,
+        "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_%22Gally%22.jpg",
+        "author": "Zackrow",
+        "license": "CC BY-SA 4.0",
+        "alt": "ขาวมณีเพศเมียตาสองสี (เหลืองอำพันและฟ้า) หมอบรับแสงแดด",
+        "focus": "60% 50%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/khao-manee-2.jpg",
+        "srcSmall": "images/gallery/khao-manee-2-sm.jpg",
+        "width": 1600,
+        "height": 1200,
+        "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_%22Leela%22.jpg",
+        "author": "Janet Poulsen",
+        "license": "CC BY-SA 3.0",
+        "alt": "ขาวมณีตาสองสีชื่อลีลา หมอบบนเบาะขนนุ่ม",
+        "focus": "45% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/khao-manee-3.jpg",
+        "srcSmall": "images/gallery/khao-manee-3-sm.jpg",
+        "width": 1600,
+        "height": 2133,
+        "page": "https://commons.wikimedia.org/wiki/File:Khaomanee_cat.jpg",
+        "author": "Octavio.hgc",
+        "license": "CC BY-SA 4.0",
+        "alt": "ขาวมณีตาสองสีเกาะกิ่งต้นไม้",
+        "focus": "50% 25%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/khao-manee-4.jpg",
+        "srcSmall": "images/gallery/khao-manee-4-sm.jpg",
+        "width": 1600,
+        "height": 1198,
+        "page": "https://commons.wikimedia.org/wiki/File:Khao_manee.JPG",
+        "author": "Ritadesbois",
+        "license": "CC BY-SA 3.0",
+        "alt": "ขาวมณีเพศเมียวัยสาวนอนบนผ้าปูที่นอนสีขาว เห็นตาสองสี",
+        "focus": "30% 55%"
+      }
+    ],
+    "welfareFlag": false,
+    "price": {
+      "min": 3000,
+      "max": 25000,
+      "confidence": "low",
+      "note": "ตาสองสี (ฟ้า-เหลือง) และสายเลือดจากฟาร์มที่มีชื่อเสียงทำให้ราคาสูงขึ้นมาก"
+    },
+    "sources": [
+      {
+        "title": "CFA – Khao Manee breed profile",
+        "url": "https://cfa.org/breed/khao-manee/"
+      },
+      {
+        "title": "TICA – Khaomanee breed",
+        "url": "https://tica.org/khaomanee-breeders?catid=79&id=846%3Akhaomanee-breed&view=article"
+      },
+      {
+        "title": "WCF – Khao Manee breed standard (2019)",
+        "url": "https://wcf.de/pdf-en/breed/Khao_Manee_2019-09-29_EN.pdf"
+      },
+      {
+        "title": "WCF – EMS code championship status",
+        "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+      },
+      {
+        "title": "FIFe – EMS system (01.07.2026)",
+        "url": "https://fifeweb.org/wp-content/uploads/2023/12/ems_system_en.pdf"
+      },
+      {
+        "title": "GCCF – Khao Manee registration & breeding policy",
+        "url": "https://www.gccfcats.org/wp-content/uploads/2025/05/Khao-Manee.Reg_.Policy-SOP.pdf"
+      },
+      {
+        "title": "GCCF – Unrecognised breeds",
+        "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/"
+      },
+      {
+        "title": "ACFA – Khao Manee breed standard",
+        "url": "https://acfacat.com/Kahomanee.htm"
+      },
+      {
+        "title": "PetMD – Ear Cancer (Squamous Cell Carcinoma) in Cats",
+        "url": "https://www.petmd.com/cat/conditions/cancer/c_ct_squamous_cell_carcinoma_ear"
+      },
+      {
+        "title": "The Cat API data (mirror) – Khao Manee",
+        "url": "https://cat-data-pages.onrender.com/cats/Khao%20Manee"
+      },
+      {
+        "title": "Wikipedia – Khao Manee",
+        "url": "https://en.wikipedia.org/wiki/Khao_Manee"
+      },
+      {
+        "title": "วิกิพีเดีย – แมวขาวมณี",
+        "url": "https://th.wikipedia.org/wiki/แมวขาวมณี"
+      },
+      {
+        "title": "Time Out Bangkok – Five Thai cat breeds now official national treasures",
+        "url": "https://www.timeout.com/bangkok/th/news/five-thai-cat-breeds-now-official-national-treasures-111925"
+      },
+      {
+        "title": "ฐานเศรษฐกิจ – ครม. เห็นชอบแมวไทยเป็นเอกลักษณ์ประจำชาติ",
+        "url": "https://www.thansettakij.com/lifestyle/644492"
+      }
+    ]
+  },
+  {
+    "id": "british-shorthair",
+    "nameTh": "บริติช ช็อตแฮร์",
+    "nameEn": "British Shorthair",
+    "group": "international",
+    "origin": "สหราชอาณาจักร",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "หมีเทานุ่มหน้ากลม สุขุมแบบผู้ดีอังกฤษ",
+    "summary": "บริติช ช็อตแฮร์เป็นแมวตัวล่ำหน้ากลม ขนสั้นหนาแน่นนุ่มเหมือนกำมะหยี่ โด่งดังจากสีบลู (เทาอมฟ้า) และดวงตาสีทองแดง นิสัยสงบ อดทน ไม่เรียกร้องความสนใจ และเข้ากับเด็กและสัตว์เลี้ยงอื่นได้ดี จึงเหมาะกับมือใหม่ แต่ต้องระวังน้ำหนักเกินและควรตรวจหัวใจเป็นระยะ",
+    "history": "สืบเชื้อสายจากแมวบ้านของอังกฤษ และเข้าประกวดตั้งแต่งานแสดงแมวที่คริสตัลพาเลซ ลอนดอน ปี ค.ศ. 1871 แฮร์ริสัน เวียร์ ผู้ได้ฉายาว่าบิดาแห่งวงการแมว เป็นผู้เขียนมาตรฐานฉบับแรก หลังสงครามโลกทั้งสองครั้งจำนวนแมวลดลงมาก ผู้เพาะพันธุ์จึงผสมกับเปอร์เซีย รัสเซียนบลู เบอร์มีส และชาร์ทรูเพื่อฟื้นฟูสายพันธุ์ ก่อนที่ CFA จะให้สถานะแชมเปียนในปี ค.ศ. 1980",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        3.2,
+        5.4
+      ],
+      "male": [
+        4.1,
+        7.7
+      ]
+    },
+    "lifespanYears": [
+      12,
+      17
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "ขนสั้นหนาแน่นมาก แน่นเด้งแบบกำมะหยี่",
+      "colors": [
+        "บลู (เทาอมฟ้า)",
+        "ดำ",
+        "ขาว",
+        "ไลแลค",
+        "ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)",
+        "สองสี (ไบคัลเลอร์)"
+      ]
+    },
+    "appearance": [
+      "หัวกลมใหญ่ แก้มป่อง ตัวผู้มีเหนียงแก้มชัด",
+      "ตากลมโต สีทองแดงหรือส้มเข้ม",
+      "จมูกสั้นตรง ไม่แบนแบบเปอร์เซีย",
+      "อกกว้าง ตัวล่ำ ขาสั้นแข็งแรง",
+      "หางโคนหนา ปลายมน"
+    ],
+    "temperament": [
+      "สุขุม",
+      "อดทน",
+      "รักครอบครัว",
+      "ร้องน้อย",
+      "อิสระพอควร",
+      "ไม่ชอบถูกอุ้ม"
+    ],
+    "ratings": {
+      "energy": 2,
+      "affection": 4,
+      "vocal": 1,
+      "intelligence": 3,
+      "grooming": 2,
+      "shedding": 4,
+      "kidFriendly": 4,
+      "petFriendly": 5,
+      "socialNeeds": 3
+    },
+    "care": {
+      "grooming": "หวีหรือแปรงขนสัปดาห์ละครั้งด้วยหวีโลหะ และบ่อยขึ้นช่วงผลัดขน ตัดเล็บและทำความสะอาดหูเป็นประจำ",
+      "exercise": "ไม่ใช่สายกระโดดปีนป่ายและชอบอยู่บนพื้น ควรชวนเล่นทุกวันเพื่อป้องกันความอ้วน",
+      "diet": "เผาผลาญช้าและอ้วนง่าย ควรชั่งตวงอาหารทุกมื้อและจำกัดขนม ลูกแมวควรกินอาหารลูกแมวอย่างน้อยจนครบหนึ่งปี",
+      "environment": "เหมาะกับคอนโดและการเลี้ยงในบ้าน ขนแน่นหนาทำให้ร้อนง่าย จึงควรมีมุมเย็น พื้นกระเบื้อง หรือห้องแอร์ในหน้าร้อน"
+    },
+    "health": [
+      {
+        "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+        "detail": "การตรวจคลื่นเสียงหัวใจแมวบริติช 329 ตัวในเดนมาร์กพบ HCM 8.5% โดยพบในตัวผู้ (20.4%) มากกว่าตัวเมีย (2.1%) และมักพบตั้งแต่อายุน้อย",
+        "screening": "ตรวจอัลตราซาวนด์หัวใจ (Echocardiography) เป็นระยะ โดยเฉพาะพ่อแม่พันธุ์ เพราะยังไม่มีการตรวจ DNA สำหรับ HCM ในสายพันธุ์นี้"
+      },
+      {
+        "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+        "detail": "พบยีน PKD1 ในสายพันธุ์นี้ GCCF ระบุว่าควบคุมได้ดีขึ้นด้วยการตรวจ DNA แต่ข้อมูลจากญี่ปุ่นช่วงปี ค.ศ. 2019–2022 ยังไม่พบว่าสัดส่วนพาหะในบริติชลดลงอย่างมีนัยสำคัญ",
+        "screening": "ขอผลตรวจ DNA ยีน PKD1 ของพ่อแม่พันธุ์ก่อนซื้อ"
+      },
+      {
+        "name": "หมู่เลือด B และภาวะเม็ดเลือดแดงแตกในลูกแมวแรกเกิด (Neonatal isoerythrolysis)",
+        "detail": "บริติชหลายสายเลือดมีหมู่เลือด B ซึ่งพบน้อยในแมวทั่วไป การผสมพ่อแม่ที่หมู่เลือดไม่เข้ากันอาจทำให้ลูกแมวเกิดภาวะเม็ดเลือดแดงแตก และการให้เลือดผิดหมู่เป็นอันตราย",
+        "screening": "ตรวจหมู่เลือดหรือตรวจ DNA หมู่เลือดก่อนผสมพันธุ์และก่อนให้เลือด"
+      },
+      {
+        "name": "ภาวะอ้วน (Obesity)",
+        "detail": "การศึกษาแมวบริติช 2,540 ตัวในออสเตรเลียพบว่า 48% มีน้ำหนักเกินและ 7% อ้วน",
+        "screening": "ชั่งน้ำหนักและประเมินคะแนนรูปร่าง (Body Condition Score) กับสัตวแพทย์เป็นประจำ"
+      },
+      {
+        "name": "กลุ่มอาการต่อมน้ำเหลืองโตจากภูมิคุ้มกันผิดปกติ (Autoimmune Lymphoproliferative Syndrome, ALPS)",
+        "detail": "โรคทางพันธุกรรมที่มีรายงานในแมวบริติช ช็อตแฮร์ ทำให้ต่อมน้ำเหลืองและม้ามโตร่วมกับความผิดปกติของเซลล์เม็ดเลือด",
+        "screening": "มีการตรวจ DNA และ GCCF กำหนดให้แมวนำเข้าต้องมีผลตรวจ ALPS เป็นลบตั้งแต่ 1 มี.ค. 2568 (ค.ศ. 2025)"
+      }
+    ],
+    "welfareNote": "ควรเลือกผู้เพาะพันธุ์ที่ตรวจหัวใจด้วยอัลตราซาวนด์และตรวจ DNA โรค PKD ของพ่อแม่พันธุ์ เพราะ HCM พบได้ค่อนข้างบ่อยในสายพันธุ์นี้และยังไม่มีการตรวจ DNA",
+    "idealFor": [
+      "มือใหม่หัดเลี้ยงแมว",
+      "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่น",
+      "คนทำงานที่ไม่ได้อยู่บ้านทั้งวัน"
+    ],
+    "considerations": [
+      "อ้วนง่าย ต้องคุมอาหารอย่างจริงจัง",
+      "ส่วนใหญ่ไม่ชอบถูกอุ้มนาน ๆ",
+      "ขอผลตรวจหัวใจและ PKD ของพ่อแม่พันธุ์"
+    ],
+    "funFact": "บริติช ช็อตแฮร์เป็นแมวโตช้า อาจใช้เวลาถึง 5 ปีกว่าร่างกายจะโตเต็มที่",
+    "image": {
+      "src": "images/british-shorthair.jpg",
+      "srcSmall": "images/british-shorthair-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg",
+      "author": "Tamila Aspen (BritishEmpire)",
+      "license": "CC BY-SA 3.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/british-shorthair-1.jpg",
+        "srcSmall": "images/gallery/british-shorthair-1-sm.jpg",
+        "width": 1600,
+        "height": 1340,
+        "page": "https://commons.wikimedia.org/wiki/File:A_female_British_Shorthair_at_the_age_of_20_months.jpg",
+        "author": "George E. Koronaios",
+        "license": "CC BY-SA 4.0",
+        "alt": "บริติช ช็อตแฮร์สีบลูเพศเมียอายุ 20 เดือน หน้ากลม ตาสีส้มทองแดง",
+        "focus": "45% 45%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/british-shorthair-2.jpg",
+        "srcSmall": "images/gallery/british-shorthair-2-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:British_Shorthair_(female)_on_August_2,_2022.jpg",
+        "author": "George E. Koronaios",
+        "license": "CC BY-SA 4.0",
+        "alt": "บริติช ช็อตแฮร์สีบลูตัวเดียวกันเมื่ออายุ 7 ปี เห็นลำตัวล่ำและขนหนานุ่ม",
+        "focus": "30% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/british-shorthair-3.jpg",
+        "srcSmall": "images/gallery/british-shorthair-3-sm.jpg",
+        "width": 1600,
+        "height": 2133,
+        "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D1%82_%D0%91%D1%83%D0%B1%D0%BB%D0%B8%D0%BA.jpg",
+        "author": "DianaYud",
+        "license": "CC BY-SA 4.0",
+        "alt": "บริติช ช็อตแฮร์สีบลูนั่งตัวตรง อกกว้าง ขาแข็งแรง",
+        "focus": "50% 20%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/british-shorthair-4.jpg",
+        "srcSmall": "images/gallery/british-shorthair-4-sm.jpg",
+        "width": 1600,
+        "height": 1073,
+        "page": "https://commons.wikimedia.org/wiki/File:BRI_kitten_(5467742188).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "ลูกแมวบริติช ช็อตแฮร์สีขาวเงยหน้ามองใบไม้",
+        "focus": "65% 40%"
+      },
+      {
+        "kind": "video",
+        "src": "images/gallery/british-shorthair-video.jpg",
+        "srcSmall": "images/gallery/british-shorthair-video-sm.jpg",
+        "width": 960,
+        "height": 1707,
+        "page": "https://commons.wikimedia.org/wiki/File:British_Shorthair_Silver_Tabby_Grooming.mpg",
+        "author": "Kimtology",
+        "license": "CC BY-SA 4.0",
+        "alt": "วิดีโอ: ลูกแมวบริติช ช็อตแฮร์ลายสลิดสีเงินอายุ 3 เดือนเลียขนที่ขาหลังกินอาหาร",
+        "focus": "40% 60%",
+        "video": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/British_Shorthair_Silver_Tabby_Grooming.mpg/British_Shorthair_Silver_Tabby_Grooming.mpg.1080p.vp9.webm",
+          "duration": 13,
+          "width": 608,
+          "height": 1080
+        }
+      }
+    ],
+    "welfareFlag": false,
+    "price": {
+      "min": 8000,
+      "max": 60000,
+      "confidence": "medium",
+      "note": "ประกาศทั่วไปเริ่มราวหลักพันปลาย ตัวที่มีใบเพ็ดดีกรี WCF/CFA/TICA หรือสายนำเข้าราคาหลายหมื่น"
+    },
+    "sources": [
+      {
+        "title": "CFA – British Shorthair breed profile",
+        "url": "https://cfa.org/breed/british-shorthair/"
+      },
+      {
+        "title": "GCCF – British Shorthair & Longhair",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/british/"
+      },
+      {
+        "title": "VCA Animal Hospitals – British Shorthair",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/british-shorthair"
+      },
+      {
+        "title": "Royal Canin UK – British Shorthair",
+        "url": "https://www.royalcanin.com/uk/cats/breeds/british-shorthair"
+      },
+      {
+        "title": "Granström et al. 2011, Prevalence of HCM in a cohort of British Shorthair cats in Denmark (JVIM)",
+        "url": "https://doi.org/10.1111/j.1939-1676.2011.0751.x"
+      },
+      {
+        "title": "Murphy et al. 2023, Bodyweight and body condition scores of Australian British Shorthair cats 2008–2017 (Frontiers in Veterinary Science)",
+        "url": "https://doi.org/10.3389/fvets.2023.1241080"
+      },
+      {
+        "title": "Ukawa et al. 2026, Widespread genetic testing controls inherited PKD while avoiding inbreeding in cats (BMC Genomics)",
+        "url": "https://doi.org/10.1186/s12864-026-13048-4"
+      },
+      {
+        "title": "Kehl et al. 2019, CMAH genotyping survey for blood types A, B and C in purpose-bred cats (Animal Genetics)",
+        "url": "https://doi.org/10.1111/age.12778"
+      },
+      {
+        "title": "Tong et al. 2026, ALPS in Boerboel dogs (notes ALPS documented in British Shorthair cats) (JVIM)",
+        "url": "https://doi.org/10.1093/jvimsj/aalag011"
+      },
+      {
+        "title": "Teng et al. 2024, Life tables of annual life expectancy in UK cats (JFMS)",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/1098612X241234556"
+      },
+      {
+        "title": "FIFe – Breeds list",
+        "url": "https://fifeweb.org/cats/breeds/"
+      },
+      {
+        "title": "WCF – British Shorthair breed standard (PDF)",
+        "url": "https://wcf.de/pdf-en/breed/BRI_en_2023-07-16.pdf"
+      },
+      {
+        "title": "The Cat API breeds data (archived snapshot 2025-12-09)",
+        "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds"
+      }
+    ]
+  },
+  {
+    "id": "scottish-fold",
+    "nameTh": "สก็อตติช โฟลด์",
+    "nameEn": "Scottish Fold",
+    "group": "international",
+    "origin": "สกอตแลนด์ (สหราชอาณาจักร)",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "WCF"
+    ],
+    "tagline": "แมวหน้ากลมหูพับ ที่ต้องเลือกอย่างรู้เท่าทัน",
+    "summary": "สก็อตติช โฟลด์เป็นแมวขนาดกลางรูปทรงกลม หัวกลม ตาโต และหูพับไปด้านหน้าจนดูคล้ายนกฮูก นิสัยอ่อนโยน เงียบ และรักครอบครัวโดยไม่เรียกร้องมาก แต่ยีนที่ทำให้หูพับ (TRPV4) ทำให้แมวหูพับทุกตัวมีความผิดปกติของกระดูกอ่อนและข้อในระดับต่าง ๆ จึงต้องเฝ้าระวังอาการปวดข้อตลอดชีวิต",
+    "history": "แมวหูพับตัวแรกชื่อซูซี (Susie) เป็นแมวในฟาร์มแถบเทย์ไซด์ สกอตแลนด์ พบเมื่อปี ค.ศ. 1961 โดยคนเลี้ยงแกะชื่อวิลเลียม รอสส์ ซึ่งนำลูกของมันมาพัฒนาเป็นสายพันธุ์ CFA ของสหรัฐฯ รับรองแมวขนสั้นระดับแชมเปียนในปี 1978 ขณะที่ GCCF ของอังกฤษเลิกรับจดทะเบียนตั้งแต่ต้นทศวรรษ 1970 เพราะกังวลเรื่องสุขภาพ",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        2.7,
+        4
+      ],
+      "male": [
+        4,
+        6
+      ]
+    },
+    "lifespanYears": [
+      11,
+      14
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "ขนสั้นหนาแน่น นุ่มฟู (มีแบบขนยาวด้วย)",
+      "colors": [
+        "บลู (เทาอมฟ้า)",
+        "ขาว",
+        "ครีม",
+        "ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)",
+        "สามสี (คาลิโก)",
+        "สองสี (ไบคัลเลอร์)"
+      ]
+    },
+    "appearance": [
+      "หูเล็กพับไปด้านหน้าแนบศีรษะ",
+      "หัวกลม ตากลมโต หน้าตาคล้ายนกฮูก",
+      "ลำตัวกลมแน่น คอสั้น",
+      "ลูกแมวเกิดมาหูตรง หูเริ่มพับในเดือนแรก",
+      "มีทั้งขนสั้น ขนยาว และแบบหูตรง (Scottish Straight)"
+    ],
+    "temperament": [
+      "อ่อนโยน",
+      "เงียบ เสียงเบา",
+      "รักครอบครัว",
+      "ขี้เล่นพอประมาณ",
+      "ชอบเดินตามเจ้าของ",
+      "ปรับตัวง่าย"
+    ],
+    "ratings": {
+      "energy": 2,
+      "affection": 5,
+      "vocal": 1,
+      "intelligence": 3,
+      "grooming": 2,
+      "shedding": 3,
+      "kidFriendly": 4,
+      "petFriendly": 5,
+      "socialNeeds": 3
+    },
+    "care": {
+      "grooming": "ขนสั้นแปรงสัปดาห์ละครั้ง ขนยาวแปรง 3–4 ครั้งต่อสัปดาห์ แมวที่ปวดข้ออาจเลียขนตัวเองได้ไม่ทั่ว เจ้าของจึงควรช่วยแปรงเพิ่ม",
+      "exercise": "พลังงานไม่สูง ควรชวนเล่นเบา ๆ ด้วยไม้ล่อแมวหรือของเล่นฝึกสมองทุกวัน และห้ามจับหรือดึงหางแรง ๆ เพราะหางอาจแข็งและเจ็บ",
+      "diet": "กินเก่งและอ้วนง่าย ควรตวงอาหารและคุมน้ำหนักเพื่อลดภาระข้อ ปรึกษาสัตวแพทย์เรื่องโอเมก้า-3 กลูโคซามีน หรือคอนดรอยตินเสริมข้อ",
+      "environment": "จัดที่นอนนุ่มและวางของจำเป็นให้เข้าถึงได้โดยไม่ต้องกระโดดสูง หมั่นสังเกตอาการปวด เช่น ลังเลก่อนกระโดด เดินขาแข็ง หางแข็ง นอนมากผิดปกติ หรือเลียขนน้อยลง"
+    },
+    "health": [
+      {
+        "name": "ภาวะกระดูกและกระดูกอ่อนเจริญผิดปกติ (Scottish Fold Osteochondrodysplasia)",
+        "detail": "เกิดจากยีน TRPV4 ตัวเดียวกับที่ทำให้หูพับ ทำให้กระดูกข้อเท้า ข้อมือ และหางผิดรูป เกิดข้อเสื่อมและปวดได้ตั้งแต่อายุน้อย ความรุนแรงต่างกันมาก ตั้งแต่แทบไม่แสดงอาการไปจนถึงเดินลำบาก",
+        "screening": "เอกซเรย์ขาหน้า ขาหลัง และหางเป็นระยะ ตรวจยีน TRPV4 ในพ่อแม่พันธุ์ และห้ามผสมแมวหูพับกับหูพับ"
+      },
+      {
+        "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+        "detail": "งานวิจัยในญี่ปุ่นพบยีน PKD1 กลายพันธุ์ในสก็อตติช โฟลด์บ่อยกว่าแมวหลายสายพันธุ์ ทำให้เกิดถุงน้ำในไตและอาจนำไปสู่ไตวาย",
+        "screening": "ตรวจ DNA ยีน PKD1 ของพ่อแม่พันธุ์และลูกแมว"
+      },
+      {
+        "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+        "detail": "มีรายงานว่าเป็นความเสี่ยงในสายพันธุ์นี้ ผนังหัวใจหนาขึ้นจนสูบฉีดเลือดได้ไม่ดี และอาจเกิดลิ่มเลือด",
+        "screening": "ตรวจอัลตราซาวนด์หัวใจ (Echocardiography) โดยสัตวแพทย์"
+      },
+      {
+        "name": "ภาวะอ้วน (Obesity)",
+        "detail": "กินเก่งแต่ไม่ค่อยเคลื่อนไหว น้ำหนักเกินยิ่งซ้ำเติมปัญหาข้อ",
+        "screening": "ชั่งน้ำหนักและประเมินรูปร่างทุกครั้งที่พบสัตวแพทย์"
+      }
+    ],
+    "welfareNote": "ยีนหูพับเป็นยีนเด่นที่ทำให้แมวหูพับทุกตัวมีความผิดปกติของกระดูกอ่อนในระดับต่าง ๆ FIFe และ GCCF จึงไม่รับรองสายพันธุ์นี้ เนเธอร์แลนด์ แฟลนเดอร์ส (เบลเยียม) และรัฐวิกตอเรีย (ออสเตรเลีย) ห้ามเพาะพันธุ์ และผู้เพาะพันธุ์ที่รับผิดชอบต้องไม่ผสมหูพับกับหูพับเด็ดขาด",
+    "idealFor": [
+      "ผู้ที่ชอบแมวเงียบ ๆ ชอบอยู่ติดบ้าน",
+      "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่นที่อ่อนโยน",
+      "คนที่พร้อมพาไปตรวจข้อและหัวใจสม่ำเสมอ"
+    ],
+    "considerations": [
+      "แมวหูพับทุกตัวเสี่ยงปวดข้อเรื้อรัง ควรเตรียมค่ารักษาระยะยาว",
+      "เลือกฟาร์มที่ผสมกับแมวหูตรงเท่านั้น และมีผลตรวจยีน TRPV4 และ PKD",
+      "หลีกเลี่ยงลูกผสมหูพับกับมันช์กิ้นหรืออเมริกัน เคิร์ล เพราะลูกอาจได้ยีนสองชุดและกระดูกผิดรูปรุนแรง"
+    ],
+    "funFact": "เมื่อผสมแมวหูพับกับแมวหูตรง ลูกในครอกจะหูพับเพียงราวครึ่งหนึ่ง และบางตัวที่หูเคยพับอาจกลับมาหูตรงเมื่อโตขึ้นแม้ยังมียีนหูพับอยู่",
+    "image": {
+      "src": "images/scottish-fold.jpg",
+      "srcSmall": "images/scottish-fold-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Adult_Scottish_Fold.jpg",
+      "author": "Mihai Matei",
+      "license": "CC BY-SA 3.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/scottish-fold-1.jpg",
+        "srcSmall": "images/gallery/scottish-fold-1-sm.jpg",
+        "width": 1600,
+        "height": 1158,
+        "page": "https://commons.wikimedia.org/wiki/File:Scottish_fold_cat_(13223591385).jpg",
+        "author": "Vladimir Pustovit",
+        "license": "CC BY 2.0",
+        "alt": "สก็อตติช โฟลด์สีบลู หูพับแนบหัว ตาสีส้ม"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/scottish-fold-2.jpg",
+        "srcSmall": "images/gallery/scottish-fold-2-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Marimo_(5369843501).jpg",
+        "author": "Takashi Hososhima from Tokyo, Japan",
+        "license": "CC BY-SA 2.0",
+        "alt": "สก็อตติช โฟลด์สีบลูขาวชื่อมาริโมะ หมอบบนกล่องในคาเฟ่แมว",
+        "focus": "65% 55%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/scottish-fold-3.jpg",
+        "srcSmall": "images/gallery/scottish-fold-3-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Washed_cat_2014-05-06.jpg",
+        "author": "Vladimir Pustovit",
+        "license": "CC BY 2.0",
+        "alt": "สก็อตติช โฟลด์สีช็อกโกแลตนอนบนผ้าลายดอก เห็นหูพับชัดเจน",
+        "focus": "25% 35%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/scottish-fold-4.jpg",
+        "srcSmall": "images/gallery/scottish-fold-4-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%B1%D0%B5%D1%82%D0%B0_%D1%88%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D1%86%D0%B8.jpg",
+        "author": "SvetlozarpPetrov",
+        "license": "CC BY-SA 4.0",
+        "alt": "ลูกแมวสก็อตติชสีบลูสี่ตัวในกล่องไม้ สามตัวหูพับ อีกตัวหูตั้ง (สก็อตติช สเตรท)"
+      }
+    ],
+    "welfareFlag": true,
+    "price": {
+      "min": 3000,
+      "max": 30000,
+      "confidence": "low",
+      "note": "ประกาศทั่วไปราคาหลักพัน ตัวที่มีใบเพ็ดดีกรีจากฟาร์มจดทะเบียนราคาสูงกว่าหลายเท่า"
+    },
+    "sources": [
+      {
+        "title": "CFA – Scottish Fold breed profile",
+        "url": "https://cfa.org/breed/scottish-fold/"
+      },
+      {
+        "title": "TICA – Scottish Fold",
+        "url": "https://tica.org/breed/scottish-fold/"
+      },
+      {
+        "title": "VCA Animal Hospitals – Scottish Fold",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/scottish-fold"
+      },
+      {
+        "title": "PetMD – Scottish Fold",
+        "url": "https://www.petmd.com/cat/breeds/scottish-fold"
+      },
+      {
+        "title": "Gandolfi et al. 2016 – A dominant TRPV4 variant underlies osteochondrodysplasia in Scottish fold cats (Osteoarthritis and Cartilage)",
+        "url": "https://doi.org/10.1016/j.joca.2016.03.019"
+      },
+      {
+        "title": "Takanosu et al. 2008 – Incomplete dominant osteochondrodysplasia in heterozygous Scottish Fold cats (J Small Anim Pract)",
+        "url": "https://doi.org/10.1111/j.1748-5827.2008.00561.x"
+      },
+      {
+        "title": "Matsumoto et al. 2026 – Straightened small pinnae in TRPV4 c.1024G>T heterozygous cats (Animal Genetics)",
+        "url": "https://doi.org/10.1002/age.70114"
+      },
+      {
+        "title": "Shitamori et al. 2023 – Large-scale epidemiological study on feline ADPKD (J Feline Med Surg)",
+        "url": "https://doi.org/10.1177/1098612x231185393"
+      },
+      {
+        "title": "Cornell Feline Health Center – Hypertrophic Cardiomyopathy",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy"
+      },
+      {
+        "title": "FIFe Breeding & Registration Rules (§3.5.2, §3.6.2)",
+        "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf"
+      },
+      {
+        "title": "GCCF – Unrecognised Breeds",
+        "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/"
+      },
+      {
+        "title": "WCF – Scottish Fold Shorthair breed standard (2023)",
+        "url": "https://wcf.de/pdf-en/breed/SFS_en_2023-08-13.pdf"
+      },
+      {
+        "title": "Rijksoverheid – Houdverbod vouwoorkatten en naaktkatten vanaf 1 januari 2026",
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/vanaf-1-januari-2026-ingang-houdverbod-vouwoorkatten-en-naaktkatten"
+      },
+      {
+        "title": "Vlaanderen.be – Verbod op de kweek en het verhandelen van fold katten",
+        "url": "https://www.vlaanderen.be/verbod-op-de-kweek-en-het-verhandelen-van-fold-katten"
+      },
+      {
+        "title": "Agriculture Victoria – Code of Practice for the Breeding of Animals with Heritable Defects that Cause Disease",
+        "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/pocta-act-1986/victorian-codes-of-practice-for-animal-welfare/code-of-practice-for-the-breeding-of-animals-with-heritable-defects-that-cause-disease"
+      },
+      {
+        "title": "UK Animal Welfare Committee – Opinion on current and emergent feline breeding practices (2024)",
+        "url": "https://gov.wales/sites/default/files/publications/2025-01/animal-welfare-committee-opinion-on-the-welfare-implications-of-current-and-emergent-feline-breeding-practices.pdf"
+      },
+      {
+        "title": "The Cat API breeds data (archived 2025-12-09)",
+        "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds"
+      }
+    ]
+  },
+  {
+    "id": "persian",
+    "nameTh": "เปอร์เซีย",
+    "nameEn": "Persian",
+    "group": "international",
+    "origin": "อิหร่าน (เปอร์เซีย) พัฒนาสายพันธุ์ต่อในอังกฤษ",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "เจ้าหญิงขนฟูหน้ากลม ผู้รักความสงบ",
+    "summary": "เปอร์เซียเป็นแมวขนยาวหน้ากลม ขึ้นชื่อเรื่องนิสัยอ่อนโยน เงียบ และชอบนอนเล่นใกล้เจ้าของ แต่ต้องหวีขนทุกวันและเช็ดรอบดวงตาเป็นประจำ ใบหน้าที่แบนมากเสี่ยงต่อปัญหาการหายใจ ตา และฟัน จึงควรเลือกจากผู้เพาะพันธุ์ที่ตรวจโรคและไม่เน้นหน้าแบนสุดขั้ว",
+    "history": "มีบันทึกว่าในปี ค.ศ. 1626 พ่อค้าชาวอิตาลี ปิเอโตร เดลลา วัลเล นำแมวขนยาวจากเปอร์เซียเข้าสู่ยุโรป ต่อมาผู้เพาะพันธุ์ในอังกฤษพัฒนาให้มีรูปร่างล่ำ จมูกสั้น และขนหนาแน่น เปอร์เซียร่วมงานประกวดแมวที่คริสตัลพาเลซ ลอนดอน ปี ค.ศ. 1871 และเป็นหนึ่งในสายพันธุ์แรก ๆ ที่ CFA รับรองเมื่อก่อตั้งในปี ค.ศ. 1906",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        3,
+        5
+      ],
+      "male": [
+        5,
+        7
+      ]
+    },
+    "lifespanYears": [
+      10,
+      16
+    ],
+    "coat": {
+      "length": "long",
+      "texture": "ขนยาว หนา เนื้อละเอียดเงางาม มีขนชั้นในฟู",
+      "colors": [
+        "ขาว",
+        "ดำ",
+        "บลู (เทาอมฟ้า)",
+        "แดงและครีม",
+        "ชินชิลล่า/ซิลเวอร์",
+        "ลายแต้มสีแบบหิมาลายัน"
+      ]
+    },
+    "appearance": [
+      "หัวกลมใหญ่ แก้มป่อง",
+      "จมูกสั้นกว้าง ใบหน้าแบน",
+      "ตากลมโตตั้งห่างกัน",
+      "หูเล็กปลายมน",
+      "ตัวล่ำเตี้ย ขาสั้นแข็งแรง ขนยาวฟูทั้งตัว"
+    ],
+    "temperament": [
+      "อ่อนโยน",
+      "เงียบสงบ",
+      "ขี้อ้อน",
+      "รักบ้าน",
+      "ชอบกิจวัตรเดิม"
+    ],
+    "ratings": {
+      "energy": 1,
+      "affection": 5,
+      "vocal": 1,
+      "intelligence": 3,
+      "grooming": 5,
+      "shedding": 4,
+      "kidFriendly": 3,
+      "petFriendly": 3,
+      "socialNeeds": 4
+    },
+    "care": {
+      "grooming": "หวีขนด้วยหวีโลหะซี่ยาวทุกวันเพื่อกันขนพันเป็นก้อน อาบน้ำเป็นครั้งคราวแล้วเป่าให้แห้งสนิท และเช็ดคราบน้ำตาใต้ตาด้วยผ้านุ่มชุบน้ำทุกวัน",
+      "exercise": "พลังงานต่ำ ชอบอยู่บนพื้นมากกว่าปีนป่าย ควรชวนเล่นเบา ๆ ด้วยไม้ล่อแมวทุกวันเพื่อคุมน้ำหนัก และงดเล่นหนักตอนอากาศร้อน",
+      "diet": "อ้วนง่าย ควรตวงอาหารและคุมแคลอรี เลือกเม็ดอาหารที่รูปทรงหยิบกินง่ายสำหรับขากรรไกรสั้น และมีน้ำสะอาดให้ตลอดเวลา",
+      "environment": "ควรเลี้ยงในบ้าน ในอากาศร้อนแบบไทยต้องมีห้องแอร์หรือมุมเย็นและน้ำสะอาดเสมอ เพราะแมวหน้าแบนขนยาวระบายความร้อนได้ยากและเสี่ยงโรคลมแดด"
+    },
+    "health": [
+      {
+        "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+        "detail": "โรคทางพันธุกรรมแบบยีนเด่นจากการกลายพันธุ์ของยีน PKD1 ทำให้เกิดถุงน้ำในไตจนไตวาย ข้อมูลปี ค.ศ. 2004 พบในเปอร์เซียราว 38% ทั่วโลก ซึ่งลดลงแล้วหลังมีการตรวจ DNA ส่วนโรคไตทุกสาเหตุรวมกันเป็นสาเหตุการตายอันดับหนึ่งของเปอร์เซียในอังกฤษ (23.4%)",
+        "screening": "ตรวจ DNA ยีน PKD1 ของพ่อแม่พันธุ์ (GCCF บังคับสำหรับแมวพ่อแม่พันธุ์ตั้งแต่ปี ค.ศ. 2016) และอัลตราซาวนด์ไต"
+      },
+      {
+        "name": "ทางเดินหายใจอุดกั้นจากใบหน้าสั้น (Brachycephalic Obstructive Airway Syndrome)",
+        "detail": "รูจมูกแคบและโครงจมูกสั้นทำให้หายใจลำบาก หายใจเสียงดัง และทนร้อนได้น้อย โดยแมวที่หน้าแบนกว่ามีคะแนนปัญหาการหายใจสูงกว่า",
+        "screening": "เลือกแมวที่รูจมูกเปิดกว้างและหายใจเงียบขณะหลับ หากกรนหรือหายใจทางปากควรพบสัตวแพทย์"
+      },
+      {
+        "name": "น้ำตาไหลและคราบน้ำตา (Epiphora)",
+        "detail": "ท่อน้ำตาของแมวหน้าแบนวางตัวผิดแนวจนน้ำตาระบายลงจมูกได้ไม่ดี ทำให้น้ำตาไหลตลอดและเกิดคราบใต้ตา พบอาการตาแฉะ 5.8% ในเปอร์เซียที่รับการรักษาในอังกฤษ",
+        "screening": "เช็ดรอบดวงตาทุกวัน และพบสัตวแพทย์หากตาแดง ขี้ตาข้น หรือหรี่ตา"
+      },
+      {
+        "name": "โรคปริทันต์และฟันเรียงผิดแนว (Periodontal disease / Dental malocclusion)",
+        "detail": "ขากรรไกรที่สั้นทำให้ฟันกรามน้อยด้านบนเบียดผิดแนวมากขึ้นตามความแบนของหน้า และโรคปริทันต์พบ 11.3% ในเปอร์เซียในอังกฤษ",
+        "screening": "ตรวจช่องปากกับสัตวแพทย์เป็นประจำ และฝึกแปรงฟันตั้งแต่เป็นลูกแมว"
+      },
+      {
+        "name": "ขนพันเป็นก้อนและปัญหาผิวหนัง (Haircoat & skin disorders)",
+        "detail": "ปัญหาขนเป็นความผิดปกติที่พบบ่อยที่สุดในเปอร์เซียในอังกฤษ (12.7%) เพราะขนยาวหนาจนแมวเลียทำความสะอาดเองไม่ทั่ว",
+        "screening": "หวีขนทุกวัน และให้ช่างตัดแต่งขนมืออาชีพช่วยเมื่อขนพันแน่น"
+      },
+      {
+        "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA)",
+        "detail": "โรคทางพันธุกรรมที่ทำให้จอประสาทตาเสื่อมจนมองไม่เห็น มีรายงานในสายพันธุ์เปอร์เซีย",
+        "screening": "มีการตรวจ DNA ควรขอผลตรวจของพ่อแม่พันธุ์จากผู้เพาะพันธุ์"
+      }
+    ],
+    "welfareNote": "การเพาะพันธุ์ให้หน้าแบนสุดขั้วสัมพันธ์กับปัญหาตา การหายใจ และฟันที่รุนแรงขึ้น ผู้ซื้อควรเลือกแมวหน้าแบบดอลล์เฟซ (หน้าตุ๊กตา) หรือคลาสสิกที่ยังเห็นสันจมูก รูจมูกเปิด ไม่มีน้ำตาไหลตลอดเวลา และหายใจไม่มีเสียง",
+    "idealFor": [
+      "คนที่ชอบบ้านเงียบและจังหวะชีวิตสบาย ๆ",
+      "ผู้มีเวลาหวีขนและเช็ดหน้าให้ทุกวัน",
+      "คอนโดหรือบ้านที่มีห้องแอร์"
+    ],
+    "considerations": [
+      "ต้องหวีขนทุกวัน ไม่เช่นนั้นขนพันเป็นก้อน",
+      "ไม่ทนร้อน ต้องมีที่เย็นตลอดหน้าร้อน",
+      "ควรขอผลตรวจ PKD และ PRA ของพ่อแม่พันธุ์"
+    ],
+    "funFact": "ในอังกฤษยังเรียกเปอร์เซียว่า Longhair ส่วนในสหรัฐอเมริกาเรียกเปอร์เซียลายแต้มสีว่าหิมาลายัน (Himalayan)",
+    "image": {
+      "src": "images/persian.jpg",
+      "srcSmall": "images/persian-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Persian-Cat-Kali-7-years-old.JPG",
+      "author": "Mohammad-Reza Sabetghadam / PersianDutchNetwork",
+      "license": "CC BY-SA 4.0",
+      "focus": "30% 50%"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/persian-1.jpg",
+        "srcSmall": "images/gallery/persian-1-sm.jpg",
+        "width": 1600,
+        "height": 1072,
+        "page": "https://commons.wikimedia.org/wiki/File:PER_Malinka_Gerakl_of_Jem-Dandy_(4162420198).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "เปอร์เซียสีแดงขาว (เรดแทบบี้แวน) หน้าสั้นแบน ขนยาวฟูรอบหน้า"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/persian-2.jpg",
+        "srcSmall": "images/gallery/persian-2-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Stock-latte_(52750893698).jpg",
+        "author": "Reba Spike",
+        "license": "CC BY 2.0",
+        "alt": "เปอร์เซียหน้าแบนเดินบนสนามหญ้าท่ามกลางดอกแดฟโฟดิล",
+        "focus": "50% 60%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/persian-3.jpg",
+        "srcSmall": "images/gallery/persian-3-sm.jpg",
+        "width": 1600,
+        "height": 1000,
+        "page": "https://commons.wikimedia.org/wiki/File:Persian_Cat_Trio_(51016541380).jpg",
+        "author": "Reba Spike",
+        "license": "CC BY 2.0",
+        "alt": "เปอร์เซียสามตัวสีดำ สีครีมขาว และสีเทาขาว นั่งบนสนามหญ้าในสวนสาธารณะ",
+        "focus": "50% 65%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/persian-4.jpg",
+        "srcSmall": "images/gallery/persian-4-sm.jpg",
+        "width": 1600,
+        "height": 1200,
+        "page": "https://commons.wikimedia.org/wiki/File:Sekumpulan_anak_kucing_Persia.jpg",
+        "author": "Bibazi",
+        "license": "CC BY 4.0",
+        "alt": "ลูกแมวเปอร์เซียพี่น้องสี่ตัวลายสลิดสีน้ำตาล นั่งบนพื้นกระเบื้อง"
+      }
+    ],
+    "welfareFlag": true,
+    "price": {
+      "min": 2000,
+      "max": 100000,
+      "confidence": "low",
+      "note": "หน้าตุ๊กตา (ดอลล์เฟซ) ที่ไม่มีใบเพ็ดดีกรีราคาหลักพัน ส่วนหน้าบี้ (หน้าแบนมาก) ที่มีใบเพ็ดดีกรีหรือสายนำเข้าเริ่มหลักหมื่นถึงหลักแสน"
+    },
+    "sources": [
+      {
+        "title": "CFA – Persian breed profile",
+        "url": "https://cfa.org/breed/persian/"
+      },
+      {
+        "title": "GCCF – Persian",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/persian/"
+      },
+      {
+        "title": "VCA Animal Hospitals – Persian",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/persian"
+      },
+      {
+        "title": "O'Neill et al. 2019, Persian cats under first opinion veterinary care in the UK (Scientific Reports)",
+        "url": "https://www.nature.com/articles/s41598-019-49317-4"
+      },
+      {
+        "title": "Teng et al. 2024, Life tables of annual life expectancy in UK cats (JFMS)",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/1098612X241234556"
+      },
+      {
+        "title": "Sieslack et al. 2021, Brachycephaly grade vs exophthalmos, airways and dental malalignment in Persian cats (PLoS ONE)",
+        "url": "https://doi.org/10.1371/journal.pone.0254420"
+      },
+      {
+        "title": "Farnworth et al. 2016, Flat feline faces: brachycephaly and respiratory abnormalities (PLoS ONE)",
+        "url": "https://doi.org/10.1371/journal.pone.0161777"
+      },
+      {
+        "title": "Breit et al. 2003, The course of the nasolacrimal duct in brachycephalic cats",
+        "url": "https://doi.org/10.1046/j.1439-0264.2003.00464.x"
+      },
+      {
+        "title": "Lyons et al. 2004, Feline polycystic kidney disease mutation identified in PKD1 (JASN)",
+        "url": "https://doi.org/10.1097/01.ASN.0000141776.38527.BB"
+      },
+      {
+        "title": "PDSA – Heatstroke in cats",
+        "url": "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/conditions/heatstroke-in-cats"
+      },
+      {
+        "title": "Royal Canin UK – Persian",
+        "url": "https://www.royalcanin.com/uk/cats/breeds/persian"
+      },
+      {
+        "title": "FIFe – Breeds list",
+        "url": "https://fifeweb.org/cats/breeds/"
+      },
+      {
+        "title": "WCF – Persian breed standard (PDF)",
+        "url": "https://wcf.de/pdf-en/breed/PER_en_2022-01-25.pdf"
+      },
+      {
+        "title": "World Cat Congress – Persian comparison among member organisations",
+        "url": "https://worldcatcongress.org/wp/cat_breed_comp_per.php"
+      },
+      {
+        "title": "The Cat API breeds data (archived snapshot 2025-12-09)",
+        "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds"
+      }
+    ]
+  },
+  {
+    "id": "exotic-shorthair",
+    "nameTh": "เอ็กโซติก ช็อตแฮร์",
+    "nameEn": "Exotic Shorthair",
+    "group": "international",
+    "origin": "สหรัฐอเมริกา",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "หน้าเปอร์เซียในขนสั้นนุ่มแบบตุ๊กตาหมี",
+    "summary": "เอ็กโซติก ช็อตแฮร์มีหัวและรูปร่างแบบเปอร์เซีย แต่ขนสั้นหนานุ่มเหมือนตุ๊กตาหมี จึงได้ฉายาว่า เปอร์เซียสำหรับคนขี้เกียจ นิสัยสงบ ติดเจ้าของแต่ไม่เรียกร้อง และแทบไม่ร้อง แต่ยังมีใบหน้าแบนเหมือนเปอร์เซีย จึงต้องดูแลเรื่องตา การหายใจ และความร้อนเป็นพิเศษ",
+    "history": "เกิดจากผู้เพาะพันธุ์เปอร์เซียฝั่งตะวันตกของสหรัฐฯ ที่ผสมเปอร์เซียกับอเมริกัน ช็อตแฮร์ในช่วงทศวรรษ 1950–1960 ลูกผสมได้รับความนิยมจน CFA รับรองเป็นสายพันธุ์ในปี ค.ศ. 1966 ส่วน GCCF ของอังกฤษรับรองในปี ค.ศ. 1986 และให้สถานะแชมเปียนในปี ค.ศ. 1995",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        3.2,
+        5.4
+      ],
+      "male": [
+        5.4,
+        6.4
+      ]
+    },
+    "lifespanYears": [
+      12,
+      15
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "ขนสั้นหนาแน่น นุ่มฟูตั้งขึ้นจากตัว มีขนชั้นในหนา",
+      "colors": [
+        "สองสี (ไบคัลเลอร์)",
+        "ลายสลิดสีส้ม (เรดแทบบี้)",
+        "ลายสลิดสีน้ำตาล (บราวน์แทบบี้)",
+        "ซิลเวอร์",
+        "บลู (เทาอมฟ้า)",
+        "ลายแต้มสี (พอยต์)"
+      ]
+    },
+    "appearance": [
+      "หัวกลมใหญ่ หน้าแบน จมูกสั้น",
+      "ตากลมโตตั้งห่างกัน",
+      "หูเล็กปลายมน",
+      "ตัวล่ำ กระดูกใหญ่ ขาสั้น",
+      "ขนสั้นหนานุ่มเหมือนตุ๊กตาหมี"
+    ],
+    "temperament": [
+      "สงบ",
+      "ขี้อ้อน",
+      "ภักดี",
+      "ร้องน้อย",
+      "ขี้เล่นพอประมาณ"
+    ],
+    "ratings": {
+      "energy": 2,
+      "affection": 5,
+      "vocal": 1,
+      "intelligence": 3,
+      "grooming": 3,
+      "shedding": 3,
+      "kidFriendly": 3,
+      "petFriendly": 3,
+      "socialNeeds": 4
+    },
+    "care": {
+      "grooming": "หวีขนด้วยหวีโลหะสัปดาห์ละครั้ง และหวีบ่อยขึ้นช่วงผลัดขนเพราะขนชั้นในร่วงมาก อาบน้ำเป็นครั้งคราว และเช็ดคราบน้ำตาใต้ตาทุกวัน",
+      "exercise": "ค่อนข้างเนิบ แต่ยังขี้เล่นแม้โตแล้ว ควรชวนเล่นของเล่นเป็นช่วงสั้น ๆ ทุกวันในห้องที่อากาศเย็นสบาย",
+      "diet": "ออกกำลังน้อยจึงต้องควบคุมปริมาณอาหาร เลือกเม็ดอาหารที่หยิบกินง่ายสำหรับหน้าแบน และมีน้ำสะอาดให้ตลอดเวลา",
+      "environment": "เหมาะกับบ้านหรือคอนโดที่เงียบ ต้องมีแอร์หรือมุมเย็นในหน้าร้อน เพราะแมวหน้าแบนระบายความร้อนทางจมูกได้น้อยและเสี่ยงโรคลมแดดแม้วันที่อากาศไม่ร้อนจัด"
+    },
+    "health": [
+      {
+        "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+        "detail": "สายพันธุ์นี้สืบเชื้อสายจากเปอร์เซียซึ่งมียีน PKD1 กลายพันธุ์แบบยีนเด่น ทำให้เกิดถุงน้ำในไตและไตวายเรื้อรังได้",
+        "screening": "ตรวจ DNA ยีน PKD1 (GCCF รับขึ้นทะเบียนพ่อแม่พันธุ์เฉพาะแมวที่ผลปกติตั้งแต่ปี ค.ศ. 2016) และอัลตราซาวนด์ไต"
+      },
+      {
+        "name": "ทางเดินหายใจอุดกั้นจากใบหน้าสั้น (Brachycephalic Obstructive Airway Syndrome)",
+        "detail": "รูจมูกแคบและโครงหน้าสั้นทำให้หายใจลำบากและทนร้อนได้น้อย สัตวแพทย์อังกฤษ 60% ที่เคยรักษาแมวหน้าแบนอย่างเปอร์เซียและเอ็กโซติกเคยรักษาปัญหาระบบหายใจ",
+        "screening": "เลือกแมวที่รูจมูกเปิดกว้างและหายใจเงียบ หากกรนหรือหายใจทางปากควรพบสัตวแพทย์"
+      },
+      {
+        "name": "น้ำตาไหลและคราบน้ำตา (Epiphora)",
+        "detail": "ใบหน้าแบนทำให้น้ำตาระบายไม่ดีจนไหลล้นและเกิดคราบใต้ตา และในการสำรวจสัตวแพทย์อังกฤษ ปัญหาตาเป็นเรื่องที่ต้องรักษาบ่อยที่สุดในแมวหน้าแบน (69%)",
+        "screening": "เช็ดรอบดวงตาด้วยผ้านุ่มชุบน้ำทุกวัน และพบสัตวแพทย์หากตาแดงหรือหรี่ตา"
+      },
+      {
+        "name": "ปัญหาฟันและฟันเรียงผิดแนว (Dental malocclusion)",
+        "detail": "ขากรรไกรที่สั้นทำให้ฟันเบียดซ้อนและเกิดโรคเหงือกได้ง่าย สัตวแพทย์ 45% ที่รักษาแมวหน้าแบนเคยรักษาปัญหาฟัน",
+        "screening": "ตรวจช่องปากกับสัตวแพทย์เป็นประจำ และฝึกแปรงฟันตั้งแต่เป็นลูกแมว"
+      },
+      {
+        "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA-pd)",
+        "detail": "โรคทางพันธุกรรมที่ทำให้จอประสาทตาเสื่อม GCCF แนะนำให้ตรวจในแมวเอ็กโซติกที่ใช้ทำพันธุ์",
+        "screening": "ตรวจ DNA PRA-pd ของพ่อแม่พันธุ์"
+      }
+    ],
+    "welfareNote": "เอ็กโซติกมีโครงหน้าแบนแบบเดียวกับเปอร์เซีย GCCF ระบุว่าไม่ควรเพาะพันธุ์ให้ลักษณะนี้สุดขั้ว ผู้ซื้อควรเลือกแมวที่ยังเห็นจมูกชัด รูจมูกเปิด ไม่มีน้ำตาไหลตลอดเวลา และหายใจไม่มีเสียง",
+    "idealFor": [
+      "คนชอบลุคเปอร์เซียแต่มีเวลาดูแลขนน้อยกว่า",
+      "คนอยู่คอนโดที่ชอบแมวเงียบ ไม่ซน",
+      "ครอบครัวที่อยากได้แมวขี้อ้อนติดคน"
+    ],
+    "considerations": [
+      "ยังต้องเช็ดหน้าและตาทุกวัน",
+      "ไม่ทนร้อน ต้องมีแอร์หรือมุมเย็นในหน้าร้อน",
+      "ขอผลตรวจ PKD ของพ่อแม่และเลือกหน้าที่ไม่แบนสุดขั้ว"
+    ],
+    "funFact": "ชื่อแรกที่เคยเสนอสำหรับสายพันธุ์นี้คือ สเตอร์ลิง (Sterling) ตามสีเงินของแมวรุ่นแรก ๆ ก่อนจะใช้ชื่อ Exotic แทน",
+    "image": {
+      "src": "images/exotic-shorthair.jpg",
+      "srcSmall": "images/exotic-shorthair-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Garfield_(8717284786)_(2013;_cropped_2025).jpg",
+      "author": "Melv_L - MACASR",
+      "license": "CC BY-SA 2.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/exotic-shorthair-1.jpg",
+        "srcSmall": "images/gallery/exotic-shorthair-1-sm.jpg",
+        "width": 1600,
+        "height": 1078,
+        "page": "https://commons.wikimedia.org/wiki/File:EXO_Ch._Mellowcherry_Candy_King_(6740824889).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "เอ็กโซติก ช็อตแฮร์ลายหินอ่อนสีเงิน หน้าแบน ตาโตสีทองแดง ในงานประกวดแมว",
+        "focus": "40% 45%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/exotic-shorthair-2.jpg",
+        "srcSmall": "images/gallery/exotic-shorthair-2-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Bissel_3.jpg",
+        "author": "Dmitry Brant",
+        "license": "CC BY-SA 4.0",
+        "alt": "เอ็กโซติก ช็อตแฮร์สีบลูขาวเพศผู้อายุ 3 ปี นั่งข้างหน้าต่าง",
+        "focus": "50% 35%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/exotic-shorthair-3.jpg",
+        "srcSmall": "images/gallery/exotic-shorthair-3-sm.jpg",
+        "width": 1600,
+        "height": 1200,
+        "page": "https://commons.wikimedia.org/wiki/File:P4301146_(8697971736).jpg",
+        "author": "Melv_L - MACASR",
+        "license": "CC BY-SA 2.0",
+        "alt": "เอ็กโซติก ช็อตแฮร์สีส้ม (เรด) หมอบบนผ้าห่มสีฟ้า",
+        "focus": "45% 35%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/exotic-shorthair-4.jpg",
+        "srcSmall": "images/gallery/exotic-shorthair-4-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E6%B1%89%E7%94%9F%E6%B4%BB_1378130831_(9635901709).jpg",
+        "author": "冰 孙 from Wuhan, China",
+        "license": "CC BY-SA 2.0",
+        "alt": "เอ็กโซติก ช็อตแฮร์ลายสลิดสีน้ำตาลขาว หมอบบนโต๊ะในร้านกาแฟ",
+        "focus": "55% 35%"
+      }
+    ],
+    "welfareFlag": true,
+    "price": {
+      "min": 8000,
+      "max": 100000,
+      "confidence": "low",
+      "note": "ประกาศขายในไทยมีน้อย ราคาขึ้นกับใบเพ็ดดีกรี โครงหน้า และสายพ่อแม่"
+    },
+    "sources": [
+      {
+        "title": "CFA – Exotic breed profile",
+        "url": "https://cfa.org/breed/exotic/"
+      },
+      {
+        "title": "GCCF – Exotic Shorthair",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/exotic-shorthair/"
+      },
+      {
+        "title": "VCA Animal Hospitals – Exotic Shorthair",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/exotic-shorthair"
+      },
+      {
+        "title": "Hill's Pet – Exotic",
+        "url": "https://www.hillspet.com/cat-breeds/exotic.html"
+      },
+      {
+        "title": "World Cat Congress – Exotic comparison among member organisations (incl. GCCF PKD rule)",
+        "url": "https://worldcatcongress.org/wp/cat_breed_comp_exo.php"
+      },
+      {
+        "title": "BVA highlights welfare issues for brachycephalic cats (Voice of the Veterinary Profession survey)",
+        "url": "https://www.vetsurgeon.org/b/veterinary-news/posts/bva-highlights-welfare-issues-for-brachycephalic-cats"
+      },
+      {
+        "title": "Farnworth et al. 2016, Flat feline faces: brachycephaly and respiratory abnormalities (PLoS ONE)",
+        "url": "https://doi.org/10.1371/journal.pone.0161777"
+      },
+      {
+        "title": "Lyons et al. 2004, Feline polycystic kidney disease mutation identified in PKD1 (JASN)",
+        "url": "https://doi.org/10.1097/01.ASN.0000141776.38527.BB"
+      },
+      {
+        "title": "PDSA – Heatstroke in cats",
+        "url": "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/conditions/heatstroke-in-cats"
+      },
+      {
+        "title": "FIFe – Breeds list",
+        "url": "https://fifeweb.org/cats/breeds/"
+      },
+      {
+        "title": "WCF – Exotic Shorthair breed standard (PDF)",
+        "url": "https://wcf.de/pdf-en/breed/EXO_en_2022-01-25.pdf"
+      },
+      {
+        "title": "The Cat API breeds data (archived snapshot 2025-12-09)",
+        "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds"
+      }
+    ]
+  },
+  {
+    "id": "american-shorthair",
+    "nameTh": "อเมริกัน ช็อตแฮร์",
+    "nameEn": "American Shorthair",
+    "group": "international",
+    "origin": "สหรัฐอเมริกา",
+    "recognizedBy": [
+      "CFA",
+      "TICA"
+    ],
+    "tagline": "แมวลายเงินคลาสสิก ใจดี เลี้ยงง่าย",
+    "summary": "อเมริกัน ช็อตแฮร์เป็นแมวขนาดกลาง ร่างกายแข็งแรง กล้ามเนื้อแน่น ขนสั้นหนาดูแลง่าย โดดเด่นด้วยลายวนสีเงินแบบคลาสสิก นิสัยใจเย็น รักครอบครัวแต่ไม่ติดแจ เข้ากับเด็กและสัตว์เลี้ยงอื่นได้ดี จึงเหมาะกับผู้เลี้ยงมือใหม่",
+    "history": "บรรพบุรุษคือแมวที่เดินทางมากับเรือของผู้อพยพชาวยุโรปสู่อเมริกาเหนือเพื่อจับหนู เดิมเรียกว่า Domestic Shorthair และเป็นหนึ่งในสายพันธุ์แรก ๆ ที่ CFA รับรองเมื่อก่อตั้งในปี ค.ศ. 1906 ก่อนเปลี่ยนชื่อเป็น American Shorthair ในช่วงกลางทศวรรษ 1960",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        2.5,
+        5.5
+      ],
+      "male": [
+        5,
+        7
+      ]
+    },
+    "lifespanYears": [
+      15,
+      20
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "ขนสั้น หนาแน่น เนื้อขนค่อนข้างแข็งและเป็นเงา",
+      "colors": [
+        "ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)",
+        "ลายสลิดสีน้ำตาล (บราวน์แทบบี้)",
+        "ลายสลิดสีส้ม (เรดแทบบี้)",
+        "ขาว",
+        "ดำ",
+        "สองสี (ไบคัลเลอร์)"
+      ]
+    },
+    "appearance": [
+      "ลำตัวกำยำ อกกว้าง กล้ามเนื้อแน่น",
+      "หัวกว้าง แก้มเต็ม ปากสั้นค่อนข้างเหลี่ยม",
+      "ตากลมโตตั้งห่างกัน",
+      "หูขนาดกลาง ปลายมน",
+      "ลายวนแบบคลาสสิกบนสีเงินคือภาพจำของสายพันธุ์"
+    ],
+    "temperament": [
+      "ใจเย็น",
+      "อ่อนโยน",
+      "ขี้เล่นพอดี",
+      "รักอิสระ",
+      "ฉลาด",
+      "ปรับตัวเก่ง"
+    ],
+    "ratings": {
+      "energy": 3,
+      "affection": 4,
+      "vocal": 2,
+      "intelligence": 3,
+      "grooming": 2,
+      "shedding": 3,
+      "kidFriendly": 4,
+      "petFriendly": 5,
+      "socialNeeds": 3
+    },
+    "care": {
+      "grooming": "ขนสั้นดูแลง่าย หวีหรือแปรงอย่างน้อยสัปดาห์ละครั้งเพื่อลดขนร่วง และแทบไม่ต้องอาบน้ำ",
+      "exercise": "พลังงานปานกลาง ควรเล่นด้วยทุกวัน มีคอนโดแมวให้ปีน และของเล่นล่าเหยื่อเพื่อกระตุ้นสัญชาตญาณนักล่า",
+      "diet": "อ้วนง่ายถ้าให้กินไม่จำกัด ควรตวงอาหารและแบ่งเป็น 2–3 มื้อต่อวัน พร้อมแปรงฟันเป็นประจำ",
+      "environment": "อยู่ได้ทั้งคอนโดและบ้าน เล่นเองได้โดยไม่เรียกร้องความสนใจมาก ควรมีที่ปีนและหน้าต่างให้นั่งดูนก"
+    },
+    "health": [
+      {
+        "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+        "detail": "สายพันธุ์นี้อยู่ในกลุ่มเสี่ยง โรคอาจนำไปสู่หัวใจล้มเหลวหรือลิ่มเลือดอุดตันจนขาหลังเป็นอัมพาต",
+        "screening": "ตรวจอัลตราซาวนด์หัวใจ (Echocardiography) และขอผลตรวจหัวใจของพ่อแม่พันธุ์"
+      },
+      {
+        "name": "ภาวะอ้วน (Obesity)",
+        "detail": "มีแนวโน้มน้ำหนักเกินหากกินมากและเคลื่อนไหวน้อย",
+        "screening": "ชั่งน้ำหนักและประเมินรูปร่างทุกครั้งที่พบสัตวแพทย์"
+      },
+      {
+        "name": "โรคเหงือกและฟัน (Dental disease)",
+        "detail": "พบบ่อยแต่ป้องกันได้ด้วยการแปรงฟันและขูดหินปูนตามคำแนะนำของสัตวแพทย์",
+        "screening": "ตรวจช่องปากประจำปีโดยสัตวแพทย์"
+      }
+    ],
+    "welfareNote": null,
+    "idealFor": [
+      "ผู้เลี้ยงมือใหม่ที่อยากได้แมวเลี้ยงง่าย",
+      "ครอบครัวที่มีเด็ก ผู้สูงอายุ หรือสุนัข",
+      "คนทำงานที่อยากได้แมวไม่ติดแจ อยู่คอนโดได้"
+    ],
+    "considerations": [
+      "ต้องคุมอาหาร เพราะอ้วนง่าย",
+      "ควรขอผลตรวจหัวใจ (HCM) ของพ่อแม่พันธุ์",
+      "หลายตัวไม่ชอบให้อุ้มนาน ชอบอยู่ใกล้ ๆ มากกว่า"
+    ],
+    "funFact": "อเมริกัน ช็อตแฮร์จะโตเต็มที่และมีลักษณะสายพันธุ์สมบูรณ์ที่สุดเมื่ออายุราว 3–4 ปี",
+    "image": {
+      "src": "images/american-shorthair.jpg",
+      "srcSmall": "images/american-shorthair-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:American_shorthair_blotched_tabby.jpg",
+      "author": "Tomo",
+      "license": "CC BY 2.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/american-shorthair-1.jpg",
+        "srcSmall": "images/gallery/american-shorthair-1-sm.jpg",
+        "width": 1600,
+        "height": 1088,
+        "page": "https://commons.wikimedia.org/wiki/File:ASH_Russeller%E2%80%99s_Cleopatra_of_Solid_Fold_(4496229769).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "อเมริกัน ช็อตแฮร์เพศเมียลายหินอ่อนสีเงิน (ซิลเวอร์แทบบี้) ในงานประกวดแมว"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/american-shorthair-2.jpg",
+        "srcSmall": "images/gallery/american-shorthair-2-sm.jpg",
+        "width": 1600,
+        "height": 2133,
+        "page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D1%88%D1%91%D1%80%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0,_%D0%9C%D0%A1%D0%A5%D0%90.jpg",
+        "author": "Mocmuk",
+        "license": "CC BY 4.0",
+        "alt": "อเมริกัน ช็อตแฮร์ลายสลิดสีเงินนั่งบนตอไม้ในสวน",
+        "focus": "50% 55%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/american-shorthair-3.jpg",
+        "srcSmall": "images/gallery/american-shorthair-3-sm.jpg",
+        "width": 1600,
+        "height": 1601,
+        "page": "https://commons.wikimedia.org/wiki/File:American_shorthair_cat_Portrait_(cropped).jpg",
+        "author": "lisa cee (Lisa Campeau)",
+        "license": "CC BY 2.0",
+        "alt": "ด้านข้างของอเมริกัน ช็อตแฮร์ลายหินอ่อนสีน้ำตาล (บราวน์แทบบี้) ในสวน",
+        "focus": "55% 45%"
+      }
+    ],
+    "welfareFlag": false,
+    "price": {
+      "min": 3000,
+      "max": 40000,
+      "confidence": "medium",
+      "note": "ประกาศส่วนใหญ่ราคาหลักพันมักไม่มีเอกสาร ตัวที่มีใบเพ็ดดีกรีและลายชัดราคาหลายหมื่น"
+    },
+    "sources": [
+      {
+        "title": "CFA – American Shorthair breed profile",
+        "url": "https://cfa.org/breed/american-shorthair/"
+      },
+      {
+        "title": "TICA – American Shorthair",
+        "url": "https://tica.org/breed/american-shorthair/"
+      },
+      {
+        "title": "VCA Animal Hospitals – American Shorthair",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/american-shorthair"
+      },
+      {
+        "title": "PetMD – American Shorthair",
+        "url": "https://www.petmd.com/cat/breeds/american-shorthair"
+      },
+      {
+        "title": "Cornell Feline Health Center – Hypertrophic Cardiomyopathy",
+        "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy"
+      },
+      {
+        "title": "GCCF – Unrecognised Breeds (American Shorthair: not applied, probable acceptance)",
+        "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/"
+      },
+      {
+        "title": "FIFe Breeding & Registration Rules (non-recognised breeds list, AMS)",
+        "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf"
+      },
+      {
+        "title": "Wikipedia – American Shorthair (weights by sex)",
+        "url": "https://en.wikipedia.org/wiki/American_Shorthair"
+      },
+      {
+        "title": "The Cat API breeds data (archived 2025-12-09)",
+        "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds"
+      }
+    ]
+  },
+  {
+    "id": "maine-coon",
+    "nameTh": "เมนคูน",
+    "nameEn": "Maine Coon",
+    "group": "international",
+    "origin": "สหรัฐอเมริกา (รัฐเมน)",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "ยักษ์ใจดีขนฟูแห่งรัฐเมน",
+    "summary": "เมนคูนเป็นแมวพันธุ์แท้ที่ตัวใหญ่ที่สุดพันธุ์หนึ่ง มีขนหนาฟู หางเป็นพวง และหูใหญ่ นิสัยใจดี เป็นมิตร ฉลาด และเข้ากับเด็กและสัตว์เลี้ยงอื่นได้ดี จนได้ฉายาว่า “ยักษ์ใจดี” (gentle giant)",
+    "history": "เมนคูนเป็นแมวพันธุ์ธรรมชาติจากแถบนิวอิงแลนด์ โดยเฉพาะรัฐเมนของสหรัฐฯ มีบันทึกย้อนไปถึงช่วงทศวรรษ 1850 แมวลายแทบบี้สีน้ำตาลชื่อ Cosey ได้รางวัล Best Cat ในงานประกวดแมวครั้งแรกของสหรัฐฯ เมื่อปี ค.ศ. 1895 และ CFA ให้สถานะแชมเปียนในปี 1976",
+    "size": "large",
+    "weightKg": {
+      "female": [
+        4.1,
+        5.9
+      ],
+      "male": [
+        5.9,
+        9.1
+      ]
+    },
+    "lifespanYears": [
+      10,
+      15
+    ],
+    "coat": {
+      "length": "long",
+      "texture": "ขนสองชั้นหนา เงางาม สั้นที่ไหล่ ยาวที่ท้องและขาหลัง",
+      "colors": [
+        "ลายสลิดสีน้ำตาล (บราวน์แทบบี้)",
+        "ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)",
+        "ดำ",
+        "ขาว",
+        "แดงและครีม",
+        "สองสี (ไบคัลเลอร์)"
+      ]
+    },
+    "appearance": [
+      "ตัวใหญ่ ลำตัวยาวทรงสี่เหลี่ยม กระดูกใหญ่ อกกว้าง",
+      "หูใหญ่ ตั้งสูง มักมีพู่ขนที่ปลายหู",
+      "หางยาวเป็นพวงฟู",
+      "ขนรอบคอและขาหลังฟูหนาเหมือนสวมกางเกงขนฟู",
+      "อุ้งเท้าใหญ่ มีขนแซมระหว่างนิ้ว"
+    ],
+    "temperament": [
+      "ใจดี อ่อนโยน",
+      "เป็นมิตร",
+      "ฉลาด ฝึกง่าย",
+      "ขี้เล่น",
+      "รักครอบครัว",
+      "ไม่เรียกร้องมาก"
+    ],
+    "ratings": {
+      "energy": 3,
+      "affection": 5,
+      "vocal": 2,
+      "intelligence": 5,
+      "grooming": 3,
+      "shedding": 4,
+      "kidFriendly": 4,
+      "petFriendly": 5,
+      "socialNeeds": 3
+    },
+    "care": {
+      "grooming": "หวีขนสัปดาห์ละ 2–3 ครั้ง ครั้งละ 5–10 นาที เพื่อไม่ให้ขนพันเป็นก้อน โดยเฉพาะที่ท้องและขาหลัง และหวีให้บ่อยขึ้นช่วงผลัดขน",
+      "exercise": "ชอบเล่นและฝึกได้ เช่น เล่นคาบของหรือเดินด้วยสายจูง ควรชวนเล่นวันละ 2–3 รอบ รอบละ 10–15 นาที",
+      "diet": "ให้อาหารแมวโปรตีนสูงที่มีสารอาหารครบถ้วน แบ่งเป็น 3–4 มื้อต่อวันและตวงปริมาณ ไม่วางอาหารทิ้งไว้ทั้งวัน เพื่อคุมน้ำหนักและลดภาระต่อข้อสะโพก",
+      "environment": "ต้องการพื้นที่กว้างและคอนโดแมวสูงที่ฐานแข็งแรงพอรับน้ำหนัก ในอากาศร้อนชื้นของไทยควรเลี้ยงในบ้านที่อากาศถ่ายเทหรือเปิดแอร์ มีน้ำสะอาดตลอด และงดเล่นหนักช่วงกลางวันที่ร้อนจัด"
+    },
+    "health": [
+      {
+        "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+        "detail": "เมนคูนมียีนกลายพันธุ์ MYBPC3 A31P ที่สัมพันธ์กับโรคนี้ แมวที่ได้รับยีนจากทั้งพ่อและแม่มีความเสี่ยงสูงกว่าแมวที่มียีนชุดเดียวมาก",
+        "screening": "ตรวจ DNA MYBPC3 A31P จากสำลีป้ายกระพุ้งแก้ม ร่วมกับอัลตราซาวนด์หัวใจ (Echocardiography) เป็นระยะ เพราะผล DNA เป็นลบก็ยังไม่รับประกันว่าจะไม่เป็นโรค"
+      },
+      {
+        "name": "ข้อสะโพกผิดรูป (Hip Dysplasia)",
+        "detail": "พบบ่อยในเมนคูน ข้อมูลทะเบียน OFA พบราว 25% และโครงการคัดกรองในสวีเดนพบราว 37% โดยอาการรุนแรงขึ้นตามอายุและน้ำหนักตัว",
+        "screening": "เอกซเรย์สะโพกพ่อแม่พันธุ์ก่อนผสม และคุมน้ำหนักแมวให้เหมาะสม"
+      },
+      {
+        "name": "โรคกล้ามเนื้อลีบจากไขสันหลัง (Spinal Muscular Atrophy, SMA)",
+        "detail": "โรคพันธุกรรมแบบยีนด้อย ลูกแมวจะเริ่มเดินโยกเยกและกล้ามเนื้อขาหลังลีบเมื่ออายุราว 3–4 เดือน ไม่ถึงแก่ชีวิตแต่ทำให้พิการ",
+        "screening": "ตรวจ DNA SMA ในพ่อแม่พันธุ์ และไม่ผสมแมวที่เป็นพาหะทั้งคู่"
+      },
+      {
+        "name": "ภาวะขาดเอนไซม์ไพรูเวตไคเนส (Pyruvate Kinase Deficiency)",
+        "detail": "โรคโลหิตจางจากเม็ดเลือดแดงแตกที่ถ่ายทอดแบบยีนด้อย และเมนคูนเป็นหนึ่งในสายพันธุ์ที่แนะนำให้ตรวจ",
+        "screening": "ตรวจ DNA ยีน PKLR ในพ่อแม่พันธุ์"
+      }
+    ],
+    "welfareNote": "ควรเลือกผู้เพาะพันธุ์ที่แสดงผลตรวจ DNA HCM และ SMA รวมถึงผลเอกซเรย์สะโพกของพ่อแม่พันธุ์ได้",
+    "idealFor": [
+      "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่น รวมถึงสุนัข",
+      "บ้านที่มีพื้นที่พอสำหรับแมวตัวใหญ่และคอนโดแมวสูง",
+      "คนที่อยากได้แมวฉลาด ขี้เล่น แต่ไม่ติดแจ"
+    ],
+    "considerations": [
+      "ตัวใหญ่ ค่าอาหารและอุปกรณ์สูงกว่าแมวทั่วไป และโตช้า อาจใช้เวลาถึง 3 ปีกว่าจะโตเต็มที่",
+      "ขนหนาต้องหวีสม่ำเสมอ และต้องดูแลเรื่องความร้อนในอากาศเมืองไทย",
+      "ควรตรวจหัวใจและข้อสะโพกเป็นระยะ"
+    ],
+    "funFact": "เมนคูนเป็นแมวประจำรัฐเมน และหลายตัวมีนิ้วเท้าเกิน (polydactyl) จน TICA แยกเป็นสายพันธุ์ Maine Coon Polydactyl ตั้งแต่ปี ค.ศ. 2015",
+    "image": {
+      "src": "images/maine-coon.jpg",
+      "srcSmall": "images/maine-coon-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Maine_Coon_cat_Toronto_home.jpg",
+      "author": "Oleg Morgan",
+      "license": "Public domain"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/maine-coon-1.jpg",
+        "srcSmall": "images/gallery/maine-coon-1-sm.jpg",
+        "width": 1600,
+        "height": 1110,
+        "page": "https://commons.wikimedia.org/wiki/File:MCO_Napoleon_XXXL*RU_(15457877888).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "เมนคูนเพศผู้ลายหินอ่อนสีดำ มีพู่ขนที่ปลายหูชัดเจน",
+        "focus": "50% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/maine-coon-2.jpg",
+        "srcSmall": "images/gallery/maine-coon-2-sm.jpg",
+        "width": 1600,
+        "height": 1128,
+        "page": "https://commons.wikimedia.org/wiki/File:Snow_is_Tasty_(38077337005).jpg",
+        "author": "Kumweni",
+        "license": "CC BY 2.0",
+        "alt": "เมนคูนลายสลิดสีเงินกลางหิมะ กำลังเลียริมฝีปาก",
+        "focus": "50% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/maine-coon-3.jpg",
+        "srcSmall": "images/gallery/maine-coon-3-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Tortie_maine_coon_in_grass.jpg",
+        "author": "Cobaltxstrike",
+        "license": "CC0",
+        "alt": "เมนคูนลายกระ (ทอร์ตี้) ตาสีเขียว หมอบในสนามหญ้า",
+        "focus": "45% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/maine-coon-4.jpg",
+        "srcSmall": "images/gallery/maine-coon-4-sm.jpg",
+        "width": 1600,
+        "height": 1064,
+        "page": "https://commons.wikimedia.org/wiki/File:Kyrah-0018.jpg",
+        "author": "Alonakel",
+        "license": "CC BY-SA 4.0",
+        "alt": "ลูกแมวเมนคูนลายสลิดสีน้ำตาลนั่งเต็มตัว",
+        "focus": "50% 40%"
+      }
+    ],
+    "welfareFlag": false,
+    "price": {
+      "min": 10000,
+      "max": 60000,
+      "confidence": "medium",
+      "note": "ตัวที่ราคาต่ำมากอาจไม่ใช่พันธุ์แท้ ตัวที่มีใบเพ็ดดีกรีและโครงใหญ่ตามมาตรฐานราคาหลายหมื่น"
+    },
+    "sources": [
+      {
+        "title": "CFA – Maine Coon Cat",
+        "url": "https://cfa.org/breeds/maine-coon-cat/"
+      },
+      {
+        "title": "TICA – Maine Coon Breed Introduction (PDF)",
+        "url": "https://tica.org/wp-content/uploads/2018/08/TICA-Maine-Coon-Breed-Introduction.pdf"
+      },
+      {
+        "title": "TICA – MC/MCP Breed Group Standard (rev. 2025)",
+        "url": "https://tica.org/wp-content/uploads/2025/04/MaineCoonMCP.pdf"
+      },
+      {
+        "title": "GCCF – Maine Coon",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/maine-coon/"
+      },
+      {
+        "title": "FIFe – Breeds (MCO, Category 2)",
+        "url": "https://fifeweb.org/cats/breeds/"
+      },
+      {
+        "title": "WCF – EMS breed code list (PDF)",
+        "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+      },
+      {
+        "title": "VCA Animal Hospitals – Maine Coon",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/maine-coon"
+      },
+      {
+        "title": "PetMD – Maine Coon (vet-reviewed, 2025)",
+        "url": "https://www.petmd.com/cat/breeds/maine-coon"
+      },
+      {
+        "title": "Longeri et al. 2013, JVIM – MYBPC3 variants and HCM",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3602388"
+      },
+      {
+        "title": "Loder & Todhunter 2018 – Demographics of hip dysplasia in the Maine Coon cat",
+        "url": "https://scholarworks.indianapolis.iu.edu/items/4c856d4e-bc27-4b6d-bdbe-62ecdb2021ca"
+      },
+      {
+        "title": "Low et al. 2019 – Hip dysplasia in Swedish Maine Coon screening programme",
+        "url": "https://pub.epsilon.slu.se/16484/"
+      },
+      {
+        "title": "UC Davis VGL – Spinal Muscular Atrophy (Maine Coon)",
+        "url": "https://vgl.ucdavis.edu/test/maine-coon-sma"
+      },
+      {
+        "title": "Grahn et al. 2012, BMC Vet Res – PK deficiency in multiple breeds",
+        "url": "https://doaj.org/article/8da8592d416a47dd8b382a01244c5b4d"
+      },
+      {
+        "title": "Teng et al. 2024, JFMS – Life tables for cats in the UK (VetCompass)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156239/"
+      },
+      {
+        "title": "Cats Protection – Heatstroke in cats",
+        "url": "https://cats.org.uk/help-and-advice/health/heatstroke-in-cats"
+      },
+      {
+        "title": "The Cat API breed data (mirror)",
+        "url": "https://cat-data-pages.onrender.com/data/table"
+      }
+    ]
+  },
+  {
+    "id": "ragdoll",
+    "nameTh": "แร็กดอลล์",
+    "nameEn": "Ragdoll",
+    "group": "international",
+    "origin": "สหรัฐอเมริกา (รัฐแคลิฟอร์เนีย)",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "แมวตาฟ้าขี้อ้อน นุ่มนิ่มเหมือนตุ๊กตา",
+    "summary": "แร็กดอลล์เป็นแมวตัวใหญ่ ขนกึ่งยาวนุ่มลื่นคล้ายไหม มีแต้มสีที่หน้า หู ขา และหาง พร้อมดวงตาสีฟ้า นิสัยใจเย็น อ่อนโยน รักคน เสียงเบา และชอบเดินตามเจ้าของไปทั่วบ้าน จึงเหมาะกับการเลี้ยงในบ้าน",
+    "history": "แร็กดอลล์ถูกพัฒนาขึ้นในทศวรรษ 1960 โดยแอน เบเกอร์ (Ann Baker) ที่เมืองริเวอร์ไซด์ รัฐแคลิฟอร์เนีย โดยเริ่มจากแมวขนยาวสีขาวชื่อโจเซฟีน (Josephine) ที่มียีนแต้มสี สายพันธุ์นี้เข้าสู่อังกฤษในปี ค.ศ. 1981 และได้รับการรับรองจาก GCCF ในปี 1990 ส่วน CFA รับจดทะเบียนในปี 1993 และให้สถานะแชมเปียนในปี 2000",
+    "size": "large",
+    "weightKg": {
+      "female": [
+        4,
+        6
+      ],
+      "male": [
+        6,
+        9.1
+      ]
+    },
+    "lifespanYears": [
+      12,
+      17
+    ],
+    "coat": {
+      "length": "medium",
+      "texture": "นุ่มลื่นคล้ายไหม ขนชั้นในน้อย พันกันยาก",
+      "colors": [
+        "ซีลพอยต์ (Seal point)",
+        "บลูพอยต์ (Blue point)",
+        "ช็อกโกแลตพอยต์และไลแลคพอยต์",
+        "เรดพอยต์และครีมพอยต์",
+        "ลายถุงมือ (มิตเท็ด)",
+        "สองสี (ไบคัลเลอร์)"
+      ]
+    },
+    "appearance": [
+      "ดวงตาสีฟ้าสด",
+      "ลำตัวยาว อกกว้าง กระดูกใหญ่ มีกล้ามเนื้อ",
+      "แต้มสีเข้มที่หน้า หู ขา และหาง (colorpoint)",
+      "ลูกแมวเกิดมาขาวทั้งตัว แล้วสีค่อย ๆ เข้มขึ้นจนเต็มที่เมื่ออายุราว 2 ปี"
+    ],
+    "temperament": [
+      "อ่อนโยน",
+      "ใจเย็น",
+      "รักคน",
+      "ขี้อ้อนแต่ไม่เรียกร้อง",
+      "เสียงเบา",
+      "ชอบเดินตามเจ้าของ"
+    ],
+    "ratings": {
+      "energy": 2,
+      "affection": 5,
+      "vocal": 1,
+      "intelligence": 3,
+      "grooming": 2,
+      "shedding": 2,
+      "kidFriendly": 4,
+      "petFriendly": 5,
+      "socialNeeds": 4
+    },
+    "care": {
+      "grooming": "หวีขนด้วยหวีโลหะสัปดาห์ละ 1–2 ครั้ง และบ่อยขึ้นช่วงผลัดขน ขนชั้นในมีน้อยจึงพันกันยากกว่าแมวขนยาวทั่วไป แต่ถ้าปล่อยไว้นานก็เป็นก้อนได้",
+      "exercise": "เป็นแมวที่ไม่ค่อยกระฉับกระเฉง จึงควรชวนเล่นด้วยของเล่นล่อทุกวันเพื่อคุมน้ำหนัก บางตัวฝึกคลิกเกอร์หรือเล่นอจิลิตี้ได้ด้วย",
+      "diet": "แร็กดอลล์รักการกินและอ้วนง่าย ควรตวงอาหารทุกมื้อ นับขนมรวมในพลังงานต่อวัน และอาจให้อาหารเปียกร่วมกับอาหารเม็ด",
+      "environment": "ควรเลี้ยงในบ้านเท่านั้น เพราะไว้ใจคนและสัตว์อื่นง่ายเกินไป ในอากาศร้อนของไทยควรจัดมุมพักที่เย็นและอากาศถ่ายเท มีน้ำสะอาดตลอด และงดเล่นหนักช่วงที่ร้อนจัด"
+    },
+    "health": [
+      {
+        "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+        "detail": "แร็กดอลล์มียีนกลายพันธุ์ MYBPC3 R820W ที่สัมพันธ์กับโรคนี้ ซึ่งงานวิจัยพบเฉพาะในแร็กดอลล์",
+        "screening": "ตรวจ DNA MYBPC3 R820W (มีให้ตรวจตั้งแต่ปี ค.ศ. 2007) ร่วมกับอัลตราซาวนด์หัวใจ (Echocardiography) เพราะผล DNA เป็นลบก็ยังไม่รับประกันว่าจะไม่เป็นโรค"
+      },
+      {
+        "name": "นิ่วในกระเพาะปัสสาวะ (Bladder Stones)",
+        "detail": "นิ่วอาจอุดตันทางเดินปัสสาวะจนเป็นอันตรายถึงชีวิต สังเกตได้จากการปัสสาวะบ่อยแต่ทีละน้อย เบ่ง หรือขับถ่ายนอกกระบะ",
+        "screening": "เฝ้าดูการปัสสาวะ และพาไปพบสัตวแพทย์ทันทีเมื่อแมวเบ่งหรือปัสสาวะไม่ออก"
+      },
+      {
+        "name": "ภาวะอ้วน (Obesity)",
+        "detail": "แร็กดอลล์อ้วนง่ายเพราะไม่ค่อยกระฉับกระเฉงและรักการกิน ซึ่งเพิ่มความเสี่ยงข้ออักเสบเมื่อแก่ตัว",
+        "screening": "ชั่งน้ำหนักและประเมินรูปร่างเป็นประจำ ตวงอาหารให้พอดี"
+      }
+    ],
+    "welfareNote": "ควรเลือกผู้เพาะพันธุ์ที่แสดงผลตรวจ DNA HCM ของพ่อแม่พันธุ์ได้ และเลี้ยงแบบระบบปิดในบ้าน เพราะแร็กดอลล์ไม่ค่อยระวังอันตรายนอกบ้าน",
+    "idealFor": [
+      "ครอบครัวที่มีเด็กและสัตว์เลี้ยงอื่น",
+      "คนอยู่คอนโดหรือบ้านที่เลี้ยงแมวแบบระบบปิด",
+      "คนที่อยากได้แมวตักขี้อ้อนและเสียงเบา"
+    ],
+    "considerations": [
+      "โตช้า ใช้เวลาราว 4 ปีจึงได้ขนาดและน้ำหนักเต็มที่",
+      "ต้องการเพื่อนและความใส่ใจ จึงไม่เหมาะกับบ้านที่ไม่มีใครอยู่ทั้งวัน",
+      "อ้วนง่าย ต้องคุมอาหารและชวนเล่นสม่ำเสมอ"
+    ],
+    "funFact": "แร็กดอลล์ขึ้นชื่อว่าชอบให้อุ้ม และมักปล่อยตัวอ่อนทิ้งน้ำหนักลงในอ้อมแขนเหมือนตุ๊กตาผ้า (rag doll)",
+    "image": {
+      "src": "images/ragdoll.jpg",
+      "srcSmall": "images/ragdoll-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ragdoll_bicolor_blue_gatil_mozziland_portugal.jpg",
+      "author": "MOZZILAND",
+      "license": "CC BY-SA 4.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/ragdoll-1.jpg",
+        "srcSmall": "images/gallery/ragdoll-1-sm.jpg",
+        "width": 1600,
+        "height": 1167,
+        "page": "https://commons.wikimedia.org/wiki/File:Pet_potrait.jpg",
+        "author": "Arjunmz",
+        "license": "CC BY 4.0",
+        "alt": "แร็กดอลล์สองสี (ไบคัลเลอร์) ขนยาวฟู ตาสีฟ้าสด",
+        "focus": "40% 35%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/ragdoll-2.jpg",
+        "srcSmall": "images/gallery/ragdoll-2-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Leo1901.jpg",
+        "author": "Ulkl",
+        "license": "Public domain",
+        "alt": "ลูกแมวแร็กดอลล์อายุเกือบ 3 เดือน แต้มสีเข้มที่หน้า หู และหาง นั่งบนพื้นไม้",
+        "focus": "55% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/ragdoll-3.jpg",
+        "srcSmall": "images/gallery/ragdoll-3-sm.jpg",
+        "width": 1600,
+        "height": 900,
+        "page": "https://commons.wikimedia.org/wiki/File:The_cat_king.jpg",
+        "author": "Arjunmz",
+        "license": "CC BY 4.0",
+        "alt": "แร็กดอลล์สองสี (ไบคัลเลอร์) นอนเหยียดยาวบนโต๊ะ",
+        "focus": "65% 35%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/ragdoll-4.jpg",
+        "srcSmall": "images/gallery/ragdoll-4-sm.jpg",
+        "width": 1600,
+        "height": 1200,
+        "page": "https://commons.wikimedia.org/wiki/File:Iron_de_La_Rosdollane.JPG",
+        "author": "Peppermint13",
+        "license": "CC BY-SA 3.0",
+        "alt": "ลูกแมวแร็กดอลล์ลายถุงมือแต้มสีซีลอายุ 3 สัปดาห์ นอนบนเตียง",
+        "focus": "70% 40%"
+      }
+    ],
+    "welfareFlag": false,
+    "price": {
+      "min": 15000,
+      "max": 60000,
+      "confidence": "low",
+      "note": "ราคาที่พบบ่อยราว 30,000–40,000 บาท ตัวนำเข้าหรือมีสิทธิ์ทำพันธุ์อาจแพงถึงหลักแสน"
+    },
+    "sources": [
+      {
+        "title": "CFA – Ragdoll",
+        "url": "https://cfa.org/breeds/ragdoll/"
+      },
+      {
+        "title": "TICA – Ragdoll",
+        "url": "https://tica.org/breed/ragdoll/"
+      },
+      {
+        "title": "GCCF – Ragdoll",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/ragdoll/"
+      },
+      {
+        "title": "FIFe – Breeds (RAG, Category 1)",
+        "url": "https://fifeweb.org/cats/breeds/"
+      },
+      {
+        "title": "WCF – EMS breed code list (PDF)",
+        "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+      },
+      {
+        "title": "VCA Animal Hospitals – Ragdoll",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/ragdoll"
+      },
+      {
+        "title": "PetMD – Ragdoll (vet-reviewed, 2023)",
+        "url": "https://www.petmd.com/cat/breeds/ragdoll"
+      },
+      {
+        "title": "Longeri et al. 2013, JVIM – MYBPC3 variants and HCM",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3602388"
+      },
+      {
+        "title": "UC Davis VGL – HCM (Ragdoll)",
+        "url": "https://vgl.ucdavis.edu/test/hcm-ragdoll"
+      },
+      {
+        "title": "Teng et al. 2024, JFMS – Life tables for cats in the UK (VetCompass)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156239/"
+      },
+      {
+        "title": "Cats Protection – Heatstroke in cats",
+        "url": "https://cats.org.uk/help-and-advice/health/heatstroke-in-cats"
+      },
+      {
+        "title": "The Cat API breed data (mirror)",
+        "url": "https://cat-data-pages.onrender.com/data/table"
+      }
+    ]
+  },
+  {
+    "id": "munchkin",
+    "nameTh": "มันช์กิ้น",
+    "nameEn": "Munchkin",
+    "group": "international",
+    "origin": "สหรัฐอเมริกา",
+    "recognizedBy": [
+      "TICA"
+    ],
+    "tagline": "แมวขาสั้นจอมซน ปราดเปรียวเกินตัว",
+    "summary": "มันช์กิ้นเป็นแมวขาสั้นที่เกิดจากการกลายพันธุ์ตามธรรมชาติ ลำตัวขนาดปกติแต่กระดูกขาท่อนยาวสั้นกว่าแมวทั่วไป นิสัยร่าเริง ขี้เล่น ช่างสำรวจ และเข้ากับคนและสัตว์อื่นได้ดี อย่างไรก็ตาม ภาวะแคระแบบสัดส่วนไม่สมดุลนี้มีข้อกังวลด้านสวัสดิภาพ หลายสมาคมจึงไม่รับรอง",
+    "history": "ปี ค.ศ. 1983 ครูสอนดนตรีชื่อแซนดรา โฮเคเนเดล (Sandra Hochenedel) ในรัฐลุยเซียนา สหรัฐฯ พบแมวขาสั้นที่กำลังตั้งท้อง และตั้งชื่อว่าแบล็กเบอร์รี (Blackberry) ลูกตัวผู้ชื่อตูลูส (Toulouse) กลายเป็นต้นสายพันธุ์ร่วมกับแม่ TICA รับเข้าโครงการพัฒนาสายพันธุ์ใหม่ในปี 1994 และให้สถานะแชมเปียนในปี 2003",
+    "size": "small",
+    "weightKg": {
+      "female": [
+        2.3,
+        3.2
+      ],
+      "male": [
+        3.2,
+        4.5
+      ]
+    },
+    "lifespanYears": [
+      12,
+      15
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "ขนสั้นกึ่งหนา นุ่ม (มีแบบขนยาวด้วย)",
+      "colors": [
+        "ขาว",
+        "ดำ",
+        "ส้ม (เรด)",
+        "ลายสลิด (แทบบี้)",
+        "สามสี (คาลิโก)",
+        "สองสี (ไบคัลเลอร์)"
+      ]
+    },
+    "appearance": [
+      "ขาทั้งสี่สั้นกว่าแมวทั่วไปอย่างชัดเจน",
+      "ลำตัวขนาดปกติ ไม่ได้ตัวเล็กเท่าลูกแมวตลอดไป",
+      "กระดูกขาอาจโค้งเล็กน้อย",
+      "ทรงเตี้ยติดพื้น เคลื่อนไหวคล่องแคล่ว",
+      "มีทุกสีและลวดลาย ทั้งขนสั้นและขนยาว"
+    ],
+    "temperament": [
+      "ร่าเริง",
+      "ขี้เล่นมาก",
+      "ช่างสงสัย",
+      "เข้าสังคมเก่ง",
+      "ฉลาด",
+      "มั่นใจในตัวเอง"
+    ],
+    "ratings": {
+      "energy": 4,
+      "affection": 5,
+      "vocal": 3,
+      "intelligence": 4,
+      "grooming": 2,
+      "shedding": 3,
+      "kidFriendly": 4,
+      "petFriendly": 5,
+      "socialNeeds": 5
+    },
+    "care": {
+      "grooming": "ขนสั้นหวีสัปดาห์ละครั้ง ขนยาวหวีสัปดาห์ละ 2 ครั้ง บางตัวเลียขนบริเวณหลังและก้นได้ไม่ทั่วเพราะขาสั้น เจ้าของจึงควรช่วยดูแลเพิ่ม",
+      "exercise": "พลังงานสูง ชอบวิ่งไล่จับของเล่น ควรเล่นด้วยทุกวัน และให้ปีนป่ายเป็นขั้นเตี้ย ๆ แทนการกระโดดสูง",
+      "diet": "ไม่ต้องการอาหารพิเศษ แต่ควรแบ่งให้วันละ 2–3 มื้อแบบตวงปริมาณ คุมน้ำหนักไม่ให้เป็นภาระต่อขาและข้อ",
+      "environment": "ใช้คอนโดแมวชั้นเตี้ยหรือทางลาด ชามน้ำขอบต่ำหรือน้ำพุแมว และกระบะทรายที่เข้าออกง่าย สังเกตอาการเดินกะเผลก ไม่ยอมกระโดด ตัวเอียง หรือหายใจผิดปกติ"
+    },
+    "health": [
+      {
+        "name": "ข้อเสื่อม (Osteoarthritis)",
+        "detail": "ความผิดปกติของกระดูกอ่อนจากยีนขาสั้นทำให้เสี่ยงข้อเสื่อมและปัญหาการเคลื่อนไหวเมื่ออายุมากขึ้น",
+        "screening": "ตรวจระบบกระดูกและข้อเป็นประจำ เอกซเรย์เมื่อมีอาการ และควบคุมน้ำหนัก"
+      },
+      {
+        "name": "กระดูกขาผิดรูป (Limb deformity)",
+        "detail": "งานวิจัยขนาดเล็กที่ถ่ายภาพกระดูกแมวแคระ 5 ตัวพบว่าทุกตัวมีกระดูกขาโค้งหรือบิดผิดรูปครบทั้งสี่ขา",
+        "screening": "เอกซเรย์ประเมินแนวกระดูกและข้อเมื่อเดินผิดปกติ"
+      },
+      {
+        "name": "กระดูกสันหลังแอ่น (Lordosis)",
+        "detail": "มีรายงานว่าอาจพบกระดูกสันหลังแอ่นลงผิดปกติแต่กำเนิด ทำให้ปวดหลังหรือยืนเอียง แต่ยังไม่มีข้อมูลว่าพบบ่อยเพียงใด",
+        "screening": "ให้สัตวแพทย์ตรวจร่างกายและเอกซเรย์ตั้งแต่ลูกแมว"
+      },
+      {
+        "name": "อกบุ๋ม (Pectus Excavatum)",
+        "detail": "มีรายงานว่าอาจพบกระดูกหน้าอกยุบเข้าด้านใน กรณีรุนแรงอาจกดหัวใจและปอด",
+        "screening": "ตรวจและเอกซเรย์ทรวงอกในลูกแมว กรณีปานกลางถึงรุนแรงอาจต้องผ่าตัด"
+      }
+    ],
+    "welfareNote": "ขาสั้นเกิดจากยีนเด่นของภาวะแคระ (UGDH) ซึ่งถ้าได้รับสองชุดลูกจะตายตั้งแต่ในครรภ์ FIFe และ GCCF จึงไม่รับรองด้วยเหตุผลด้านสุขภาพ (CFA ก็ไม่รับรองเช่นกัน) รัฐวิกตอเรีย (ออสเตรเลีย) ห้ามนำมาผสมพันธุ์ และแนวทางของรัฐบาลสกอตแลนด์ระบุว่าการเพาะพันธุ์น่าจะขัดเงื่อนไขใบอนุญาต",
+    "idealFor": [
+      "บ้านที่อยากได้แมวขี้เล่นและเข้าสังคมเก่ง",
+      "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่น",
+      "ผู้มีเวลาเล่นด้วยและจัดบ้านให้เหมาะกับขาสั้น"
+    ],
+    "considerations": [
+      "ข้อมูลสุขภาพระยะยาวยังขัดแย้งกัน ควรเตรียมดูแลข้อเมื่อแมวอายุมากขึ้น",
+      "เลี่ยงลูกผสมมันช์กิ้นกับสก็อตติช โฟลด์ และขอผลตรวจยีน TRPV4 ของพ่อแม่",
+      "หลายสมาคมไม่รับรอง และบางประเทศจำกัดการเพาะพันธุ์"
+    ],
+    "funFact": "แม้ขาสั้น มันช์กิ้นก็ยังปีนป่ายได้ เพียงแต่มักไต่ขึ้นทีละขั้นแทนการกระโดดทีเดียวถึงยอดตู้",
+    "image": {
+      "src": "images/munchkin.jpg",
+      "srcSmall": "images/munchkin-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat_2_(cropped).jpg",
+      "author": "Tasy Hong",
+      "license": "CC0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/munchkin-1.jpg",
+        "srcSmall": "images/gallery/munchkin-1-sm.jpg",
+        "width": 1600,
+        "height": 1021,
+        "page": "https://commons.wikimedia.org/wiki/File:MNS_Rosa_Sunny_Fairies_(11320077403).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "มันช์กิ้นเพศเมียลายหินอ่อนสีเงินแซมสีกระ ในงานประกวดแมว",
+        "focus": "35% 40%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/munchkin-2.jpg",
+        "srcSmall": "images/gallery/munchkin-2-sm.jpg",
+        "width": 1600,
+        "height": 1280,
+        "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat_stretching.jpg",
+        "author": "Egor Plenkin",
+        "license": "CC BY 2.0",
+        "alt": "มันช์กิ้นสีบลูขาวยืดตัวบนสนามหญ้า เห็นขาสั้นชัดเจน",
+        "focus": "50% 55%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/munchkin-3.jpg",
+        "srcSmall": "images/gallery/munchkin-3-sm.jpg",
+        "width": 1600,
+        "height": 1200,
+        "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat.jpg",
+        "author": "Sasha Krotov",
+        "license": "CC BY 3.0",
+        "alt": "มันช์กิ้นสีเทาขาวนอนเหยียดบนพื้นไม้ เห็นขาสั้น",
+        "focus": "60% 50%"
+      },
+      {
+        "kind": "video",
+        "src": "images/gallery/munchkin-video.jpg",
+        "srcSmall": "images/gallery/munchkin-video-sm.jpg",
+        "width": 1280,
+        "height": 720,
+        "page": "https://commons.wikimedia.org/wiki/File:Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm",
+        "author": "Liz Mc",
+        "license": "CC BY 2.0",
+        "alt": "วิดีโอ: มันช์กิ้นขนยาวสีขาวส้มเดินเล่นในคาเฟ่แมวที่โตเกียว",
+        "focus": "75% 45%",
+        "video": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm/Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm.480p.vp9.webm",
+          "duration": 20.6,
+          "width": 854,
+          "height": 480
+        }
+      }
+    ],
+    "welfareFlag": true,
+    "price": {
+      "min": 10000,
+      "max": 30000,
+      "confidence": "medium",
+      "note": "ขาสั้นแพงกว่าขายาว และลูกผสมบริติชขาสั้นมักตั้งราคาสูงสุด"
+    },
+    "sources": [
+      {
+        "title": "TICA – Munchkin",
+        "url": "https://tica.org/breed/munchkin/"
+      },
+      {
+        "title": "PetMD – Munchkin",
+        "url": "https://www.petmd.com/cat/breeds/munchkin"
+      },
+      {
+        "title": "Struck et al. 2020 – A structural UGDH variant associated with standard Munchkin cats (BMC Genetics)",
+        "url": "https://doi.org/10.1186/s12863-020-00875-x"
+      },
+      {
+        "title": "Buckley et al. 2020 – New cat genome assembly identifies a novel gene for dwarfism (PLoS Genetics)",
+        "url": "https://doi.org/10.1371/journal.pgen.1008926"
+      },
+      {
+        "title": "Anderson et al. 2021 – Skeletal manifestations of heritable disproportionate dwarfism in cats (VCOT)",
+        "url": "https://doi.org/10.1055/s-0041-1730355"
+      },
+      {
+        "title": "Takanosu & Hattori 2020 – Osteochondrodysplasia in Scottish Fold cross-breed cats (J Vet Med Sci)",
+        "url": "https://doi.org/10.1292/jvms.20-0299"
+      },
+      {
+        "title": "Ukawa et al. 2026 – Decline and crossbreed distribution of TRPV4 c.1024G>T in domestic cats (Animal Genetics)",
+        "url": "https://doi.org/10.1002/age.70118"
+      },
+      {
+        "title": "FIFe Breeding & Registration Rules (§3.5.2)",
+        "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf"
+      },
+      {
+        "title": "GCCF – Unrecognised Breeds",
+        "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/"
+      },
+      {
+        "title": "CFA – Breeds list (Munchkin not listed)",
+        "url": "https://cfa.org/breeds/"
+      },
+      {
+        "title": "Agriculture Victoria – Code of Practice for the Breeding of Animals with Heritable Defects that Cause Disease",
+        "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/pocta-act-1986/victorian-codes-of-practice-for-animal-welfare/code-of-practice-for-the-breeding-of-animals-with-heritable-defects-that-cause-disease"
+      },
+      {
+        "title": "UK Animal Welfare Committee – Opinion on current and emergent feline breeding practices (2024)",
+        "url": "https://gov.wales/sites/default/files/publications/2025-01/animal-welfare-committee-opinion-on-the-welfare-implications-of-current-and-emergent-feline-breeding-practices.pdf"
+      },
+      {
+        "title": "The Cat API breeds data (archived 2025-12-09)",
+        "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds"
+      }
+    ]
+  },
+  {
+    "id": "bengal",
+    "nameTh": "เบงกอล",
+    "nameEn": "Bengal",
+    "group": "international",
+    "origin": "สหรัฐอเมริกา",
+    "recognizedBy": [
+      "CFA",
+      "TICA",
+      "FIFe",
+      "GCCF",
+      "WCF"
+    ],
+    "tagline": "ลายเสือดาวในร่างแมวบ้าน พลังล้นเหลือ",
+    "summary": "เบงกอลเป็นแมวขนสั้นที่มีลายจุดกุหลาบ (rosette) หรือลายหินอ่อนคล้ายแมวป่า ขนนุ่มลื่น บางตัวมีประกายระยิบ (glitter) นิสัยมั่นใจ อยากรู้อยากเห็น ฉลาด และมีพลังงานสูงมาก ต้องการกิจกรรมและการเล่นกับเจ้าของทุกวัน",
+    "history": "เบงกอลเกิดจากการผสมแมวดาว (Asian leopard cat) กับแมวบ้าน โดยฌอง มิลล์ (Jean Mill) เริ่มผสมครั้งแรกในปี ค.ศ. 1963 แล้วผสมกลับกับแมวบ้านหลายรุ่นจนได้แมวนิสัยแบบแมวบ้าน TICA รับเป็นสายพันธุ์ใหม่ในปี 1986 และให้สถานะแชมเปียนในปี 1991 ส่วน CFA รับจดทะเบียนในปี 2016",
+    "size": "medium",
+    "weightKg": {
+      "female": [
+        3.6,
+        5.4
+      ],
+      "male": [
+        4.5,
+        6.8
+      ]
+    },
+    "lifespanYears": [
+      12,
+      16
+    ],
+    "coat": {
+      "length": "short",
+      "texture": "สั้น แน่น แนบตัว นุ่มลื่น บางตัวมีประกายระยิบ",
+      "colors": [
+        "ลายจุด/ลายกุหลาบสีน้ำตาล (บราวน์)",
+        "ลายหินอ่อน (มาร์เบิล)",
+        "สโนว์ (โทนงาช้างถึงครีม)",
+        "ซิลเวอร์ (สีเงิน)",
+        "บลู (เทาอมฟ้า)",
+        "ชาร์โคล (Charcoal)"
+      ]
+    },
+    "appearance": [
+      "ลายจุดหรือลายกุหลาบขอบเข้มคล้ายเสือดาว หรือลายหินอ่อน",
+      "ขนสั้นนุ่ม บางตัวเป็นประกายระยิบเมื่อต้องแสง (glitter)",
+      "ลำตัวเพรียว กล้ามเนื้อแน่น ดูปราดเปรียวแบบนักกีฬา",
+      "ท้องสีอ่อนเกือบขาว และใบหน้ายังมีลายแบบแมวแทบบี้"
+    ],
+    "temperament": [
+      "มั่นใจ",
+      "อยากรู้อยากเห็น",
+      "พลังงานสูง",
+      "ฉลาด ฝึกได้",
+      "ช่างส่งเสียง",
+      "ต้องการความสนใจ"
+    ],
+    "ratings": {
+      "energy": 5,
+      "affection": 4,
+      "vocal": 5,
+      "intelligence": 5,
+      "grooming": 1,
+      "shedding": 3,
+      "kidFriendly": 3,
+      "petFriendly": 4,
+      "socialNeeds": 5
+    },
+    "care": {
+      "grooming": "ดูแลขนง่าย แปรงด้วยแปรงขนนุ่มสัปดาห์ละครั้งก็พอ และแทบไม่ต้องอาบน้ำ ยกเว้นจะส่งประกวด",
+      "exercise": "ต้องการกิจกรรมมากทุกวัน เช่น ของเล่นล่อ ล้อวิ่งสำหรับแมว เล่นคาบของ และฝึกเดินด้วยสายจูง บางตัวเรียนรู้วิธีเปิดประตูหรือตู้ได้เอง",
+      "diet": "ไม่ต้องใช้อาหารสูตรพิเศษ ให้อาหารแมวคุณภาพดีที่ครบถ้วนตามมาตรฐาน แบ่งเป็นหลายมื้อเล็ก และใช้ของเล่นปริศนาใส่อาหารแทนการวางอาหารทิ้งไว้",
+      "environment": "ต้องมีที่ปีนป่าย เช่น คอนโดแมวและชั้นติดผนัง และไม่ควรปล่อยออกนอกบ้านอย่างอิสระ ในอากาศร้อนควรให้เล่นหนักช่วงเช้าหรือเย็นที่อากาศเย็นลง และมีน้ำสะอาดตลอด"
+    },
+    "health": [
+      {
+        "name": "ภาวะขาดเอนไซม์ไพรูเวตไคเนส (Pyruvate Kinase Deficiency)",
+        "detail": "โรคโลหิตจางจากเม็ดเลือดแดงแตกที่ถ่ายทอดแบบยีนด้อย การสำรวจแมวกว่า 14,000 ตัวพบความถี่ของยีนกลายพันธุ์ในเบงกอลราว 13% ซึ่งสูงที่สุดในบรรดาสายพันธุ์ที่พบ",
+        "screening": "ตรวจ DNA ยีน PKLR ในพ่อแม่พันธุ์"
+      },
+      {
+        "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA-b)",
+        "detail": "โรคพันธุกรรมแบบยีนด้อยจากยีน KIF3B เซลล์รับแสงเริ่มเสื่อมตั้งแต่อายุราว 7 สัปดาห์ และสายตาจะแย่ลงมากเมื่ออายุราว 2 ปี",
+        "screening": "ตรวจ DNA PRA-b จากสำลีป้ายกระพุ้งแก้มในพ่อแม่พันธุ์"
+      },
+      {
+        "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+        "detail": "พบได้ในเบงกอล แต่ยังไม่มียีนเฉพาะสายพันธุ์ให้ตรวจ ยีน MYBPC3 ที่ใช้ตรวจในเมนคูนและแร็กดอลล์จึงใช้กับเบงกอลไม่ได้",
+        "screening": "อัลตราซาวนด์หัวใจ (Echocardiography) ในพ่อแม่พันธุ์เป็นประจำ ส่วนผลตรวจยีน A74T ไม่ได้ยืนยันว่าปลอด HCM"
+      },
+      {
+        "name": "ลูกสะบ้าเคลื่อน (Patellar Luxation)",
+        "detail": "ลูกสะบ้าหลุดออกจากร่องข้อเข่า ทำให้เดินกะเผลก อาจรักษาด้วยยาต้านการอักเสบหรือผ่าตัด",
+        "screening": null
+      }
+    ],
+    "welfareNote": "ผู้เลี้ยงทั่วไปควรเลือกเบงกอลรุ่นหลัง (SBT) ที่มีใบเพ็ดดีกรีจากสมาคมแมวเท่านั้น เพราะเบงกอลรุ่นแรก (F1–F3) มีแมวดาวเป็นพ่อแม่หรือบรรพบุรุษใกล้ชิด ยังมีพฤติกรรมแบบสัตว์ป่า สมาคมสัตวแพทย์แมว (FelineVMA) จึงไม่แนะนำให้เลี้ยง อีกทั้งแมวดาวเป็นสัตว์ป่าคุ้มครองตาม พ.ร.บ.สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2562 (ครอบครองโดยไม่ได้รับอนุญาตมีโทษจำคุกไม่เกิน 5 ปีหรือปรับไม่เกิน 500,000 บาท หรือทั้งจำทั้งปรับ) และลูกผสมภายในสี่รุ่นยังอยู่ภายใต้อนุสัญญาไซเตส (CITES) เมื่อนำเข้าหรือส่งออก",
+    "idealFor": [
+      "คนที่มีเวลาเล่นและฝึกแมวทุกวัน",
+      "ผู้ที่เคยเลี้ยงแมวมาก่อน",
+      "บ้านที่จัดพื้นที่ปีนป่ายและของเล่นได้เต็มที่"
+    ],
+    "considerations": [
+      "พลังงานสูงและเรียกร้องความสนใจมาก ไม่เหมาะกับคนที่เพิ่งเลี้ยงแมวครั้งแรก",
+      "ช่างส่งเสียง และบางตัวไม่ชอบให้อุ้ม",
+      "สัญชาตญาณนักล่าสูง อาจไม่เหมาะกับบ้านที่มีเด็กเล็กหรือสัตว์เลี้ยงตัวเล็ก"
+    ],
+    "funFact": "เบงกอลฝึกง่าย หลายตัวเรียนเล่นทริกและเดินด้วยสายจูงได้เหมือนสุนัข",
+    "image": {
+      "src": "images/bengal.jpg",
+      "srcSmall": "images/bengal-sm.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Female_bengal_cat_outdoor.jpg",
+      "author": "Rosana Prada",
+      "license": "CC BY 2.0"
+    },
+    "gallery": [
+      {
+        "kind": "image",
+        "src": "images/gallery/bengal-1.jpg",
+        "srcSmall": "images/gallery/bengal-1-sm.jpg",
+        "width": 1600,
+        "height": 1067,
+        "page": "https://commons.wikimedia.org/wiki/File:Bengal_-_18.jpg",
+        "author": "William Crochot (Medium69)",
+        "license": "CC BY-SA 4.0",
+        "alt": "เบงกอลเพศเมียอายุ 3 ปีลายสีน้ำตาล นอนพาดเบาะบนคอนโดแมว",
+        "focus": "45% 35%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/bengal-2.jpg",
+        "srcSmall": "images/gallery/bengal-2-sm.jpg",
+        "width": 1600,
+        "height": 928,
+        "page": "https://commons.wikimedia.org/wiki/File:Best_Stalk.jpg",
+        "author": "Lightburst",
+        "license": "CC BY-SA 4.0",
+        "alt": "เบงกอลลายกุหลาบ (โรเซตต์) สีน้ำตาล ย่องตัวต่ำบนฉากสีแดง"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/bengal-3.jpg",
+        "srcSmall": "images/gallery/bengal-3-sm.jpg",
+        "width": 1600,
+        "height": 1200,
+        "page": "https://commons.wikimedia.org/wiki/File:202101_Romeo_im_Schnee_2.jpg",
+        "author": "Thomas Mayer 1968",
+        "license": "CC BY-SA 4.0",
+        "alt": "เบงกอลเพศผู้อายุ 10 เดือนยืนบนหิมะ",
+        "focus": "60% 50%"
+      },
+      {
+        "kind": "image",
+        "src": "images/gallery/bengal-4.jpg",
+        "srcSmall": "images/gallery/bengal-4-sm.jpg",
+        "width": 1600,
+        "height": 1128,
+        "page": "https://commons.wikimedia.org/wiki/File:BEN_Bengalian_kitten_(4492540155).jpg",
+        "author": "Nickolas Titkov from Moscow, Russian Federation",
+        "license": "CC BY-SA 2.0",
+        "alt": "ใบหน้าลูกแมวเบงกอลลายสีน้ำตาล",
+        "focus": "55% 40%"
+      },
+      {
+        "kind": "video",
+        "src": "images/gallery/bengal-video.jpg",
+        "srcSmall": "images/gallery/bengal-video-sm.jpg",
+        "width": 1280,
+        "height": 720,
+        "page": "https://commons.wikimedia.org/wiki/File:35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_(%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0).webm",
+        "author": "VLAD PRO",
+        "license": "CC BY 3.0",
+        "alt": "วิดีโอ: เบงกอลจากฟาร์มในรัสเซียโชว์ท่าที่ฝึกไว้ 35 ท่า เช่น ไฮไฟว์และกระโดดขึ้นตัวผู้ฝึก (ไม่มีเสียง)",
+        "focus": "45% 40%",
+        "video": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_%28%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%29.webm/35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_%28%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%29.webm.480p.vp9.webm",
+          "duration": 172.6,
+          "width": 854,
+          "height": 480
+        }
+      }
+    ],
+    "welfareFlag": true,
+    "price": {
+      "min": 15000,
+      "max": 80000,
+      "confidence": "medium",
+      "note": "ฟาร์มที่จดทะเบียนและให้ใบเพ็ดดีกรี ตรวจโรคพันธุกรรม และรับประกันสุขภาพ เริ่มราว 70,000–80,000 บาท"
+    },
+    "sources": [
+      {
+        "title": "CFA – Bengal",
+        "url": "https://cfa.org/breeds/bengal/"
+      },
+      {
+        "title": "TICA – Bengal Breed Introduction (PDF)",
+        "url": "https://tica.org/wp-content/uploads/2018/08/TICA-Bengal-Breed-Introduction.pdf"
+      },
+      {
+        "title": "GCCF – Bengal",
+        "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/bengal/"
+      },
+      {
+        "title": "FIFe – Breeds (BEN, Category 3)",
+        "url": "https://fifeweb.org/cats/breeds/"
+      },
+      {
+        "title": "WCF – EMS breed code list (PDF)",
+        "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+      },
+      {
+        "title": "VCA Animal Hospitals – Bengal",
+        "url": "https://vcahospitals.com/know-your-pet/cat-breeds/bengal"
+      },
+      {
+        "title": "PetMD – Bengal (vet-reviewed, 2025)",
+        "url": "https://www.petmd.com/cat/breeds/bengal"
+      },
+      {
+        "title": "UC Davis VGL – Progressive Retinal Atrophy (PRA-b, Bengal)",
+        "url": "https://vgl.ucdavis.edu/test/pra-bengal"
+      },
+      {
+        "title": "UC Davis VGL – PK Deficiency",
+        "url": "https://vgl.ucdavis.edu/test/pk-deficiency-cat"
+      },
+      {
+        "title": "Grahn et al. 2012, BMC Vet Res – PK deficiency in multiple breeds",
+        "url": "https://doaj.org/article/8da8592d416a47dd8b382a01244c5b4d"
+      },
+      {
+        "title": "Longeri et al. 2013, JVIM – MYBPC3 variants and HCM",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3602388"
+      },
+      {
+        "title": "FelineVMA 2025 Hybrid Cats Position Statement",
+        "url": "https://catvets.com/resource/2025-hybrid-cats-position-statement/"
+      },
+      {
+        "title": "CITES Resolution Conf. 10.17 (Rev. CoP14) – Animal hybrids",
+        "url": "https://cites.org/sites/default/files/documents/COP/19/resolution/E-Res-10-17-R14.pdf"
+      },
+      {
+        "title": "มติชน – จับผู้ค้าแมวดาว ผิด พ.ร.บ.สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2562 (2563)",
+        "url": "https://www.matichon.co.th/region/news_1982531"
+      },
+      {
+        "title": "The Thaiger – จับผู้ลักลอบผสมแมวดาวกับแมวเบงกอล เกาะลันตา (2561)",
+        "url": "https://thethaiger.com/th/news/120624/"
+      },
+      {
+        "title": "Teng et al. 2024, JFMS – Life tables for cats in the UK (VetCompass)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156239/"
+      },
+      {
+        "title": "Cats Protection – Heatstroke in cats",
+        "url": "https://cats.org.uk/help-and-advice/health/heatstroke-in-cats"
+      },
+      {
+        "title": "The Cat API breed data (mirror)",
+        "url": "https://cat-data-pages.onrender.com/data/table"
+      }
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+{
+  "id": "ragdoll",
+  "nameTh": "แร็กดอลล์",
+  "nameEn": "Ragdoll",
+  "group": "international",
+  "origin": "สหรัฐอเมริกา (รัฐแคลิฟอร์เนีย)",
+  "recognizedBy": [
+    "CFA",
+    "TICA",
+    "FIFe",
+    "GCCF",
+    "WCF"
+  ],
+  "tagline": "แมวตาฟ้าขี้อ้อน นุ่มนิ่มเหมือนตุ๊กตา",
+  "summary": "แร็กดอลล์เป็นแมวตัวใหญ่ ขนกึ่งยาวนุ่มลื่นคล้ายไหม มีแต้มสีที่หน้า หู ขา และหาง พร้อมดวงตาสีฟ้า นิสัยใจเย็น อ่อนโยน รักคน เสียงเบา และชอบเดินตามเจ้าของไปทั่วบ้าน จึงเหมาะกับการเลี้ยงในบ้าน",
+  "history": "แร็กดอลล์ถูกพัฒนาขึ้นในทศวรรษ 1960 โดยแอน เบเกอร์ (Ann Baker) ที่เมืองริเวอร์ไซด์ รัฐแคลิฟอร์เนีย โดยเริ่มจากแมวขนยาวสีขาวชื่อโจเซฟีน (Josephine) ที่มียีนแต้มสี สายพันธุ์นี้เข้าสู่อังกฤษในปี ค.ศ. 1981 และได้รับการรับรองจาก GCCF ในปี 1990 ส่วน CFA รับจดทะเบียนในปี 1993 และให้สถานะแชมเปียนในปี 2000",
+  "size": "large",
+  "weightKg": {
+    "female": [
+      4,
+      6
+    ],
+    "male": [
+      6,
+      9.1
+    ]
+  },
+  "lifespanYears": [
+    12,
+    17
+  ],
+  "coat": {
+    "length": "medium",
+    "texture": "นุ่มลื่นคล้ายไหม ขนชั้นในน้อย พันกันยาก",
+    "colors": [
+      "ซีลพอยต์ (Seal point)",
+      "บลูพอยต์ (Blue point)",
+      "ช็อกโกแลตพอยต์และไลแลคพอยต์",
+      "เรดพอยต์และครีมพอยต์",
+      "ลายถุงมือ (มิตเท็ด)",
+      "สองสี (ไบคัลเลอร์)"
+    ]
+  },
+  "appearance": [
+    "ดวงตาสีฟ้าสด",
+    "ลำตัวยาว อกกว้าง กระดูกใหญ่ มีกล้ามเนื้อ",
+    "แต้มสีเข้มที่หน้า หู ขา และหาง (colorpoint)",
+    "ลูกแมวเกิดมาขาวทั้งตัว แล้วสีค่อย ๆ เข้มขึ้นจนเต็มที่เมื่ออายุราว 2 ปี"
+  ],
+  "temperament": [
+    "อ่อนโยน",
+    "ใจเย็น",
+    "รักคน",
+    "ขี้อ้อนแต่ไม่เรียกร้อง",
+    "เสียงเบา",
+    "ชอบเดินตามเจ้าของ"
+  ],
+  "ratings": {
+    "energy": 2,
+    "affection": 5,
+    "vocal": 1,
+    "intelligence": 3,
+    "grooming": 2,
+    "shedding": 2,
+    "kidFriendly": 4,
+    "petFriendly": 5,
+    "socialNeeds": 4
+  },
+  "care": {
+    "grooming": "หวีขนด้วยหวีโลหะสัปดาห์ละ 1–2 ครั้ง และบ่อยขึ้นช่วงผลัดขน ขนชั้นในมีน้อยจึงพันกันยากกว่าแมวขนยาวทั่วไป แต่ถ้าปล่อยไว้นานก็เป็นก้อนได้",
+    "exercise": "เป็นแมวที่ไม่ค่อยกระฉับกระเฉง จึงควรชวนเล่นด้วยของเล่นล่อทุกวันเพื่อคุมน้ำหนัก บางตัวฝึกคลิกเกอร์หรือเล่นอจิลิตี้ได้ด้วย",
+    "diet": "แร็กดอลล์รักการกินและอ้วนง่าย ควรตวงอาหารทุกมื้อ นับขนมรวมในพลังงานต่อวัน และอาจให้อาหารเปียกร่วมกับอาหารเม็ด",
+    "environment": "ควรเลี้ยงในบ้านเท่านั้น เพราะไว้ใจคนและสัตว์อื่นง่ายเกินไป ในอากาศร้อนของไทยควรจัดมุมพักที่เย็นและอากาศถ่ายเท มีน้ำสะอาดตลอด และงดเล่นหนักช่วงที่ร้อนจัด"
+  },
+  "health": [
+    {
+      "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+      "detail": "แร็กดอลล์มียีนกลายพันธุ์ MYBPC3 R820W ที่สัมพันธ์กับโรคนี้ ซึ่งงานวิจัยพบเฉพาะในแร็กดอลล์",
+      "screening": "ตรวจ DNA MYBPC3 R820W (มีให้ตรวจตั้งแต่ปี ค.ศ. 2007) ร่วมกับอัลตราซาวนด์หัวใจ (Echocardiography) เพราะผล DNA เป็นลบก็ยังไม่รับประกันว่าจะไม่เป็นโรค"
+    },
+    {
+      "name": "นิ่วในกระเพาะปัสสาวะ (Bladder Stones)",
+      "detail": "นิ่วอาจอุดตันทางเดินปัสสาวะจนเป็นอันตรายถึงชีวิต สังเกตได้จากการปัสสาวะบ่อยแต่ทีละน้อย เบ่ง หรือขับถ่ายนอกกระบะ",
+      "screening": "เฝ้าดูการปัสสาวะ และพาไปพบสัตวแพทย์ทันทีเมื่อแมวเบ่งหรือปัสสาวะไม่ออก"
+    },
+    {
+      "name": "ภาวะอ้วน (Obesity)",
+      "detail": "แร็กดอลล์อ้วนง่ายเพราะไม่ค่อยกระฉับกระเฉงและรักการกิน ซึ่งเพิ่มความเสี่ยงข้ออักเสบเมื่อแก่ตัว",
+      "screening": "ชั่งน้ำหนักและประเมินรูปร่างเป็นประจำ ตวงอาหารให้พอดี"
+    }
+  ],
+  "welfareNote": "ควรเลือกผู้เพาะพันธุ์ที่แสดงผลตรวจ DNA HCM ของพ่อแม่พันธุ์ได้ และเลี้ยงแบบระบบปิดในบ้าน เพราะแร็กดอลล์ไม่ค่อยระวังอันตรายนอกบ้าน",
+  "idealFor": [
+    "ครอบครัวที่มีเด็กและสัตว์เลี้ยงอื่น",
+    "คนอยู่คอนโดหรือบ้านที่เลี้ยงแมวแบบระบบปิด",
+    "คนที่อยากได้แมวตักขี้อ้อนและเสียงเบา"
+  ],
+  "considerations": [
+    "โตช้า ใช้เวลาราว 4 ปีจึงได้ขนาดและน้ำหนักเต็มที่",
+    "ต้องการเพื่อนและความใส่ใจ จึงไม่เหมาะกับบ้านที่ไม่มีใครอยู่ทั้งวัน",
+    "อ้วนง่าย ต้องคุมอาหารและชวนเล่นสม่ำเสมอ"
+  ],
+  "funFact": "แร็กดอลล์ขึ้นชื่อว่าชอบให้อุ้ม และมักปล่อยตัวอ่อนทิ้งน้ำหนักลงในอ้อมแขนเหมือนตุ๊กตาผ้า (rag doll)",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ragdoll_bicolor_blue_gatil_mozziland_portugal.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ragdoll_bicolor_blue_gatil_mozziland_portugal.jpg",
+    "author": "MOZZILAND",
+    "license": "CC BY-SA 4.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/ragdoll-1.jpg",
+      "srcSmall": "images/gallery/ragdoll-1-sm.jpg",
+      "width": 1600,
+      "height": 1167,
+      "page": "https://commons.wikimedia.org/wiki/File:Pet_potrait.jpg",
+      "author": "Arjunmz",
+      "license": "CC BY 4.0",
+      "alt": "แร็กดอลล์สองสี (ไบคัลเลอร์) ขนยาวฟู ตาสีฟ้าสด",
+      "focus": "40% 35%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/ragdoll-2.jpg",
+      "srcSmall": "images/gallery/ragdoll-2-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Leo1901.jpg",
+      "author": "Ulkl",
+      "license": "Public domain",
+      "alt": "ลูกแมวแร็กดอลล์อายุเกือบ 3 เดือน แต้มสีเข้มที่หน้า หู และหาง นั่งบนพื้นไม้",
+      "focus": "55% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/ragdoll-3.jpg",
+      "srcSmall": "images/gallery/ragdoll-3-sm.jpg",
+      "width": 1600,
+      "height": 900,
+      "page": "https://commons.wikimedia.org/wiki/File:The_cat_king.jpg",
+      "author": "Arjunmz",
+      "license": "CC BY 4.0",
+      "alt": "แร็กดอลล์สองสี (ไบคัลเลอร์) นอนเหยียดยาวบนโต๊ะ",
+      "focus": "65% 35%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/ragdoll-4.jpg",
+      "srcSmall": "images/gallery/ragdoll-4-sm.jpg",
+      "width": 1600,
+      "height": 1200,
+      "page": "https://commons.wikimedia.org/wiki/File:Iron_de_La_Rosdollane.JPG",
+      "author": "Peppermint13",
+      "license": "CC BY-SA 3.0",
+      "alt": "ลูกแมวแร็กดอลล์ลายถุงมือแต้มสีซีลอายุ 3 สัปดาห์ นอนบนเตียง",
+      "focus": "70% 40%"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CFA – Ragdoll",
+      "url": "https://cfa.org/breeds/ragdoll/"
+    },
+    {
+      "title": "TICA – Ragdoll",
+      "url": "https://tica.org/breed/ragdoll/"
+    },
+    {
+      "title": "GCCF – Ragdoll",
+      "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/ragdoll/"
+    },
+    {
+      "title": "FIFe – Breeds (RAG, Category 1)",
+      "url": "https://fifeweb.org/cats/breeds/"
+    },
+    {
+      "title": "WCF – EMS breed code list (PDF)",
+      "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+    },
+    {
+      "title": "VCA Animal Hospitals – Ragdoll",
+      "url": "https://vcahospitals.com/know-your-pet/cat-breeds/ragdoll"
+    },
+    {
+      "title": "PetMD – Ragdoll (vet-reviewed, 2023)",
+      "url": "https://www.petmd.com/cat/breeds/ragdoll"
+    },
+    {
+      "title": "Longeri et al. 2013, JVIM – MYBPC3 variants and HCM",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3602388"
+    },
+    {
+      "title": "UC Davis VGL – HCM (Ragdoll)",
+      "url": "https://vgl.ucdavis.edu/test/hcm-ragdoll"
+    },
+    {
+      "title": "Teng et al. 2024, JFMS – Life tables for cats in the UK (VetCompass)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156239/"
+    },
+    {
+      "title": "Cats Protection – Heatstroke in cats",
+      "url": "https://cats.org.uk/help-and-advice/health/heatstroke-in-cats"
+    },
+    {
+      "title": "The Cat API breed data (mirror)",
+      "url": "https://cat-data-pages.onrender.com/data/table"
+    }
+  ]
+}

@@ -1,0 +1,1542 @@
+/*
+  Breed detail, friendly pastel: a cream hero with soft blobs, the photo in a tilted white frame,
+  the price on a peach tile above a chunky compare button, key facts as lavender tiles, pill tabs,
+  and every list as rounded tinted rows or white cards with round bubbles (no hairline structure).
+*/
+
+.breed {
+  --icon-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
+  --icon-bang: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3.2' stroke-linecap='round'%3E%3Cpath d='M12 5v9M12 19h.01'/%3E%3C/svg%3E");
+}
+
+/* Hero: cream floor with pastel blobs, as on the home page */
+.breed__hero {
+  padding-bottom: var(--space-7);
+  background:
+    radial-gradient(560px 400px at 92% 4%, color-mix(in srgb, var(--soft) 85%, transparent), transparent 70%),
+    radial-gradient(480px 380px at 2% 62%, color-mix(in srgb, var(--tint-peach) 80%, transparent), transparent 70%),
+    radial-gradient(400px 240px at 58% 78%, color-mix(in srgb, var(--tint-mint) 60%, transparent), transparent 70%),
+    var(--paper);
+}
+
+/* Breadcrumb: a small white pill with the way back as a lavender pill */
+.crumbs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1) var(--space-2);
+  max-width: 100%;
+  margin-top: var(--space-5);
+  padding: 4px var(--space-4) 4px 4px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.crumbs a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.crumbs a:hover {
+  background: color-mix(in srgb, var(--accent-soft) 70%, var(--tint) 18%);
+  color: var(--accent-hover);
+}
+
+.crumbs svg {
+  flex: none;
+  color: var(--ink-subtle);
+}
+
+.breed__head {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  gap: var(--space-7) clamp(var(--space-7), 5vw, 5rem);
+  align-items: start;
+  margin-top: var(--space-5);
+}
+
+/* Photo in a white frame, gently tilted like a printed snapshot; it straightens on hover. Capped so
+   the name, price and actions share the first screen, then it stays in view beside the facts. */
+.breed__media {
+  position: sticky;
+  top: calc(var(--header-h) + var(--space-5));
+  padding-top: var(--space-2);
+}
+
+.breed__media img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  max-height: min(620px, calc(100svh - var(--header-h) - 170px));
+  object-fit: cover;
+  border: 6px solid var(--surface);
+  border-radius: var(--radius-lg);
+  background: var(--surface-sunk);
+  box-shadow: var(--elev-3);
+  rotate: -1.5deg;
+  transition:
+    rotate 400ms var(--ease-spring),
+    translate 400ms var(--ease-spring),
+    box-shadow 300ms ease;
+}
+
+.breed__media img:hover {
+  rotate: 0deg;
+  translate: 0 -4px;
+  box-shadow: var(--elev-4);
+}
+
+.breed__media figcaption {
+  margin-top: var(--space-4);
+  padding-inline: var(--space-2);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}
+
+.breed__info {
+  padding-top: var(--space-2);
+}
+
+.breed__info h1 {
+  margin-top: var(--space-4);
+  font-size: clamp(2.25rem, 1.6rem + 2.4vw, 3.5rem);
+}
+
+.breed__en {
+  margin-top: var(--space-1);
+  color: var(--ink-subtle);
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+}
+
+.breed__tagline {
+  max-width: 36ch;
+  margin-top: var(--space-3);
+  color: var(--ink-muted);
+  font-size: var(--fs-lg);
+  line-height: 1.65;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  list-style: none;
+}
+
+.chip-list--lg .chip {
+  min-height: 38px;
+  padding: 0 var(--space-4);
+  font-size: var(--fs-sm);
+}
+
+/* Chips cycle through the pastel tones */
+.chip-list--tones > :nth-child(6n + 1) {
+  --tone-bg: var(--soft);
+  --tone-ink: var(--on-soft);
+}
+
+.chip-list--tones > :nth-child(6n + 2) {
+  --tone-bg: var(--tint-peach);
+  --tone-ink: var(--on-peach);
+}
+
+.chip-list--tones > :nth-child(6n + 3) {
+  --tone-bg: var(--tint-mint);
+  --tone-ink: var(--on-mint);
+}
+
+.chip-list--tones > :nth-child(6n + 4) {
+  --tone-bg: var(--tint-sky);
+  --tone-ink: var(--on-sky);
+}
+
+.chip-list--tones > :nth-child(6n + 5) {
+  --tone-bg: var(--tint-butter);
+  --tone-ink: var(--on-butter);
+}
+
+.chip-list--tones > :nth-child(6n + 6) {
+  --tone-bg: var(--tint-rose);
+  --tone-ink: var(--on-rose);
+}
+
+/* Price: a label and one big friendly figure, no tile around it */
+.breed__price {
+  margin-top: var(--space-5);
+}
+
+.breed__price dt {
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.breed__price dd {
+  margin: 0;
+  color: var(--figure);
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 1.4rem + 1.2vw, 2.25rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.price-unit {
+  margin-left: 0.15em;
+  color: var(--ink-muted);
+  font-family: var(--font-body);
+  font-size: var(--fs-md);
+  font-weight: 700;
+}
+
+.breed__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+  margin-top: var(--space-5);
+}
+
+.breed__compare {
+  min-height: 52px;
+  font-size: var(--fs-md);
+}
+
+/* In the compare list: periwinkle fill with the press edge, the same as the lineup cards */
+.breed__compare[data-selected] {
+  border-color: var(--selected-bg);
+  background: var(--selected-bg);
+  color: var(--selected-fg);
+  box-shadow: 0 4px 0 var(--btn-edge);
+}
+
+.breed__compare[data-selected]:hover {
+  translate: 0 -1px;
+}
+
+.breed__compare[data-selected]:active {
+  translate: 0 3px;
+  box-shadow: 0 1px 0 var(--btn-edge);
+}
+
+@media (forced-colors: active) {
+  .breed__compare[data-selected] {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+}
+
+.breed__hint {
+  flex-basis: 100%;
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+/* Welfare notice: a rounded honey panel with a white bubble, friendly rather than alarming */
+.welfare-flag {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: 60px;
+  margin-top: var(--space-5);
+  padding: var(--space-2) var(--space-4) var(--space-2) var(--space-2);
+  border: 2px solid var(--caution-line);
+  border-radius: var(--radius-md);
+  background: var(--caution-soft);
+  box-shadow: var(--clay);
+  color: var(--caution-ink);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+  transition:
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    translate 300ms var(--ease-spring);
+}
+
+.welfare-flag__bubble {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+}
+
+.welfare-flag__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.welfare-flag__arrow {
+  flex: none;
+  transition: translate 200ms var(--ease);
+}
+
+.welfare-flag:hover {
+  border-color: var(--caution);
+  box-shadow: var(--elev-2), var(--clay);
+  translate: 0 -2px;
+}
+
+.welfare-flag:hover .welfare-flag__arrow {
+  translate: 0 2px;
+}
+
+/* Key facts: plain label-and-value rows in two columns, divided by a soft line */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 var(--space-5);
+  margin-top: var(--space-6);
+}
+
+.facts > div {
+  padding: var(--space-3) 0;
+  border-top: 2px solid var(--line);
+}
+
+.facts > .facts__wide {
+  grid-column: 1 / -1;
+}
+
+.facts dt {
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.facts dd {
+  margin: 0;
+  color: var(--figure);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+/* Profile tabs */
+.breed__tabs {
+  margin-top: var(--space-7);
+}
+
+/* Tab panel building blocks */
+.panel-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.overview-story {
+  max-width: none;
+  padding: clamp(var(--space-5), 3vw, 2.5rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.overview-story > p:first-child {
+  color: var(--ink);
+  font-size: var(--fs-lg);
+  line-height: 1.75;
+}
+
+.panel-subhead {
+  margin: var(--space-6) 0 var(--space-3);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 500;
+}
+
+.panel-subhead--first,
+.panel-side > .panel-subhead:first-child {
+  margin-top: 0;
+}
+
+.panel-footnote {
+  max-width: 70ch;
+  margin-top: var(--space-5);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  line-height: 1.7;
+}
+
+/* Lists as plain lines with a small round marker: ✓ for "suits" and highlights, ! for "consider" */
+.ticks {
+  display: grid;
+  gap: var(--space-2);
+  list-style: none;
+}
+
+.ticks li {
+  position: relative;
+  padding-left: 36px;
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.ticks li::before,
+.ticks li::after {
+  content: '';
+  position: absolute;
+}
+
+.ticks li::before {
+  top: 0.1em;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--tone-bg, var(--tint-mint));
+}
+
+.ticks li::after {
+  top: calc(0.1em + 5px);
+  left: 5px;
+  width: 14px;
+  height: 14px;
+  background: var(--tone-ink, var(--on-mint));
+  -webkit-mask: var(--icon-check) center / contain no-repeat;
+  mask: var(--icon-check) center / contain no-repeat;
+}
+
+.ticks--caution li::after {
+  -webkit-mask-image: var(--icon-bang);
+  mask-image: var(--icon-bang);
+}
+
+/* Fun fact: a butter callout with a white bubble */
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  padding: var(--space-3) var(--space-5) var(--space-3) var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--tone-bg);
+  box-shadow: var(--clay);
+  color: var(--ink);
+  font-size: var(--fs-sm);
+}
+
+.note > span:last-child {
+  padding-top: 10px;
+}
+
+.note .bubble {
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+}
+
+.note strong {
+  color: var(--tone-ink);
+  font-weight: 800;
+}
+
+/* Personality: tone chips, then trait meters as rounded rows inside white cards */
+.personality .chip-list {
+  margin-bottom: var(--space-6);
+}
+
+.rating-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  align-items: start;
+}
+
+/* The five-row group fills the left column; the two short groups stack on the right */
+.rating-groups > section:first-child {
+  grid-row: span 2;
+}
+
+.rating-card {
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.rating-card > .panel-subhead {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.rating-card > .panel-subhead::before {
+  content: '';
+  flex: none;
+  width: 18px;
+  height: 18px;
+  background: var(--accent);
+  -webkit-mask: var(--paw) center / contain no-repeat;
+  mask: var(--paw) center / contain no-repeat;
+}
+
+.rating-list {
+  display: grid;
+  gap: 6px;
+  list-style: none;
+}
+
+.rating-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 56px;
+  padding: var(--space-2) var(--space-2) var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--surface-sunk);
+}
+
+.rating-list__label {
+  display: grid;
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.rating-list__label small {
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+}
+
+/* Care: four pastel cards, each with an icon bubble in its own tone */
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  list-style: none;
+}
+
+.care-grid li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--tone-bg);
+  box-shadow: var(--clay);
+}
+
+.care-grid .bubble {
+  width: 52px;
+  height: 52px;
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+}
+
+.care-grid h3 {
+  padding-top: var(--space-2);
+  color: var(--tone-ink);
+  font-size: var(--fs-lg);
+  font-weight: 500;
+}
+
+.care-grid p {
+  max-width: 56ch;
+  margin-top: var(--space-2);
+  color: var(--ink);
+}
+
+/* Health: a honey welfare callout, then each condition as a white card with a rose bubble */
+.callout {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+  padding: var(--space-4) var(--space-5) var(--space-4) var(--space-4);
+  border: 2px solid var(--caution-line);
+  border-radius: var(--radius-md);
+  background: var(--caution-soft);
+  box-shadow: var(--clay);
+}
+
+.callout .bubble {
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+  color: var(--caution-ink);
+}
+
+.callout > div {
+  padding-top: var(--space-1);
+}
+
+.callout__title {
+  color: var(--caution-ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  font-weight: 600;
+}
+
+.callout p:not(.callout__title) {
+  max-width: 80ch;
+  margin-top: var(--space-1);
+  color: var(--ink);
+}
+
+.health-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  list-style: none;
+}
+
+.health-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.health-list__body {
+  min-width: 0;
+}
+
+.health-list h3 {
+  padding-top: var(--space-2);
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  /* Names mix Thai (Mitr) and English (Nunito); 600 keeps both halves the same visual weight */
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.health-list p {
+  margin-top: var(--space-2);
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+}
+
+.health-list__screen {
+  display: flex;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  background: var(--tint-mint);
+}
+
+.health-list p.health-list__screen {
+  margin-top: var(--space-3);
+  color: var(--on-mint);
+  font-weight: 600;
+}
+
+.health-list__screen svg {
+  flex: none;
+  margin-top: 4px;
+}
+
+/* Before you decide: a mint panel for a good fit, a rose one for things to weigh */
+.decide__cols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.decide__panel {
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--tone-bg);
+  box-shadow: var(--clay);
+}
+
+.decide__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.decide__head .bubble {
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+}
+
+.decide__head .panel-subhead {
+  color: var(--tone-ink);
+  font-size: var(--fs-xl);
+}
+
+/* Price panel: the figure on a peach tile, the note and the next step beside it */
+.price-block {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: var(--space-4) var(--space-6);
+  align-items: center;
+  margin-top: var(--space-5);
+  padding: var(--space-3) var(--space-6) var(--space-3) var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.price-block__figure {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--tone-bg);
+}
+
+.price-block__figure .bubble {
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+}
+
+.price-block__label {
+  color: var(--tone-ink);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.price-block__value {
+  margin-top: var(--space-1);
+  color: var(--figure);
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 1.35rem + 1.4vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.price-block__conf {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  margin-top: var(--space-3);
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--tone-ink);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.price-block__note {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-4);
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+}
+
+.price-block__note .link-arrow {
+  min-height: 44px;
+  padding-block: var(--space-2);
+  white-space: normal;
+}
+
+/* Sources: a rounded white accordion with a pill summary and a "+" bubble */
+.breed__sources {
+  margin-top: var(--space-8);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.breed__sources summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 68px;
+  padding: var(--space-3) var(--space-3) var(--space-3) var(--space-6);
+  border-radius: var(--radius-lg);
+  list-style: none;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.breed__sources summary::-webkit-details-marker {
+  display: none;
+}
+
+.breed__sources summary:focus-visible {
+  outline-offset: -3px;
+}
+
+.breed__sources-bubble {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--soft);
+  box-shadow: var(--clay);
+  color: var(--on-soft);
+  transition:
+    rotate 300ms var(--ease-spring),
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+.breed__sources summary:hover .breed__sources-bubble,
+.breed__sources[open] .breed__sources-bubble {
+  background: var(--selected-bg);
+  color: var(--selected-fg);
+}
+
+.breed__sources[open] .breed__sources-bubble {
+  rotate: 45deg;
+}
+
+.breed__sources ol {
+  columns: 2;
+  column-gap: var(--space-7);
+  margin: 0;
+  padding: var(--space-1) var(--space-6) var(--space-6);
+  list-style: none;
+  counter-reset: src;
+  font-size: var(--fs-sm);
+}
+
+.breed__sources li {
+  position: relative;
+  break-inside: avoid;
+  padding: 5px 0 5px 38px;
+  counter-increment: src;
+}
+
+.breed__sources li::before {
+  content: counter(src);
+  content: counter(src) / '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--tint-sky);
+  color: var(--on-sky);
+  font-size: var(--fs-2xs);
+  font-weight: 800;
+}
+
+.breed__sources a {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+/* Explore the lineup: two rounded cards with a thumbnail and an arrow bubble */
+.breed__more {
+  margin-top: var(--space-7);
+}
+
+.pager {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.pager__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  min-width: 0;
+  padding: var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+  color: var(--ink);
+  text-decoration: none;
+  transition:
+    translate 300ms var(--ease-spring),
+    box-shadow 300ms ease;
+}
+
+.pager__link--next {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.pager__thumb {
+  flex: none;
+  width: 92px;
+  /* The photo's own width/height attributes would otherwise set its height */
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  background: var(--surface-sunk);
+}
+
+.pager__text {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.35;
+}
+
+.pager__text small {
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.pager__name {
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  font-weight: 500;
+}
+
+.pager__arrow {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--soft);
+  box-shadow: var(--clay);
+  color: var(--on-soft);
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+.pager__link:hover {
+  translate: 0 -4px;
+  box-shadow: var(--elev-3), var(--clay);
+  color: var(--ink);
+}
+
+.pager__link:hover .pager__name {
+  color: var(--accent);
+}
+
+.pager__link:hover .pager__arrow {
+  background: var(--selected-bg);
+  color: var(--selected-fg);
+}
+
+@media (max-width: 1080px) {
+  .breed__head {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+/* Single columns are minmax(0, 1fr), not 1fr: a plain 1fr track grows to its widest unbreakable
+   content (the nowrap price), which pushed the hero and the price panel past the gutter at 320px */
+@media (max-width: 900px) {
+  .breed__head,
+  .panel-grid,
+  .decide__cols {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-5);
+  }
+
+  .breed__media {
+    position: static;
+  }
+
+  .breed__media img {
+    aspect-ratio: 4 / 3;
+    rotate: -1deg;
+  }
+
+  .breed__info {
+    padding-top: 0;
+  }
+
+  .breed__tabs {
+    margin-top: var(--space-6);
+  }
+
+  .health-list,
+  .rating-groups {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rating-groups > section:first-child {
+    grid-row: auto;
+  }
+
+  .price-block {
+    grid-template-columns: minmax(0, 1fr);
+    padding: var(--space-3) var(--space-3) var(--space-5);
+  }
+
+  .price-block__note {
+    padding-inline: var(--space-3);
+  }
+
+  .breed__sources ol {
+    columns: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .care-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .breed__hero {
+    padding-bottom: var(--space-6);
+  }
+
+  .breed__media img {
+    border-width: 5px;
+  }
+
+  .breed__tagline {
+    font-size: var(--fs-md);
+  }
+
+  .overview-story > p:first-child {
+    font-size: 1.0625rem;
+  }
+
+  .breed__actions .btn {
+    flex: 1 1 auto;
+  }
+
+  .welfare-flag {
+    align-items: flex-start;
+  }
+
+  .welfare-flag__text {
+    padding-top: 10px;
+  }
+
+  .welfare-flag__arrow {
+    margin-top: 13px;
+  }
+
+  .rating-card,
+  .care-grid li,
+  .health-list li,
+  .decide__panel {
+    padding: var(--space-4);
+  }
+
+  .rating-list li {
+    padding-left: var(--space-3);
+  }
+
+  .health-list li {
+    gap: var(--space-3);
+  }
+
+  .breed__sources summary {
+    padding-left: var(--space-5);
+  }
+
+  .breed__sources ol {
+    padding-inline: var(--space-5);
+  }
+
+  .pager {
+    gap: var(--space-3);
+  }
+
+  .pager__link {
+    gap: var(--space-2);
+    padding: var(--space-2);
+  }
+
+  .pager__thumb {
+    display: none;
+  }
+
+  .pager__name {
+    font-size: var(--fs-md);
+  }
+}
+
+/*
+  Phones: the page reads like a product sheet — photo, badges and name, price, the key specs as a
+  label/value sheet, the compare action, the detail tabs, then the previous/next breeds as two
+  matching product cards. Everything shares the container's left edge; cards share one inner
+  padding (--space-4). Icon cards restack (bubble and title share a row, the text runs underneath
+  at full width) instead of squeezing their text beside the icon, and lists of the same kind
+  become equal tiles that line up.
+*/
+@media (max-width: 560px) {
+  /* Caption on the page edge like everything else */
+  .breed__media figcaption {
+    padding-inline: 0;
+  }
+
+  /* The breadcrumb pill stays slim; its link gets a 44px-tall hit area */
+  .crumbs a {
+    position: relative;
+  }
+
+  .crumbs a::after {
+    content: '';
+    position: absolute;
+    inset: -6px -4px;
+  }
+
+  /* Specs move up under the price. Only the spec sheet (nothing focusable) changes place, so the
+     keyboard still meets the compare button before the welfare notice. */
+  .breed__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .breed__info > .facts {
+    order: 1;
+  }
+
+  .breed__info > .breed__actions,
+  .breed__info > .welfare-flag {
+    order: 2;
+  }
+
+  .breed__price dd {
+    margin-top: 2px;
+    font-size: clamp(1.5rem, 1rem + 2.5vw, 2rem);
+  }
+
+  /* Facts: one row per fact, labels in a fixed column so every value starts on the same line */
+  .facts {
+    grid-template-columns: minmax(0, 1fr);
+    margin-top: var(--space-4);
+  }
+
+  .facts > div {
+    display: grid;
+    /* The longest label (สมาคมที่รับรอง) is 84px at this size */
+    grid-template-columns: 5.75rem minmax(0, 1fr);
+    align-items: baseline;
+    gap: var(--space-3);
+    padding: 10px 0;
+  }
+
+  /* Compare: a full-width button, with the way to the compare page or the "list full" note under it */
+  .breed__actions {
+    display: grid;
+    gap: var(--space-3);
+  }
+
+  .breed__actions > .btn,
+  .breed__actions > .link-arrow {
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* "(สูงสุด 3 สายพันธุ์)" is kept whole (nowrap in the markup), so a narrow line breaks before it */
+  .breed__hint {
+    text-align: center;
+  }
+
+  /* Two even lines rather than a stray "ใน" ending the first one */
+  .welfare-flag__text {
+    text-wrap: balance;
+  }
+
+  /* Tab panels: every card uses the same inner padding */
+  .overview-story,
+  .rating-card,
+  .care-grid li,
+  .health-list li,
+  .decide__panel {
+    padding: var(--space-4);
+  }
+
+  .overview-story > p:first-child {
+    font-size: var(--fs-md);
+  }
+
+  /* Traits and colours: equal tiles that line up, instead of pills that wrap raggedly. Traits are
+     short, so two to a row (a lone last tile takes the whole row). Colour names are long and many
+     are transliterations the line breaker splits mid-word in a half-width tile ("หิมา / ลายัน"),
+     so they get one full-width row each, where every name fits on one line. */
+  .breed .chip-list--tones {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  /* Colours stay as chips sized to their names: one row each made the list a tall stack of bars */
+  .breed .chip-list--colours {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .breed .chip-list--tones > .chip {
+    min-height: 44px;
+    padding: 6px var(--space-3);
+    border-radius: var(--radius-sm);
+    line-height: 1.4;
+  }
+
+  .breed .chip-list--colours > .chip {
+    min-height: 34px;
+    border-radius: var(--radius-pill);
+  }
+
+  .breed .chip-list--tones > .chip:nth-child(odd):last-child {
+    grid-column: 1 / -1;
+  }
+
+  /* Fun fact: "รู้หรือไม่" beside the bubble as a title, the fact underneath at full width */
+  .note {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-2) var(--space-3);
+    padding: var(--space-4);
+  }
+
+  .note > span:last-child {
+    display: contents;
+  }
+
+  .note strong {
+    font-family: var(--font-display);
+    font-size: var(--fs-md);
+    font-weight: 600;
+  }
+
+  .note__text {
+    grid-column: 1 / -1;
+  }
+
+  /* Trait rows: name and meter on one line, the hint underneath at full width. The meter is a
+     little slimmer than the shared one (162px) so the longest name (ความช่างส่งเสียง) keeps one line. */
+  .rating-list li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 2px var(--space-3);
+    padding: var(--space-2) var(--space-2) var(--space-2) var(--space-3);
+  }
+
+  .rating-list__label {
+    display: contents;
+  }
+
+  .rating-list__name {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .rating-list__label small {
+    grid-row: 2;
+    grid-column: 1 / -1;
+  }
+
+  .rating-list .meter {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .rating-list .meter--value {
+    grid-template-columns: repeat(5, 16px) auto;
+  }
+
+  .rating-list .meter__value {
+    margin-left: var(--space-2);
+  }
+
+  /* Care, health and the welfare callout: bubble and title share the first row, text below */
+  .care-grid li,
+  .health-list li,
+  .callout {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .care-grid li > div,
+  .health-list__body,
+  .callout > div {
+    display: contents;
+  }
+
+  .care-grid .bubble {
+    width: 44px;
+    height: 44px;
+  }
+
+  .care-grid h3,
+  .health-list h3 {
+    padding-top: 0;
+  }
+
+  /* Balanced headings split compounds here ("อุด / กั้น"); fill the line first instead */
+  .health-list h3 {
+    text-wrap: pretty;
+  }
+
+  .care-grid p,
+  .health-list p,
+  .health-list p.health-list__screen,
+  .callout p:not(.callout__title) {
+    grid-column: 1 / -1;
+    margin-top: 0;
+  }
+
+  /* The English name becomes a quiet second line under the Thai one */
+  .health-list__en {
+    display: block;
+    margin-top: 2px;
+    color: var(--ink-muted);
+    font-family: var(--font-body);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+    line-height: 1.45;
+  }
+
+  .callout {
+    padding: var(--space-4);
+  }
+
+  .callout__title {
+    text-wrap: balance;
+  }
+
+  /* Price panel: the same tile as the hero price (bubble in the corner, figure at full width),
+     and the next step as a full-width link row */
+  .price-block__figure {
+    position: relative;
+    display: block;
+    padding: var(--space-4);
+  }
+
+  .price-block__bubble {
+    position: absolute;
+    top: var(--space-3);
+    right: var(--space-3);
+    width: 36px;
+    height: 36px;
+  }
+
+  .price-block__bubble svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .price-block__label {
+    padding-right: 44px;
+    text-wrap: balance;
+  }
+
+  .price-block__value {
+    font-size: clamp(1.5rem, 1rem + 2.5vw, 2rem);
+  }
+
+  .price-block__note {
+    justify-items: stretch;
+    padding-inline: var(--space-4);
+  }
+
+  /* Balanced, the two lines split between phrases (ก่อนซื้อ / และค่าใช้จ่าย) rather than inside ค่าใช้จ่าย */
+  .price-block__note .link-arrow {
+    justify-content: space-between;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-md);
+    text-wrap: balance;
+  }
+
+  .breed__sources summary {
+    padding-left: var(--space-4);
+  }
+
+  .breed__sources ol {
+    padding-inline: var(--space-4);
+  }
+
+  /* Previous / next: two matching product cards (photo, direction, name) like the home lineup,
+     mirrored so each arrow points to its own side. The name gets the card's full width. */
+  .pager__link,
+  .pager__link--next {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      'thumb thumb'
+      'arrow label'
+      'name name';
+    align-items: center;
+    gap: 2px var(--space-2);
+    padding: var(--space-2) var(--space-2) var(--space-3);
+    text-align: left;
+  }
+
+  .pager__link--next {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'thumb thumb'
+      'label arrow'
+      'name name';
+    text-align: right;
+  }
+
+  .pager__text {
+    display: contents;
+  }
+
+  .pager__thumb {
+    display: block;
+    grid-area: thumb;
+    width: 100%;
+    margin-bottom: var(--space-2);
+  }
+
+  .pager__arrow {
+    grid-area: arrow;
+    width: 30px;
+    height: 30px;
+  }
+
+  .pager__arrow svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .pager__text small {
+    grid-area: label;
+  }
+
+  .pager__name {
+    grid-area: name;
+    padding-inline: 2px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+}
+
+/* Narrowest phones: as on the home cards, every spec row puts its value under the label (a label
+   column would leave long values three lines deep in ~145px); a slimmer meter still, and pager names
+   a step smaller, so the longest trait name and breed name (เอ็กโซติก ช็อตแฮร์) each keep one line */
+@media (max-width: 350px) {
+  .facts > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .rating-list .meter--value {
+    grid-template-columns: repeat(5, 12px) auto;
+    gap: 3px;
+  }
+
+  .pager__name {
+    font-size: var(--fs-sm);
+  }
+}
+/* ---------- Added: the photo strip, live stock, the shop band and reviews ---------- */
+
+/* English pages show the Thai name on this line: Thai is never letter-spaced */
+.breed__en:lang(th) {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+/* The thumbnails and the "all photos" button share one row under the hero photo */
+.breed__strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.breed__gallery-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: 0 var(--space-4);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.breed__gallery-btn:hover {
+  background: var(--accent-soft);
+}
+
+.breed__stock {
+  margin-top: var(--space-3);
+}
+
+.breed__stock:empty {
+  display: none;
+}
+
+.breed__shop {
+  display: grid;
+  gap: var(--space-5);
+  margin-top: var(--space-8);
+}
+
+.breed__shop-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+}
+
+.breed__shop-row > .cost-widget {
+  flex: 1 1 320px;
+}
+
+.breed__reviews {
+  margin-top: var(--space-8);
+}
+
+@media (max-width: 560px) {
+  .breed__shop,
+  .breed__reviews {
+    margin-top: var(--space-7);
+  }
+
+  .breed__shop-row {
+    display: grid;
+  }
+}

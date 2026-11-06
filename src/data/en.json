@@ -1,0 +1,1824 @@
+{
+  "records": {
+    "siamese": {
+      "nameEn": "Siamese",
+      "origin": "Thailand",
+      "tagline": "The blue-eyed pointed cat, talkative and devoted to its people",
+      "summary": "The Siamese, known in Thailand as Wichien Maat, is an ancient Thai shorthair with a cream coat, dark points on the face, ears, feet and tail, and vivid blue eyes. It is the forerunner of the Siamese cat that became famous around the world. Talkative, intelligent and deeply attached to its owner, it suits a home that has time for a cat.",
+      "history": "The Siamese appears in the Tamra Maew (Cat-Book Poems), a folding-paper manuscript believed to have been composed in the Ayutthaya period (1350–1767) and kept at the National Library of Thailand. The first pair to reach England, Pho and Mia, arrived in 1884, and the CFA has recognized the breed since its founding in 1906. Western show lines were later selected for a more pointed face and a longer, slimmer body, while the traditional type lives on as the Thai or Old-style Siamese. On 18 November 2025 the Thai Cabinet approved Thai cats, the Siamese among them, as symbols of Thai national identity.",
+      "appearance": [
+        "Nine dark points: the face, both ears, all four feet, the tail and the genitals",
+        "Deep, vivid blue almond-shaped eyes",
+        "Medium-sized body that is long, slender and muscular",
+        "Kittens are born creamy white and their points darken with age",
+        "Thai lines have a rounder head, while Western show lines have a long, pointed wedge-shaped head"
+      ],
+      "temperament": [
+        "Talkative",
+        "Devoted to its owner",
+        "Very intelligent",
+        "Affectionate",
+        "Enthusiastic",
+        "Attention-seeking"
+      ],
+      "idealFor": [
+        "People who are often at home or work from home",
+        "Anyone who loves a chatty cat that follows them around",
+        "Homes ready to keep two cats as companions"
+      ],
+      "considerations": [
+        "Loud and highly attention-seeking",
+        "Not suited to homes where no one is in all day",
+        "May dislike other pets competing for its owner's affection"
+      ],
+      "welfareNote": "Modern Western show lines have been bred for a far more pointed head and a thinner, longer body than the traditional Siamese. Buyers should choose a cattery that DNA tests for PRA and discloses the parents' health history.",
+      "funFact": "The Siamese's points come from a temperature-sensitive gene, so the cooler parts of the body are darker, and cats living in cold climates develop a darker body coat as well.",
+      "coat": {
+        "length": "short",
+        "texture": "Short, fine and glossy, lying close to the body",
+        "colors": [
+          "Seal point",
+          "Blue point",
+          "Chocolate point",
+          "Lilac point",
+          "Red/cream point (some associations)",
+          "Tabby/tortie point (some associations)"
+        ]
+      },
+      "care": {
+        "grooming": "The short coat is easy to care for. Brushing or stroking it by hand once a week is enough to remove loose hair, and it strengthens your bond too.",
+        "exercise": "Loves climbing up high and playing games that use its brain. Provide a cat tree, a scratching post, toys and daily playtime together; some can even be trained to fetch.",
+        "diet": "Feed a complete diet suited to its life stage and keep its weight in the healthy range, as research has found that overweight cats have shorter lifespans.",
+        "environment": "Does not like being left alone for long, so it suits a home where someone is often in, or living as a pair. Keep fabric and plastic out of reach, because some lines like to eat things that are not food (pica)."
+      },
+      "health": [
+        {
+          "name": "Progressive retinal atrophy (PRA-rdAc)",
+          "detail": "A recessive inherited disease (CEP290 gene) that causes gradual blindness. Signs usually start at about 1–2 years of age, with blindness by about 3–5 years.",
+          "screening": "DNA test the parents for the rdAc gene before breeding (e.g. UC Davis VGL, Langford Vets)."
+        },
+        {
+          "name": "Amyloidosis (systemic/hepatic)",
+          "detail": "Amyloid protein builds up in the organs, especially the liver, making the liver fragile so that it may rupture and bleed into the abdomen.",
+          "screening": "There is no genetic test yet. Ask about the health history of the bloodline and have regular health checks."
+        },
+        {
+          "name": "Feline asthma (chronic cough)",
+          "detail": "Chronic coughing from the airways is seen more often than in cats in general.",
+          "screening": null
+        },
+        {
+          "name": "Mediastinal lymphoma",
+          "detail": "Some bloodlines are prone to lymphoma and intestinal tumors.",
+          "screening": null
+        },
+        {
+          "name": "Hip dysplasia",
+          "detail": "May be predisposed to hip dysplasia, which causes joint pain or an abnormal gait.",
+          "screening": null
+        }
+      ],
+      "price": {
+        "min": 2000,
+        "max": 10000,
+        "confidence": "medium",
+        "note": "Ordinary kittens cost a few thousand baht; prices rise with pedigree papers or parents that closely match the breed standard."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/siamese-1.jpg",
+          "srcSmall": "images/gallery/siamese-1-sm.jpg",
+          "width": 1600,
+          "height": 1168,
+          "page": "https://commons.wikimedia.org/wiki/File:THA_%D0%92%D0%B0%D1%80%D1%81%D0%B0%D0%B2%D0%B8%D1%8F_%D0%9C%D1%8D%D0%B4%D0%B6%D0%B8%D0%BA_%D0%9A%D1%8D%D1%82_(5467698506).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "Seal point Siamese of the traditional Thai type, with blue eyes and a rounded face, photographed at a cat show",
+          "focus": "40% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/siamese-2.jpg",
+          "srcSmall": "images/gallery/siamese-2-sm.jpg",
+          "width": 1600,
+          "height": 1600,
+          "page": "https://commons.wikimedia.org/wiki/File:Ramzez_Kot_syjamski.jpg",
+          "author": "SyjamskiKot",
+          "license": "CC BY-SA 3.0",
+          "alt": "Traditional-type seal point Siamese sitting outdoors in front of green foliage, its eyes slightly crossed",
+          "focus": "50% 30%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/siamese-3.jpg",
+          "srcSmall": "images/gallery/siamese-3-sm.jpg",
+          "width": 1600,
+          "height": 900,
+          "page": "https://commons.wikimedia.org/wiki/File:Thai_Cats.jpg",
+          "author": "Thiago MTB",
+          "license": "CC BY-SA 4.0",
+          "alt": "Two Siamese asleep on a bed, showing the dark points on the face, ears, legs and tail"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/siamese-4.jpg",
+          "srcSmall": "images/gallery/siamese-4-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Filhote_de_gato_siam%C3%AAs.JPG",
+          "author": "Rodrigo Padula",
+          "license": "CC BY-SA 3.0",
+          "alt": "Female Siamese kitten resting on a wooden desk in front of a bookshelf",
+          "focus": "35% 35%"
+        }
+      ]
+    },
+    "korat": {
+      "nameEn": "Korat",
+      "origin": "Thailand (Nakhon Ratchasima)",
+      "tagline": "The lucky silver-blue cat with sparkling green eyes",
+      "summary": "The Korat, or Si Sawat, is a Thai shorthair that comes in just one color: blue-gray with silver tips. It has a heart-shaped head, large green eyes and a medium-sized body that is heavier than it looks. Intelligent, devoted to its owner and fairly quiet, it is regarded in Thailand as an auspicious cat and is often given to newlyweds.",
+      "history": "The Korat is recorded in the Ayutthaya-period Tamra Maew (Cat-Book Poems) manuscript under the names Malet and Dok Lao, and it was also carried in the traditional cat procession held to ask for rain. The first pair, Nara and Darra, were taken to the United States in 1959; the CFA granted championship status in 1966 and the GCCF in 1984. On 18 November 2025 the Malet cat was one of five Thai cat breeds approved by the Cabinet as symbols of Thai national identity.",
+      "appearance": [
+        "Heart-shaped head when seen from the front",
+        "Large, round, vivid green eyes (kittens have yellow/amber eyes that turn fully green at 2–4 years)",
+        "Sparkling silver tips to the hair; the shorter the hair, the more clearly the silver sheen shows",
+        "Not large but heavier than it looks, with firm muscles",
+        "Large ears with rounded tips, set high on the head"
+      ],
+      "temperament": [
+        "Very intelligent",
+        "Devoted to its owner",
+        "Fairly quiet",
+        "Playful",
+        "Possessive of its things",
+        "Dislikes loud noises"
+      ],
+      "idealFor": [
+        "Calm homes where someone is often in",
+        "People who want an intelligent, devoted cat that isn't very vocal",
+        "Families with children who play gently with cats"
+      ],
+      "considerations": [
+        "Dislikes being left alone for long and may become stressed by separation",
+        "Dislikes busy, chaotic homes and often wants to be top cat over other pets",
+        "Always ask the breeder for genetic disease test results"
+      ],
+      "welfareNote": "The Korat population is small, and cats abroad trace their ancestry back to cats from Thailand. Buyers should ask for the parents' GM1/GM2 and atherosclerosis test results (where available) before taking a kitten home.",
+      "funFact": "Thais liken the sparkle in a Korat's eyes to dewdrops on a lotus leaf, and the name Si Sawat comes from the color of the seeds of the sawat plant.",
+      "coat": {
+        "length": "short",
+        "texture": "Single coat, short, fine and glossy, lying close to the body",
+        "colors": [
+          "Silver-tipped blue only"
+        ]
+      },
+      "care": {
+        "grooming": "The single coat sheds little. Comb or brush it gently once a week, then stroke it by hand or with a chamois cloth to bring up the shine.",
+        "exercise": "Fairly high-energy and enjoys learning tricks. Provide toys and places to climb; it can be trained to walk on a leash, and if it goes outdoors it should stay in an enclosed area.",
+        "diet": "Feed a complete diet suited to its life stage and keep its weight just right. The Korat carries little body fat, so always tell the vet before any general anesthetic.",
+        "environment": "Prefers a calm home, startles easily at loud noises or sudden movements, and dislikes being left alone for long, as it can become stressed by separation from its owner."
+      },
+      "health": [
+        {
+          "name": "GM1 gangliosidosis",
+          "detail": "A recessive inherited disease (GLB1 gene) that damages the nervous system. Affected kittens begin to tremble at about 3 months and die at about 9–10 months.",
+          "screening": "DNA test the parents before breeding; FIFe and the GCCF require testing or parents that have tested clear."
+        },
+        {
+          "name": "GM2 gangliosidosis",
+          "detail": "A recessive inherited disease (HEXB gene). Trembling and an unsteady gait begin from about 4 weeks, and affected kittens die before 8 months of age.",
+          "screening": "DNA test (e.g. UC Davis VGL, Langford Vets), and never mate a carrier with a carrier."
+        },
+        {
+          "name": "Atherosclerosis",
+          "detail": "A recessive gene has been found that causes cholesterol to build up in the artery walls, which may lead to heart failure.",
+          "screening": "A DNA test has been available since 2025, and GCCF breeders are testing every bloodline."
+        }
+      ],
+      "price": {
+        "min": 2500,
+        "max": 6500,
+        "confidence": "low",
+        "note": "Most sell for a few thousand baht; cats confirmed by their cattery as purebred or from show lines can cost 10,000 baht or more."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/korat-1.jpg",
+          "srcSmall": "images/gallery/korat-1-sm.jpg",
+          "width": 1218,
+          "height": 985,
+          "page": "https://commons.wikimedia.org/wiki/File:KOR_1149.jpg",
+          "author": "Heikki Siltala, catza.net",
+          "license": "CC BY 3.0",
+          "alt": "Korat with a silver-tipped blue coat and bright green eyes, at a Finnish Korat club presentation",
+          "focus": "25% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/korat-2.jpg",
+          "srcSmall": "images/gallery/korat-2-sm.jpg",
+          "width": 1368,
+          "height": 1790,
+          "page": "https://commons.wikimedia.org/wiki/File:Korat_Sisters.jpg",
+          "author": "Therealbs2002",
+          "license": "CC BY-SA 3.0",
+          "alt": "Two Korat sisters side by side by a window, with amber eyes",
+          "focus": "50% 30%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/korat-3.jpg",
+          "srcSmall": "images/gallery/korat-3-sm.jpg",
+          "width": 1600,
+          "height": 1200,
+          "page": "https://commons.wikimedia.org/wiki/File:Korat_Family.jpg",
+          "author": "Max BOUCHE (Korat Club de France)",
+          "license": "CC BY 2.5",
+          "alt": "Korat mother with her litter on a pink blanket; the kittens' eyes are still blue"
+        }
+      ]
+    },
+    "khao-manee": {
+      "nameEn": "Khao Manee",
+      "origin": "Thailand",
+      "tagline": "The white jewel of Siam, with diamond-bright eyes",
+      "summary": "The Khao Manee, or Khao Plort, is an all-white Thai shorthair nicknamed the Diamond Eye for its sparkling eyes, which may be blue, yellow, green or two different colors. It has a medium, agile build and is intelligent, playful and fond of napping on laps.",
+      "history": "The CFA states that the Khao Manee appears in the Ayutthaya-period Tamra Maew, though some sources suggest that clear records begin in the Rattanakosin period, when it was a favorite of the royal court in the reign of King Rama V. Colleen Freymuth first imported the breed to the United States in 1999; TICA then granted championship status in 2015 and the CFA accepted it for registration in 2018. On 18 November 2025 the Khao Manee was one of five Thai cat breeds approved by the Cabinet as symbols of Thai national identity.",
+      "appearance": [
+        "Pure, glossy white coat with a pink nose and paw pads",
+        "Blue, yellow/gold, green or odd-colored (odd-eyed) eyes",
+        "Modified wedge-shaped head; the nose tip and ear tips form an equilateral triangle",
+        "Medium-sized body with firm, supple muscles, not heavy-set",
+        "Kittens may have a few colored hairs, which should fade within about 18 months"
+      ],
+      "temperament": [
+        "Intelligent",
+        "Curious",
+        "Talkative",
+        "Playful and mischievous",
+        "Loves napping on laps",
+        "Gets on easily with people"
+      ],
+      "idealFor": [
+        "People who love a playful, chatty cat",
+        "Homes that keep their cats strictly indoors",
+        "Enthusiasts of rare, ancient Thai breeds"
+      ],
+      "considerations": [
+        "Rare and often expensive, so choose a reputable cattery",
+        "Have its hearing tested before taking it home",
+        "The white coat shows stains easily, and it needs protecting from the sun"
+      ],
+      "welfareNote": "There are still few Khao Manee outside Thailand. The GCCF warns that close inbreeding can lead to smaller size and poorer health, and that selecting only for odd eyes narrows the gene pool, so buyers should ask for the kitten's hearing (BAER) test result.",
+      "funFact": "In Thailand this cat was originally called Khao Plort, before it was given the name Khao Manee, meaning \"white gem\", in the reign of King Rama V.",
+      "coat": {
+        "length": "short",
+        "texture": "Short, fine and close-lying, with no undercoat",
+        "colors": [
+          "Solid white"
+        ]
+      },
+      "care": {
+        "grooming": "Brush regularly with a rubber brush to remove loose hair, and bathe occasionally to keep the white coat clean.",
+        "exercise": "Enjoys games and climbing, and some like to perch on your shoulder. Provide toys and playtime together every day.",
+        "diet": "Feed a complete diet suited to its life stage and control its weight to keep the firm, agile, muscular build of the breed standard.",
+        "environment": "Keep it indoors or out of strong sun, as a white cat's ears and nose are sensitive to UV light. Deaf cats should live strictly indoors because they cannot hear danger."
+      },
+      "health": [
+        {
+          "name": "Congenital deafness",
+          "detail": "White cats are at risk of deafness, especially those with blue eyes. Odd-eyed cats may be deaf in one ear, usually on the blue-eyed side.",
+          "screening": "Hearing test by BAER or OAE, which the GCCF requires before registration."
+        },
+        {
+          "name": "Squamous cell carcinoma",
+          "detail": "White cats exposed to the sun for long periods risk red, crusting sores on the ear tips and nose, which may develop into cancer.",
+          "screening": "Limit exposure to strong sun, and see a vet if a sore on the ears or nose does not heal."
+        }
+      ],
+      "price": {
+        "min": 3000,
+        "max": 25000,
+        "confidence": "low",
+        "note": "Odd eyes (blue and yellow) and bloodlines from well-known catteries push the price up considerably."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/khao-manee-1.jpg",
+          "srcSmall": "images/gallery/khao-manee-1-sm.jpg",
+          "width": 1600,
+          "height": 778,
+          "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_%22Gally%22.jpg",
+          "author": "Zackrow",
+          "license": "CC BY-SA 4.0",
+          "alt": "Female Khao Manee with odd eyes, one amber and one blue, resting in the sunlight",
+          "focus": "60% 50%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/khao-manee-2.jpg",
+          "srcSmall": "images/gallery/khao-manee-2-sm.jpg",
+          "width": 1600,
+          "height": 1200,
+          "page": "https://commons.wikimedia.org/wiki/File:Khao_Manee_%22Leela%22.jpg",
+          "author": "Janet Poulsen",
+          "license": "CC BY-SA 3.0",
+          "alt": "Odd-eyed Khao Manee named Leela crouching on a fluffy cushion",
+          "focus": "45% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/khao-manee-3.jpg",
+          "srcSmall": "images/gallery/khao-manee-3-sm.jpg",
+          "width": 1600,
+          "height": 2133,
+          "page": "https://commons.wikimedia.org/wiki/File:Khaomanee_cat.jpg",
+          "author": "Octavio.hgc",
+          "license": "CC BY-SA 4.0",
+          "alt": "Odd-eyed Khao Manee perched in a tree",
+          "focus": "50% 25%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/khao-manee-4.jpg",
+          "srcSmall": "images/gallery/khao-manee-4-sm.jpg",
+          "width": 1600,
+          "height": 1198,
+          "page": "https://commons.wikimedia.org/wiki/File:Khao_manee.JPG",
+          "author": "Ritadesbois",
+          "license": "CC BY-SA 3.0",
+          "alt": "Young female Khao Manee lying on a white sheet, showing its odd eyes",
+          "focus": "30% 55%"
+        }
+      ]
+    },
+    "british-shorthair": {
+      "nameEn": "British Shorthair",
+      "origin": "United Kingdom",
+      "tagline": "A plush, round-faced gray teddy bear with true English composure",
+      "summary": "The British Shorthair is a sturdy, round-faced cat with a short, very dense coat as soft as velvet, best known in blue (blue-gray) with copper eyes. Calm, patient and undemanding, it gets on well with children and other pets, which makes it a good choice for first-time owners, but you need to watch its weight and have its heart checked periodically.",
+      "history": "Descended from Britain's domestic cats, the breed has been shown since the cat show at the Crystal Palace, London, in 1871. Harrison Weir, known as the father of the cat fancy, wrote its first standard. After both world wars its numbers fell sharply, so breeders crossed it with the Persian, Russian Blue, Burmese and Chartreux to revive the breed, before the CFA granted championship status in 1980.",
+      "appearance": [
+        "Large round head with full cheeks; males have distinct jowls",
+        "Large round eyes, copper or deep orange",
+        "Short, straight nose, not flat like a Persian's",
+        "Broad chest, stocky body and short, strong legs",
+        "Tail thick at the base with a rounded tip"
+      ],
+      "temperament": [
+        "Composed",
+        "Patient",
+        "Family-loving",
+        "Quiet",
+        "Fairly independent",
+        "Dislikes being picked up"
+      ],
+      "idealFor": [
+        "First-time cat owners",
+        "Families with children or other pets",
+        "Working people who are not home all day"
+      ],
+      "considerations": [
+        "Gains weight easily, so its diet must be strictly controlled",
+        "Most dislike being held for long",
+        "Ask for the parents' heart and PKD test results"
+      ],
+      "welfareNote": "Choose a breeder who screens the breeding cats' hearts by ultrasound and DNA tests them for PKD, because HCM is fairly common in this breed and there is no DNA test for it yet.",
+      "funFact": "The British Shorthair is a slow developer and may take up to 5 years to reach its full size.",
+      "coat": {
+        "length": "short",
+        "texture": "Short and very dense, with a firm, springy, velvety feel",
+        "colors": [
+          "Blue (blue-gray)",
+          "Black",
+          "White",
+          "Lilac",
+          "Silver tabby",
+          "Bicolor"
+        ]
+      },
+      "care": {
+        "grooming": "Comb or brush once a week with a metal comb, and more often during shedding season. Trim the nails and clean the ears regularly.",
+        "exercise": "Not a jumper or climber and prefers to stay on the ground. Encourage it to play every day to prevent obesity.",
+        "diet": "Has a slow metabolism and gains weight easily, so weigh or measure every meal and limit treats. Kittens should eat kitten food until they are at least one year old.",
+        "environment": "Well suited to condos and indoor living. The dense coat makes it prone to overheating, so provide a cool corner, a tiled floor or an air-conditioned room in the hot season."
+      },
+      "health": [
+        {
+          "name": "Hypertrophic cardiomyopathy (HCM)",
+          "detail": "Echocardiography of 329 British Shorthairs in Denmark found HCM in 8.5%, more often in males (20.4%) than in females (2.1%), and often at a young age.",
+          "screening": "Periodic heart ultrasound (echocardiography), especially for breeding cats, as there is no DNA test for HCM in this breed yet."
+        },
+        {
+          "name": "Polycystic kidney disease (PKD)",
+          "detail": "The PKD1 gene is found in this breed. The GCCF says it is better controlled thanks to DNA testing, but data from Japan for 2019–2022 have not yet shown a significant fall in the proportion of carriers among British Shorthairs.",
+          "screening": "Ask for the breeding parents' PKD1 DNA test results before buying."
+        },
+        {
+          "name": "Blood type B and neonatal isoerythrolysis",
+          "detail": "Many British Shorthair lines have blood type B, which is uncommon in cats in general. Mating parents with incompatible blood types can cause the kittens' red blood cells to break down, and a transfusion of the wrong blood type is dangerous.",
+          "screening": "Blood typing or a blood-type DNA test before breeding and before any transfusion."
+        },
+        {
+          "name": "Obesity",
+          "detail": "A study of 2,540 British Shorthairs in Australia found that 48% were overweight and 7% were obese.",
+          "screening": "Weigh regularly and assess the body condition score with your vet."
+        },
+        {
+          "name": "Autoimmune lymphoproliferative syndrome (ALPS)",
+          "detail": "An inherited disease reported in British Shorthairs that causes enlarged lymph nodes and spleen together with blood cell abnormalities.",
+          "screening": "A DNA test is available, and since 1 March 2025 the GCCF has required imported cats to have a negative ALPS result."
+        }
+      ],
+      "price": {
+        "min": 8000,
+        "max": 60000,
+        "confidence": "medium",
+        "note": "Typical listings start in the high thousands of baht; cats with WCF/CFA/TICA pedigree papers or imported lines cost several tens of thousands of baht."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/british-shorthair-1.jpg",
+          "srcSmall": "images/gallery/british-shorthair-1-sm.jpg",
+          "width": 1600,
+          "height": 1340,
+          "page": "https://commons.wikimedia.org/wiki/File:A_female_British_Shorthair_at_the_age_of_20_months.jpg",
+          "author": "George E. Koronaios",
+          "license": "CC BY-SA 4.0",
+          "alt": "Blue British Shorthair female, 20 months old, with a round face and copper-orange eyes",
+          "focus": "45% 45%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/british-shorthair-2.jpg",
+          "srcSmall": "images/gallery/british-shorthair-2-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:British_Shorthair_(female)_on_August_2,_2022.jpg",
+          "author": "George E. Koronaios",
+          "license": "CC BY-SA 4.0",
+          "alt": "The same blue British Shorthair at 7 years old, showing the stocky body and dense, plush coat",
+          "focus": "30% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/british-shorthair-3.jpg",
+          "srcSmall": "images/gallery/british-shorthair-3-sm.jpg",
+          "width": 1600,
+          "height": 2133,
+          "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D1%82_%D0%91%D1%83%D0%B1%D0%BB%D0%B8%D0%BA.jpg",
+          "author": "DianaYud",
+          "license": "CC BY-SA 4.0",
+          "alt": "Blue British Shorthair sitting upright, showing its broad chest and sturdy legs",
+          "focus": "50% 20%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/british-shorthair-4.jpg",
+          "srcSmall": "images/gallery/british-shorthair-4-sm.jpg",
+          "width": 1600,
+          "height": 1073,
+          "page": "https://commons.wikimedia.org/wiki/File:BRI_kitten_(5467742188).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "White British Shorthair kitten looking up at a leaf",
+          "focus": "65% 40%"
+        },
+        {
+          "kind": "video",
+          "src": "images/gallery/british-shorthair-video.jpg",
+          "srcSmall": "images/gallery/british-shorthair-video-sm.jpg",
+          "width": 960,
+          "height": 1707,
+          "page": "https://commons.wikimedia.org/wiki/File:British_Shorthair_Silver_Tabby_Grooming.mpg",
+          "author": "Kimtology",
+          "license": "CC BY-SA 4.0",
+          "alt": "Video: a 3-month-old silver tabby British Shorthair kitten grooming its legs after lunch",
+          "focus": "40% 60%",
+          "video": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/British_Shorthair_Silver_Tabby_Grooming.mpg/British_Shorthair_Silver_Tabby_Grooming.mpg.1080p.vp9.webm",
+            "duration": 13,
+            "width": 608,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    "scottish-fold": {
+      "nameEn": "Scottish Fold",
+      "origin": "Scotland (United Kingdom)",
+      "tagline": "A round-faced cat with folded ears, to choose with your eyes open",
+      "summary": "The Scottish Fold is a medium-sized, rounded cat with a round head, large eyes and ears that fold forward, giving it an owl-like look. It is gentle, quiet and loving with its family without being demanding, but the gene that folds the ears (TRPV4) gives every fold-eared cat some degree of cartilage and joint abnormality, so it needs lifelong monitoring for joint pain.",
+      "history": "The first fold-eared cat, Susie, was a farm cat in the Tayside area of Scotland, discovered in 1961 by a shepherd named William Ross, who developed the breed from her kittens. The CFA in the United States recognized the shorthair for championship in 1978, while the GCCF in Britain stopped registering the breed in the early 1970s over health concerns.",
+      "appearance": [
+        "Small ears folded forward, lying close to the head",
+        "Round head and large round eyes, giving an owl-like face",
+        "Rounded, solid body with a short neck",
+        "Kittens are born with straight ears, which begin to fold in the first month",
+        "Comes in shorthair, longhair and straight-eared (Scottish Straight) forms"
+      ],
+      "temperament": [
+        "Gentle",
+        "Quiet and soft-voiced",
+        "Family-loving",
+        "Moderately playful",
+        "Likes to follow its owner",
+        "Adaptable"
+      ],
+      "idealFor": [
+        "People who like a quiet cat that enjoys staying at home",
+        "Families with gentle children or other pets",
+        "Owners ready for regular joint and heart checks"
+      ],
+      "considerations": [
+        "Every fold-eared cat is at risk of chronic joint pain, so budget for long-term treatment",
+        "Choose a cattery that only mates folds with straight-eared cats and has TRPV4 and PKD test results",
+        "Avoid Fold crosses with Munchkins or American Curls, as kittens may inherit two copies of the gene and severe bone deformities"
+      ],
+      "welfareNote": "The fold gene is dominant, so every fold-eared cat has some degree of cartilage abnormality. For this reason FIFe and the GCCF do not recognize the breed, breeding is banned in the Netherlands, Flanders (Belgium) and the state of Victoria (Australia), and responsible breeders never mate a fold with a fold.",
+      "funFact": "When a fold is mated with a straight-eared cat, only about half the litter have folded ears, and some kittens whose ears once folded may straighten again as they grow, even though they still carry the fold gene.",
+      "coat": {
+        "length": "short",
+        "texture": "Short, dense, soft and plush (a longhaired version also exists)",
+        "colors": [
+          "Blue (blue-gray)",
+          "White",
+          "Cream",
+          "Silver tabby",
+          "Calico (tricolor)",
+          "Bicolor"
+        ]
+      },
+      "care": {
+        "grooming": "Brush shorthairs once a week and longhairs 3–4 times a week. Cats with joint pain may not be able to groom themselves all over, so owners should help with extra brushing.",
+        "exercise": "Not high-energy. Encourage gentle play every day with a wand toy or puzzle toys, and never grab or pull the tail hard, as it may be stiff and painful.",
+        "diet": "A hearty eater that gains weight easily, so measure its food and control its weight to reduce the load on its joints. Ask your vet about omega-3, glucosamine or chondroitin joint supplements.",
+        "environment": "Provide soft bedding and place essentials where they can be reached without high jumps. Watch for signs of pain such as hesitating before jumping, a stiff gait, a stiff tail, sleeping more than usual or grooming less."
+      },
+      "health": [
+        {
+          "name": "Scottish Fold osteochondrodysplasia",
+          "detail": "Caused by the same TRPV4 gene that folds the ears, it deforms the bones of the ankles, wrists and tail, leading to arthritis and pain from a young age. Severity varies greatly, from almost no signs to difficulty walking.",
+          "screening": "Periodic X-rays of the front legs, hind legs and tail, TRPV4 testing of the breeding parents, and never mating a fold with a fold."
+        },
+        {
+          "name": "Polycystic kidney disease (PKD)",
+          "detail": "Research in Japan found the PKD1 mutation more often in Scottish Folds than in many other breeds. It causes cysts in the kidneys and can lead to kidney failure.",
+          "screening": "DNA test the breeding parents and the kittens for the PKD1 gene."
+        },
+        {
+          "name": "Hypertrophic cardiomyopathy (HCM)",
+          "detail": "Reported as a risk in this breed. The heart wall thickens so that the heart pumps blood poorly, and blood clots may form.",
+          "screening": "Heart ultrasound (echocardiography) by a vet."
+        },
+        {
+          "name": "Obesity",
+          "detail": "Eats well but moves little, and excess weight makes joint problems worse.",
+          "screening": "Weigh and assess body condition at every vet visit."
+        }
+      ],
+      "price": {
+        "min": 3000,
+        "max": 30000,
+        "confidence": "low",
+        "note": "Typical listings cost a few thousand baht; cats with pedigree papers from a registered cattery cost several times more."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/scottish-fold-1.jpg",
+          "srcSmall": "images/gallery/scottish-fold-1-sm.jpg",
+          "width": 1600,
+          "height": 1158,
+          "page": "https://commons.wikimedia.org/wiki/File:Scottish_fold_cat_(13223591385).jpg",
+          "author": "Vladimir Pustovit",
+          "license": "CC BY 2.0",
+          "alt": "Blue Scottish Fold with ears folded flat against its head and orange eyes"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/scottish-fold-2.jpg",
+          "srcSmall": "images/gallery/scottish-fold-2-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Marimo_(5369843501).jpg",
+          "author": "Takashi Hososhima from Tokyo, Japan",
+          "license": "CC BY-SA 2.0",
+          "alt": "Blue-and-white Scottish Fold named Marimo resting on a box at a cat café",
+          "focus": "65% 55%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/scottish-fold-3.jpg",
+          "srcSmall": "images/gallery/scottish-fold-3-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Washed_cat_2014-05-06.jpg",
+          "author": "Vladimir Pustovit",
+          "license": "CC BY 2.0",
+          "alt": "Chocolate Scottish Fold lying on a floral blanket, its folded ears clearly visible",
+          "focus": "25% 35%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/scottish-fold-4.jpg",
+          "srcSmall": "images/gallery/scottish-fold-4-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%B1%D0%B5%D1%82%D0%B0_%D1%88%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D1%86%D0%B8.jpg",
+          "author": "SvetlozarpPetrov",
+          "license": "CC BY-SA 4.0",
+          "alt": "Four blue Scottish kittens in a wooden box: three with folded ears and one with straight ears (Scottish Straight)"
+        }
+      ]
+    },
+    "persian": {
+      "nameEn": "Persian",
+      "origin": "Iran (Persia), further developed in England",
+      "tagline": "A fluffy, round-faced princess who loves peace and quiet",
+      "summary": "The Persian is a longhaired, round-faced cat known for its gentle, quiet nature and its love of lounging near its owner, but it needs combing every day and regular cleaning around the eyes. A very flat face carries a risk of breathing, eye and dental problems, so choose a breeder who health-tests and does not aim for an extremely flat face.",
+      "history": "It is recorded that in 1626 the Italian merchant Pietro della Valle brought longhaired cats from Persia to Europe. Breeders in England later developed a stockier body, a shorter nose and a denser coat. Persians took part in the cat show at the Crystal Palace, London, in 1871 and were among the first breeds recognized by the CFA at its founding in 1906.",
+      "appearance": [
+        "Large round head with full cheeks",
+        "Short, broad nose and a flat face",
+        "Large round eyes set wide apart",
+        "Small ears with rounded tips",
+        "Short, stocky body, short strong legs and a long, full coat all over"
+      ],
+      "temperament": [
+        "Gentle",
+        "Calm and quiet",
+        "Affectionate",
+        "Home-loving",
+        "Likes a set routine"
+      ],
+      "idealFor": [
+        "People who enjoy a quiet home and an easygoing pace of life",
+        "Owners with time to comb the coat and wipe the face every day",
+        "Condos or homes with an air-conditioned room"
+      ],
+      "considerations": [
+        "Needs combing every day, or the coat will mat",
+        "Does not tolerate heat and needs a cool spot throughout the hot season",
+        "Ask for the parents' PKD and PRA test results"
+      ],
+      "welfareNote": "Breeding for an extremely flat face is linked to more severe eye, breathing and dental problems. Buyers should choose a doll-face or classic-type cat that still has a visible nose bridge, open nostrils, no constant tearing and silent breathing.",
+      "funFact": "In the UK the Persian is still called the Longhair, while in the United States colorpoint Persians are called Himalayans.",
+      "coat": {
+        "length": "long",
+        "texture": "Long, thick, fine-textured and glossy, with a fluffy undercoat",
+        "colors": [
+          "White",
+          "Black",
+          "Blue (blue-gray)",
+          "Red and cream",
+          "Chinchilla/silver",
+          "Himalayan-style colorpoint"
+        ]
+      },
+      "care": {
+        "grooming": "Comb every day with a long-toothed metal comb to prevent mats. Bathe occasionally and blow-dry thoroughly, and wipe away tear stains under the eyes with a soft damp cloth every day.",
+        "exercise": "Low-energy and prefers the floor to climbing. Encourage gentle play with a wand toy every day to control its weight, and avoid vigorous play in hot weather.",
+        "diet": "Gains weight easily, so measure its food and control calories. Choose kibble shaped to be easy to pick up with a short jaw, and provide clean water at all times.",
+        "environment": "Keep it indoors. In Thailand's hot climate it must always have an air-conditioned room or a cool corner and clean water, because a flat-faced longhaired cat struggles to shed heat and is at risk of heatstroke."
+      },
+      "health": [
+        {
+          "name": "Polycystic kidney disease (PKD)",
+          "detail": "A dominant inherited disease caused by a mutation in the PKD1 gene, which produces cysts in the kidneys that lead to kidney failure. Data from 2004 found it in about 38% of Persians worldwide, a figure that has fallen since DNA testing became available. Kidney disease from all causes combined is the leading cause of death in Persians in the UK (23.4%).",
+          "screening": "PKD1 DNA test of the breeding parents (mandatory for GCCF breeding cats since 2016) and kidney ultrasound."
+        },
+        {
+          "name": "Brachycephalic obstructive airway syndrome",
+          "detail": "Narrow nostrils and a short nasal structure cause labored, noisy breathing and poor heat tolerance, and flatter-faced cats score higher for breathing problems.",
+          "screening": "Choose a cat with wide-open nostrils that breathes quietly while asleep, and see a vet if it snores or breathes through its mouth."
+        },
+        {
+          "name": "Epiphora (tear overflow and staining)",
+          "detail": "In flat-faced cats the tear ducts are misaligned and drain poorly into the nose, causing constant tearing and stains under the eyes. Eye discharge was found in 5.8% of Persians under veterinary care in the UK.",
+          "screening": "Wipe around the eyes every day, and see a vet if the eyes are red, have thick discharge or the cat squints."
+        },
+        {
+          "name": "Periodontal disease / dental malocclusion",
+          "detail": "The short jaw makes the upper premolars more crowded and misaligned the flatter the face is, and periodontal disease was found in 11.3% of Persians in the UK.",
+          "screening": "Have regular dental checks with your vet, and get your cat used to tooth brushing from kittenhood."
+        },
+        {
+          "name": "Haircoat and skin disorders",
+          "detail": "Coat problems are the most common disorder in Persians in the UK (12.7%), because the long, thick coat is too much for the cat to keep clean on its own.",
+          "screening": "Comb every day, and get help from a professional groomer when the coat becomes tightly matted."
+        },
+        {
+          "name": "Progressive retinal atrophy (PRA)",
+          "detail": "An inherited disease in which the retina degenerates until the cat loses its sight; it has been reported in Persians.",
+          "screening": "A DNA test is available; ask the breeder for the breeding parents' results."
+        }
+      ],
+      "price": {
+        "min": 2000,
+        "max": 100000,
+        "confidence": "low",
+        "note": "Doll-face Persians without pedigree papers cost a few thousand baht, while extremely flat-faced (peke-face) cats with pedigree papers or from imported lines start in the tens of thousands and can reach hundreds of thousands of baht."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/persian-1.jpg",
+          "srcSmall": "images/gallery/persian-1-sm.jpg",
+          "width": 1600,
+          "height": 1072,
+          "page": "https://commons.wikimedia.org/wiki/File:PER_Malinka_Gerakl_of_Jem-Dandy_(4162420198).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "Red-and-white (red tabby van) Persian with a short, flat face and a full ruff of long fur"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/persian-2.jpg",
+          "srcSmall": "images/gallery/persian-2-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Stock-latte_(52750893698).jpg",
+          "author": "Reba Spike",
+          "license": "CC BY 2.0",
+          "alt": "Flat-faced Persian walking across the grass among daffodils",
+          "focus": "50% 60%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/persian-3.jpg",
+          "srcSmall": "images/gallery/persian-3-sm.jpg",
+          "width": 1600,
+          "height": 1000,
+          "page": "https://commons.wikimedia.org/wiki/File:Persian_Cat_Trio_(51016541380).jpg",
+          "author": "Reba Spike",
+          "license": "CC BY 2.0",
+          "alt": "Three Persians, black, cream-and-white and gray-and-white, sitting on the grass in a park",
+          "focus": "50% 65%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/persian-4.jpg",
+          "srcSmall": "images/gallery/persian-4-sm.jpg",
+          "width": 1600,
+          "height": 1200,
+          "page": "https://commons.wikimedia.org/wiki/File:Sekumpulan_anak_kucing_Persia.jpg",
+          "author": "Bibazi",
+          "license": "CC BY 4.0",
+          "alt": "Four brown tabby Persian kittens from one litter, sitting on a tiled floor"
+        }
+      ]
+    },
+    "exotic-shorthair": {
+      "nameEn": "Exotic Shorthair",
+      "origin": "United States",
+      "tagline": "A Persian face in a plush, teddy-bear short coat",
+      "summary": "The Exotic Shorthair has the head and build of a Persian but a short, thick, plush coat like a teddy bear's, which has earned it the nickname \"the lazy person's Persian.\" It is calm, devoted to its owner without being demanding, and rarely meows. It still has the Persian's flat face, though, so its eyes, breathing and heat tolerance need extra care.",
+      "history": "The breed was created by Persian breeders in the western United States who crossed Persians with American Shorthairs in the 1950s–1960s. The crosses became so popular that CFA recognized them as a breed in 1966, while Britain's GCCF recognized the breed in 1986 and granted it championship status in 1995.",
+      "appearance": [
+        "Large round head, flat face and short nose",
+        "Large round eyes set wide apart",
+        "Small ears with rounded tips",
+        "Stocky, big-boned body with short legs",
+        "Short, thick, plush coat like a teddy bear's"
+      ],
+      "temperament": [
+        "Calm",
+        "Affectionate",
+        "Loyal",
+        "Quiet",
+        "Moderately playful"
+      ],
+      "idealFor": [
+        "People who love the Persian look but have less time for grooming",
+        "Condo dwellers who like a quiet, mellow cat",
+        "Families who want an affectionate, people-oriented cat"
+      ],
+      "considerations": [
+        "The face and eyes still need wiping every day",
+        "Poor heat tolerance, so needs air conditioning or a cool corner in the hot season",
+        "Ask for the parents' PKD results and choose a face that is not extremely flat"
+      ],
+      "welfareNote": "The Exotic has the same flat facial structure as the Persian, and GCCF states that this trait should not be bred to extremes. Buyers should choose a cat with a clearly visible nose, open nostrils, no constant tearing and silent breathing.",
+      "funFact": "The first name proposed for the breed was Sterling, after the silver color of the early cats, before the name Exotic was adopted instead.",
+      "coat": {
+        "length": "short",
+        "texture": "Short and dense, plush and standing away from the body, with a thick undercoat",
+        "colors": [
+          "Bicolor",
+          "Red tabby",
+          "Brown tabby",
+          "Silver",
+          "Blue (blue-gray)",
+          "Colorpoint"
+        ]
+      },
+      "care": {
+        "grooming": "Comb with a metal comb once a week, and more often during shedding season, because the undercoat sheds heavily. Bathe occasionally and wipe away tear stains under the eyes every day.",
+        "exercise": "Fairly laid-back but still playful as an adult. Invite them to play with toys in short sessions every day in a cool, comfortable room.",
+        "diet": "Because they exercise little, portions need to be controlled. Choose kibble that is easy for a flat face to pick up, and keep clean water available at all times.",
+        "environment": "Suits a quiet house or condo. They need air conditioning or a cool corner in the hot season, because flat-faced cats shed little heat through the nose and are at risk of heatstroke even on days that are not extremely hot."
+      },
+      "health": [
+        {
+          "name": "Polycystic kidney disease (PKD)",
+          "detail": "The breed descends from the Persian, which carries a dominant PKD1 gene mutation that causes cysts in the kidneys and can lead to chronic kidney failure.",
+          "screening": "PKD1 DNA test (since 2016 GCCF has registered only breeding cats with a normal result) and a kidney ultrasound."
+        },
+        {
+          "name": "Brachycephalic obstructive airway syndrome",
+          "detail": "Narrow nostrils and a shortened face make breathing difficult and lower heat tolerance. Of UK vets who had treated flat-faced cats such as Persians and Exotics, 60% had treated breathing problems.",
+          "screening": "Choose a cat with wide-open nostrils that breathes quietly. If it snores or breathes through its mouth, see a vet."
+        },
+        {
+          "name": "Excessive tearing and tear staining (epiphora)",
+          "detail": "The flat face drains tears poorly, so they overflow and stain the fur under the eyes. In a survey of UK vets, eye problems were the issue most often treated in flat-faced cats (69%).",
+          "screening": "Wipe around the eyes every day with a soft, damp cloth, and see a vet if the eyes are red or squinting."
+        },
+        {
+          "name": "Dental problems and misaligned teeth (dental malocclusion)",
+          "detail": "The short jaw crowds the teeth and makes gum disease more likely. Of vets who had treated flat-faced cats, 45% had treated dental problems.",
+          "screening": "Have regular dental checks with a vet, and get the cat used to toothbrushing from kittenhood."
+        },
+        {
+          "name": "Progressive retinal atrophy (PRA-pd)",
+          "detail": "An inherited disease that causes the retina to degenerate. GCCF recommends testing Exotics used for breeding.",
+          "screening": "PRA-pd DNA test for the breeding parents."
+        }
+      ],
+      "price": {
+        "min": 8000,
+        "max": 100000,
+        "confidence": "low",
+        "note": "Few are advertised for sale in Thailand, and the price depends on pedigree papers, facial structure and the parents' lines."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/exotic-shorthair-1.jpg",
+          "srcSmall": "images/gallery/exotic-shorthair-1-sm.jpg",
+          "width": 1600,
+          "height": 1078,
+          "page": "https://commons.wikimedia.org/wiki/File:EXO_Ch._Mellowcherry_Candy_King_(6740824889).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "Silver classic tabby Exotic Shorthair with a flat face and large copper eyes, at a cat show",
+          "focus": "40% 45%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/exotic-shorthair-2.jpg",
+          "srcSmall": "images/gallery/exotic-shorthair-2-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Bissel_3.jpg",
+          "author": "Dmitry Brant",
+          "license": "CC BY-SA 4.0",
+          "alt": "Three-year-old blue-and-white male Exotic Shorthair beside a window",
+          "focus": "50% 35%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/exotic-shorthair-3.jpg",
+          "srcSmall": "images/gallery/exotic-shorthair-3-sm.jpg",
+          "width": 1600,
+          "height": 1200,
+          "page": "https://commons.wikimedia.org/wiki/File:P4301146_(8697971736).jpg",
+          "author": "Melv_L - MACASR",
+          "license": "CC BY-SA 2.0",
+          "alt": "Red Exotic Shorthair lying on a blue blanket",
+          "focus": "45% 35%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/exotic-shorthair-4.jpg",
+          "srcSmall": "images/gallery/exotic-shorthair-4-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E6%B1%89%E7%94%9F%E6%B4%BB_1378130831_(9635901709).jpg",
+          "author": "冰 孙 from Wuhan, China",
+          "license": "CC BY-SA 2.0",
+          "alt": "Brown tabby-and-white Exotic Shorthair resting on a table in a café",
+          "focus": "55% 35%"
+        }
+      ]
+    },
+    "american-shorthair": {
+      "nameEn": "American Shorthair",
+      "origin": "United States",
+      "tagline": "The classic silver tabby, good-natured and easy to keep",
+      "summary": "The American Shorthair is a medium-sized, robust cat with firm muscles and a short, thick coat that is easy to care for, and it is best known for its classic swirled silver tabby pattern. It is easygoing and loves its family without being clingy, and it gets along well with children and other pets, which makes it a good choice for first-time owners.",
+      "history": "Its ancestors were cats that sailed with European immigrants to North America to catch mice. Originally called the Domestic Shorthair, it was one of the first breeds CFA recognized when the association was founded in 1906, and it was renamed the American Shorthair in the mid-1960s.",
+      "appearance": [
+        "Sturdy body with a broad chest and firm muscles",
+        "Broad head, full cheeks and a short, rather square muzzle",
+        "Large round eyes set wide apart",
+        "Medium-sized ears with rounded tips",
+        "The classic swirled pattern on silver is the breed's signature look"
+      ],
+      "temperament": [
+        "Easygoing",
+        "Gentle",
+        "Moderately playful",
+        "Independent",
+        "Intelligent",
+        "Adaptable"
+      ],
+      "idealFor": [
+        "First-time owners who want an easy-care cat",
+        "Families with children, older people or dogs",
+        "Working people who want an independent cat that can live in a condo"
+      ],
+      "considerations": [
+        "Food must be controlled, as they gain weight easily",
+        "Ask for the breeding parents' heart (HCM) screening results",
+        "Many dislike being held for long and prefer to stay close by"
+      ],
+      "welfareNote": null,
+      "funFact": "The American Shorthair reaches full maturity, with its breed type fully developed, at around 3–4 years of age.",
+      "coat": {
+        "length": "short",
+        "texture": "Short and dense, with a fairly hard, glossy texture",
+        "colors": [
+          "Silver tabby",
+          "Brown tabby",
+          "Red tabby",
+          "White",
+          "Black",
+          "Bicolor"
+        ]
+      },
+      "care": {
+        "grooming": "The short coat is easy to care for. Comb or brush at least once a week to reduce shedding; baths are rarely needed.",
+        "exercise": "Moderate energy. Play with them every day and provide a cat tree to climb and prey-style toys to stimulate their hunting instincts.",
+        "diet": "They gain weight easily if fed without limits, so measure their food and split it into 2–3 meals a day, and brush their teeth regularly.",
+        "environment": "Does well in a condo or a house and can play alone without demanding much attention. Provide places to climb and a window for watching birds."
+      },
+      "health": [
+        {
+          "name": "Hypertrophic cardiomyopathy (HCM)",
+          "detail": "The breed is in an at-risk group. The disease can lead to heart failure or to blood clots that paralyze the hind legs.",
+          "screening": "Heart ultrasound (echocardiography), and ask for the breeding parents' heart screening results."
+        },
+        {
+          "name": "Obesity",
+          "detail": "Tends to become overweight if they eat a lot and move little.",
+          "screening": "Weigh them and assess body condition at every vet visit."
+        },
+        {
+          "name": "Dental disease",
+          "detail": "Common, but preventable with toothbrushing and scaling as recommended by your vet.",
+          "screening": "An annual oral exam by a vet."
+        }
+      ],
+      "price": {
+        "min": 3000,
+        "max": 40000,
+        "confidence": "medium",
+        "note": "Most listings at a few thousand baht come without papers, while cats with pedigree papers and clear markings cost several tens of thousands of baht."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/american-shorthair-1.jpg",
+          "srcSmall": "images/gallery/american-shorthair-1-sm.jpg",
+          "width": 1600,
+          "height": 1088,
+          "page": "https://commons.wikimedia.org/wiki/File:ASH_Russeller%E2%80%99s_Cleopatra_of_Solid_Fold_(4496229769).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "Female silver classic tabby American Shorthair at a cat show"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/american-shorthair-2.jpg",
+          "srcSmall": "images/gallery/american-shorthair-2-sm.jpg",
+          "width": 1600,
+          "height": 2133,
+          "page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D1%88%D1%91%D1%80%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BE%D1%88%D0%BA%D0%B0,_%D0%9C%D0%A1%D0%A5%D0%90.jpg",
+          "author": "Mocmuk",
+          "license": "CC BY 4.0",
+          "alt": "Silver tabby American Shorthair sitting on a tree stump in a garden",
+          "focus": "50% 55%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/american-shorthair-3.jpg",
+          "srcSmall": "images/gallery/american-shorthair-3-sm.jpg",
+          "width": 1600,
+          "height": 1601,
+          "page": "https://commons.wikimedia.org/wiki/File:American_shorthair_cat_Portrait_(cropped).jpg",
+          "author": "lisa cee (Lisa Campeau)",
+          "license": "CC BY 2.0",
+          "alt": "Profile of a brown classic tabby American Shorthair in a garden",
+          "focus": "55% 45%"
+        }
+      ]
+    },
+    "maine-coon": {
+      "nameEn": "Maine Coon",
+      "origin": "United States (Maine)",
+      "tagline": "The fluffy gentle giant from Maine",
+      "summary": "The Maine Coon is one of the largest pedigree cat breeds, with a thick, shaggy coat, a bushy plumed tail and large ears. It is kind, friendly and intelligent and gets along well with children and other pets, which has earned it the nickname \"gentle giant.\"",
+      "history": "The Maine Coon is a natural breed from New England, particularly the US state of Maine, with records dating back to the 1850s. A brown tabby named Cosey won Best Cat at the first cat show in the United States in 1895, and CFA granted the breed championship status in 1976.",
+      "appearance": [
+        "Large, long, rectangular body with heavy bones and a broad chest",
+        "Large, high-set ears, often with tufts of fur at the tips",
+        "Long, bushy, plumed tail",
+        "Thick, fluffy fur around the neck and on the hind legs, like a pair of fluffy pants",
+        "Large paws with tufts of fur between the toes"
+      ],
+      "temperament": [
+        "Kind and gentle",
+        "Friendly",
+        "Intelligent and easy to train",
+        "Playful",
+        "Devoted to family",
+        "Undemanding"
+      ],
+      "idealFor": [
+        "Families with children or other pets, including dogs",
+        "Homes with enough room for a big cat and a tall cat tree",
+        "People who want a smart, playful cat that is not clingy"
+      ],
+      "considerations": [
+        "Large size means higher food and equipment costs than an average cat, and they mature slowly, taking up to 3 years to reach full size",
+        "The thick coat needs regular combing, and heat needs managing in Thailand's climate",
+        "Heart and hip checks should be done periodically"
+      ],
+      "welfareNote": "Choose a breeder who can show the breeding parents' HCM and SMA DNA results as well as their hip X-ray results.",
+      "funFact": "The Maine Coon is the state cat of Maine, and so many have extra toes (polydactyl) that TICA has recognized the Maine Coon Polydactyl as a separate breed since 2015.",
+      "coat": {
+        "length": "long",
+        "texture": "Thick, glossy double coat, short on the shoulders and long on the belly and hind legs",
+        "colors": [
+          "Brown tabby",
+          "Silver tabby",
+          "Black",
+          "White",
+          "Red and cream",
+          "Bicolor"
+        ]
+      },
+      "care": {
+        "grooming": "Comb 2–3 times a week for 5–10 minutes each time to prevent mats, especially on the belly and hind legs, and comb more often during shedding season.",
+        "exercise": "Loves to play and can be trained, for example to fetch or to walk on a leash. Invite them to play 2–3 times a day for 10–15 minutes each session.",
+        "diet": "Feed a complete, high-protein cat food split into 3–4 measured meals a day rather than leaving food out all day, to control weight and reduce strain on the hips.",
+        "environment": "Needs plenty of space and a tall cat tree with a base sturdy enough to take its weight. In Thailand's hot, humid climate, keep them in a well-ventilated or air-conditioned home with clean water at all times, and avoid strenuous play in the heat of the day."
+      },
+      "health": [
+        {
+          "name": "Hypertrophic cardiomyopathy (HCM)",
+          "detail": "Maine Coons carry the MYBPC3 A31P mutation, which is associated with this disease. Cats that inherit the gene from both parents are at much higher risk than cats with a single copy.",
+          "screening": "MYBPC3 A31P DNA test from a cheek swab, combined with periodic heart ultrasound (echocardiography), because a negative DNA result does not guarantee the cat will not develop the disease."
+        },
+        {
+          "name": "Hip dysplasia",
+          "detail": "Common in Maine Coons: OFA registry data found it in about 25% of cats and a Swedish screening program in about 37%, and signs grow more severe with age and body weight.",
+          "screening": "X-ray the breeding parents' hips before mating and keep the cat at a healthy weight."
+        },
+        {
+          "name": "Spinal muscular atrophy (SMA)",
+          "detail": "A recessive inherited disease. Affected kittens start to walk with a wobble and lose muscle in the hind legs at around 3–4 months of age. It is not fatal but it is disabling.",
+          "screening": "SMA DNA test for the breeding parents, and never mate two carriers."
+        },
+        {
+          "name": "Pyruvate kinase deficiency",
+          "detail": "A recessively inherited anemia caused by the breakdown of red blood cells, and the Maine Coon is one of the breeds for which testing is recommended.",
+          "screening": "PKLR gene DNA test for the breeding parents."
+        }
+      ],
+      "price": {
+        "min": 10000,
+        "max": 60000,
+        "confidence": "medium",
+        "note": "Very cheap cats may not be purebred, while cats with pedigree papers and a large, standard-conforming frame cost several tens of thousands of baht."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/maine-coon-1.jpg",
+          "srcSmall": "images/gallery/maine-coon-1-sm.jpg",
+          "width": 1600,
+          "height": 1110,
+          "page": "https://commons.wikimedia.org/wiki/File:MCO_Napoleon_XXXL*RU_(15457877888).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "Male black classic tabby Maine Coon with prominent ear tufts",
+          "focus": "50% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/maine-coon-2.jpg",
+          "srcSmall": "images/gallery/maine-coon-2-sm.jpg",
+          "width": 1600,
+          "height": 1128,
+          "page": "https://commons.wikimedia.org/wiki/File:Snow_is_Tasty_(38077337005).jpg",
+          "author": "Kumweni",
+          "license": "CC BY 2.0",
+          "alt": "Silver tabby Maine Coon in the snow, licking its lips",
+          "focus": "50% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/maine-coon-3.jpg",
+          "srcSmall": "images/gallery/maine-coon-3-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Tortie_maine_coon_in_grass.jpg",
+          "author": "Cobaltxstrike",
+          "license": "CC0",
+          "alt": "Tortoiseshell Maine Coon with green eyes lying in the grass",
+          "focus": "45% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/maine-coon-4.jpg",
+          "srcSmall": "images/gallery/maine-coon-4-sm.jpg",
+          "width": 1600,
+          "height": 1064,
+          "page": "https://commons.wikimedia.org/wiki/File:Kyrah-0018.jpg",
+          "author": "Alonakel",
+          "license": "CC BY-SA 4.0",
+          "alt": "Brown tabby Maine Coon kitten sitting up",
+          "focus": "50% 40%"
+        }
+      ]
+    },
+    "ragdoll": {
+      "nameEn": "Ragdoll",
+      "origin": "United States (California)",
+      "tagline": "A cuddly blue-eyed cat, soft and floppy as a doll",
+      "summary": "The Ragdoll is a large cat with a soft, silky semi-long coat, darker points on the face, ears, legs and tail, and blue eyes. It is calm, gentle, people-loving and soft-voiced, and it likes to follow its owner around the house, which makes it well suited to indoor life.",
+      "history": "The Ragdoll was developed in the 1960s by Ann Baker in Riverside, California, starting from a white longhaired cat named Josephine that carried the colorpoint gene. The breed reached Britain in 1981 and was recognized by GCCF in 1990, while CFA accepted it for registration in 1993 and granted it championship status in 2000.",
+      "appearance": [
+        "Vivid blue eyes",
+        "Long body with a broad chest, heavy bones and good muscle",
+        "Darker points on the face, ears, legs and tail (colorpoint)",
+        "Kittens are born all white, and the color gradually deepens until it is complete at around 2 years"
+      ],
+      "temperament": [
+        "Gentle",
+        "Calm",
+        "People-loving",
+        "Affectionate but undemanding",
+        "Soft-voiced",
+        "Follows its owner around"
+      ],
+      "idealFor": [
+        "Families with children and other pets",
+        "Condo or house dwellers who keep their cats strictly indoors",
+        "People who want a cuddly, soft-voiced lap cat"
+      ],
+      "considerations": [
+        "Slow to mature, taking about 4 years to reach full size and weight",
+        "Needs company and attention, so not suited to homes where no one is in all day",
+        "Gains weight easily, so needs portion control and regular play"
+      ],
+      "welfareNote": "Choose a breeder who can show the breeding parents' HCM DNA results, and keep the cat strictly indoors, because Ragdolls are not very wary of dangers outside.",
+      "funFact": "Ragdolls are known for loving to be picked up, and they often go limp in your arms like a rag doll.",
+      "coat": {
+        "length": "medium",
+        "texture": "Soft and silky, with little undercoat, so it rarely tangles",
+        "colors": [
+          "Seal point",
+          "Blue point",
+          "Chocolate point and lilac point",
+          "Red point and cream point",
+          "Mitted",
+          "Bicolor"
+        ]
+      },
+      "care": {
+        "grooming": "Comb with a metal comb 1–2 times a week, and more often during shedding season. With little undercoat, the coat tangles less easily than that of most longhaired cats, but it can still mat if it is neglected for long.",
+        "exercise": "Not a very active cat, so play with a wand toy every day to keep weight in check. Some can even learn clicker training or agility.",
+        "diet": "Ragdolls love to eat and gain weight easily. Measure every meal, count treats in the daily calorie total, and consider feeding wet food alongside dry.",
+        "environment": "Should be kept indoors only, because they are too trusting of people and other animals. In Thailand's hot climate, provide a cool, well-ventilated resting spot and clean water at all times, and avoid strenuous play when it is very hot."
+      },
+      "health": [
+        {
+          "name": "Hypertrophic cardiomyopathy (HCM)",
+          "detail": "Ragdolls carry the MYBPC3 R820W mutation, which is associated with this disease and which research has found only in Ragdolls.",
+          "screening": "MYBPC3 R820W DNA test (available since 2007) combined with heart ultrasound (echocardiography), because a negative DNA result does not guarantee the cat will not develop the disease."
+        },
+        {
+          "name": "Bladder stones",
+          "detail": "Stones can block the urinary tract and become life-threatening. Signs include urinating often but only a little at a time, straining, or going outside the litter box.",
+          "screening": "Keep an eye on their urination, and take them to a vet immediately if they strain or cannot pass urine."
+        },
+        {
+          "name": "Obesity",
+          "detail": "Ragdolls gain weight easily because they are not very active and love to eat, which raises the risk of arthritis as they age.",
+          "screening": "Weigh them and assess body condition regularly, and measure food carefully."
+        }
+      ],
+      "price": {
+        "min": 15000,
+        "max": 60000,
+        "confidence": "low",
+        "note": "Typical prices are around 30,000–40,000 baht, and imported cats or cats sold with breeding rights can cost 100,000 baht or more."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/ragdoll-1.jpg",
+          "srcSmall": "images/gallery/ragdoll-1-sm.jpg",
+          "width": 1600,
+          "height": 1167,
+          "page": "https://commons.wikimedia.org/wiki/File:Pet_potrait.jpg",
+          "author": "Arjunmz",
+          "license": "CC BY 4.0",
+          "alt": "Bicolor Ragdoll with a fluffy long coat and vivid blue eyes",
+          "focus": "40% 35%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/ragdoll-2.jpg",
+          "srcSmall": "images/gallery/ragdoll-2-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Leo1901.jpg",
+          "author": "Ulkl",
+          "license": "Public domain",
+          "alt": "Ragdoll kitten almost three months old, with dark points on the face, ears and tail, sitting on a wooden floor",
+          "focus": "55% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/ragdoll-3.jpg",
+          "srcSmall": "images/gallery/ragdoll-3-sm.jpg",
+          "width": 1600,
+          "height": 900,
+          "page": "https://commons.wikimedia.org/wiki/File:The_cat_king.jpg",
+          "author": "Arjunmz",
+          "license": "CC BY 4.0",
+          "alt": "Bicolor Ragdoll stretched out on a table",
+          "focus": "65% 35%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/ragdoll-4.jpg",
+          "srcSmall": "images/gallery/ragdoll-4-sm.jpg",
+          "width": 1600,
+          "height": 1200,
+          "page": "https://commons.wikimedia.org/wiki/File:Iron_de_La_Rosdollane.JPG",
+          "author": "Peppermint13",
+          "license": "CC BY-SA 3.0",
+          "alt": "Three-week-old seal mitted Ragdoll kitten lying on a bed",
+          "focus": "70% 40%"
+        }
+      ]
+    },
+    "munchkin": {
+      "nameEn": "Munchkin",
+      "origin": "United States",
+      "tagline": "A mischievous short-legged cat, more agile than it looks",
+      "summary": "The Munchkin is a short-legged cat that arose from a natural mutation. Its body is normal-sized, but its long leg bones are shorter than those of other cats. It is cheerful, playful and inquisitive, and it gets along well with people and other animals. However, this form of disproportionate dwarfism raises welfare concerns, so many associations do not recognize the breed.",
+      "history": "In 1983, a music teacher named Sandra Hochenedel in Louisiana, USA, found a pregnant short-legged cat and named her Blackberry. Her male kitten, Toulouse, became a founder of the breed alongside his mother. TICA accepted the Munchkin into its new breed development program in 1994 and granted it championship status in 2003.",
+      "appearance": [
+        "All four legs are clearly shorter than an average cat's",
+        "Normal-sized body; they do not stay kitten-sized forever",
+        "Leg bones may be slightly bowed",
+        "Low-slung build with nimble movement",
+        "Every color and pattern, in both short and long coats"
+      ],
+      "temperament": [
+        "Cheerful",
+        "Very playful",
+        "Curious",
+        "Sociable",
+        "Intelligent",
+        "Self-confident"
+      ],
+      "idealFor": [
+        "Homes that want a playful, sociable cat",
+        "Families with children or other pets",
+        "People with time to play and to adapt their home for short legs"
+      ],
+      "considerations": [
+        "Long-term health data are still conflicting, so be prepared to care for their joints as they age",
+        "Avoid Munchkin × Scottish Fold crosses and ask for the parents' TRPV4 gene test results",
+        "Many associations do not recognize the breed, and some countries restrict breeding"
+      ],
+      "welfareNote": "The short legs come from a dominant dwarfism gene (UGDH), and kittens that inherit two copies die in the womb. FIFe and GCCF therefore do not recognize the breed for health reasons (nor does CFA), the state of Victoria (Australia) bans breeding it, and Scottish Government guidance states that breeding it is likely to breach licensing conditions.",
+      "funFact": "Despite their short legs, Munchkins can still climb; they just tend to go up one step at a time rather than leaping to the top of a cabinet in one go.",
+      "coat": {
+        "length": "short",
+        "texture": "Short, semi-dense and soft (a longhaired version also exists)",
+        "colors": [
+          "White",
+          "Black",
+          "Orange (red)",
+          "Tabby",
+          "Calico",
+          "Bicolor"
+        ]
+      },
+      "care": {
+        "grooming": "Comb shorthairs once a week and longhairs twice a week. Because of their short legs, some cannot fully groom their back and rear end, so owners should help out.",
+        "exercise": "High energy and loves chasing toys. Play with them every day, and give them low, step-by-step climbing routes instead of high jumps.",
+        "diet": "No special diet is needed, but split food into 2–3 measured meals a day and control weight so it does not strain the legs and joints.",
+        "environment": "Provide a low cat tree or ramps, a low-rimmed water bowl or a cat fountain, and a litter box that is easy to get in and out of. Watch for limping, reluctance to jump, a tilted stance or abnormal breathing."
+      },
+      "health": [
+        {
+          "name": "Osteoarthritis",
+          "detail": "The cartilage abnormality caused by the short-leg gene raises the risk of osteoarthritis and mobility problems with age.",
+          "screening": "Regular bone and joint checks, X-rays when signs appear, and weight control."
+        },
+        {
+          "name": "Limb deformity",
+          "detail": "A small study that imaged the bones of 5 dwarf cats found that every one had bowed or twisted leg bones in all four legs.",
+          "screening": "X-rays to assess bone and joint alignment if the cat walks abnormally."
+        },
+        {
+          "name": "Lordosis",
+          "detail": "An abnormal inward dip of the spine present from birth has been reported and can cause back pain or a tilted stance, but how common it is is not yet known.",
+          "screening": "Have a vet examine and X-ray the cat from kittenhood."
+        },
+        {
+          "name": "Pectus excavatum",
+          "detail": "A sunken breastbone has been reported and, in severe cases, it can press on the heart and lungs.",
+          "screening": "Examine and X-ray the chest in kittens; moderate to severe cases may need surgery."
+        }
+      ],
+      "price": {
+        "min": 10000,
+        "max": 30000,
+        "confidence": "medium",
+        "note": "Short-legged cats cost more than long-legged ones, and short-legged British Shorthair crosses usually command the highest prices."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/munchkin-1.jpg",
+          "srcSmall": "images/gallery/munchkin-1-sm.jpg",
+          "width": 1600,
+          "height": 1021,
+          "page": "https://commons.wikimedia.org/wiki/File:MNS_Rosa_Sunny_Fairies_(11320077403).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "Female silver tortoiseshell tabby Munchkin at a cat show",
+          "focus": "35% 40%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/munchkin-2.jpg",
+          "srcSmall": "images/gallery/munchkin-2-sm.jpg",
+          "width": 1600,
+          "height": 1280,
+          "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat_stretching.jpg",
+          "author": "Egor Plenkin",
+          "license": "CC BY 2.0",
+          "alt": "Blue-and-white Munchkin stretching on the grass, its short legs clearly visible",
+          "focus": "50% 55%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/munchkin-3.jpg",
+          "srcSmall": "images/gallery/munchkin-3-sm.jpg",
+          "width": 1600,
+          "height": 1200,
+          "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat.jpg",
+          "author": "Sasha Krotov",
+          "license": "CC BY 3.0",
+          "alt": "Gray-and-white Munchkin stretched out on a wooden floor, showing its short legs",
+          "focus": "60% 50%"
+        },
+        {
+          "kind": "video",
+          "src": "images/gallery/munchkin-video.jpg",
+          "srcSmall": "images/gallery/munchkin-video-sm.jpg",
+          "width": 1280,
+          "height": 720,
+          "page": "https://commons.wikimedia.org/wiki/File:Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm",
+          "author": "Liz Mc",
+          "license": "CC BY 2.0",
+          "alt": "Video: a long-haired white-and-orange Munchkin walking around a cat café in Tokyo",
+          "focus": "75% 45%",
+          "video": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm/Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm.480p.vp9.webm",
+            "duration": 20.6,
+            "width": 854,
+            "height": 480
+          }
+        }
+      ]
+    },
+    "bengal": {
+      "nameEn": "Bengal",
+      "origin": "United States",
+      "tagline": "Leopard markings on a house cat, with energy to spare",
+      "summary": "The Bengal is a shorthaired cat with rosettes or a marbled pattern like a wild cat and a soft, silky coat that in some cats has a shimmering glitter. It is confident, curious, intelligent and extremely energetic, and it needs activities and play with its owner every day.",
+      "history": "The Bengal comes from crossing the Asian leopard cat with domestic cats. Jean Mill made the first cross in 1963, then backcrossed to domestic cats over several generations until the cats had a domestic temperament. TICA accepted it as a new breed in 1986 and granted it championship status in 1991, while CFA accepted it for registration in 2016.",
+      "appearance": [
+        "Dark-outlined spots or rosettes like a leopard's, or a marbled pattern",
+        "Soft, short coat that in some cats sparkles in the light (glitter)",
+        "Sleek, muscular, athletic-looking body",
+        "Pale, almost white belly, with tabby-style markings still on the face"
+      ],
+      "temperament": [
+        "Confident",
+        "Curious",
+        "High-energy",
+        "Intelligent and trainable",
+        "Vocal",
+        "Attention-seeking"
+      ],
+      "idealFor": [
+        "People with time to play with and train their cat every day",
+        "Experienced cat owners",
+        "Homes that can provide plenty of climbing space and toys"
+      ],
+      "considerations": [
+        "High energy and very demanding of attention, so not suited to first-time cat owners",
+        "Vocal, and some dislike being held",
+        "Strong hunting instinct, so may not suit homes with young children or small pets"
+      ],
+      "welfareNote": "Ordinary pet owners should choose only a later-generation Bengal (SBT) with pedigree papers from a cat association. Early-generation Bengals (F1–F3) have a leopard cat as a parent or close ancestor and still behave like wild animals, so the Feline Veterinary Medical Association (FelineVMA) does not recommend keeping them. The leopard cat is also a protected wild animal under the Wild Animal Conservation and Protection Act B.E. 2562 (2019): possession without a permit is punishable by up to 5 years in prison, a fine of up to 500,000 baht, or both. Hybrids within four generations are also covered by CITES when imported or exported.",
+      "funFact": "Bengals are easy to train, and many learn tricks and walk on a leash like a dog.",
+      "coat": {
+        "length": "short",
+        "texture": "Short, dense, close-lying and silky, with a shimmering glitter in some cats",
+        "colors": [
+          "Brown spotted/rosetted",
+          "Marbled",
+          "Snow (ivory to cream)",
+          "Silver",
+          "Blue (blue-gray)",
+          "Charcoal"
+        ]
+      },
+      "care": {
+        "grooming": "Easy to groom: brushing once a week with a soft brush is enough, and baths are rarely needed unless the cat is being shown.",
+        "exercise": "Needs lots of activity every day, such as wand toys, a cat exercise wheel, fetch and leash training. Some even work out how to open doors or cupboards by themselves.",
+        "diet": "No special formula is needed. Feed a good-quality cat food that is complete and meets standards, split into several small meals, and use food puzzle toys instead of leaving food out.",
+        "environment": "Needs places to climb, such as cat trees and wall shelves, and should not be allowed to roam freely outdoors. In hot weather, save vigorous play for the cooler morning or evening, and keep clean water available at all times."
+      },
+      "health": [
+        {
+          "name": "Pyruvate kinase deficiency",
+          "detail": "A recessively inherited anemia caused by the breakdown of red blood cells. A survey of more than 14,000 cats found the mutation at a frequency of about 13% in Bengals, the highest of all the breeds in which it was found.",
+          "screening": "PKLR gene DNA test for the breeding parents."
+        },
+        {
+          "name": "Progressive retinal atrophy (PRA-b)",
+          "detail": "A recessive inherited disease caused by the KIF3B gene. The light-sensing cells start to degenerate from about 7 weeks of age, and vision is severely impaired by around 2 years.",
+          "screening": "PRA-b DNA test from a cheek swab for the breeding parents."
+        },
+        {
+          "name": "Hypertrophic cardiomyopathy (HCM)",
+          "detail": "It occurs in Bengals, but there is no breed-specific gene test yet, so the MYBPC3 tests used for Maine Coons and Ragdolls do not apply to Bengals.",
+          "screening": "Regular heart ultrasound (echocardiography) for the breeding parents; an A74T gene test result does not confirm that a cat is free of HCM."
+        },
+        {
+          "name": "Patellar luxation",
+          "detail": "The kneecap slips out of its groove in the knee joint, causing limping. It may be treated with anti-inflammatory medication or surgery.",
+          "screening": null
+        }
+      ],
+      "price": {
+        "min": 15000,
+        "max": 80000,
+        "confidence": "medium",
+        "note": "Registered catteries that provide pedigree papers, genetic disease testing and a health guarantee start at around 70,000–80,000 baht."
+      },
+      "gallery": [
+        {
+          "kind": "image",
+          "src": "images/gallery/bengal-1.jpg",
+          "srcSmall": "images/gallery/bengal-1-sm.jpg",
+          "width": 1600,
+          "height": 1067,
+          "page": "https://commons.wikimedia.org/wiki/File:Bengal_-_18.jpg",
+          "author": "William Crochot (Medium69)",
+          "license": "CC BY-SA 4.0",
+          "alt": "Three-year-old female brown Bengal lounging on a cat-tree bed",
+          "focus": "45% 35%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/bengal-2.jpg",
+          "srcSmall": "images/gallery/bengal-2-sm.jpg",
+          "width": 1600,
+          "height": 928,
+          "page": "https://commons.wikimedia.org/wiki/File:Best_Stalk.jpg",
+          "author": "Lightburst",
+          "license": "CC BY-SA 4.0",
+          "alt": "Brown rosetted Bengal stalking low against a red backdrop"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/bengal-3.jpg",
+          "srcSmall": "images/gallery/bengal-3-sm.jpg",
+          "width": 1600,
+          "height": 1200,
+          "page": "https://commons.wikimedia.org/wiki/File:202101_Romeo_im_Schnee_2.jpg",
+          "author": "Thomas Mayer 1968",
+          "license": "CC BY-SA 4.0",
+          "alt": "Ten-month-old male Bengal standing in the snow",
+          "focus": "60% 50%"
+        },
+        {
+          "kind": "image",
+          "src": "images/gallery/bengal-4.jpg",
+          "srcSmall": "images/gallery/bengal-4-sm.jpg",
+          "width": 1600,
+          "height": 1128,
+          "page": "https://commons.wikimedia.org/wiki/File:BEN_Bengalian_kitten_(4492540155).jpg",
+          "author": "Nickolas Titkov from Moscow, Russian Federation",
+          "license": "CC BY-SA 2.0",
+          "alt": "Close-up of a brown Bengal kitten",
+          "focus": "55% 40%"
+        },
+        {
+          "kind": "video",
+          "src": "images/gallery/bengal-video.jpg",
+          "srcSmall": "images/gallery/bengal-video-sm.jpg",
+          "width": 1280,
+          "height": 720,
+          "page": "https://commons.wikimedia.org/wiki/File:35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_(%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0).webm",
+          "author": "VLAD PRO",
+          "license": "CC BY 3.0",
+          "alt": "Video: a Bengal from a Russian cattery performing 35 trained tricks, such as high fives and jumping onto its trainer (no sound)",
+          "focus": "45% 40%",
+          "video": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_%28%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%29.webm/35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_%28%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%29.webm.480p.vp9.webm",
+            "duration": 172.6,
+            "width": 854,
+            "height": 480
+          }
+        }
+      ]
+    }
+  },
+  "market": {
+    "currency": "THB",
+    "asOf": "2026-10",
+    "priceFactors": [
+      "Whether the cat has pedigree papers from an international association (CFA, TICA, WCF); papered cats cost several times more",
+      "Whether it is sold as a pet (spayed/neutered or not for breeding) or with breeding and show rights, which costs much more",
+      "Coat color, eye color and standout traits, such as an odd-eyed Khao Manee or a short-legged Munchkin",
+      "Imported bloodlines or parents with show championship titles",
+      "What the price includes, such as vaccines, a microchip, spaying/neutering, genetic disease testing and a health guarantee",
+      "The type of sale, such as co-ownership with the cattery, which costs less but comes with binding conditions"
+    ],
+    "buyerChecklist": [
+      {
+        "title": "At least 12 weeks old",
+        "detail": "Good catteries keep kittens with their mother until about 3–4 months of age before they move to a new home."
+      },
+      {
+        "title": "Pedigree papers",
+        "detail": "Check the name of the issuing association and that the parents' names match the kitten you are buying."
+      },
+      {
+        "title": "Vaccination record",
+        "detail": "It must have the vaccine stickers, the dates given and the vet's signature, complete for the kitten's age."
+      },
+      {
+        "title": "Deworming and disease test history",
+        "detail": "Ask for the deworming history and the FIV (feline AIDS) and FeLV (feline leukemia) test results, if available."
+      },
+      {
+        "title": "Microchip",
+        "detail": "Check that it has been implanted and that the number matches the documents, which is required for registration in Bangkok."
+      },
+      {
+        "title": "Contract and health guarantee",
+        "detail": "It should state in writing which diseases are covered, the guarantee period and any spay/neuter conditions."
+      },
+      {
+        "title": "See the parents and where they live",
+        "detail": "Visit the cattery or make a video call to check the cleanliness, health and temperament of the parent cats."
+      },
+      {
+        "title": "Beware of scammers",
+        "detail": "Do not transfer the full amount before you have verified the seller's identity and seen the actual kitten."
+      }
+    ],
+    "vaccineSchedule": [
+      {
+        "age": "6–8 weeks",
+        "vaccines": "Core combination vaccine (FVRCP) dose 1, covering feline panleukopenia and cat flu (FHV-1 and FCV)",
+        "note": "Most animal hospitals in Thailand start at 8 weeks."
+      },
+      {
+        "age": "10–12 weeks",
+        "vaccines": "Core vaccine dose 2, plus FeLV dose 1 if the cat is at risk",
+        "note": "Doses are given 2–4 weeks apart."
+      },
+      {
+        "age": "14–16 weeks",
+        "vaccines": "Final core vaccine dose, first rabies dose and FeLV dose 2",
+        "note": "The final core vaccine dose should be given at 16 weeks of age or older."
+      },
+      {
+        "age": "26 weeks (about 6 months)",
+        "vaccines": "Core vaccine booster",
+        "note": "A new WSAVA 2024 recommendation that replaces waiting until 1 year of age."
+      },
+      {
+        "age": "1 year",
+        "vaccines": "Rabies booster, plus the core vaccine as recommended by your vet",
+        "note": null
+      },
+      {
+        "age": "Every year after that",
+        "vaccines": "Rabies every year; core vaccine every 1–3 years depending on risk",
+        "note": "An annual health check is still advisable even when the core vaccine is not due every year."
+      }
+    ],
+    "legalNotes": [
+      "Cats are a controlled animal under the Rabies Act B.E. 2535 (1992), added in 2017. Owners must have them vaccinated against rabies and keep the certificate.",
+      "In Bangkok, from 10 January 2026, cats must be microchipped and registered within 120 days of birth or within 30 days of being brought to live in Bangkok, free of charge at Bangkok Metropolitan Administration (BMA) clinics.",
+      "Bangkok limits the number of animals by the size of the home; for example, a condo unit smaller than 80 m² may keep 1 animal (animals already kept and registered by 9 April 2026 are exempt). Violators face a fine of up to 25,000 baht.",
+      "The leopard cat is a protected wild animal, so possessing one or crossing it with a Bengal is illegal. Buy a Bengal with pedigree papers from a registered cattery."
+    ],
+    "ownershipCost": {
+      "monthly": [
+        {
+          "item": "Dry food",
+          "min": 200,
+          "max": 2000
+        },
+        {
+          "item": "Wet food and treats",
+          "min": 0,
+          "max": 600
+        },
+        {
+          "item": "Cat litter",
+          "min": 80,
+          "max": 560
+        },
+        {
+          "item": "Flea, tick and worm prevention",
+          "min": 150,
+          "max": 350
+        },
+        {
+          "item": "Pet insurance (optional)",
+          "min": 50,
+          "max": 670
+        }
+      ],
+      "oneTime": [
+        {
+          "item": "Starter equipment (litter box, bowls, scratcher, carrier)",
+          "min": 1500,
+          "max": 5000
+        },
+        {
+          "item": "Kitten vaccination course",
+          "min": 2000,
+          "max": 5000
+        },
+        {
+          "item": "Spay/neuter surgery",
+          "min": 800,
+          "max": 4000
+        },
+        {
+          "item": "Pre-surgical blood test",
+          "min": 500,
+          "max": 1000
+        },
+        {
+          "item": "Annual booster vaccines",
+          "min": 500,
+          "max": 1000
+        },
+        {
+          "item": "Recommended emergency fund",
+          "min": 5000,
+          "max": 10000
+        }
+      ]
+    },
+    "adoption": [
+      {
+        "name": "Soi Dog Foundation",
+        "url": "https://www.soidog.org/adopt-a-cat",
+        "detail": "Cats can be adopted with no adoption fee, and every cat is already spayed/neutered, vaccinated and microchipped (Phuket)."
+      },
+      {
+        "name": "Rak Maw Foundation",
+        "url": "https://www.rakmaw.com/",
+        "detail": "Helps treat and spay/neuter stray cats at temples and in communities, and finds new homes for cats that are ready for adoption."
+      },
+      {
+        "name": "Lanta Animal Welfare",
+        "url": "https://lantaanimalwelfare.com/cat-adoption/",
+        "detail": "An animal rescue center on Koh Lanta, Krabi, that spays/neuters, vaccinates and rehomes stray cats."
+      }
+    ],
+    "sources": [
+      {
+        "title": "ENNXO – ตลาดซื้อขายแมว แยกตามสายพันธุ์ (เข้าถึง ต.ค. 2569)",
+        "url": "https://www.ennxo.com/en/pet/cat"
+      },
+      {
+        "title": "Yora Pet Foods – 14 สายพันธุ์แมวพร้อมราคา (อัปเดต มิ.ย. 2567)",
+        "url": "https://www.yorapetfoods.in.th/post/popular-cat-breeds"
+      },
+      {
+        "title": "PPTV – เปิดราคาค่าตัวเจ้าเหมียวยอดนิยม (มี.ค. 2564)",
+        "url": "https://www.pptvhd36.com/news/%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1/143899"
+      },
+      {
+        "title": "Kapook – 5 แมวพันธุ์ต่างประเทศที่นิยมในไทย (มี.ค. 2564)",
+        "url": "https://pet.kapook.com/view239194.html"
+      },
+      {
+        "title": "LiveToLife – บ้านแมวไทยพีพี (ก.ย. 2568)",
+        "url": "https://www.livetolife.com/lifestyle/trends/thai-lucky-cat"
+      },
+      {
+        "title": "Bangkok Bengal Cats – Adoption & Pricing",
+        "url": "https://www.bangkokbengalcats.com/adoption-pricing/"
+      },
+      {
+        "title": "BangkokCats Cattery",
+        "url": "https://bangkokcatscattery.com/"
+      },
+      {
+        "title": "WSAVA 2024 Guidelines for the Vaccination of Dogs and Cats",
+        "url": "https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf"
+      },
+      {
+        "title": "โรงพยาบาลสัตว์ทองหล่อ – แมวต้องฉีดวัคซีนอะไรบ้าง",
+        "url": "https://thonglorpet.com/petdiary/vaccines-every-cat-needs"
+      },
+      {
+        "title": "PetTofu – ตารางวัคซีนแมว 2026",
+        "url": "https://pettofu.com/cat-vaccine-schedule/"
+      },
+      {
+        "title": "PetTofu – ค่าใช้จ่ายเลี้ยงแมว 2026",
+        "url": "https://pettofu.com/cat-cost-per-month/"
+      },
+      {
+        "title": "ttb – เลี้ยงหมาแมวมีค่าใช้จ่ายอะไรบ้าง 2568",
+        "url": "https://www.ttbbank.com/th/fin-tips/detail/pl-costs-of-owning-a-dog"
+      },
+      {
+        "title": "ไทยรัฐ – เลี้ยงหมา-แมวต้องใช้เงินเท่าไร (ธ.ค. 2568)",
+        "url": "https://www.thairath.co.th/money/personal_finance/finance_banking/2902292"
+      },
+      {
+        "title": "HealthServ – ราคาทำหมันหมาแมว รพ.สัตว์มหาวิทยาลัย (ก.ค. 2568)",
+        "url": "https://healthserv.net/healthupdate/225179"
+      },
+      {
+        "title": "The Animals Society Thailand – ทำหมันแมวราคาเท่าไหร่",
+        "url": "https://www.the-animals-society-thailand.com/post/cat-neutering-cost-detail"
+      },
+      {
+        "title": "MAKE by KBank – อยากเลี้ยงแมวต้องมีค่าใช้จ่ายอะไรบ้าง",
+        "url": "https://makebykbank.kbtg.tech/en/articles/Cost-of-raising-cat"
+      },
+      {
+        "title": "PetHub – เปรียบเทียบประกันสัตว์เลี้ยง 2026",
+        "url": "https://www.pethub.in.th/blog/pet-insurance-thailand-2026/"
+      },
+      {
+        "title": "ไทยรัฐ – พ.ร.บ.โรคพิษสุนัขบ้า เจ้าของสุนัข-แมวควรต้องรู้",
+        "url": "https://www.thairath.co.th/news/local/1232716"
+      },
+      {
+        "title": "The Standard – กฎใหม่การเลี้ยงสัตว์ กทม. มีผล ม.ค. 2569",
+        "url": "https://thestandard.co/bangkok-new-pet-rules-jan-69/"
+      },
+      {
+        "title": "กรุงเทพธุรกิจ – รวมทุกข้อสงสัย กฎหมายสัตว์เลี้ยง กทม.",
+        "url": "https://www.bangkokbiznews.com/lifestyle/1212023"
+      },
+      {
+        "title": "The Thaiger – คดีผสมแมวดาวกับแมวเบงกอล (2561)",
+        "url": "https://thethaiger.com/th/news/120624/"
+      },
+      {
+        "title": "Time Out Bangkok – แมวไทย 5 สายพันธุ์เป็นเอกลักษณ์ชาติ (พ.ย. 2568)",
+        "url": "https://www.timeout.com/bangkok/th/news/five-thai-cat-breeds-now-official-national-treasures-111925"
+      },
+      {
+        "title": "Soi Dog Foundation – Adoption",
+        "url": "https://www.soidog.org/content/adoption"
+      },
+      {
+        "title": "มูลนิธิรักษ์แมว",
+        "url": "https://www.rakmaw.com/"
+      },
+      {
+        "title": "Lanta Animal Welfare",
+        "url": "https://lantaanimalwelfare.com/"
+      }
+    ]
+  }
+}

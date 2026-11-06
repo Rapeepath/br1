@@ -1,0 +1,151 @@
+{
+  "id": "scottish-fold",
+  "nameTh": "สก็อตติช โฟลด์",
+  "nameEn": "Scottish Fold",
+  "group": "international",
+  "origin": "สกอตแลนด์ (สหราชอาณาจักร)",
+  "recognizedBy": ["CFA", "TICA", "WCF"],
+  "tagline": "แมวหน้ากลมหูพับ ที่ต้องเลือกอย่างรู้เท่าทัน",
+  "summary": "สก็อตติช โฟลด์เป็นแมวขนาดกลางรูปทรงกลม หัวกลม ตาโต และหูพับไปด้านหน้าจนดูคล้ายนกฮูก นิสัยอ่อนโยน เงียบ และรักครอบครัวโดยไม่เรียกร้องมาก แต่ยีนที่ทำให้หูพับ (TRPV4) ทำให้แมวหูพับทุกตัวมีความผิดปกติของกระดูกอ่อนและข้อในระดับต่าง ๆ จึงต้องเฝ้าระวังอาการปวดข้อตลอดชีวิต",
+  "history": "แมวหูพับตัวแรกชื่อซูซี (Susie) เป็นแมวในฟาร์มแถบเทย์ไซด์ สกอตแลนด์ พบเมื่อปี ค.ศ. 1961 โดยคนเลี้ยงแกะชื่อวิลเลียม รอสส์ ซึ่งนำลูกของมันมาพัฒนาเป็นสายพันธุ์ CFA ของสหรัฐฯ รับรองแมวขนสั้นระดับแชมเปียนในปี 1978 ขณะที่ GCCF ของอังกฤษเลิกรับจดทะเบียนตั้งแต่ต้นทศวรรษ 1970 เพราะกังวลเรื่องสุขภาพ",
+  "size": "medium",
+  "weightKg": { "female": [2.7, 4], "male": [4, 6] },
+  "lifespanYears": [11, 14],
+  "coat": {
+    "length": "short",
+    "texture": "ขนสั้นหนาแน่น นุ่มฟู (มีแบบขนยาวด้วย)",
+    "colors": ["บลู (เทาอมฟ้า)", "ขาว", "ครีม", "ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)", "สามสี (คาลิโก)", "สองสี (ไบคัลเลอร์)"]
+  },
+  "appearance": [
+    "หูเล็กพับไปด้านหน้าแนบศีรษะ",
+    "หัวกลม ตากลมโต หน้าตาคล้ายนกฮูก",
+    "ลำตัวกลมแน่น คอสั้น",
+    "ลูกแมวเกิดมาหูตรง หูเริ่มพับในเดือนแรก",
+    "มีทั้งขนสั้น ขนยาว และแบบหูตรง (Scottish Straight)"
+  ],
+  "temperament": ["อ่อนโยน", "เงียบ เสียงเบา", "รักครอบครัว", "ขี้เล่นพอประมาณ", "ชอบเดินตามเจ้าของ", "ปรับตัวง่าย"],
+  "ratings": {
+    "energy": 2,
+    "affection": 5,
+    "vocal": 1,
+    "intelligence": 3,
+    "grooming": 2,
+    "shedding": 3,
+    "kidFriendly": 4,
+    "petFriendly": 5,
+    "socialNeeds": 3
+  },
+  "care": {
+    "grooming": "ขนสั้นแปรงสัปดาห์ละครั้ง ขนยาวแปรง 3–4 ครั้งต่อสัปดาห์ แมวที่ปวดข้ออาจเลียขนตัวเองได้ไม่ทั่ว เจ้าของจึงควรช่วยแปรงเพิ่ม",
+    "exercise": "พลังงานไม่สูง ควรชวนเล่นเบา ๆ ด้วยไม้ล่อแมวหรือของเล่นฝึกสมองทุกวัน และห้ามจับหรือดึงหางแรง ๆ เพราะหางอาจแข็งและเจ็บ",
+    "diet": "กินเก่งและอ้วนง่าย ควรตวงอาหารและคุมน้ำหนักเพื่อลดภาระข้อ ปรึกษาสัตวแพทย์เรื่องโอเมก้า-3 กลูโคซามีน หรือคอนดรอยตินเสริมข้อ",
+    "environment": "จัดที่นอนนุ่มและวางของจำเป็นให้เข้าถึงได้โดยไม่ต้องกระโดดสูง หมั่นสังเกตอาการปวด เช่น ลังเลก่อนกระโดด เดินขาแข็ง หางแข็ง นอนมากผิดปกติ หรือเลียขนน้อยลง"
+  },
+  "health": [
+    {
+      "name": "ภาวะกระดูกและกระดูกอ่อนเจริญผิดปกติ (Scottish Fold Osteochondrodysplasia)",
+      "detail": "เกิดจากยีน TRPV4 ตัวเดียวกับที่ทำให้หูพับ ทำให้กระดูกข้อเท้า ข้อมือ และหางผิดรูป เกิดข้อเสื่อมและปวดได้ตั้งแต่อายุน้อย ความรุนแรงต่างกันมาก ตั้งแต่แทบไม่แสดงอาการไปจนถึงเดินลำบาก",
+      "screening": "เอกซเรย์ขาหน้า ขาหลัง และหางเป็นระยะ ตรวจยีน TRPV4 ในพ่อแม่พันธุ์ และห้ามผสมแมวหูพับกับหูพับ"
+    },
+    {
+      "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+      "detail": "งานวิจัยในญี่ปุ่นพบยีน PKD1 กลายพันธุ์ในสก็อตติช โฟลด์บ่อยกว่าแมวหลายสายพันธุ์ ทำให้เกิดถุงน้ำในไตและอาจนำไปสู่ไตวาย",
+      "screening": "ตรวจ DNA ยีน PKD1 ของพ่อแม่พันธุ์และลูกแมว"
+    },
+    {
+      "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+      "detail": "มีรายงานว่าเป็นความเสี่ยงในสายพันธุ์นี้ ผนังหัวใจหนาขึ้นจนสูบฉีดเลือดได้ไม่ดี และอาจเกิดลิ่มเลือด",
+      "screening": "ตรวจอัลตราซาวนด์หัวใจ (Echocardiography) โดยสัตวแพทย์"
+    },
+    {
+      "name": "ภาวะอ้วน (Obesity)",
+      "detail": "กินเก่งแต่ไม่ค่อยเคลื่อนไหว น้ำหนักเกินยิ่งซ้ำเติมปัญหาข้อ",
+      "screening": "ชั่งน้ำหนักและประเมินรูปร่างทุกครั้งที่พบสัตวแพทย์"
+    }
+  ],
+  "welfareNote": "ยีนหูพับเป็นยีนเด่นที่ทำให้แมวหูพับทุกตัวมีความผิดปกติของกระดูกอ่อนในระดับต่าง ๆ FIFe และ GCCF จึงไม่รับรองสายพันธุ์นี้ เนเธอร์แลนด์ แฟลนเดอร์ส (เบลเยียม) และรัฐวิกตอเรีย (ออสเตรเลีย) ห้ามเพาะพันธุ์ และผู้เพาะพันธุ์ที่รับผิดชอบต้องไม่ผสมหูพับกับหูพับเด็ดขาด",
+  "idealFor": [
+    "ผู้ที่ชอบแมวเงียบ ๆ ชอบอยู่ติดบ้าน",
+    "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่นที่อ่อนโยน",
+    "คนที่พร้อมพาไปตรวจข้อและหัวใจสม่ำเสมอ"
+  ],
+  "considerations": [
+    "แมวหูพับทุกตัวเสี่ยงปวดข้อเรื้อรัง ควรเตรียมค่ารักษาระยะยาว",
+    "เลือกฟาร์มที่ผสมกับแมวหูตรงเท่านั้น และมีผลตรวจยีน TRPV4 และ PKD",
+    "หลีกเลี่ยงลูกผสมหูพับกับมันช์กิ้นหรืออเมริกัน เคิร์ล เพราะลูกอาจได้ยีนสองชุดและกระดูกผิดรูปรุนแรง"
+  ],
+  "funFact": "เมื่อผสมแมวหูพับกับแมวหูตรง ลูกในครอกจะหูพับเพียงราวครึ่งหนึ่ง และบางตัวที่หูเคยพับอาจกลับมาหูตรงเมื่อโตขึ้นแม้ยังมียีนหูพับอยู่",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Adult_Scottish_Fold.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Adult_Scottish_Fold.jpg",
+    "author": "Mihai Matei",
+    "license": "CC BY-SA 3.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/scottish-fold-1.jpg",
+      "srcSmall": "images/gallery/scottish-fold-1-sm.jpg",
+      "width": 1600,
+      "height": 1158,
+      "page": "https://commons.wikimedia.org/wiki/File:Scottish_fold_cat_(13223591385).jpg",
+      "author": "Vladimir Pustovit",
+      "license": "CC BY 2.0",
+      "alt": "สก็อตติช โฟลด์สีบลู หูพับแนบหัว ตาสีส้ม"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/scottish-fold-2.jpg",
+      "srcSmall": "images/gallery/scottish-fold-2-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Marimo_(5369843501).jpg",
+      "author": "Takashi Hososhima from Tokyo, Japan",
+      "license": "CC BY-SA 2.0",
+      "alt": "สก็อตติช โฟลด์สีบลูขาวชื่อมาริโมะ หมอบบนกล่องในคาเฟ่แมว",
+      "focus": "65% 55%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/scottish-fold-3.jpg",
+      "srcSmall": "images/gallery/scottish-fold-3-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Washed_cat_2014-05-06.jpg",
+      "author": "Vladimir Pustovit",
+      "license": "CC BY 2.0",
+      "alt": "สก็อตติช โฟลด์สีช็อกโกแลตนอนบนผ้าลายดอก เห็นหูพับชัดเจน",
+      "focus": "25% 35%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/scottish-fold-4.jpg",
+      "srcSmall": "images/gallery/scottish-fold-4-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%B1%D0%B5%D1%82%D0%B0_%D1%88%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D1%86%D0%B8.jpg",
+      "author": "SvetlozarpPetrov",
+      "license": "CC BY-SA 4.0",
+      "alt": "ลูกแมวสก็อตติชสีบลูสี่ตัวในกล่องไม้ สามตัวหูพับ อีกตัวหูตั้ง (สก็อตติช สเตรท)"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – Scottish Fold breed profile", "url": "https://cfa.org/breed/scottish-fold/" },
+    { "title": "TICA – Scottish Fold", "url": "https://tica.org/breed/scottish-fold/" },
+    { "title": "VCA Animal Hospitals – Scottish Fold", "url": "https://vcahospitals.com/know-your-pet/cat-breeds/scottish-fold" },
+    { "title": "PetMD – Scottish Fold", "url": "https://www.petmd.com/cat/breeds/scottish-fold" },
+    { "title": "Gandolfi et al. 2016 – A dominant TRPV4 variant underlies osteochondrodysplasia in Scottish fold cats (Osteoarthritis and Cartilage)", "url": "https://doi.org/10.1016/j.joca.2016.03.019" },
+    { "title": "Takanosu et al. 2008 – Incomplete dominant osteochondrodysplasia in heterozygous Scottish Fold cats (J Small Anim Pract)", "url": "https://doi.org/10.1111/j.1748-5827.2008.00561.x" },
+    { "title": "Matsumoto et al. 2026 – Straightened small pinnae in TRPV4 c.1024G>T heterozygous cats (Animal Genetics)", "url": "https://doi.org/10.1002/age.70114" },
+    { "title": "Shitamori et al. 2023 – Large-scale epidemiological study on feline ADPKD (J Feline Med Surg)", "url": "https://doi.org/10.1177/1098612x231185393" },
+    { "title": "Cornell Feline Health Center – Hypertrophic Cardiomyopathy", "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hypertrophic-cardiomyopathy" },
+    { "title": "FIFe Breeding & Registration Rules (§3.5.2, §3.6.2)", "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf" },
+    { "title": "GCCF – Unrecognised Breeds", "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/" },
+    { "title": "WCF – Scottish Fold Shorthair breed standard (2023)", "url": "https://wcf.de/pdf-en/breed/SFS_en_2023-08-13.pdf" },
+    { "title": "Rijksoverheid – Houdverbod vouwoorkatten en naaktkatten vanaf 1 januari 2026", "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/vanaf-1-januari-2026-ingang-houdverbod-vouwoorkatten-en-naaktkatten" },
+    { "title": "Vlaanderen.be – Verbod op de kweek en het verhandelen van fold katten", "url": "https://www.vlaanderen.be/verbod-op-de-kweek-en-het-verhandelen-van-fold-katten" },
+    { "title": "Agriculture Victoria – Code of Practice for the Breeding of Animals with Heritable Defects that Cause Disease", "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/pocta-act-1986/victorian-codes-of-practice-for-animal-welfare/code-of-practice-for-the-breeding-of-animals-with-heritable-defects-that-cause-disease" },
+    { "title": "UK Animal Welfare Committee – Opinion on current and emergent feline breeding practices (2024)", "url": "https://gov.wales/sites/default/files/publications/2025-01/animal-welfare-committee-opinion-on-the-welfare-implications-of-current-and-emergent-feline-breeding-practices.pdf" },
+    { "title": "The Cat API breeds data (archived 2025-12-09)", "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds" }
+  ]
+}

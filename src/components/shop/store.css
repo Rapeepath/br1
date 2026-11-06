@@ -1,0 +1,98 @@
+/* The shop's contact block and the week's opening hours */
+.store-details__name {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+}
+
+.store-details__branch {
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.store-details__list {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+  list-style: none;
+}
+
+.store-details__list > li {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-3);
+  color: var(--ink-muted);
+  line-height: 1.6;
+}
+
+.store-details__list > li > svg {
+  box-sizing: content-box;
+  padding: 8px;
+  border-radius: 50%;
+  background: var(--tint-peach);
+  color: var(--on-peach);
+  width: 20px;
+  height: 20px;
+  margin-top: -6px;
+}
+
+.store-details__list a {
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.store-details__map {
+  white-space: nowrap;
+}
+
+.hours-lines {
+  display: grid;
+  gap: 2px;
+  margin-top: var(--space-2);
+  list-style: none;
+}
+
+.week-hours {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.week-hours th,
+.week-hours td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px dashed var(--line-strong);
+  text-align: left;
+  font-weight: 600;
+}
+
+.week-hours th {
+  color: var(--ink-muted);
+}
+
+.week-hours td {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.week-hours tr[data-today] th,
+.week-hours tr[data-today] td {
+  background: var(--tint-mint);
+  color: var(--on-mint);
+  font-weight: 800;
+}
+
+.week-hours tr[data-today] th {
+  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+}
+
+.week-hours tr[data-today] td {
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.week-hours__today {
+  font-weight: 600;
+}

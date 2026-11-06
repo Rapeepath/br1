@@ -1,0 +1,256 @@
+{
+  "id": "bengal",
+  "nameTh": "เบงกอล",
+  "nameEn": "Bengal",
+  "group": "international",
+  "origin": "สหรัฐอเมริกา",
+  "recognizedBy": [
+    "CFA",
+    "TICA",
+    "FIFe",
+    "GCCF",
+    "WCF"
+  ],
+  "tagline": "ลายเสือดาวในร่างแมวบ้าน พลังล้นเหลือ",
+  "summary": "เบงกอลเป็นแมวขนสั้นที่มีลายจุดกุหลาบ (rosette) หรือลายหินอ่อนคล้ายแมวป่า ขนนุ่มลื่น บางตัวมีประกายระยิบ (glitter) นิสัยมั่นใจ อยากรู้อยากเห็น ฉลาด และมีพลังงานสูงมาก ต้องการกิจกรรมและการเล่นกับเจ้าของทุกวัน",
+  "history": "เบงกอลเกิดจากการผสมแมวดาว (Asian leopard cat) กับแมวบ้าน โดยฌอง มิลล์ (Jean Mill) เริ่มผสมครั้งแรกในปี ค.ศ. 1963 แล้วผสมกลับกับแมวบ้านหลายรุ่นจนได้แมวนิสัยแบบแมวบ้าน TICA รับเป็นสายพันธุ์ใหม่ในปี 1986 และให้สถานะแชมเปียนในปี 1991 ส่วน CFA รับจดทะเบียนในปี 2016",
+  "size": "medium",
+  "weightKg": {
+    "female": [
+      3.6,
+      5.4
+    ],
+    "male": [
+      4.5,
+      6.8
+    ]
+  },
+  "lifespanYears": [
+    12,
+    16
+  ],
+  "coat": {
+    "length": "short",
+    "texture": "สั้น แน่น แนบตัว นุ่มลื่น บางตัวมีประกายระยิบ",
+    "colors": [
+      "ลายจุด/ลายกุหลาบสีน้ำตาล (บราวน์)",
+      "ลายหินอ่อน (มาร์เบิล)",
+      "สโนว์ (โทนงาช้างถึงครีม)",
+      "ซิลเวอร์ (สีเงิน)",
+      "บลู (เทาอมฟ้า)",
+      "ชาร์โคล (Charcoal)"
+    ]
+  },
+  "appearance": [
+    "ลายจุดหรือลายกุหลาบขอบเข้มคล้ายเสือดาว หรือลายหินอ่อน",
+    "ขนสั้นนุ่ม บางตัวเป็นประกายระยิบเมื่อต้องแสง (glitter)",
+    "ลำตัวเพรียว กล้ามเนื้อแน่น ดูปราดเปรียวแบบนักกีฬา",
+    "ท้องสีอ่อนเกือบขาว และใบหน้ายังมีลายแบบแมวแทบบี้"
+  ],
+  "temperament": [
+    "มั่นใจ",
+    "อยากรู้อยากเห็น",
+    "พลังงานสูง",
+    "ฉลาด ฝึกได้",
+    "ช่างส่งเสียง",
+    "ต้องการความสนใจ"
+  ],
+  "ratings": {
+    "energy": 5,
+    "affection": 4,
+    "vocal": 5,
+    "intelligence": 5,
+    "grooming": 1,
+    "shedding": 3,
+    "kidFriendly": 3,
+    "petFriendly": 4,
+    "socialNeeds": 5
+  },
+  "care": {
+    "grooming": "ดูแลขนง่าย แปรงด้วยแปรงขนนุ่มสัปดาห์ละครั้งก็พอ และแทบไม่ต้องอาบน้ำ ยกเว้นจะส่งประกวด",
+    "exercise": "ต้องการกิจกรรมมากทุกวัน เช่น ของเล่นล่อ ล้อวิ่งสำหรับแมว เล่นคาบของ และฝึกเดินด้วยสายจูง บางตัวเรียนรู้วิธีเปิดประตูหรือตู้ได้เอง",
+    "diet": "ไม่ต้องใช้อาหารสูตรพิเศษ ให้อาหารแมวคุณภาพดีที่ครบถ้วนตามมาตรฐาน แบ่งเป็นหลายมื้อเล็ก และใช้ของเล่นปริศนาใส่อาหารแทนการวางอาหารทิ้งไว้",
+    "environment": "ต้องมีที่ปีนป่าย เช่น คอนโดแมวและชั้นติดผนัง และไม่ควรปล่อยออกนอกบ้านอย่างอิสระ ในอากาศร้อนควรให้เล่นหนักช่วงเช้าหรือเย็นที่อากาศเย็นลง และมีน้ำสะอาดตลอด"
+  },
+  "health": [
+    {
+      "name": "ภาวะขาดเอนไซม์ไพรูเวตไคเนส (Pyruvate Kinase Deficiency)",
+      "detail": "โรคโลหิตจางจากเม็ดเลือดแดงแตกที่ถ่ายทอดแบบยีนด้อย การสำรวจแมวกว่า 14,000 ตัวพบความถี่ของยีนกลายพันธุ์ในเบงกอลราว 13% ซึ่งสูงที่สุดในบรรดาสายพันธุ์ที่พบ",
+      "screening": "ตรวจ DNA ยีน PKLR ในพ่อแม่พันธุ์"
+    },
+    {
+      "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA-b)",
+      "detail": "โรคพันธุกรรมแบบยีนด้อยจากยีน KIF3B เซลล์รับแสงเริ่มเสื่อมตั้งแต่อายุราว 7 สัปดาห์ และสายตาจะแย่ลงมากเมื่ออายุราว 2 ปี",
+      "screening": "ตรวจ DNA PRA-b จากสำลีป้ายกระพุ้งแก้มในพ่อแม่พันธุ์"
+    },
+    {
+      "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+      "detail": "พบได้ในเบงกอล แต่ยังไม่มียีนเฉพาะสายพันธุ์ให้ตรวจ ยีน MYBPC3 ที่ใช้ตรวจในเมนคูนและแร็กดอลล์จึงใช้กับเบงกอลไม่ได้",
+      "screening": "อัลตราซาวนด์หัวใจ (Echocardiography) ในพ่อแม่พันธุ์เป็นประจำ ส่วนผลตรวจยีน A74T ไม่ได้ยืนยันว่าปลอด HCM"
+    },
+    {
+      "name": "ลูกสะบ้าเคลื่อน (Patellar Luxation)",
+      "detail": "ลูกสะบ้าหลุดออกจากร่องข้อเข่า ทำให้เดินกะเผลก อาจรักษาด้วยยาต้านการอักเสบหรือผ่าตัด",
+      "screening": null
+    }
+  ],
+  "welfareNote": "ผู้เลี้ยงทั่วไปควรเลือกเบงกอลรุ่นหลัง (SBT) ที่มีใบเพ็ดดีกรีจากสมาคมแมวเท่านั้น เพราะเบงกอลรุ่นแรก (F1–F3) มีแมวดาวเป็นพ่อแม่หรือบรรพบุรุษใกล้ชิด ยังมีพฤติกรรมแบบสัตว์ป่า สมาคมสัตวแพทย์แมว (FelineVMA) จึงไม่แนะนำให้เลี้ยง อีกทั้งแมวดาวเป็นสัตว์ป่าคุ้มครองตาม พ.ร.บ.สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2562 (ครอบครองโดยไม่ได้รับอนุญาตมีโทษจำคุกไม่เกิน 5 ปีหรือปรับไม่เกิน 500,000 บาท หรือทั้งจำทั้งปรับ) และลูกผสมภายในสี่รุ่นยังอยู่ภายใต้อนุสัญญาไซเตส (CITES) เมื่อนำเข้าหรือส่งออก",
+  "idealFor": [
+    "คนที่มีเวลาเล่นและฝึกแมวทุกวัน",
+    "ผู้ที่เคยเลี้ยงแมวมาก่อน",
+    "บ้านที่จัดพื้นที่ปีนป่ายและของเล่นได้เต็มที่"
+  ],
+  "considerations": [
+    "พลังงานสูงและเรียกร้องความสนใจมาก ไม่เหมาะกับคนที่เพิ่งเลี้ยงแมวครั้งแรก",
+    "ช่างส่งเสียง และบางตัวไม่ชอบให้อุ้ม",
+    "สัญชาตญาณนักล่าสูง อาจไม่เหมาะกับบ้านที่มีเด็กเล็กหรือสัตว์เลี้ยงตัวเล็ก"
+  ],
+  "funFact": "เบงกอลฝึกง่าย หลายตัวเรียนเล่นทริกและเดินด้วยสายจูงได้เหมือนสุนัข",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Female_bengal_cat_outdoor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Female_bengal_cat_outdoor.jpg",
+    "author": "Rosana Prada",
+    "license": "CC BY 2.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/bengal-1.jpg",
+      "srcSmall": "images/gallery/bengal-1-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Bengal_-_18.jpg",
+      "author": "William Crochot (Medium69)",
+      "license": "CC BY-SA 4.0",
+      "alt": "เบงกอลเพศเมียอายุ 3 ปีลายสีน้ำตาล นอนพาดเบาะบนคอนโดแมว",
+      "focus": "45% 35%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/bengal-2.jpg",
+      "srcSmall": "images/gallery/bengal-2-sm.jpg",
+      "width": 1600,
+      "height": 928,
+      "page": "https://commons.wikimedia.org/wiki/File:Best_Stalk.jpg",
+      "author": "Lightburst",
+      "license": "CC BY-SA 4.0",
+      "alt": "เบงกอลลายกุหลาบ (โรเซตต์) สีน้ำตาล ย่องตัวต่ำบนฉากสีแดง"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/bengal-3.jpg",
+      "srcSmall": "images/gallery/bengal-3-sm.jpg",
+      "width": 1600,
+      "height": 1200,
+      "page": "https://commons.wikimedia.org/wiki/File:202101_Romeo_im_Schnee_2.jpg",
+      "author": "Thomas Mayer 1968",
+      "license": "CC BY-SA 4.0",
+      "alt": "เบงกอลเพศผู้อายุ 10 เดือนยืนบนหิมะ",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/bengal-4.jpg",
+      "srcSmall": "images/gallery/bengal-4-sm.jpg",
+      "width": 1600,
+      "height": 1128,
+      "page": "https://commons.wikimedia.org/wiki/File:BEN_Bengalian_kitten_(4492540155).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "ใบหน้าลูกแมวเบงกอลลายสีน้ำตาล",
+      "focus": "55% 40%"
+    },
+    {
+      "kind": "video",
+      "src": "images/gallery/bengal-video.jpg",
+      "srcSmall": "images/gallery/bengal-video-sm.jpg",
+      "width": 1280,
+      "height": 720,
+      "page": "https://commons.wikimedia.org/wiki/File:35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_(%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0).webm",
+      "author": "VLAD PRO",
+      "license": "CC BY 3.0",
+      "alt": "วิดีโอ: เบงกอลจากฟาร์มในรัสเซียโชว์ท่าที่ฝึกไว้ 35 ท่า เช่น ไฮไฟว์และกระโดดขึ้นตัวผู้ฝึก (ไม่มีเสียง)",
+      "focus": "45% 40%",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_%28%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%29.webm/35_%D1%83%D0%B4%D0%B8%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D1%82%D1%80%D1%8E%D0%BA%D0%BE%D0%B2_%D0%BE%D1%82_%D0%91%D0%B5%D0%BD%D0%B3%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%82%D0%B0_%28%D0%B1%D0%B5%D0%B7_%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%29.webm.480p.vp9.webm",
+        "duration": 172.6,
+        "width": 854,
+        "height": 480
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "CFA – Bengal",
+      "url": "https://cfa.org/breeds/bengal/"
+    },
+    {
+      "title": "TICA – Bengal Breed Introduction (PDF)",
+      "url": "https://tica.org/wp-content/uploads/2018/08/TICA-Bengal-Breed-Introduction.pdf"
+    },
+    {
+      "title": "GCCF – Bengal",
+      "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/bengal/"
+    },
+    {
+      "title": "FIFe – Breeds (BEN, Category 3)",
+      "url": "https://fifeweb.org/cats/breeds/"
+    },
+    {
+      "title": "WCF – EMS breed code list (PDF)",
+      "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf"
+    },
+    {
+      "title": "VCA Animal Hospitals – Bengal",
+      "url": "https://vcahospitals.com/know-your-pet/cat-breeds/bengal"
+    },
+    {
+      "title": "PetMD – Bengal (vet-reviewed, 2025)",
+      "url": "https://www.petmd.com/cat/breeds/bengal"
+    },
+    {
+      "title": "UC Davis VGL – Progressive Retinal Atrophy (PRA-b, Bengal)",
+      "url": "https://vgl.ucdavis.edu/test/pra-bengal"
+    },
+    {
+      "title": "UC Davis VGL – PK Deficiency",
+      "url": "https://vgl.ucdavis.edu/test/pk-deficiency-cat"
+    },
+    {
+      "title": "Grahn et al. 2012, BMC Vet Res – PK deficiency in multiple breeds",
+      "url": "https://doaj.org/article/8da8592d416a47dd8b382a01244c5b4d"
+    },
+    {
+      "title": "Longeri et al. 2013, JVIM – MYBPC3 variants and HCM",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3602388"
+    },
+    {
+      "title": "FelineVMA 2025 Hybrid Cats Position Statement",
+      "url": "https://catvets.com/resource/2025-hybrid-cats-position-statement/"
+    },
+    {
+      "title": "CITES Resolution Conf. 10.17 (Rev. CoP14) – Animal hybrids",
+      "url": "https://cites.org/sites/default/files/documents/COP/19/resolution/E-Res-10-17-R14.pdf"
+    },
+    {
+      "title": "มติชน – จับผู้ค้าแมวดาว ผิด พ.ร.บ.สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2562 (2563)",
+      "url": "https://www.matichon.co.th/region/news_1982531"
+    },
+    {
+      "title": "The Thaiger – จับผู้ลักลอบผสมแมวดาวกับแมวเบงกอล เกาะลันตา (2561)",
+      "url": "https://thethaiger.com/th/news/120624/"
+    },
+    {
+      "title": "Teng et al. 2024, JFMS – Life tables for cats in the UK (VetCompass)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156239/"
+    },
+    {
+      "title": "Cats Protection – Heatstroke in cats",
+      "url": "https://cats.org.uk/help-and-advice/health/heatstroke-in-cats"
+    },
+    {
+      "title": "The Cat API breed data (mirror)",
+      "url": "https://cat-data-pages.onrender.com/data/table"
+    }
+  ]
+}

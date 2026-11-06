@@ -1,0 +1,77 @@
+{
+  "id": "korat",
+  "origin": "Thailand (Nakhon Ratchasima)",
+  "tagline": "The lucky silver-blue cat with sparkling green eyes",
+  "summary": "The Korat, or Si Sawat, is a Thai shorthair that comes in just one color: blue-gray with silver tips. It has a heart-shaped head, large green eyes and a medium-sized body that is heavier than it looks. Intelligent, devoted to its owner and fairly quiet, it is regarded in Thailand as an auspicious cat and is often given to newlyweds.",
+  "history": "The Korat is recorded in the Ayutthaya-period Tamra Maew (Cat-Book Poems) manuscript under the names Malet and Dok Lao, and it was also carried in the traditional cat procession held to ask for rain. The first pair, Nara and Darra, were taken to the United States in 1959; the CFA granted championship status in 1966 and the GCCF in 1984. On 18 November 2025 the Malet cat was one of five Thai cat breeds approved by the Cabinet as symbols of Thai national identity.",
+  "coat": {
+    "texture": "Single coat, short, fine and glossy, lying close to the body",
+    "colors": [
+      "Silver-tipped blue only"
+    ]
+  },
+  "appearance": [
+    "Heart-shaped head when seen from the front",
+    "Large, round, vivid green eyes (kittens have yellow/amber eyes that turn fully green at 2–4 years)",
+    "Sparkling silver tips to the hair; the shorter the hair, the more clearly the silver sheen shows",
+    "Not large but heavier than it looks, with firm muscles",
+    "Large ears with rounded tips, set high on the head"
+  ],
+  "temperament": [
+    "Very intelligent",
+    "Devoted to its owner",
+    "Fairly quiet",
+    "Playful",
+    "Possessive of its things",
+    "Dislikes loud noises"
+  ],
+  "care": {
+    "grooming": "The single coat sheds little. Comb or brush it gently once a week, then stroke it by hand or with a chamois cloth to bring up the shine.",
+    "exercise": "Fairly high-energy and enjoys learning tricks. Provide toys and places to climb; it can be trained to walk on a leash, and if it goes outdoors it should stay in an enclosed area.",
+    "diet": "Feed a complete diet suited to its life stage and keep its weight just right. The Korat carries little body fat, so always tell the vet before any general anesthetic.",
+    "environment": "Prefers a calm home, startles easily at loud noises or sudden movements, and dislikes being left alone for long, as it can become stressed by separation from its owner."
+  },
+  "health": [
+    {
+      "name": "GM1 gangliosidosis",
+      "detail": "A recessive inherited disease (GLB1 gene) that damages the nervous system. Affected kittens begin to tremble at about 3 months and die at about 9–10 months.",
+      "screening": "DNA test the parents before breeding; FIFe and the GCCF require testing or parents that have tested clear."
+    },
+    {
+      "name": "GM2 gangliosidosis",
+      "detail": "A recessive inherited disease (HEXB gene). Trembling and an unsteady gait begin from about 4 weeks, and affected kittens die before 8 months of age.",
+      "screening": "DNA test (e.g. UC Davis VGL, Langford Vets), and never mate a carrier with a carrier."
+    },
+    {
+      "name": "Atherosclerosis",
+      "detail": "A recessive gene has been found that causes cholesterol to build up in the artery walls, which may lead to heart failure.",
+      "screening": "A DNA test has been available since 2025, and GCCF breeders are testing every bloodline."
+    }
+  ],
+  "welfareNote": "The Korat population is small, and cats abroad trace their ancestry back to cats from Thailand. Buyers should ask for the parents' GM1/GM2 and atherosclerosis test results (where available) before taking a kitten home.",
+  "idealFor": [
+    "Calm homes where someone is often in",
+    "People who want an intelligent, devoted cat that isn't very vocal",
+    "Families with children who play gently with cats"
+  ],
+  "considerations": [
+    "Dislikes being left alone for long and may become stressed by separation",
+    "Dislikes busy, chaotic homes and often wants to be top cat over other pets",
+    "Always ask the breeder for genetic disease test results"
+  ],
+  "funFact": "Thais liken the sparkle in a Korat's eyes to dewdrops on a lotus leaf, and the name Si Sawat comes from the color of the seeds of the sawat plant.",
+  "price": {
+    "note": "Most sell for a few thousand baht; cats confirmed by their cattery as purebred or from show lines can cost 10,000 baht or more."
+  },
+  "gallery": [
+    {
+      "alt": "Korat with a silver-tipped blue coat and bright green eyes, at a Finnish Korat club presentation"
+    },
+    {
+      "alt": "Two Korat sisters side by side by a window, with amber eyes"
+    },
+    {
+      "alt": "Korat mother with her litter on a pink blanket; the kittens' eyes are still blue"
+    }
+  ]
+}

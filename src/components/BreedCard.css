@@ -1,0 +1,343 @@
+/*
+  Lineup card, kept calm (2026-11-06 declutter):
+    1  a white rounded card with its clay highlight, sitting on the apricot band (.lineup in HomePage.css)
+    2  the photo in a rounded inset, a honey "สายพันธุ์ไทย" label in its corner for Thai breeds
+    3  the name and its second-language name
+    4  "ราคาประมาณ …" on one line, then weight and lifespan in a single row
+    5  the shop's stock pill (when its system answers) and a light compare toggle at the foot
+  The tagline, the spec tiles and the floating arrow live on the breed page now.
+*/
+.plate-stack {
+  --plate-pad: 10px;
+  --plate-radius: 26px;
+
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.plate {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  padding: var(--plate-pad);
+  border-radius: var(--plate-radius);
+  background: var(--surface);
+  box-shadow: var(--elev-1), var(--clay);
+  transition: box-shadow 300ms ease;
+}
+
+@media (hover: hover) {
+  .plate:hover {
+    box-shadow: var(--elev-3), var(--clay);
+  }
+}
+
+.plate:focus-within {
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+/* Photo */
+.plate__media {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: calc(var(--plate-radius) - var(--plate-pad));
+  background: var(--surface-sunk);
+}
+
+.plate__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: scale 600ms var(--ease);
+}
+
+.plate:has(.plate__media:hover) .plate__media img,
+.plate:has(.plate__title a:hover) .plate__media img {
+  scale: 1.04;
+}
+
+.plate__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--space-4) var(--space-3) var(--space-2);
+}
+
+.plate__title h3 {
+  font-size: var(--fs-xl);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.plate__title h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* Photo and title act as one target for pointer users via the media link */
+.plate__title h3 a:hover,
+.plate:has(.plate__media:hover) .plate__title h3 a {
+  color: var(--accent);
+}
+
+/* The Thai-heritage chip floats on the photo as a honey label. It stays in the title row in the
+   DOM, so screen readers still hear it right after the name. */
+.plate__title .chip-thai {
+  position: absolute;
+  top: calc(var(--plate-pad) + 10px);
+  left: calc(var(--plate-pad) + 10px);
+  min-height: 28px;
+  padding: 0 var(--space-3);
+  box-shadow: var(--elev-2);
+}
+
+.plate__en {
+  margin-top: 2px;
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Price on its own line; the figure row, stock pill and toggle sit at the foot so cards line up */
+.plate__price {
+  margin-top: var(--space-3);
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.plate__figure {
+  color: var(--figure);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+}
+
+.plate__unit {
+  color: var(--ink-subtle);
+}
+
+.plate__specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px var(--space-3);
+  /* auto top margin lines the foot up across a grid row, whatever the name length */
+  margin: auto 0 0;
+  padding-top: var(--space-3);
+  list-style: none;
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.plate__specs li {
+  white-space: nowrap;
+}
+
+.plate__specs li + li {
+  padding-left: var(--space-3);
+  border-left: 2px solid var(--line);
+}
+
+.plate__spec-label {
+  color: var(--ink-subtle);
+  font-weight: 500;
+}
+
+/* The shop's live stock pill (StockBadge renders nothing when the shop's system can't be reached) */
+.plate__stock {
+  margin-top: var(--space-3);
+}
+
+.plate__stock:empty {
+  display: none;
+}
+
+.plate__stock .stock-badge__price {
+  display: none;
+}
+
+.plate__stock .pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 100%;
+  min-height: 24px;
+  padding: 3px var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--tone-bg, var(--tint-mint));
+  color: var(--tone-ink, var(--on-mint));
+  font-size: var(--fs-2xs);
+  font-weight: 700;
+  line-height: 1.3;
+  white-space: normal;
+}
+
+/* A quiet toggle: no outline until pointed at, filled once chosen */
+.plate__compare {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: var(--space-2);
+  min-height: 40px;
+  margin: var(--space-3) 0 0 calc(-1 * var(--space-3));
+  padding: 0 var(--space-4) 0 var(--space-3);
+  border: 2px solid transparent;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  transition:
+    border-color 200ms ease,
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+.plate__compare:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.plate__compare[data-selected] {
+  margin-left: 0;
+  border-color: var(--selected-bg);
+  background: var(--selected-bg);
+  color: var(--selected-fg);
+}
+
+.plate__compare[aria-disabled='true'] {
+  color: var(--ink-subtle);
+  cursor: not-allowed;
+}
+
+.plate__compare[aria-disabled='true']:hover {
+  background: transparent;
+}
+
+/* Wording swaps for the half-width phone card (see the phone block below) */
+.plate__label-brief {
+  display: none;
+}
+
+/*
+  Phones: a two-up product grid (HomePage.css). Every card has the same parts in the same places —
+  square photo with the Thai label in its corner, name, second name, price, figures and the compare
+  toggle — and the toggles line up across each row.
+*/
+@media (max-width: 560px) {
+  .plate-stack {
+    --plate-pad: 6px;
+    --plate-radius: 20px;
+  }
+
+  .plate__media {
+    aspect-ratio: 1;
+  }
+
+  .plate__body {
+    padding: var(--space-3) var(--space-1) var(--space-1);
+  }
+
+  .plate__title h3 {
+    font-size: var(--fs-md);
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .plate__title .chip-thai {
+    top: calc(var(--plate-pad) + 8px);
+    left: calc(var(--plate-pad) + 8px);
+    min-height: 24px;
+    padding: 0 var(--space-2);
+    font-size: 0.6875rem;
+  }
+
+  .plate__en {
+    font-size: 0.6875rem;
+  }
+
+  .plate__price {
+    margin-top: var(--space-2);
+    font-size: var(--fs-2xs);
+  }
+
+  /* The figure alone reads as a price on a shop tile; the label stays for screen readers */
+  .plate__price-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .plate__figure {
+    font-size: clamp(0.9375rem, 0.6rem + 1.6vw, 1.0625rem);
+  }
+
+  .plate__specs {
+    flex-direction: column;
+    gap: 0;
+    padding-top: var(--space-2);
+    font-size: var(--fs-2xs);
+  }
+
+  .plate__specs li + li {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .plate__stock {
+    margin-top: var(--space-2);
+  }
+
+  .plate__compare {
+    position: relative;
+    align-self: stretch;
+    justify-content: center;
+    gap: 6px;
+    margin: var(--space-2) 0 0;
+    padding: 0 var(--space-2);
+    border-color: var(--line-strong);
+  }
+
+  .plate__label-brief {
+    display: inline;
+  }
+
+  /* Off screen, not display: none, so it still names the button */
+  .plate__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+/* Below 300px (a zoomed-in phone) the grid drops to one column; a landscape photo keeps it short */
+@media (max-width: 299px) {
+  .plate__media {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media (forced-colors: active) {
+  .plate {
+    border: 1px solid CanvasText;
+  }
+
+  .plate__compare[data-selected] {
+    outline: 2px solid Highlight;
+  }
+}

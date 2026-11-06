@@ -1,0 +1,99 @@
+{
+  "id": "persian",
+  "origin": "Iran (Persia), further developed in England",
+  "tagline": "A fluffy, round-faced princess who loves peace and quiet",
+  "summary": "The Persian is a longhaired, round-faced cat known for its gentle, quiet nature and its love of lounging near its owner, but it needs combing every day and regular cleaning around the eyes. A very flat face carries a risk of breathing, eye and dental problems, so choose a breeder who health-tests and does not aim for an extremely flat face.",
+  "history": "It is recorded that in 1626 the Italian merchant Pietro della Valle brought longhaired cats from Persia to Europe. Breeders in England later developed a stockier body, a shorter nose and a denser coat. Persians took part in the cat show at the Crystal Palace, London, in 1871 and were among the first breeds recognized by the CFA at its founding in 1906.",
+  "coat": {
+    "texture": "Long, thick, fine-textured and glossy, with a fluffy undercoat",
+    "colors": [
+      "White",
+      "Black",
+      "Blue (blue-gray)",
+      "Red and cream",
+      "Chinchilla/silver",
+      "Himalayan-style colorpoint"
+    ]
+  },
+  "appearance": [
+    "Large round head with full cheeks",
+    "Short, broad nose and a flat face",
+    "Large round eyes set wide apart",
+    "Small ears with rounded tips",
+    "Short, stocky body, short strong legs and a long, full coat all over"
+  ],
+  "temperament": [
+    "Gentle",
+    "Calm and quiet",
+    "Affectionate",
+    "Home-loving",
+    "Likes a set routine"
+  ],
+  "care": {
+    "grooming": "Comb every day with a long-toothed metal comb to prevent mats. Bathe occasionally and blow-dry thoroughly, and wipe away tear stains under the eyes with a soft damp cloth every day.",
+    "exercise": "Low-energy and prefers the floor to climbing. Encourage gentle play with a wand toy every day to control its weight, and avoid vigorous play in hot weather.",
+    "diet": "Gains weight easily, so measure its food and control calories. Choose kibble shaped to be easy to pick up with a short jaw, and provide clean water at all times.",
+    "environment": "Keep it indoors. In Thailand's hot climate it must always have an air-conditioned room or a cool corner and clean water, because a flat-faced longhaired cat struggles to shed heat and is at risk of heatstroke."
+  },
+  "health": [
+    {
+      "name": "Polycystic kidney disease (PKD)",
+      "detail": "A dominant inherited disease caused by a mutation in the PKD1 gene, which produces cysts in the kidneys that lead to kidney failure. Data from 2004 found it in about 38% of Persians worldwide, a figure that has fallen since DNA testing became available. Kidney disease from all causes combined is the leading cause of death in Persians in the UK (23.4%).",
+      "screening": "PKD1 DNA test of the breeding parents (mandatory for GCCF breeding cats since 2016) and kidney ultrasound."
+    },
+    {
+      "name": "Brachycephalic obstructive airway syndrome",
+      "detail": "Narrow nostrils and a short nasal structure cause labored, noisy breathing and poor heat tolerance, and flatter-faced cats score higher for breathing problems.",
+      "screening": "Choose a cat with wide-open nostrils that breathes quietly while asleep, and see a vet if it snores or breathes through its mouth."
+    },
+    {
+      "name": "Epiphora (tear overflow and staining)",
+      "detail": "In flat-faced cats the tear ducts are misaligned and drain poorly into the nose, causing constant tearing and stains under the eyes. Eye discharge was found in 5.8% of Persians under veterinary care in the UK.",
+      "screening": "Wipe around the eyes every day, and see a vet if the eyes are red, have thick discharge or the cat squints."
+    },
+    {
+      "name": "Periodontal disease / dental malocclusion",
+      "detail": "The short jaw makes the upper premolars more crowded and misaligned the flatter the face is, and periodontal disease was found in 11.3% of Persians in the UK.",
+      "screening": "Have regular dental checks with your vet, and get your cat used to tooth brushing from kittenhood."
+    },
+    {
+      "name": "Haircoat and skin disorders",
+      "detail": "Coat problems are the most common disorder in Persians in the UK (12.7%), because the long, thick coat is too much for the cat to keep clean on its own.",
+      "screening": "Comb every day, and get help from a professional groomer when the coat becomes tightly matted."
+    },
+    {
+      "name": "Progressive retinal atrophy (PRA)",
+      "detail": "An inherited disease in which the retina degenerates until the cat loses its sight; it has been reported in Persians.",
+      "screening": "A DNA test is available; ask the breeder for the breeding parents' results."
+    }
+  ],
+  "welfareNote": "Breeding for an extremely flat face is linked to more severe eye, breathing and dental problems. Buyers should choose a doll-face or classic-type cat that still has a visible nose bridge, open nostrils, no constant tearing and silent breathing.",
+  "idealFor": [
+    "People who enjoy a quiet home and an easygoing pace of life",
+    "Owners with time to comb the coat and wipe the face every day",
+    "Condos or homes with an air-conditioned room"
+  ],
+  "considerations": [
+    "Needs combing every day, or the coat will mat",
+    "Does not tolerate heat and needs a cool spot throughout the hot season",
+    "Ask for the parents' PKD and PRA test results"
+  ],
+  "funFact": "In the UK the Persian is still called the Longhair, while in the United States colorpoint Persians are called Himalayans.",
+  "price": {
+    "note": "Doll-face Persians without pedigree papers cost a few thousand baht, while extremely flat-faced (peke-face) cats with pedigree papers or from imported lines start in the tens of thousands and can reach hundreds of thousands of baht."
+  },
+  "gallery": [
+    {
+      "alt": "Red-and-white (red tabby van) Persian with a short, flat face and a full ruff of long fur"
+    },
+    {
+      "alt": "Flat-faced Persian walking across the grass among daffodils"
+    },
+    {
+      "alt": "Three Persians, black, cream-and-white and gray-and-white, sitting on the grass in a park"
+    },
+    {
+      "alt": "Four brown tabby Persian kittens from one litter, sitting on a tiled floor"
+    }
+  ]
+}

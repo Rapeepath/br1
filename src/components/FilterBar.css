@@ -1,0 +1,239 @@
+/* A soft white control panel floating on the lineup band */
+.toolbar {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 10px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+/* Coat, size and sort wait behind one button, so the panel stays calm until someone wants them */
+.toolbar__more {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: 0 var(--space-4);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--accent);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.toolbar__more:hover {
+  background: var(--accent-soft);
+}
+
+.toolbar__search {
+  position: relative;
+}
+
+.toolbar__search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  translate: 0 -50%;
+  color: var(--ink-subtle);
+  pointer-events: none;
+}
+
+.toolbar__search input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 var(--space-4) 0 42px;
+  border: 2px solid var(--control-line);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.toolbar__search input::placeholder {
+  color: var(--ink-subtle);
+}
+
+.toolbar__search input:hover {
+  border-color: var(--ink-subtle);
+}
+
+.toolbar__search input:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+/* Segmented control built on native radios */
+.segmented {
+  display: inline-flex;
+  margin: 0;
+  padding: 4px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--soft);
+}
+
+.segmented__option {
+  position: relative;
+}
+
+.segmented__option input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.segmented__option span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 var(--space-5);
+  border-radius: var(--radius-pill);
+  color: var(--on-soft);
+  transition: background-color 200ms ease, color 200ms ease;
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.segmented__option input:checked + span {
+  background: var(--selected-bg);
+  color: var(--selected-fg);
+  box-shadow: 0 3px 0 var(--btn-edge);
+}
+
+@media (forced-colors: active) {
+  .segmented__option input:checked + span {
+    background: Highlight;
+    color: HighlightText;
+    forced-color-adjust: none;
+  }
+}
+
+.segmented__option input:focus-visible + span {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+
+/* Second row, once opened: the three selects share the width evenly */
+.toolbar__selects {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.toolbar__selects:not([data-open]) {
+  display: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  border: 2px solid var(--control-line);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+}
+
+.select:hover {
+  border-color: var(--ink-subtle);
+}
+
+.select:focus-within {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.select__label {
+  padding-left: var(--space-4);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  white-space: nowrap;
+}
+
+.select select {
+  flex: 1;
+  min-width: 0;
+  appearance: none;
+  min-height: 42px;
+  padding: 0 36px 0 var(--space-2);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.select select:focus {
+  outline: none;
+}
+
+.select select option {
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.select__icon {
+  position: absolute;
+  right: 12px;
+  color: var(--ink-subtle);
+  pointer-events: none;
+}
+
+/* Search, the group switch and the filter button fit one row down to tablets */
+@media (max-width: 900px) {
+  .toolbar {
+    grid-template-columns: 1fr auto;
+  }
+
+  .toolbar__search {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .toolbar {
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+  }
+
+  .toolbar__search {
+    grid-column: auto;
+  }
+
+  .segmented {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .segmented__option span {
+    justify-content: center;
+    width: 100%;
+    padding: 0 var(--space-2);
+  }
+
+  .toolbar__more {
+    justify-self: start;
+    min-height: 40px;
+    padding: 0 var(--space-3);
+  }
+
+  .toolbar__selects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .toolbar__selects .select:last-child {
+    grid-column: 1 / -1;
+  }
+}

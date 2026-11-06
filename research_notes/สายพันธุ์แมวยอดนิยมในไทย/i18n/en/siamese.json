@@ -1,0 +1,95 @@
+{
+  "id": "siamese",
+  "origin": "Thailand",
+  "tagline": "The blue-eyed pointed cat, talkative and devoted to its people",
+  "summary": "The Siamese, known in Thailand as Wichien Maat, is an ancient Thai shorthair with a cream coat, dark points on the face, ears, feet and tail, and vivid blue eyes. It is the forerunner of the Siamese cat that became famous around the world. Talkative, intelligent and deeply attached to its owner, it suits a home that has time for a cat.",
+  "history": "The Siamese appears in the Tamra Maew (Cat-Book Poems), a folding-paper manuscript believed to have been composed in the Ayutthaya period (1350–1767) and kept at the National Library of Thailand. The first pair to reach England, Pho and Mia, arrived in 1884, and the CFA has recognized the breed since its founding in 1906. Western show lines were later selected for a more pointed face and a longer, slimmer body, while the traditional type lives on as the Thai or Old-style Siamese. On 18 November 2025 the Thai Cabinet approved Thai cats, the Siamese among them, as symbols of Thai national identity.",
+  "coat": {
+    "texture": "Short, fine and glossy, lying close to the body",
+    "colors": [
+      "Seal point",
+      "Blue point",
+      "Chocolate point",
+      "Lilac point",
+      "Red/cream point (some associations)",
+      "Tabby/tortie point (some associations)"
+    ]
+  },
+  "appearance": [
+    "Nine dark points: the face, both ears, all four feet, the tail and the genitals",
+    "Deep, vivid blue almond-shaped eyes",
+    "Medium-sized body that is long, slender and muscular",
+    "Kittens are born creamy white and their points darken with age",
+    "Thai lines have a rounder head, while Western show lines have a long, pointed wedge-shaped head"
+  ],
+  "temperament": [
+    "Talkative",
+    "Devoted to its owner",
+    "Very intelligent",
+    "Affectionate",
+    "Enthusiastic",
+    "Attention-seeking"
+  ],
+  "care": {
+    "grooming": "The short coat is easy to care for. Brushing or stroking it by hand once a week is enough to remove loose hair, and it strengthens your bond too.",
+    "exercise": "Loves climbing up high and playing games that use its brain. Provide a cat tree, a scratching post, toys and daily playtime together; some can even be trained to fetch.",
+    "diet": "Feed a complete diet suited to its life stage and keep its weight in the healthy range, as research has found that overweight cats have shorter lifespans.",
+    "environment": "Does not like being left alone for long, so it suits a home where someone is often in, or living as a pair. Keep fabric and plastic out of reach, because some lines like to eat things that are not food (pica)."
+  },
+  "health": [
+    {
+      "name": "Progressive retinal atrophy (PRA-rdAc)",
+      "detail": "A recessive inherited disease (CEP290 gene) that causes gradual blindness. Signs usually start at about 1–2 years of age, with blindness by about 3–5 years.",
+      "screening": "DNA test the parents for the rdAc gene before breeding (e.g. UC Davis VGL, Langford Vets)."
+    },
+    {
+      "name": "Amyloidosis (systemic/hepatic)",
+      "detail": "Amyloid protein builds up in the organs, especially the liver, making the liver fragile so that it may rupture and bleed into the abdomen.",
+      "screening": "There is no genetic test yet. Ask about the health history of the bloodline and have regular health checks."
+    },
+    {
+      "name": "Feline asthma (chronic cough)",
+      "detail": "Chronic coughing from the airways is seen more often than in cats in general.",
+      "screening": null
+    },
+    {
+      "name": "Mediastinal lymphoma",
+      "detail": "Some bloodlines are prone to lymphoma and intestinal tumors.",
+      "screening": null
+    },
+    {
+      "name": "Hip dysplasia",
+      "detail": "May be predisposed to hip dysplasia, which causes joint pain or an abnormal gait.",
+      "screening": null
+    }
+  ],
+  "welfareNote": "Modern Western show lines have been bred for a far more pointed head and a thinner, longer body than the traditional Siamese. Buyers should choose a cattery that DNA tests for PRA and discloses the parents' health history.",
+  "idealFor": [
+    "People who are often at home or work from home",
+    "Anyone who loves a chatty cat that follows them around",
+    "Homes ready to keep two cats as companions"
+  ],
+  "considerations": [
+    "Loud and highly attention-seeking",
+    "Not suited to homes where no one is in all day",
+    "May dislike other pets competing for its owner's affection"
+  ],
+  "funFact": "The Siamese's points come from a temperature-sensitive gene, so the cooler parts of the body are darker, and cats living in cold climates develop a darker body coat as well.",
+  "price": {
+    "note": "Ordinary kittens cost a few thousand baht; prices rise with pedigree papers or parents that closely match the breed standard."
+  },
+  "gallery": [
+    {
+      "alt": "Seal point Siamese of the traditional Thai type, with blue eyes and a rounded face, photographed at a cat show"
+    },
+    {
+      "alt": "Traditional-type seal point Siamese sitting outdoors in front of green foliage, its eyes slightly crossed"
+    },
+    {
+      "alt": "Two Siamese asleep on a bed, showing the dark points on the face, ears, legs and tail"
+    },
+    {
+      "alt": "Female Siamese kitten resting on a wooden desk in front of a bookshelf"
+    }
+  ]
+}

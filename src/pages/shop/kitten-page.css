@@ -1,0 +1,239 @@
+.kitten-page {
+  margin-top: var(--space-6);
+}
+
+.kitten-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  align-items: start;
+  gap: var(--space-6);
+  margin-top: var(--space-2);
+}
+
+.kitten-hero__photo {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.kitten-hero__photo img {
+  width: 100%;
+  /* The width/height attributes only reserve the ratio; the frame is 4:3 */
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: var(--radius-lg);
+  background: var(--tint-peach);
+  box-shadow: var(--elev-2);
+}
+
+.kitten-hero__photo figcaption {
+  display: grid;
+  gap: 2px;
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}
+
+.kitten-hero__photo figcaption > span:first-child {
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+
+.kitten-hero__info {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-4);
+}
+
+.kitten-hero__breed {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  font-weight: 700;
+}
+
+.kitten-hero__name {
+  font-size: var(--fs-page);
+  line-height: 1.15;
+}
+
+.kitten-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  color: var(--ink-muted);
+  font-weight: 600;
+}
+
+.kitten-hero__code {
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+}
+
+.kitten-hero__price {
+  display: grid;
+  gap: 2px;
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+}
+
+.kitten-hero__figure {
+  color: var(--figure);
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  font-weight: 800;
+  font-variant-numeric: proportional-nums;
+  line-height: 1.2;
+}
+
+.kitten-hero__held {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--tint-butter);
+  color: var(--on-butter);
+  font-weight: 600;
+}
+
+.kitten-hero__photo-skel {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+}
+
+.kitten-hero__info-skel {
+  min-height: 420px;
+  border-radius: var(--radius-lg);
+}
+
+.kitten-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  align-items: start;
+  gap: var(--space-6);
+  margin-top: var(--space-7);
+}
+
+.kitten-detail h2 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.kitten-detail__sub {
+  display: block;
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.kitten-detail__ok {
+  color: var(--on-mint);
+  vertical-align: -3px;
+}
+
+.kitten-detail__empty {
+  color: var(--ink-muted);
+}
+
+.kitten-vacc {
+  display: grid;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  list-style: none;
+}
+
+.kitten-vacc li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: var(--space-3);
+  align-items: start;
+}
+
+.kitten-vacc svg {
+  margin-top: 3px;
+  color: var(--meter-on);
+}
+
+.kitten-vacc li > span {
+  display: grid;
+}
+
+.kitten-vacc strong {
+  color: var(--ink);
+}
+
+.kitten-vacc li > span > span {
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+}
+
+.kitten-dna {
+  display: grid;
+  gap: var(--space-3);
+  list-style: none;
+}
+
+.kitten-dna li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px dashed var(--line-strong);
+  color: var(--ink);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.kitten-dna li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.kitten-breed {
+  margin-top: var(--space-6);
+}
+
+.kitten-breed p {
+  max-width: 72ch;
+  color: var(--ink-muted);
+}
+
+.kitten-breed__tagline {
+  margin-bottom: var(--space-2);
+  color: var(--ink) !important;
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.kitten-breed .btn-row {
+  margin-top: var(--space-4);
+}
+
+.kitten-missing__title {
+  margin-bottom: var(--space-5);
+  font-size: var(--fs-2xl);
+}
+
+@media (max-width: 900px) {
+  .kitten-hero,
+  .kitten-detail {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .kitten-hero .btn-row {
+    display: grid;
+    width: 100%;
+  }
+
+  .kitten-hero .btn-row > .btn {
+    width: 100%;
+  }
+}

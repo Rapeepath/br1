@@ -1,0 +1,164 @@
+{
+  "id": "siamese",
+  "nameTh": "วิเชียรมาศ",
+  "nameEn": "Siamese",
+  "group": "thai",
+  "origin": "ประเทศไทย",
+  "recognizedBy": ["CFA", "TICA", "FIFe", "GCCF", "WCF"],
+  "tagline": "แมวเก้าแต้มตาสีฟ้า ช่างพูดและติดคน",
+  "summary": "วิเชียรมาศคือแมวไทยโบราณขนสั้นสีครีม มีแต้มสีเข้มที่หน้า หู เท้า และหาง กับดวงตาสีฟ้าสด เป็นต้นแบบของแมวสยามที่โด่งดังไปทั่วโลก นิสัยช่างพูด ฉลาด และผูกพันกับเจ้าของมาก จึงเหมาะกับบ้านที่มีเวลาให้แมว",
+  "history": "วิเชียรมาศปรากฏในสมุดข่อยตำราแมว (Tamra Maew) ซึ่งเชื่อว่าแต่งในสมัยอยุธยา (ค.ศ. 1350–1767) และเก็บรักษาไว้ที่หอสมุดแห่งชาติ แมวคู่แรกที่ไปถึงอังกฤษคือ Pho และ Mia ในปี 2427 (ค.ศ. 1884) และ CFA รับรองตั้งแต่ก่อตั้งในปี 2449 (ค.ศ. 1906) ต่อมาสายประกวดตะวันตกถูกคัดให้หน้าแหลมและตัวเพรียวยาวขึ้น ส่วนแบบดั้งเดิมยังคงอยู่ในชื่อสายพันธุ์ Thai หรือ Old-style Siamese และเมื่อ 18 พ.ย. 2568 คณะรัฐมนตรีเห็นชอบให้แมวไทยรวมถึงวิเชียรมาศเป็นเอกลักษณ์ประจำชาติ",
+  "size": "medium",
+  "weightKg": { "female": [3.6, 5.4], "male": [4.5, 6.8] },
+  "lifespanYears": [10, 15],
+  "coat": {
+    "length": "short",
+    "texture": "สั้น ละเอียด เงางาม แนบลำตัว",
+    "colors": [
+      "ซีลพอยต์ (Seal point)",
+      "บลูพอยต์ (Blue point)",
+      "ช็อกโกแลตพอยต์ (Chocolate point)",
+      "ไลแลคพอยต์ (Lilac point)",
+      "เรด/ครีมพอยต์ (บางสมาคม)",
+      "แทบบี้/ทอร์ตี้พอยต์ (บางสมาคม)"
+    ]
+  },
+  "appearance": [
+    "แต้มสีเข้ม 9 จุด: หน้า หู 2 ข้าง เท้า 4 ข้าง หาง และอวัยวะเพศ",
+    "ดวงตาสีฟ้าเข้มสดใส ทรงอัลมอนด์",
+    "ลำตัวขนาดกลาง ยาวเพรียว มีกล้ามเนื้อ",
+    "ลูกแมวเกิดมาขาวครีม แต้มสีค่อย ๆ เข้มขึ้นตามวัย",
+    "สายไทยหัวมนกว่า ส่วนสายประกวดตะวันตกหัวทรงลิ่มแหลมยาว"
+  ],
+  "temperament": ["ช่างพูด", "ติดเจ้าของ", "ฉลาดมาก", "ขี้อ้อน", "กระตือรือร้น", "เรียกร้องความสนใจ"],
+  "ratings": {
+    "energy": 5,
+    "affection": 5,
+    "vocal": 5,
+    "intelligence": 5,
+    "grooming": 1,
+    "shedding": 2,
+    "kidFriendly": 4,
+    "petFriendly": 4,
+    "socialNeeds": 5
+  },
+  "care": {
+    "grooming": "ขนสั้นดูแลง่าย แปรงหรือลูบด้วยมือสัปดาห์ละครั้งก็พอ ช่วยเก็บขนร่วงและเพิ่มความผูกพัน",
+    "exercise": "ชอบปีนที่สูงและเล่นเกมที่ใช้สมอง ควรมีคอนโดแมว ที่ลับเล็บ ของเล่น และเวลาเล่นด้วยทุกวัน บางตัวฝึกให้คาบของกลับมาได้",
+    "diet": "ให้อาหารครบถ้วนตามวัยและคุมน้ำหนักให้อยู่ในเกณฑ์ เพราะงานวิจัยพบว่าแมวน้ำหนักเกินมีอายุขัยสั้นลง",
+    "environment": "ไม่ชอบอยู่ลำพังนาน เหมาะกับบ้านที่มีคนอยู่บ่อยหรือเลี้ยงเป็นคู่ และควรเก็บผ้าและพลาสติกให้พ้นมือ เพราะบางสายเลือดชอบกินสิ่งที่ไม่ใช่อาหาร (pica)"
+  },
+  "health": [
+    {
+      "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA-rdAc)",
+      "detail": "โรคทางพันธุกรรมแบบยีนด้อย (ยีน CEP290) ที่ทำให้ตาค่อย ๆ บอด มักเริ่มมีอาการราว 1–2 ปี และบอดเมื่อราว 3–5 ปี",
+      "screening": "ตรวจ DNA หายีน rdAc ในพ่อแม่ก่อนผสมพันธุ์ (เช่น UC Davis VGL, Langford Vets)"
+    },
+    {
+      "name": "อะไมลอยโดสิส (Systemic/Hepatic Amyloidosis)",
+      "detail": "โปรตีนอะไมลอยด์สะสมในอวัยวะ โดยเฉพาะตับ ทำให้ตับเปราะและอาจแตกจนตกเลือดในช่องท้อง",
+      "screening": "ยังไม่มีการตรวจทางพันธุกรรม ควรสอบถามประวัติสุขภาพสายเลือดและตรวจสุขภาพเป็นประจำ"
+    },
+    {
+      "name": "หอบหืด/ไอเรื้อรัง (Feline asthma)",
+      "detail": "พบอาการไอเรื้อรังจากหลอดลมได้บ่อยกว่าแมวทั่วไป",
+      "screening": null
+    },
+    {
+      "name": "มะเร็งต่อมน้ำเหลืองในช่องอก (Mediastinal lymphoma)",
+      "detail": "บางสายเลือดมีแนวโน้มเป็นมะเร็งต่อมน้ำเหลืองและเนื้องอกในลำไส้",
+      "screening": null
+    },
+    {
+      "name": "ข้อสะโพกผิดรูป (Hip Dysplasia)",
+      "detail": "อาจมีแนวโน้มเป็นโรคข้อสะโพกผิดรูป ซึ่งทำให้ปวดข้อหรือเดินผิดปกติ",
+      "screening": null
+    }
+  ],
+  "welfareNote": "สายประกวดตะวันตกยุคใหม่ถูกคัดให้หัวแหลมและตัวผอมยาวกว่าวิเชียรมาศดั้งเดิมมาก ผู้ซื้อควรเลือกฟาร์มที่ตรวจ DNA โรค PRA และเปิดเผยประวัติสุขภาพของพ่อแม่",
+  "idealFor": [
+    "ผู้ที่อยู่บ้านบ่อยหรือทำงานที่บ้าน",
+    "คนที่ชอบแมวช่างคุยและเดินตามติด",
+    "บ้านที่พร้อมเลี้ยงสองตัวเป็นเพื่อนกัน"
+  ],
+  "considerations": [
+    "เสียงดังและเรียกร้องความสนใจสูง",
+    "ไม่เหมาะกับบ้านที่ไม่มีคนอยู่ทั้งวัน",
+    "อาจไม่ชอบสัตว์เลี้ยงอื่นมาแย่งความรักจากเจ้าของ"
+  ],
+  "funFact": "แต้มสีของวิเชียรมาศเกิดจากยีนที่ไวต่ออุณหภูมิ ส่วนที่เย็นกว่าของร่างกายจึงมีสีเข้ม และแมวที่อยู่ในที่อากาศหนาวขนตัวจะเข้มขึ้นด้วย",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Seal_Old_Style_Siamese_Thai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Seal_Old_Style_Siamese_Thai.jpg",
+    "author": "Adolpha (English Wikipedia)",
+    "license": "CC BY-SA 3.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/siamese-1.jpg",
+      "srcSmall": "images/gallery/siamese-1-sm.jpg",
+      "width": 1600,
+      "height": 1168,
+      "page": "https://commons.wikimedia.org/wiki/File:THA_%D0%92%D0%B0%D1%80%D1%81%D0%B0%D0%B2%D0%B8%D1%8F_%D0%9C%D1%8D%D0%B4%D0%B6%D0%B8%D0%BA_%D0%9A%D1%8D%D1%82_(5467698506).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "วิเชียรมาศแต้มสีน้ำตาลเข้ม (ซีลพอยต์) ตาสีฟ้า หน้ามนแบบสายไทยดั้งเดิม ถ่ายในงานประกวดแมว",
+      "focus": "40% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/siamese-2.jpg",
+      "srcSmall": "images/gallery/siamese-2-sm.jpg",
+      "width": 1600,
+      "height": 1600,
+      "page": "https://commons.wikimedia.org/wiki/File:Ramzez_Kot_syjamski.jpg",
+      "author": "SyjamskiKot",
+      "license": "CC BY-SA 3.0",
+      "alt": "วิเชียรมาศสายดั้งเดิมแต้มสีน้ำตาลเข้ม นั่งกลางแจ้งหน้าพุ่มไม้สีเขียว ตาเหล่เล็กน้อย",
+      "focus": "50% 30%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/siamese-3.jpg",
+      "srcSmall": "images/gallery/siamese-3-sm.jpg",
+      "width": 1600,
+      "height": 900,
+      "page": "https://commons.wikimedia.org/wiki/File:Thai_Cats.jpg",
+      "author": "Thiago MTB",
+      "license": "CC BY-SA 4.0",
+      "alt": "วิเชียรมาศสองตัวนอนหลับบนเตียง เห็นแต้มสีเข้มที่หน้า หู ขา และหาง"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/siamese-4.jpg",
+      "srcSmall": "images/gallery/siamese-4-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Filhote_de_gato_siam%C3%AAs.JPG",
+      "author": "Rodrigo Padula",
+      "license": "CC BY-SA 3.0",
+      "alt": "ลูกแมววิเชียรมาศเพศเมียหมอบบนโต๊ะไม้หน้าชั้นหนังสือ",
+      "focus": "35% 35%"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – Siamese breed profile", "url": "https://cfa.org/breed/siamese/" },
+    { "title": "GCCF – Siamese breed page", "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/siamese/" },
+    { "title": "FIFe – EMS system (01.07.2026)", "url": "https://fifeweb.org/wp-content/uploads/2023/12/ems_system_en.pdf" },
+    { "title": "FIFe – Thai breed page", "url": "https://fifeweb.org/cats/breeds/thai/" },
+    { "title": "WCF – EMS code championship status", "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf" },
+    { "title": "WCF – Siamese breed standard (2023)", "url": "https://wcf.de/pdf-en/breed/SIA-EN_2023-01-01.pdf" },
+    { "title": "WCF – Thai breed standard (2024)", "url": "https://wcf.de/pdf-en/breed/THA_en_2024-12-05.pdf" },
+    { "title": "PDSA – Siamese breed information", "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/kittens-cats/siamese" },
+    { "title": "VCA Animal Hospitals – Amyloidosis in Cats", "url": "https://vcahospitals.com/know-your-pet/amyloidosis-in-cats" },
+    { "title": "Langford Vets – Progressive Retinal Atrophy (rdAc)", "url": "https://langfordvets.co.uk/media/zk2jup41/progressive-retinal-atrophy-rdac.pdf" },
+    { "title": "UC Davis VGL – PRA rdAc test", "url": "https://vgl.ucdavis.edu/test/pra-rdac" },
+    { "title": "Phys.org – UK cat life tables (J Feline Med Surg, 2024)", "url": "https://phys.org/news/2024-05-life-reveals-longest-shortest-cats.html" },
+    { "title": "The Cat API data (mirror) – Siamese", "url": "https://cat-data-pages.onrender.com/cats/Siamese" },
+    { "title": "Wikipedia – Thai cat", "url": "https://en.wikipedia.org/wiki/Thai_cat" },
+    { "title": "วิกิพีเดีย – วิเชียรมาศ", "url": "https://th.wikipedia.org/wiki/วิเชียรมาศ" },
+    { "title": "เดลินิวส์ – การเดินทางของ 'วิฬาร์' สมุดไทย 'ตำราแมวไทย'", "url": "https://www.dailynews.co.th/articles/2620459/" },
+    { "title": "ฐานเศรษฐกิจ – ครม. เห็นชอบแมวไทยเป็นเอกลักษณ์ประจำชาติ", "url": "https://www.thansettakij.com/lifestyle/644492" }
+  ]
+}

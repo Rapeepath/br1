@@ -1,0 +1,153 @@
+{
+  "id": "exotic-shorthair",
+  "nameTh": "เอ็กโซติก ช็อตแฮร์",
+  "nameEn": "Exotic Shorthair",
+  "group": "international",
+  "origin": "สหรัฐอเมริกา",
+  "recognizedBy": ["CFA", "TICA", "FIFe", "GCCF", "WCF"],
+  "tagline": "หน้าเปอร์เซียในขนสั้นนุ่มแบบตุ๊กตาหมี",
+  "summary": "เอ็กโซติก ช็อตแฮร์มีหัวและรูปร่างแบบเปอร์เซีย แต่ขนสั้นหนานุ่มเหมือนตุ๊กตาหมี จึงได้ฉายาว่า เปอร์เซียสำหรับคนขี้เกียจ นิสัยสงบ ติดเจ้าของแต่ไม่เรียกร้อง และแทบไม่ร้อง แต่ยังมีใบหน้าแบนเหมือนเปอร์เซีย จึงต้องดูแลเรื่องตา การหายใจ และความร้อนเป็นพิเศษ",
+  "history": "เกิดจากผู้เพาะพันธุ์เปอร์เซียฝั่งตะวันตกของสหรัฐฯ ที่ผสมเปอร์เซียกับอเมริกัน ช็อตแฮร์ในช่วงทศวรรษ 1950–1960 ลูกผสมได้รับความนิยมจน CFA รับรองเป็นสายพันธุ์ในปี ค.ศ. 1966 ส่วน GCCF ของอังกฤษรับรองในปี ค.ศ. 1986 และให้สถานะแชมเปียนในปี ค.ศ. 1995",
+  "size": "medium",
+  "weightKg": { "female": [3.2, 5.4], "male": [5.4, 6.4] },
+  "lifespanYears": [12, 15],
+  "coat": {
+    "length": "short",
+    "texture": "ขนสั้นหนาแน่น นุ่มฟูตั้งขึ้นจากตัว มีขนชั้นในหนา",
+    "colors": ["สองสี (ไบคัลเลอร์)", "ลายสลิดสีส้ม (เรดแทบบี้)", "ลายสลิดสีน้ำตาล (บราวน์แทบบี้)", "ซิลเวอร์", "บลู (เทาอมฟ้า)", "ลายแต้มสี (พอยต์)"]
+  },
+  "appearance": [
+    "หัวกลมใหญ่ หน้าแบน จมูกสั้น",
+    "ตากลมโตตั้งห่างกัน",
+    "หูเล็กปลายมน",
+    "ตัวล่ำ กระดูกใหญ่ ขาสั้น",
+    "ขนสั้นหนานุ่มเหมือนตุ๊กตาหมี"
+  ],
+  "temperament": ["สงบ", "ขี้อ้อน", "ภักดี", "ร้องน้อย", "ขี้เล่นพอประมาณ"],
+  "ratings": {
+    "energy": 2,
+    "affection": 5,
+    "vocal": 1,
+    "intelligence": 3,
+    "grooming": 3,
+    "shedding": 3,
+    "kidFriendly": 3,
+    "petFriendly": 3,
+    "socialNeeds": 4
+  },
+  "care": {
+    "grooming": "หวีขนด้วยหวีโลหะสัปดาห์ละครั้ง และหวีบ่อยขึ้นช่วงผลัดขนเพราะขนชั้นในร่วงมาก อาบน้ำเป็นครั้งคราว และเช็ดคราบน้ำตาใต้ตาทุกวัน",
+    "exercise": "ค่อนข้างเนิบ แต่ยังขี้เล่นแม้โตแล้ว ควรชวนเล่นของเล่นเป็นช่วงสั้น ๆ ทุกวันในห้องที่อากาศเย็นสบาย",
+    "diet": "ออกกำลังน้อยจึงต้องควบคุมปริมาณอาหาร เลือกเม็ดอาหารที่หยิบกินง่ายสำหรับหน้าแบน และมีน้ำสะอาดให้ตลอดเวลา",
+    "environment": "เหมาะกับบ้านหรือคอนโดที่เงียบ ต้องมีแอร์หรือมุมเย็นในหน้าร้อน เพราะแมวหน้าแบนระบายความร้อนทางจมูกได้น้อยและเสี่ยงโรคลมแดดแม้วันที่อากาศไม่ร้อนจัด"
+  },
+  "health": [
+    {
+      "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+      "detail": "สายพันธุ์นี้สืบเชื้อสายจากเปอร์เซียซึ่งมียีน PKD1 กลายพันธุ์แบบยีนเด่น ทำให้เกิดถุงน้ำในไตและไตวายเรื้อรังได้",
+      "screening": "ตรวจ DNA ยีน PKD1 (GCCF รับขึ้นทะเบียนพ่อแม่พันธุ์เฉพาะแมวที่ผลปกติตั้งแต่ปี ค.ศ. 2016) และอัลตราซาวนด์ไต"
+    },
+    {
+      "name": "ทางเดินหายใจอุดกั้นจากใบหน้าสั้น (Brachycephalic Obstructive Airway Syndrome)",
+      "detail": "รูจมูกแคบและโครงหน้าสั้นทำให้หายใจลำบากและทนร้อนได้น้อย สัตวแพทย์อังกฤษ 60% ที่เคยรักษาแมวหน้าแบนอย่างเปอร์เซียและเอ็กโซติกเคยรักษาปัญหาระบบหายใจ",
+      "screening": "เลือกแมวที่รูจมูกเปิดกว้างและหายใจเงียบ หากกรนหรือหายใจทางปากควรพบสัตวแพทย์"
+    },
+    {
+      "name": "น้ำตาไหลและคราบน้ำตา (Epiphora)",
+      "detail": "ใบหน้าแบนทำให้น้ำตาระบายไม่ดีจนไหลล้นและเกิดคราบใต้ตา และในการสำรวจสัตวแพทย์อังกฤษ ปัญหาตาเป็นเรื่องที่ต้องรักษาบ่อยที่สุดในแมวหน้าแบน (69%)",
+      "screening": "เช็ดรอบดวงตาด้วยผ้านุ่มชุบน้ำทุกวัน และพบสัตวแพทย์หากตาแดงหรือหรี่ตา"
+    },
+    {
+      "name": "ปัญหาฟันและฟันเรียงผิดแนว (Dental malocclusion)",
+      "detail": "ขากรรไกรที่สั้นทำให้ฟันเบียดซ้อนและเกิดโรคเหงือกได้ง่าย สัตวแพทย์ 45% ที่รักษาแมวหน้าแบนเคยรักษาปัญหาฟัน",
+      "screening": "ตรวจช่องปากกับสัตวแพทย์เป็นประจำ และฝึกแปรงฟันตั้งแต่เป็นลูกแมว"
+    },
+    {
+      "name": "โรคจอประสาทตาเสื่อม (Progressive Retinal Atrophy, PRA-pd)",
+      "detail": "โรคทางพันธุกรรมที่ทำให้จอประสาทตาเสื่อม GCCF แนะนำให้ตรวจในแมวเอ็กโซติกที่ใช้ทำพันธุ์",
+      "screening": "ตรวจ DNA PRA-pd ของพ่อแม่พันธุ์"
+    }
+  ],
+  "welfareNote": "เอ็กโซติกมีโครงหน้าแบนแบบเดียวกับเปอร์เซีย GCCF ระบุว่าไม่ควรเพาะพันธุ์ให้ลักษณะนี้สุดขั้ว ผู้ซื้อควรเลือกแมวที่ยังเห็นจมูกชัด รูจมูกเปิด ไม่มีน้ำตาไหลตลอดเวลา และหายใจไม่มีเสียง",
+  "idealFor": [
+    "คนชอบลุคเปอร์เซียแต่มีเวลาดูแลขนน้อยกว่า",
+    "คนอยู่คอนโดที่ชอบแมวเงียบ ไม่ซน",
+    "ครอบครัวที่อยากได้แมวขี้อ้อนติดคน"
+  ],
+  "considerations": [
+    "ยังต้องเช็ดหน้าและตาทุกวัน",
+    "ไม่ทนร้อน ต้องมีแอร์หรือมุมเย็นในหน้าร้อน",
+    "ขอผลตรวจ PKD ของพ่อแม่และเลือกหน้าที่ไม่แบนสุดขั้ว"
+  ],
+  "funFact": "ชื่อแรกที่เคยเสนอสำหรับสายพันธุ์นี้คือ สเตอร์ลิง (Sterling) ตามสีเงินของแมวรุ่นแรก ๆ ก่อนจะใช้ชื่อ Exotic แทน",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Garfield_%288717284786%29_%282013%3B_cropped_2025%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Garfield_(8717284786)_(2013;_cropped_2025).jpg",
+    "author": "Melv_L - MACASR",
+    "license": "CC BY-SA 2.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/exotic-shorthair-1.jpg",
+      "srcSmall": "images/gallery/exotic-shorthair-1-sm.jpg",
+      "width": 1600,
+      "height": 1078,
+      "page": "https://commons.wikimedia.org/wiki/File:EXO_Ch._Mellowcherry_Candy_King_(6740824889).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "เอ็กโซติก ช็อตแฮร์ลายหินอ่อนสีเงิน หน้าแบน ตาโตสีทองแดง ในงานประกวดแมว",
+      "focus": "40% 45%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/exotic-shorthair-2.jpg",
+      "srcSmall": "images/gallery/exotic-shorthair-2-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Bissel_3.jpg",
+      "author": "Dmitry Brant",
+      "license": "CC BY-SA 4.0",
+      "alt": "เอ็กโซติก ช็อตแฮร์สีบลูขาวเพศผู้อายุ 3 ปี นั่งข้างหน้าต่าง",
+      "focus": "50% 35%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/exotic-shorthair-3.jpg",
+      "srcSmall": "images/gallery/exotic-shorthair-3-sm.jpg",
+      "width": 1600,
+      "height": 1200,
+      "page": "https://commons.wikimedia.org/wiki/File:P4301146_(8697971736).jpg",
+      "author": "Melv_L - MACASR",
+      "license": "CC BY-SA 2.0",
+      "alt": "เอ็กโซติก ช็อตแฮร์สีส้ม (เรด) หมอบบนผ้าห่มสีฟ้า",
+      "focus": "45% 35%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/exotic-shorthair-4.jpg",
+      "srcSmall": "images/gallery/exotic-shorthair-4-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E6%B1%89%E7%94%9F%E6%B4%BB_1378130831_(9635901709).jpg",
+      "author": "冰 孙 from Wuhan, China",
+      "license": "CC BY-SA 2.0",
+      "alt": "เอ็กโซติก ช็อตแฮร์ลายสลิดสีน้ำตาลขาว หมอบบนโต๊ะในร้านกาแฟ",
+      "focus": "55% 35%"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – Exotic breed profile", "url": "https://cfa.org/breed/exotic/" },
+    { "title": "GCCF – Exotic Shorthair", "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/exotic-shorthair/" },
+    { "title": "VCA Animal Hospitals – Exotic Shorthair", "url": "https://vcahospitals.com/know-your-pet/cat-breeds/exotic-shorthair" },
+    { "title": "Hill's Pet – Exotic", "url": "https://www.hillspet.com/cat-breeds/exotic.html" },
+    { "title": "World Cat Congress – Exotic comparison among member organisations (incl. GCCF PKD rule)", "url": "https://worldcatcongress.org/wp/cat_breed_comp_exo.php" },
+    { "title": "BVA highlights welfare issues for brachycephalic cats (Voice of the Veterinary Profession survey)", "url": "https://www.vetsurgeon.org/b/veterinary-news/posts/bva-highlights-welfare-issues-for-brachycephalic-cats" },
+    { "title": "Farnworth et al. 2016, Flat feline faces: brachycephaly and respiratory abnormalities (PLoS ONE)", "url": "https://doi.org/10.1371/journal.pone.0161777" },
+    { "title": "Lyons et al. 2004, Feline polycystic kidney disease mutation identified in PKD1 (JASN)", "url": "https://doi.org/10.1097/01.ASN.0000141776.38527.BB" },
+    { "title": "PDSA – Heatstroke in cats", "url": "https://www.pdsa.org.uk/pet-help-and-advice/pet-health-hub/conditions/heatstroke-in-cats" },
+    { "title": "FIFe – Breeds list", "url": "https://fifeweb.org/cats/breeds/" },
+    { "title": "WCF – Exotic Shorthair breed standard (PDF)", "url": "https://wcf.de/pdf-en/breed/EXO_en_2022-01-25.pdf" },
+    { "title": "The Cat API breeds data (archived snapshot 2025-12-09)", "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds" }
+  ]
+}

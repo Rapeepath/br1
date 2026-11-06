@@ -1,0 +1,513 @@
+/*
+  Sources in the friendly pastel system: a cream hero with soft blobs, per-breed references as
+  rounded accordion cards (pill-shaped when closed, a round "+" that turns to "×"), market sources as
+  rounded rows with number bubbles, and photo credits as white cards with the photo in a rounded frame.
+*/
+.sources a {
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Hero ---------- */
+.sources-head {
+  position: relative;
+  overflow: hidden;
+  padding-block: var(--space-8) var(--space-7);
+  background:
+    radial-gradient(520px 360px at 92% 0%, color-mix(in srgb, var(--tint-sky) 85%, transparent), transparent 70%),
+    radial-gradient(440px 340px at 0% 100%, color-mix(in srgb, var(--tint-rose) 75%, transparent), transparent 70%),
+    radial-gradient(340px 240px at 58% 100%, color-mix(in srgb, var(--soft) 75%, transparent), transparent 70%),
+    var(--paper);
+}
+
+.sources-head__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  align-items: end;
+  gap: var(--space-5) var(--space-7);
+}
+
+.sources-head h1 {
+  font-size: var(--fs-3xl);
+}
+
+.sources-head__lede {
+  max-width: 48ch;
+  color: var(--ink-muted);
+  text-wrap: balance;
+}
+
+/* Peach sheets with rounded corners on the cream floor */
+.sources-sheet {
+  border-radius: 48px;
+}
+
+/* ---------- 01 Per-breed references ---------- */
+.sources-split {
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  align-items: start;
+  gap: var(--space-6) var(--space-7);
+}
+
+.sources-split__head {
+  position: sticky;
+  top: calc(var(--header-h) + var(--space-6));
+}
+
+.sources-split__meta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  margin-top: var(--space-4);
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  box-shadow: var(--elev-1), var(--clay);
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.sources-acc {
+  display: grid;
+  gap: var(--space-3);
+}
+
+/* Closed: a pill (radius = half its height). Open: a rounded card. */
+.sources-acc details {
+  border-radius: 38px;
+  background: var(--surface);
+  box-shadow: var(--elev-1), var(--clay);
+  transition: border-radius 240ms var(--ease), box-shadow 300ms ease;
+}
+
+.sources-acc details[open] {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.sources-acc summary {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: var(--space-4);
+  min-height: 76px;
+  padding: var(--space-3) var(--space-4) var(--space-3) var(--space-3);
+  border-radius: 38px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.sources-acc summary::-webkit-details-marker {
+  display: none;
+}
+
+.sources-acc summary:focus-visible {
+  outline-offset: 2px;
+}
+
+.sources-acc__thumb {
+  width: 52px;
+  height: 52px;
+  border: 3px solid var(--surface);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--elev-1);
+}
+
+.sources-acc__name {
+  display: grid;
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 500;
+  line-height: 1.35;
+  transition: color 200ms ease;
+}
+
+.sources-acc__en {
+  color: var(--ink-subtle);
+  font-family: var(--font-body);
+  font-size: var(--fs-2xs);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.sources-acc__count {
+  white-space: nowrap;
+}
+
+.sources-acc__icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+  transition:
+    rotate 300ms var(--ease-spring),
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+.sources-acc summary:hover .sources-acc__name {
+  color: var(--accent);
+}
+
+.sources-acc details[open] .sources-acc__icon {
+  rotate: 45deg;
+  background: var(--selected-bg);
+  color: var(--selected-fg);
+  box-shadow: 0 3px 0 var(--btn-edge);
+}
+
+.sources-acc__panel {
+  padding: 0 var(--space-5) var(--space-5) calc(var(--space-3) + 52px + var(--space-4));
+}
+
+/* ---------- Numbered lists: number bubble on the left of each row ---------- */
+.sources-acc ol,
+.sources-list {
+  padding-left: 0;
+  counter-reset: src;
+  font-size: var(--fs-sm);
+  list-style: none;
+}
+
+.sources-acc li,
+.sources-list li {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-3);
+  counter-increment: src;
+}
+
+.sources-acc li::before,
+.sources-list li::before {
+  content: counter(src, decimal-leading-zero);
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--soft);
+  color: var(--on-soft);
+  font-size: var(--fs-2xs);
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.sources-acc ol {
+  display: grid;
+  gap: var(--space-2);
+}
+
+/* Row links: ink with a soft underline; periwinkle on hover */
+.sources-acc ol a,
+.sources-list a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+}
+
+.sources-acc ol a:hover,
+.sources-list a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+.sources-acc__back {
+  margin-top: var(--space-4);
+}
+
+/* ---------- 02 Market sources: rounded white rows in two columns ---------- */
+.sources-list {
+  columns: 2;
+  column-gap: var(--space-5);
+}
+
+.sources-list li {
+  break-inside: avoid;
+  margin-bottom: var(--space-3);
+  padding: var(--space-2) var(--space-4) var(--space-2) var(--space-2);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--elev-1), var(--clay);
+}
+
+/* ---------- 03 Photo credits: white cards, photo in a rounded frame ---------- */
+.credits {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-5);
+  list-style: none;
+}
+
+.credits li {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-3) var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+.credits__media {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: var(--surface-sunk);
+}
+
+.credits__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.credits__name {
+  margin: var(--space-3) var(--space-2) var(--space-2);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 500;
+}
+
+/* Spec panel in lavender, as on the breed cards */
+.credits__spec {
+  display: grid;
+  gap: 2px;
+  margin-top: auto;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  font-size: var(--fs-xs);
+}
+
+.credits__spec > div {
+  padding: var(--space-2) var(--space-3);
+  background: var(--soft);
+}
+
+.credits__spec dt {
+  color: var(--on-soft);
+  font-weight: 700;
+}
+
+.credits__spec dd {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.credits__spec a {
+  color: var(--accent);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1080px) {
+  .credits {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 960px) {
+  .sources-head__inner,
+  .sources-split {
+    grid-template-columns: 1fr;
+  }
+
+  .sources-split__head {
+    position: static;
+  }
+
+  .sources-list {
+    columns: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .sources-head {
+    padding-block: var(--space-7) var(--space-6);
+  }
+
+  .sources-sheet {
+    border-radius: 28px;
+  }
+
+  .credits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-3);
+  }
+
+  .credits li {
+    padding: var(--space-2) var(--space-2) var(--space-3);
+    border-radius: var(--radius-md);
+  }
+
+  .credits__media {
+    border-radius: var(--radius-sm);
+  }
+
+  .credits__name {
+    font-size: var(--fs-md);
+  }
+
+  .credits__spec {
+    border-radius: var(--radius-sm);
+  }
+
+  .sources-acc summary {
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    gap: var(--space-3);
+    min-height: 68px;
+    padding-right: var(--space-3);
+  }
+
+  .sources-acc details,
+  .sources-acc summary {
+    border-radius: 34px;
+  }
+
+  .sources-acc__thumb {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* The count chip moves under the name on phones */
+  .sources-acc__count {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+    margin-top: calc(var(--space-2) * -1);
+  }
+
+  .sources-acc__icon {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .sources-acc__thumb {
+    grid-row: 1 / span 2;
+  }
+
+  /* The open list continues the summary's columns: number bubbles centred under the photo, titles
+     starting on the breed name's left edge */
+  .sources-acc__panel {
+    padding: 0 var(--space-4) var(--space-4) var(--space-3);
+  }
+
+  .sources-acc li {
+    grid-template-columns: 44px minmax(0, 1fr);
+  }
+
+  .sources-acc li::before {
+    justify-self: center;
+  }
+}
+
+/*
+  Phones: every section keeps the same rhythm (badge, title, a white count pill, then the list
+  32px below), and the photo credits restack into one column: each card opens like the reference
+  rows above (round photo, name) over a full-width spec panel whose values share one left edge.
+  Two squeezed columns broke names and long author handles mid-word at 320px.
+*/
+@media (max-width: 560px) {
+  .sources .section-head {
+    margin-bottom: var(--space-6);
+  }
+
+  /* 02's count wears the same white pill as 01's */
+  .section-head > .sources-count {
+    display: inline-flex;
+    align-items: center;
+    justify-self: start;
+    min-height: 32px;
+    padding: 0 var(--space-4);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    box-shadow: var(--elev-1), var(--clay);
+    color: var(--ink-muted);
+    font-size: var(--fs-xs);
+    font-weight: 700;
+  }
+
+  .credits {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .credits li {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3);
+  }
+
+  .credits__media {
+    width: 44px;
+    height: 44px;
+    border: 3px solid var(--surface);
+    border-radius: 50%;
+    box-shadow: var(--elev-1);
+  }
+
+  .credits__name {
+    margin: 0;
+  }
+
+  /* Two rows on one shared label column (subgrid), so both values start on the same edge */
+  .credits__spec {
+    grid-column: 1 / -1;
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .credits__spec > div {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+    align-items: baseline;
+    column-gap: var(--space-3);
+  }
+
+  /* A licence is one token ("CC BY-SA 4.0"); never split it at its hyphen */
+  .credits__spec a {
+    white-space: nowrap;
+  }
+}
+/* Gallery credits: one line per photo or video, its kind as a small pill */
+.gallery-credits {
+  display: grid;
+  gap: var(--space-3);
+  padding-left: 0 !important;
+  list-style: none;
+}
+
+.gallery-credits li {
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+}
+
+.gallery-credits__kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--soft);
+  color: var(--on-soft);
+  font-size: var(--fs-2xs);
+  font-weight: 700;
+  vertical-align: 1px;
+}
+
+.gallery-credits__alt {
+  color: var(--ink);
+}
+
+.gallery-credits__by {
+  display: block;
+  margin-top: 2px;
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}

@@ -1,0 +1,529 @@
+{
+  "american-shorthair": {
+    "w": 960,
+    "h": 720,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "bengal": {
+    "w": 960,
+    "h": 618,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "british-shorthair": {
+    "w": 960,
+    "h": 940,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "exotic-shorthair": {
+    "w": 960,
+    "h": 960,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "gallery/american-shorthair-1": {
+    "w": 1600,
+    "h": 1088,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/american-shorthair-2": {
+    "w": 1600,
+    "h": 2133,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/american-shorthair-3": {
+    "w": 1600,
+    "h": 1601,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/bengal-1": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/bengal-2": {
+    "w": 1600,
+    "h": 928,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/bengal-3": {
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/bengal-4": {
+    "w": 1600,
+    "h": 1128,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/bengal-video": {
+    "w": 1280,
+    "h": 720,
+    "widths": [
+      480,
+      960,
+      1280
+    ]
+  },
+  "gallery/british-shorthair-1": {
+    "w": 1600,
+    "h": 1340,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/british-shorthair-2": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/british-shorthair-3": {
+    "w": 1600,
+    "h": 2133,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/british-shorthair-4": {
+    "w": 1600,
+    "h": 1073,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/british-shorthair-video": {
+    "w": 960,
+    "h": 1707,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "gallery/exotic-shorthair-1": {
+    "w": 1600,
+    "h": 1078,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/exotic-shorthair-2": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/exotic-shorthair-3": {
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/exotic-shorthair-4": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/khao-manee-1": {
+    "w": 1600,
+    "h": 778,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/khao-manee-2": {
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/khao-manee-3": {
+    "w": 1600,
+    "h": 2133,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/khao-manee-4": {
+    "w": 1600,
+    "h": 1198,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/korat-1": {
+    "w": 1218,
+    "h": 985,
+    "widths": [
+      480,
+      960,
+      1218
+    ]
+  },
+  "gallery/korat-2": {
+    "w": 1368,
+    "h": 1790,
+    "widths": [
+      480,
+      960,
+      1368
+    ]
+  },
+  "gallery/korat-3": {
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/maine-coon-1": {
+    "w": 1600,
+    "h": 1110,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/maine-coon-2": {
+    "w": 1600,
+    "h": 1128,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/maine-coon-3": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/maine-coon-4": {
+    "w": 1600,
+    "h": 1064,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/munchkin-1": {
+    "w": 1600,
+    "h": 1021,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/munchkin-2": {
+    "w": 1600,
+    "h": 1280,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/munchkin-3": {
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/munchkin-video": {
+    "w": 1280,
+    "h": 720,
+    "widths": [
+      480,
+      960,
+      1280
+    ]
+  },
+  "gallery/persian-1": {
+    "w": 1600,
+    "h": 1072,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/persian-2": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/persian-3": {
+    "w": 1600,
+    "h": 1000,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/persian-4": {
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/ragdoll-1": {
+    "w": 1600,
+    "h": 1167,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/ragdoll-2": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/ragdoll-3": {
+    "w": 1600,
+    "h": 900,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/ragdoll-4": {
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/scottish-fold-1": {
+    "w": 1600,
+    "h": 1158,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/scottish-fold-2": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/scottish-fold-3": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/scottish-fold-4": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/siamese-1": {
+    "w": 1600,
+    "h": 1168,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/siamese-2": {
+    "w": 1600,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/siamese-3": {
+    "w": 1600,
+    "h": 900,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "gallery/siamese-4": {
+    "w": 1600,
+    "h": 1067,
+    "widths": [
+      480,
+      960,
+      1600
+    ]
+  },
+  "khao-manee": {
+    "w": 960,
+    "h": 640,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "korat": {
+    "w": 960,
+    "h": 640,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "maine-coon": {
+    "w": 960,
+    "h": 721,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "munchkin": {
+    "w": 960,
+    "h": 811,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "persian": {
+    "w": 960,
+    "h": 540,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "ragdoll": {
+    "w": 960,
+    "h": 640,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "scottish-fold": {
+    "w": 960,
+    "h": 960,
+    "widths": [
+      480,
+      960
+    ]
+  },
+  "siamese": {
+    "w": 960,
+    "h": 637,
+    "widths": [
+      480,
+      960
+    ]
+  }
+}

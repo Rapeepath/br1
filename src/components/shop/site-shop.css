@@ -1,0 +1,140 @@
+/* Footer shop column, footer contact block, and the phone-only floating contact button */
+.footer-store {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  color: var(--ink-muted);
+  line-height: 1.6;
+}
+
+.footer-store__name {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.footer-store a {
+  font-weight: 700;
+}
+
+.footer-store a svg {
+  vertical-align: -2px;
+}
+
+.footer-store__list,
+.footer-store__hours {
+  display: grid;
+  gap: 2px;
+  list-style: none;
+}
+
+.footer-store__list li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.footer-store__list li > svg,
+.footer-store__at {
+  flex: none;
+  color: var(--ink-subtle);
+}
+
+.footer-store__list a {
+  overflow-wrap: anywhere;
+}
+
+.footer-store__at {
+  width: 15px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footer-store__hours {
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}
+
+.fab-contact {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .fab-contact {
+    position: fixed;
+    right: var(--space-3);
+    bottom: calc(var(--space-3) + env(safe-area-inset-bottom, 0px));
+    z-index: 29;
+    display: flex;
+    gap: 2px;
+    padding: 4px;
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    box-shadow: var(--elev-4), var(--clay);
+    transition:
+      bottom 240ms var(--ease),
+      opacity 240ms var(--ease),
+      translate 240ms var(--ease),
+      visibility 0s linear 0s;
+  }
+
+  /* On the home page's first screen and over a breed's photo it waits, so nothing covers the cats
+     (useContactAway in lib/fab.ts); visibility also takes it out of the tab order while it can't be seen */
+  :root[data-contact-away] .fab-contact {
+    opacity: 0;
+    translate: 0 16px;
+    visibility: hidden;
+    pointer-events: none;
+    transition:
+      bottom 240ms var(--ease),
+      opacity 240ms var(--ease),
+      translate 240ms var(--ease),
+      visibility 0s linear 240ms;
+  }
+
+  /* The compare tray takes the bottom edge; the contact button sits just above it */
+  body:has(.compare-tray) .fab-contact {
+    bottom: calc(var(--space-3) + 92px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .fab-contact__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    padding: 0 var(--space-4);
+    border-radius: var(--radius-pill);
+    background: var(--soft);
+    color: var(--on-soft);
+    font-family: var(--font-display);
+    font-size: var(--fs-sm);
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .fab-contact__btn--line {
+    background: var(--btn-bg);
+    color: var(--btn-fg);
+  }
+
+  .fab-contact__btn:hover {
+    color: inherit;
+  }
+
+  /* Room at the foot of the page so the button never sits on the footer's last line */
+  .site-footer {
+    padding-bottom: 72px;
+  }
+
+  body:has(.compare-tray) .site-footer {
+    padding-bottom: 160px;
+  }
+}
+
+/* The shop links are longer than the menu's: on phones they wrap instead of running out */
+@media (max-width: 720px) {
+  .site-footer .footer-shop-links a {
+    line-height: 1.35;
+    padding-block: var(--space-1);
+  }
+}

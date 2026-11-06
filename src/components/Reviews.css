@@ -1,0 +1,230 @@
+/* Owners' reviews on the breed page: the average on a butter tile, review cards, a rounded form */
+.reviews {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.reviews__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--space-3) var(--space-5);
+}
+
+.reviews__head h2 {
+  font-size: var(--fs-xl);
+}
+
+.reviews__head p {
+  margin-top: var(--space-1);
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+}
+
+.reviews__avg {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 2px var(--space-3);
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--tint-butter);
+  color: var(--on-butter);
+}
+
+.reviews__avg-figure {
+  grid-row: span 2;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.reviews__avg-text {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+/* Stars: an outline row with a filled row clipped to the rating on top */
+.stars {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
+.stars__row {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.stars__row--off {
+  color: var(--line-strong);
+}
+
+.stars__row--on {
+  position: absolute;
+  inset: 0 auto 0 0;
+  overflow: hidden;
+  width: var(--fill);
+  color: var(--meter-on);
+  white-space: nowrap;
+}
+
+.stars__row--on svg {
+  flex: none;
+  fill: currentColor;
+}
+
+.reviews__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+  gap: var(--space-4);
+  list-style: none;
+}
+
+.reviews__list > li {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--elev-1);
+}
+
+.reviews__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+}
+
+.reviews__name {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.reviews__title {
+  font-size: var(--fs-md);
+}
+
+.reviews__body {
+  color: var(--ink-muted);
+  white-space: pre-line;
+}
+
+.reviews__empty {
+  max-width: 62ch;
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--surface-sunk);
+  color: var(--ink-muted);
+}
+
+.reviews__write {
+  justify-self: start;
+}
+
+.reviews__form {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2);
+}
+
+.reviews__form h3 {
+  font-size: var(--fs-lg);
+}
+
+.reviews__rating {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.reviews__rating legend {
+  margin-bottom: var(--space-2);
+  padding: 0;
+  font-weight: 700;
+}
+
+.reviews__star-picks {
+  display: inline-flex;
+  gap: var(--space-1);
+}
+
+.reviews__star-picks label {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-pill);
+  color: var(--line-strong);
+  cursor: pointer;
+}
+
+.reviews__star-picks label.is-on {
+  color: var(--meter-on);
+}
+
+.reviews__star-picks label.is-on svg {
+  fill: currentColor;
+}
+
+.reviews__star-picks label:hover {
+  background: var(--soft);
+}
+
+/* The radio stays in the accessibility tree and takes focus; only its dot is hidden */
+.reviews__star-picks input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.reviews__star-picks label:has(input:focus-visible) {
+  outline: 3px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.reviews__done {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  background: var(--tint-mint);
+  color: var(--on-mint);
+}
+
+.reviews__done-title {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.reviews .btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+@media (max-width: 560px) {
+  .reviews__form {
+    padding: var(--space-4);
+  }
+
+  .reviews .btn-row {
+    display: grid;
+  }
+}

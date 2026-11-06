@@ -1,0 +1,348 @@
+/*
+  Price ranges in a rounded white panel: one shared axis, a lavender track per breed with the
+  min–max span drawn as a chunky periwinkle capsule, figures bold on the right, and confidence as
+  three small dots. Bars are ≥3:1 against the track and the panel in both themes.
+*/
+.prc {
+  --prc-row: 52px;
+
+  padding: var(--space-5) var(--space-6) var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+}
+
+/* ---------- Legend: soft chips ---------- */
+.prc__legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+.prc__key {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 32px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--paper);
+  white-space: nowrap;
+}
+
+.prc__key--sort {
+  margin-left: auto;
+  background: var(--soft);
+  color: var(--on-soft);
+}
+
+.prc__swatch {
+  width: 28px;
+  height: 12px;
+  border-radius: var(--radius-pill);
+  background: var(--chart-bar);
+}
+
+/* Axis repeated for phones only (the table head is visually hidden there) */
+.prc__scale {
+  display: none;
+}
+
+/* ---------- Table ---------- */
+.prc__scroll {
+  overflow-x: auto;
+}
+
+.prc__table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+}
+
+.prc__table th,
+.prc__table td {
+  padding: 0 var(--space-3);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.prc__table thead th {
+  padding-bottom: var(--space-3);
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  vertical-align: bottom;
+}
+
+.prc__table th:first-child {
+  padding-left: var(--space-2);
+}
+
+.prc__table tbody tr {
+  height: var(--prc-row);
+  border-top: 1px solid var(--line);
+  transition: background-color 160ms ease;
+}
+
+.prc__table tbody tr:hover {
+  background: var(--overlay);
+}
+
+.prc__table tbody th {
+  width: 176px;
+  white-space: nowrap;
+}
+
+/* Breed names: friendly row links, 44px tall so they are easy to tap */
+.prc__table tbody th a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--line-strong);
+}
+
+.prc__table tbody th a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+.prc__axis-head {
+  position: relative;
+  min-width: 260px;
+}
+
+.prc__ticks {
+  position: relative;
+  height: 1.3em;
+}
+
+.prc__ticks span,
+.prc__scale span {
+  position: absolute;
+  translate: -50% 0;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.prc__ticks span:first-child,
+.prc__scale span:first-child {
+  translate: 0 0;
+}
+
+.prc__ticks span:last-child,
+.prc__scale span:last-child {
+  translate: -100% 0;
+}
+
+/* ---------- Plot: lavender track with a chunky capsule ---------- */
+.prc__track {
+  position: relative;
+  height: var(--prc-row);
+}
+
+.prc__plot {
+  position: absolute;
+  inset: 0 var(--space-3);
+}
+
+.prc__plot::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  right: -4px;
+  top: 50%;
+  height: 16px;
+  border-radius: var(--radius-pill);
+  background: var(--meter-off);
+  translate: 0 -50%;
+}
+
+.prc__bar {
+  position: absolute;
+  top: 50%;
+  height: 16px;
+  border-radius: var(--radius-pill);
+  background: var(--chart-bar);
+  translate: 0 -50%;
+  transition: height 240ms var(--ease-spring);
+}
+
+.prc__table tbody tr:hover .prc__bar {
+  height: 20px;
+}
+
+@media (forced-colors: active) {
+  .prc__bar,
+  .prc__swatch {
+    background: CanvasText;
+  }
+
+  .prc__plot::before {
+    background: GrayText;
+  }
+}
+
+/* ---------- Figures and confidence ---------- */
+.prc__num {
+  width: 140px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  text-align: right !important;
+}
+
+.prc__table tbody .prc__num {
+  color: var(--figure);
+  font-weight: 800;
+}
+
+.prc__conf {
+  width: 150px;
+  padding-right: var(--space-2) !important;
+}
+
+.prc__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--ink-muted);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Confidence is carried by the text; the three dots only repeat it */
+.prc__badge::before {
+  content: '';
+  width: 30px;
+  height: 8px;
+  background:
+    radial-gradient(circle at 4px 50%, var(--d1) 3.5px, transparent 4px),
+    radial-gradient(circle at 15px 50%, var(--d2) 3.5px, transparent 4px),
+    radial-gradient(circle at 26px 50%, var(--d3) 3.5px, transparent 4px);
+}
+
+.prc__badge--high {
+  --d1: var(--meter-on);
+  --d2: var(--meter-on);
+  --d3: var(--meter-on);
+}
+
+.prc__badge--medium {
+  --d1: var(--meter-on);
+  --d2: var(--meter-on);
+  --d3: var(--meter-off);
+}
+
+.prc__badge--low {
+  --d1: var(--meter-on);
+  --d2: var(--meter-off);
+  --d3: var(--meter-off);
+}
+
+/* Phones: each breed becomes a two-line row — name and range, then the bar with its confidence.
+   The confidence column has a fixed width so every bar shares the same scale as the axis above. */
+@media (max-width: 640px) {
+  .prc {
+    --prc-conf: 5.75rem;
+    --prc-gap: var(--space-3);
+
+    padding: var(--space-4) var(--space-4) var(--space-3);
+  }
+
+  .prc__key--sort {
+    margin-left: 0;
+  }
+
+  /* Same insets as .prc__plot below (6px left, 4px right), so each label sits exactly over its
+     value on the bars */
+  .prc__scale {
+    position: relative;
+    display: block;
+    width: calc(100% - var(--prc-conf) - var(--prc-gap) - 10px);
+    height: 1.4em;
+    margin-left: 6px;
+    margin-bottom: var(--space-2);
+    color: var(--ink-subtle);
+    font-size: var(--fs-2xs);
+    font-weight: 700;
+  }
+
+  .prc__scroll {
+    overflow: visible;
+  }
+
+  .prc__table {
+    min-width: 0;
+  }
+
+  /* Hidden visually only, so cells keep their column headers for screen readers */
+  .prc__table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .prc__table tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto var(--prc-conf);
+    align-items: center;
+    gap: 2px var(--prc-gap);
+    height: auto;
+    padding-block: var(--space-1) var(--space-3);
+  }
+
+  .prc__table tbody th,
+  .prc__table tbody td {
+    padding: 0;
+  }
+
+  .prc__table tbody th {
+    grid-column: 1;
+    grid-row: 1;
+    width: auto;
+    white-space: normal;
+  }
+
+  .prc__num {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    width: auto;
+  }
+
+  .prc__track {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    height: 20px;
+  }
+
+  .prc__plot {
+    inset: 0 4px 0 6px;
+  }
+
+  .prc__conf {
+    grid-column: 3;
+    grid-row: 2;
+    width: auto;
+    padding-right: 0 !important;
+  }
+}
+
+/* Narrow phones leave the axis 150–200px, where "75k" and "100k" crowd or run into each other: the
+   in-between labels give way (the axis is a visual aid; every figure is in the rows) */
+@media (max-width: 380px) {
+  .prc__scale span:nth-child(even):not(:last-child) {
+    display: none;
+  }
+}

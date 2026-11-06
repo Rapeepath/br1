@@ -1,0 +1,92 @@
+{
+  "id": "bengal",
+  "origin": "United States",
+  "tagline": "Leopard markings on a house cat, with energy to spare",
+  "summary": "The Bengal is a shorthaired cat with rosettes or a marbled pattern like a wild cat and a soft, silky coat that in some cats has a shimmering glitter. It is confident, curious, intelligent and extremely energetic, and it needs activities and play with its owner every day.",
+  "history": "The Bengal comes from crossing the Asian leopard cat with domestic cats. Jean Mill made the first cross in 1963, then backcrossed to domestic cats over several generations until the cats had a domestic temperament. TICA accepted it as a new breed in 1986 and granted it championship status in 1991, while CFA accepted it for registration in 2016.",
+  "coat": {
+    "texture": "Short, dense, close-lying and silky, with a shimmering glitter in some cats",
+    "colors": [
+      "Brown spotted/rosetted",
+      "Marbled",
+      "Snow (ivory to cream)",
+      "Silver",
+      "Blue (blue-gray)",
+      "Charcoal"
+    ]
+  },
+  "appearance": [
+    "Dark-outlined spots or rosettes like a leopard's, or a marbled pattern",
+    "Soft, short coat that in some cats sparkles in the light (glitter)",
+    "Sleek, muscular, athletic-looking body",
+    "Pale, almost white belly, with tabby-style markings still on the face"
+  ],
+  "temperament": [
+    "Confident",
+    "Curious",
+    "High-energy",
+    "Intelligent and trainable",
+    "Vocal",
+    "Attention-seeking"
+  ],
+  "care": {
+    "grooming": "Easy to groom: brushing once a week with a soft brush is enough, and baths are rarely needed unless the cat is being shown.",
+    "exercise": "Needs lots of activity every day, such as wand toys, a cat exercise wheel, fetch and leash training. Some even work out how to open doors or cupboards by themselves.",
+    "diet": "No special formula is needed. Feed a good-quality cat food that is complete and meets standards, split into several small meals, and use food puzzle toys instead of leaving food out.",
+    "environment": "Needs places to climb, such as cat trees and wall shelves, and should not be allowed to roam freely outdoors. In hot weather, save vigorous play for the cooler morning or evening, and keep clean water available at all times."
+  },
+  "health": [
+    {
+      "name": "Pyruvate kinase deficiency",
+      "detail": "A recessively inherited anemia caused by the breakdown of red blood cells. A survey of more than 14,000 cats found the mutation at a frequency of about 13% in Bengals, the highest of all the breeds in which it was found.",
+      "screening": "PKLR gene DNA test for the breeding parents."
+    },
+    {
+      "name": "Progressive retinal atrophy (PRA-b)",
+      "detail": "A recessive inherited disease caused by the KIF3B gene. The light-sensing cells start to degenerate from about 7 weeks of age, and vision is severely impaired by around 2 years.",
+      "screening": "PRA-b DNA test from a cheek swab for the breeding parents."
+    },
+    {
+      "name": "Hypertrophic cardiomyopathy (HCM)",
+      "detail": "It occurs in Bengals, but there is no breed-specific gene test yet, so the MYBPC3 tests used for Maine Coons and Ragdolls do not apply to Bengals.",
+      "screening": "Regular heart ultrasound (echocardiography) for the breeding parents; an A74T gene test result does not confirm that a cat is free of HCM."
+    },
+    {
+      "name": "Patellar luxation",
+      "detail": "The kneecap slips out of its groove in the knee joint, causing limping. It may be treated with anti-inflammatory medication or surgery.",
+      "screening": null
+    }
+  ],
+  "welfareNote": "Ordinary pet owners should choose only a later-generation Bengal (SBT) with pedigree papers from a cat association. Early-generation Bengals (F1–F3) have a leopard cat as a parent or close ancestor and still behave like wild animals, so the Feline Veterinary Medical Association (FelineVMA) does not recommend keeping them. The leopard cat is also a protected wild animal under the Wild Animal Conservation and Protection Act B.E. 2562 (2019): possession without a permit is punishable by up to 5 years in prison, a fine of up to 500,000 baht, or both. Hybrids within four generations are also covered by CITES when imported or exported.",
+  "idealFor": [
+    "People with time to play with and train their cat every day",
+    "Experienced cat owners",
+    "Homes that can provide plenty of climbing space and toys"
+  ],
+  "considerations": [
+    "High energy and very demanding of attention, so not suited to first-time cat owners",
+    "Vocal, and some dislike being held",
+    "Strong hunting instinct, so may not suit homes with young children or small pets"
+  ],
+  "funFact": "Bengals are easy to train, and many learn tricks and walk on a leash like a dog.",
+  "price": {
+    "note": "Registered catteries that provide pedigree papers, genetic disease testing and a health guarantee start at around 70,000–80,000 baht."
+  },
+  "gallery": [
+    {
+      "alt": "Three-year-old female brown Bengal lounging on a cat-tree bed"
+    },
+    {
+      "alt": "Brown rosetted Bengal stalking low against a red backdrop"
+    },
+    {
+      "alt": "Ten-month-old male Bengal standing in the snow"
+    },
+    {
+      "alt": "Close-up of a brown Bengal kitten"
+    },
+    {
+      "alt": "Video: a Bengal from a Russian cattery performing 35 trained tricks, such as high fives and jumping onto its trainer (no sound)"
+    }
+  ]
+}

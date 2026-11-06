@@ -1,0 +1,222 @@
+{
+  "id": "munchkin",
+  "nameTh": "มันช์กิ้น",
+  "nameEn": "Munchkin",
+  "group": "international",
+  "origin": "สหรัฐอเมริกา",
+  "recognizedBy": [
+    "TICA"
+  ],
+  "tagline": "แมวขาสั้นจอมซน ปราดเปรียวเกินตัว",
+  "summary": "มันช์กิ้นเป็นแมวขาสั้นที่เกิดจากการกลายพันธุ์ตามธรรมชาติ ลำตัวขนาดปกติแต่กระดูกขาท่อนยาวสั้นกว่าแมวทั่วไป นิสัยร่าเริง ขี้เล่น ช่างสำรวจ และเข้ากับคนและสัตว์อื่นได้ดี อย่างไรก็ตาม ภาวะแคระแบบสัดส่วนไม่สมดุลนี้มีข้อกังวลด้านสวัสดิภาพ หลายสมาคมจึงไม่รับรอง",
+  "history": "ปี ค.ศ. 1983 ครูสอนดนตรีชื่อแซนดรา โฮเคเนเดล (Sandra Hochenedel) ในรัฐลุยเซียนา สหรัฐฯ พบแมวขาสั้นที่กำลังตั้งท้อง และตั้งชื่อว่าแบล็กเบอร์รี (Blackberry) ลูกตัวผู้ชื่อตูลูส (Toulouse) กลายเป็นต้นสายพันธุ์ร่วมกับแม่ TICA รับเข้าโครงการพัฒนาสายพันธุ์ใหม่ในปี 1994 และให้สถานะแชมเปียนในปี 2003",
+  "size": "small",
+  "weightKg": {
+    "female": [
+      2.3,
+      3.2
+    ],
+    "male": [
+      3.2,
+      4.5
+    ]
+  },
+  "lifespanYears": [
+    12,
+    15
+  ],
+  "coat": {
+    "length": "short",
+    "texture": "ขนสั้นกึ่งหนา นุ่ม (มีแบบขนยาวด้วย)",
+    "colors": [
+      "ขาว",
+      "ดำ",
+      "ส้ม (เรด)",
+      "ลายสลิด (แทบบี้)",
+      "สามสี (คาลิโก)",
+      "สองสี (ไบคัลเลอร์)"
+    ]
+  },
+  "appearance": [
+    "ขาทั้งสี่สั้นกว่าแมวทั่วไปอย่างชัดเจน",
+    "ลำตัวขนาดปกติ ไม่ได้ตัวเล็กเท่าลูกแมวตลอดไป",
+    "กระดูกขาอาจโค้งเล็กน้อย",
+    "ทรงเตี้ยติดพื้น เคลื่อนไหวคล่องแคล่ว",
+    "มีทุกสีและลวดลาย ทั้งขนสั้นและขนยาว"
+  ],
+  "temperament": [
+    "ร่าเริง",
+    "ขี้เล่นมาก",
+    "ช่างสงสัย",
+    "เข้าสังคมเก่ง",
+    "ฉลาด",
+    "มั่นใจในตัวเอง"
+  ],
+  "ratings": {
+    "energy": 4,
+    "affection": 5,
+    "vocal": 3,
+    "intelligence": 4,
+    "grooming": 2,
+    "shedding": 3,
+    "kidFriendly": 4,
+    "petFriendly": 5,
+    "socialNeeds": 5
+  },
+  "care": {
+    "grooming": "ขนสั้นหวีสัปดาห์ละครั้ง ขนยาวหวีสัปดาห์ละ 2 ครั้ง บางตัวเลียขนบริเวณหลังและก้นได้ไม่ทั่วเพราะขาสั้น เจ้าของจึงควรช่วยดูแลเพิ่ม",
+    "exercise": "พลังงานสูง ชอบวิ่งไล่จับของเล่น ควรเล่นด้วยทุกวัน และให้ปีนป่ายเป็นขั้นเตี้ย ๆ แทนการกระโดดสูง",
+    "diet": "ไม่ต้องการอาหารพิเศษ แต่ควรแบ่งให้วันละ 2–3 มื้อแบบตวงปริมาณ คุมน้ำหนักไม่ให้เป็นภาระต่อขาและข้อ",
+    "environment": "ใช้คอนโดแมวชั้นเตี้ยหรือทางลาด ชามน้ำขอบต่ำหรือน้ำพุแมว และกระบะทรายที่เข้าออกง่าย สังเกตอาการเดินกะเผลก ไม่ยอมกระโดด ตัวเอียง หรือหายใจผิดปกติ"
+  },
+  "health": [
+    {
+      "name": "ข้อเสื่อม (Osteoarthritis)",
+      "detail": "ความผิดปกติของกระดูกอ่อนจากยีนขาสั้นทำให้เสี่ยงข้อเสื่อมและปัญหาการเคลื่อนไหวเมื่ออายุมากขึ้น",
+      "screening": "ตรวจระบบกระดูกและข้อเป็นประจำ เอกซเรย์เมื่อมีอาการ และควบคุมน้ำหนัก"
+    },
+    {
+      "name": "กระดูกขาผิดรูป (Limb deformity)",
+      "detail": "งานวิจัยขนาดเล็กที่ถ่ายภาพกระดูกแมวแคระ 5 ตัวพบว่าทุกตัวมีกระดูกขาโค้งหรือบิดผิดรูปครบทั้งสี่ขา",
+      "screening": "เอกซเรย์ประเมินแนวกระดูกและข้อเมื่อเดินผิดปกติ"
+    },
+    {
+      "name": "กระดูกสันหลังแอ่น (Lordosis)",
+      "detail": "มีรายงานว่าอาจพบกระดูกสันหลังแอ่นลงผิดปกติแต่กำเนิด ทำให้ปวดหลังหรือยืนเอียง แต่ยังไม่มีข้อมูลว่าพบบ่อยเพียงใด",
+      "screening": "ให้สัตวแพทย์ตรวจร่างกายและเอกซเรย์ตั้งแต่ลูกแมว"
+    },
+    {
+      "name": "อกบุ๋ม (Pectus Excavatum)",
+      "detail": "มีรายงานว่าอาจพบกระดูกหน้าอกยุบเข้าด้านใน กรณีรุนแรงอาจกดหัวใจและปอด",
+      "screening": "ตรวจและเอกซเรย์ทรวงอกในลูกแมว กรณีปานกลางถึงรุนแรงอาจต้องผ่าตัด"
+    }
+  ],
+  "welfareNote": "ขาสั้นเกิดจากยีนเด่นของภาวะแคระ (UGDH) ซึ่งถ้าได้รับสองชุดลูกจะตายตั้งแต่ในครรภ์ FIFe และ GCCF จึงไม่รับรองด้วยเหตุผลด้านสุขภาพ (CFA ก็ไม่รับรองเช่นกัน) รัฐวิกตอเรีย (ออสเตรเลีย) ห้ามนำมาผสมพันธุ์ และแนวทางของรัฐบาลสกอตแลนด์ระบุว่าการเพาะพันธุ์น่าจะขัดเงื่อนไขใบอนุญาต",
+  "idealFor": [
+    "บ้านที่อยากได้แมวขี้เล่นและเข้าสังคมเก่ง",
+    "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่น",
+    "ผู้มีเวลาเล่นด้วยและจัดบ้านให้เหมาะกับขาสั้น"
+  ],
+  "considerations": [
+    "ข้อมูลสุขภาพระยะยาวยังขัดแย้งกัน ควรเตรียมดูแลข้อเมื่อแมวอายุมากขึ้น",
+    "เลี่ยงลูกผสมมันช์กิ้นกับสก็อตติช โฟลด์ และขอผลตรวจยีน TRPV4 ของพ่อแม่",
+    "หลายสมาคมไม่รับรอง และบางประเทศจำกัดการเพาะพันธุ์"
+  ],
+  "funFact": "แม้ขาสั้น มันช์กิ้นก็ยังปีนป่ายได้ เพียงแต่มักไต่ขึ้นทีละขั้นแทนการกระโดดทีเดียวถึงยอดตู้",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Munchkin_cat_2_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat_2_(cropped).jpg",
+    "author": "Tasy Hong",
+    "license": "CC0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/munchkin-1.jpg",
+      "srcSmall": "images/gallery/munchkin-1-sm.jpg",
+      "width": 1600,
+      "height": 1021,
+      "page": "https://commons.wikimedia.org/wiki/File:MNS_Rosa_Sunny_Fairies_(11320077403).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "มันช์กิ้นเพศเมียลายหินอ่อนสีเงินแซมสีกระ ในงานประกวดแมว",
+      "focus": "35% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/munchkin-2.jpg",
+      "srcSmall": "images/gallery/munchkin-2-sm.jpg",
+      "width": 1600,
+      "height": 1280,
+      "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat_stretching.jpg",
+      "author": "Egor Plenkin",
+      "license": "CC BY 2.0",
+      "alt": "มันช์กิ้นสีบลูขาวยืดตัวบนสนามหญ้า เห็นขาสั้นชัดเจน",
+      "focus": "50% 55%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/munchkin-3.jpg",
+      "srcSmall": "images/gallery/munchkin-3-sm.jpg",
+      "width": 1600,
+      "height": 1200,
+      "page": "https://commons.wikimedia.org/wiki/File:Munchkin_cat.jpg",
+      "author": "Sasha Krotov",
+      "license": "CC BY 3.0",
+      "alt": "มันช์กิ้นสีเทาขาวนอนเหยียดบนพื้นไม้ เห็นขาสั้น",
+      "focus": "60% 50%"
+    },
+    {
+      "kind": "video",
+      "src": "images/gallery/munchkin-video.jpg",
+      "srcSmall": "images/gallery/munchkin-video-sm.jpg",
+      "width": 1280,
+      "height": 720,
+      "page": "https://commons.wikimedia.org/wiki/File:Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm",
+      "author": "Liz Mc",
+      "license": "CC BY 2.0",
+      "alt": "วิดีโอ: มันช์กิ้นขนยาวสีขาวส้มเดินเล่นในคาเฟ่แมวที่โตเกียว",
+      "focus": "75% 45%",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm/Munchkin_kitty_Temari_Cat_Cafe_No_Ouchie.webm.480p.vp9.webm",
+        "duration": 20.6,
+        "width": 854,
+        "height": 480
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "TICA – Munchkin",
+      "url": "https://tica.org/breed/munchkin/"
+    },
+    {
+      "title": "PetMD – Munchkin",
+      "url": "https://www.petmd.com/cat/breeds/munchkin"
+    },
+    {
+      "title": "Struck et al. 2020 – A structural UGDH variant associated with standard Munchkin cats (BMC Genetics)",
+      "url": "https://doi.org/10.1186/s12863-020-00875-x"
+    },
+    {
+      "title": "Buckley et al. 2020 – New cat genome assembly identifies a novel gene for dwarfism (PLoS Genetics)",
+      "url": "https://doi.org/10.1371/journal.pgen.1008926"
+    },
+    {
+      "title": "Anderson et al. 2021 – Skeletal manifestations of heritable disproportionate dwarfism in cats (VCOT)",
+      "url": "https://doi.org/10.1055/s-0041-1730355"
+    },
+    {
+      "title": "Takanosu & Hattori 2020 – Osteochondrodysplasia in Scottish Fold cross-breed cats (J Vet Med Sci)",
+      "url": "https://doi.org/10.1292/jvms.20-0299"
+    },
+    {
+      "title": "Ukawa et al. 2026 – Decline and crossbreed distribution of TRPV4 c.1024G>T in domestic cats (Animal Genetics)",
+      "url": "https://doi.org/10.1002/age.70118"
+    },
+    {
+      "title": "FIFe Breeding & Registration Rules (§3.5.2)",
+      "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf"
+    },
+    {
+      "title": "GCCF – Unrecognised Breeds",
+      "url": "https://www.gccfcats.org/getting-a-cat/unrecognised-breeds/"
+    },
+    {
+      "title": "CFA – Breeds list (Munchkin not listed)",
+      "url": "https://cfa.org/breeds/"
+    },
+    {
+      "title": "Agriculture Victoria – Code of Practice for the Breeding of Animals with Heritable Defects that Cause Disease",
+      "url": "https://agriculture.vic.gov.au/livestock-and-animals/animal-welfare-victoria/pocta-act-1986/victorian-codes-of-practice-for-animal-welfare/code-of-practice-for-the-breeding-of-animals-with-heritable-defects-that-cause-disease"
+    },
+    {
+      "title": "UK Animal Welfare Committee – Opinion on current and emergent feline breeding practices (2024)",
+      "url": "https://gov.wales/sites/default/files/publications/2025-01/animal-welfare-committee-opinion-on-the-welfare-implications-of-current-and-emergent-feline-breeding-practices.pdf"
+    },
+    {
+      "title": "The Cat API breeds data (archived 2025-12-09)",
+      "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+/* Pill tabs on a soft mint track, like the catalogue's segmented control: the selected tab is a
+   teal pill with a chunky press edge. The track can scroll sideways, but only as a safety net
+   for enlarged text: at normal sizes it fits from 561px up, and phones lay the tabs out as a grid. */
+.tabs__list {
+  position: relative;
+  display: flex;
+  gap: 2px;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+  /* Room inside the scroll box for the press edge and the focus ring */
+  padding: 5px 5px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--soft);
+  box-shadow: var(--clay);
+  scrollbar-width: none;
+}
+
+.tabs__list::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs__tab {
+  position: relative;
+  flex: none;
+  min-height: 44px;
+  padding: 0 var(--space-5);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--on-soft);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  white-space: nowrap;
+  transition:
+    background-color 200ms ease,
+    color 200ms ease,
+    box-shadow 200ms ease;
+}
+
+/* Hover preview only where a pointer can hover, so phones don't keep a stale highlight after a tap */
+@media (hover: hover) {
+  .tabs__tab:hover {
+    background: color-mix(in srgb, var(--surface) 60%, transparent);
+  }
+}
+
+.tabs__tab[aria-selected='true'] {
+  background: var(--selected-bg);
+  color: var(--selected-fg);
+  box-shadow: 0 3px 0 var(--btn-edge);
+}
+
+@media (forced-colors: active) {
+  .tabs__tab[aria-selected='true'] {
+    background: Highlight;
+    color: HighlightText;
+    forced-color-adjust: none;
+  }
+}
+
+/* Inside the track's padding, so the scroll box never clips it */
+.tabs__tab:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.tabs__tab[aria-selected='true']:focus-visible {
+  outline-color: var(--ink);
+}
+
+.tabs__panel {
+  padding-top: var(--space-6);
+}
+
+.tabs__panel:focus-visible {
+  outline-offset: 8px;
+  border-radius: var(--radius-md);
+}
+
+.tabs__short {
+  display: none;
+}
+
+/* Small tablets: short labels and slimmer padding keep the strip on one row (434px of the 511px
+   available at 561px), so it no longer needs the scroll fade it once had; that fade dimmed the
+   last tab even when nothing was hidden. Phones get the grid below. */
+@media (max-width: 640px) {
+  .tabs__tab {
+    padding: 0 var(--space-4);
+  }
+
+  .tabs__panel {
+    padding-top: var(--space-5);
+  }
+
+  /* Short label is shown; the full label stays in the accessibility tree */
+  .tabs__short {
+    display: inline;
+  }
+
+  .tabs__full {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+/*
+  Phones: five Thai labels can't share one row at 320px (ก่อนตัดสินใจ alone needs ~80px of the 54px
+  a fifth would get), and a strip that scrolls hides tabs behind its edge. So every tab is shown in
+  a tidy grid on the same soft track, rounded as a panel: three to a row, and when the last row is short its tabs
+  share the row equally (3 + 2 for the breed page). DOM order, roving tabindex and arrow keys are
+  unchanged, and reading order (left to right, then down) matches the arrow-key order.
+*/
+@media (max-width: 560px) {
+  .tabs__list {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 4px;
+    width: auto;
+    padding: 5px 5px 7px;
+    border-radius: var(--radius-lg);
+  }
+
+  /* Each tab is a visible tile, so the grid reads as five buttons rather than loose words */
+  .tabs__tab {
+    grid-column: span 2;
+    padding: 0 var(--space-2);
+    background: color-mix(in srgb, var(--surface) 55%, transparent);
+    /* Labels may wrap rather than clip if the visitor enlarges the text */
+    white-space: normal;
+    line-height: 1.25;
+  }
+
+  @media (hover: hover) {
+    .tabs__tab:not([aria-selected='true']):hover {
+      background: var(--surface);
+    }
+  }
+
+  /* Two tabs on the last row: half the row each */
+  .tabs__tab:nth-child(3n + 1):nth-last-child(2),
+  .tabs__tab:nth-child(3n + 1):nth-last-child(2) + .tabs__tab {
+    grid-column: span 3;
+  }
+
+  /* One tab on the last row: the whole row */
+  .tabs__tab:nth-child(3n + 1):last-child {
+    grid-column: 1 / -1;
+  }
+}

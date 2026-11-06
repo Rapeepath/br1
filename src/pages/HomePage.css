@@ -1,0 +1,218 @@
+/* Breed lineup: a peach floor the cards sit on (see BreedCard.css) */
+
+.lineup {
+  background:
+    radial-gradient(900px 360px at 50% 0%, var(--paper), transparent 70%),
+    var(--band);
+  border-radius: 48px 48px 0 0;
+}
+
+#breeds:focus {
+  outline: none;
+}
+
+.results-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 40px;
+  margin: var(--space-5) 0 var(--space-6);
+  color: var(--ink-subtle);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.breed-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-6) var(--space-5);
+  list-style: none;
+}
+
+/* Four a row on wide screens: the cards are short now, so a row reads at a glance */
+@media (min-width: 1200px) {
+  .breed-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.breed-grid > li {
+  display: flex;
+}
+
+.breed-grid > li > .plate-stack {
+  flex: 1;
+}
+
+.empty {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-2);
+  padding: var(--space-7) var(--space-6);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--elev-2), var(--clay);
+  color: var(--ink-muted);
+}
+
+.empty__title {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+
+.empty .btn {
+  margin-top: var(--space-3);
+}
+
+/* Guide teaser: three pastel cards, each with a small icon for its topic */
+
+.guide-band {
+  padding-block: var(--space-8);
+  background: var(--paper);
+}
+
+.guide-band__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  gap: var(--space-6) var(--space-8);
+  align-items: center;
+}
+
+.guide-band__intro p {
+  max-width: 34ch;
+  margin-top: var(--space-4);
+  color: var(--ink-muted);
+}
+
+.guide-band__cta {
+  margin-top: var(--space-6);
+}
+
+.guide-band__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-5);
+  list-style: none;
+}
+
+.guide-band__list a {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  height: 100%;
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--tone-bg);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: var(--clay);
+  transition:
+    translate 300ms var(--ease-spring),
+    box-shadow 300ms ease;
+}
+
+.guide-band__list a:hover {
+  translate: 0 -4px;
+  box-shadow: var(--elev-3), var(--clay);
+}
+
+.guide-band__list a:hover h3 {
+  color: var(--tone-ink);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.22em;
+}
+
+.guide-band__icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--tone-ink);
+  box-shadow: var(--elev-1);
+}
+
+.guide-band__list h3 {
+  margin-top: var(--space-2);
+  font-size: var(--fs-lg);
+}
+
+.guide-band__list p {
+  color: var(--ink-muted);
+  font-size: var(--fs-sm);
+}
+
+@media (max-width: 1080px) {
+  .breed-grid {
+    gap: var(--space-7) var(--space-5);
+  }
+}
+
+/* Two columns before the cards get too narrow for the price line */
+
+@media (max-width: 960px) {
+  .breed-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .guide-band__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .breed-grid {
+    gap: var(--space-6) var(--space-4);
+  }
+
+  .guide-band__list {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .lineup {
+    border-radius: 32px 32px 0 0;
+  }
+}
+
+@media (max-width: 560px) {
+  /* Guide cards: the icon beside the text instead of on its own line */
+
+  .guide-band__list a {
+    grid-template-columns: 44px minmax(0, 1fr);
+    column-gap: var(--space-4);
+    row-gap: var(--space-1);
+    padding: var(--space-4);
+  }
+
+  .guide-band__icon {
+    grid-row: span 2;
+  }
+
+  .guide-band__list h3 {
+    margin-top: 0;
+  }
+
+  .guide-band__cta {
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Product grid: two cards a row, like a shop's lineup (card layout in BreedCard.css) */
+
+  .breed-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-4) var(--space-3);
+  }
+}
+
+@media (max-width: 299px) {
+  .breed-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

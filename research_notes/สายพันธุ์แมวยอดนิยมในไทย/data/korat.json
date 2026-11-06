@@ -1,0 +1,134 @@
+{
+  "id": "korat",
+  "nameTh": "โคราช (สีสวาด)",
+  "nameEn": "Korat",
+  "group": "thai",
+  "origin": "ประเทศไทย (นครราชสีมา)",
+  "recognizedBy": ["CFA", "TICA", "FIFe", "GCCF", "WCF"],
+  "tagline": "แมวนำโชคสีดอกเลา ตาเขียวเป็นประกาย",
+  "summary": "โคราชหรือสีสวาดเป็นแมวไทยขนสั้นที่มีสีเดียวคือเทาฟ้าปลายขนสีเงิน หัวรูปหัวใจ ดวงตาโตสีเขียว ตัวขนาดกลางแต่หนักแน่นเกินขนาด เป็นแมวที่ฉลาด ผูกพันกับเจ้าของ และค่อนข้างเงียบ คนไทยถือเป็นแมวมงคลที่มักมอบให้คู่บ่าวสาว",
+  "history": "โคราชบันทึกอยู่ในสมุดข่อยตำราแมวสมัยอยุธยาในชื่อมาเลศหรือดอกเลา และยังใช้ในพิธีแห่แมวขอฝน แมวคู่แรกชื่อ Nara และ Darra ถูกนำไปสหรัฐฯ ในปี 2502 (ค.ศ. 1959) แล้ว CFA ให้สถานะแชมเปียนในปี 2509 (ค.ศ. 1966) และ GCCF ในปี 2527 (ค.ศ. 1984) ต่อมาเมื่อ 18 พ.ย. 2568 แมวมาเลศเป็นหนึ่งในแมวไทย 5 สายพันธุ์ที่คณะรัฐมนตรีเห็นชอบให้เป็นเอกลักษณ์ประจำชาติ",
+  "size": "medium",
+  "weightKg": { "female": [3, 4], "male": [3.5, 5] },
+  "lifespanYears": [10, 18],
+  "coat": {
+    "length": "short",
+    "texture": "ขนชั้นเดียว สั้น ละเอียด เงา แนบตัว",
+    "colors": ["เทาฟ้าปลายขนสีเงิน (Silver-tipped blue) เท่านั้น"]
+  },
+  "appearance": [
+    "หัวรูปหัวใจเมื่อมองจากด้านหน้า",
+    "ตาโตกลมสีเขียวสด (ลูกแมวตาเหลือง/อำพัน เขียวเต็มที่เมื่อ 2–4 ปี)",
+    "ปลายขนสีเงินเป็นประกาย ยิ่งขนสั้นยิ่งเห็นเงาเงินชัด",
+    "ตัวไม่ใหญ่แต่หนักแน่นเกินขนาด กล้ามเนื้อแน่น",
+    "หูใหญ่ ปลายมน ตั้งสูงบนศีรษะ"
+  ],
+  "temperament": ["ฉลาดมาก", "ผูกพันเจ้าของ", "ค่อนข้างเงียบ", "ขี้เล่น", "หวงของ", "ไม่ชอบเสียงดัง"],
+  "ratings": {
+    "energy": 4,
+    "affection": 5,
+    "vocal": 2,
+    "intelligence": 5,
+    "grooming": 1,
+    "shedding": 2,
+    "kidFriendly": 4,
+    "petFriendly": 4,
+    "socialNeeds": 5
+  },
+  "care": {
+    "grooming": "ขนชั้นเดียวร่วงน้อย หวีหรือแปรงเบา ๆ สัปดาห์ละครั้ง แล้วลูบด้วยมือหรือผ้าชามัวร์ให้ขนเงา",
+    "exercise": "พลังงานค่อนข้างสูงและชอบเล่นเรียนรู้กลต่าง ๆ ควรมีของเล่นและที่ปีนป่าย ฝึกใส่สายจูงได้ หากออกนอกบ้านควรอยู่ในพื้นที่ปิดล้อม",
+    "diet": "ให้อาหารครบถ้วนตามวัยและคุมน้ำหนักให้พอดี โคราชมีไขมันในตัวต่ำ จึงควรแจ้งสัตวแพทย์ก่อนวางยาสลบทุกครั้ง",
+    "environment": "ชอบบ้านที่สงบ ตกใจง่ายกับเสียงดังหรือการเคลื่อนไหวกะทันหัน และไม่ชอบถูกทิ้งไว้ลำพังนาน เพราะอาจเกิดความเครียดจากการแยกจากเจ้าของ"
+  },
+  "health": [
+    {
+      "name": "แกงกลิโอซิโดซิส GM1 (GM1 gangliosidosis)",
+      "detail": "โรคพันธุกรรมแบบยีนด้อย (ยีน GLB1) ที่ทำลายระบบประสาท ลูกแมวเริ่มสั่นราว 3 เดือน และเสียชีวิตเมื่อราว 9–10 เดือน",
+      "screening": "ตรวจ DNA พ่อแม่ก่อนผสมพันธุ์ ซึ่ง FIFe และ GCCF กำหนดให้ต้องตรวจหรือมีพ่อแม่ที่ผลตรวจปลอดโรค"
+    },
+    {
+      "name": "แกงกลิโอซิโดซิส GM2 (GM2 gangliosidosis)",
+      "detail": "โรคพันธุกรรมแบบยีนด้อย (ยีน HEXB) เริ่มสั่นและเดินเซตั้งแต่ราว 4 สัปดาห์ และเสียชีวิตก่อนอายุ 8 เดือน",
+      "screening": "ตรวจ DNA (เช่น UC Davis VGL, Langford Vets) และห้ามผสมพาหะกับพาหะ"
+    },
+    {
+      "name": "หลอดเลือดแดงแข็ง (Atherosclerosis)",
+      "detail": "พบยีนด้อยที่ทำให้คอเลสเตอรอลสะสมในผนังหลอดเลือดแดง จนอาจนำไปสู่ภาวะหัวใจล้มเหลว",
+      "screening": "มีการตรวจ DNA ตั้งแต่ปี 2568 (ค.ศ. 2025) และผู้เพาะใน GCCF กำลังตรวจทุกสายเลือด"
+    }
+  ],
+  "welfareNote": "ประชากรโคราชมีขนาดเล็ก และแมวในต่างประเทศสืบสายเลือดย้อนไปถึงแมวจากไทย ผู้ซื้อควรขอใบผลตรวจ GM1/GM2 และหลอดเลือดแดงแข็ง (ถ้ามี) ของพ่อแม่ก่อนรับลูกแมว",
+  "idealFor": [
+    "บ้านที่สงบและมีคนอยู่บ่อย",
+    "ผู้ที่อยากได้แมวฉลาด ติดเจ้าของ แต่ไม่ส่งเสียงมาก",
+    "ครอบครัวที่มีเด็กซึ่งเล่นกับแมวอย่างอ่อนโยน"
+  ],
+  "considerations": [
+    "ไม่ชอบถูกทิ้งไว้ลำพังนาน อาจเครียดจากการแยกจากเจ้าของ",
+    "ไม่ชอบบ้านวุ่นวาย และมักอยากเป็นใหญ่เหนือสัตว์เลี้ยงตัวอื่น",
+    "ต้องขอผลตรวจโรคพันธุกรรมจากผู้เพาะทุกครั้ง"
+  ],
+  "funFact": "คนไทยเปรียบประกายตาของโคราชว่าเหมือนหยดน้ำค้างบนใบบัว และชื่อสีสวาดมาจากสีของเมล็ดต้นสวาด",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Korat_cat_wikipedia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korat_cat_wikipedia.jpg",
+    "author": "Jacques Julien Photo",
+    "license": "CC BY-SA 4.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/korat-1.jpg",
+      "srcSmall": "images/gallery/korat-1-sm.jpg",
+      "width": 1218,
+      "height": 985,
+      "page": "https://commons.wikimedia.org/wiki/File:KOR_1149.jpg",
+      "author": "Heikki Siltala, catza.net",
+      "license": "CC BY 3.0",
+      "alt": "ใบหน้าโคราชขนสีเทาฟ้าปลายเงิน ตาสีเขียวสด ในงานแสดงของชมรมแมวโคราชฟินแลนด์",
+      "focus": "25% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/korat-2.jpg",
+      "srcSmall": "images/gallery/korat-2-sm.jpg",
+      "width": 1368,
+      "height": 1790,
+      "page": "https://commons.wikimedia.org/wiki/File:Korat_Sisters.jpg",
+      "author": "Therealbs2002",
+      "license": "CC BY-SA 3.0",
+      "alt": "โคราชสองพี่น้องนั่งเคียงกันริมหน้าต่าง ตาสีเหลืองอำพัน",
+      "focus": "50% 30%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/korat-3.jpg",
+      "srcSmall": "images/gallery/korat-3-sm.jpg",
+      "width": 1600,
+      "height": 1200,
+      "page": "https://commons.wikimedia.org/wiki/File:Korat_Family.jpg",
+      "author": "Max BOUCHE (Korat Club de France)",
+      "license": "CC BY 2.5",
+      "alt": "แม่แมวโคราชกับลูกแมวทั้งครอกบนผ้าห่มสีชมพู ลูกแมวยังมีตาสีฟ้า"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – Korat breed profile", "url": "https://cfa.org/breed/korat/" },
+    { "title": "GCCF – Korat breed page", "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/korat/" },
+    { "title": "GCCF – Korat & Thai Breeding Policy", "url": "https://www.gccfcats.org/wp-content/uploads/2021/10/KoratThai.BP_.pdf" },
+    { "title": "FIFe – Breeding & Registration Rules (01.07.2026)", "url": "https://fifeweb.org/wp-content/uploads/2023/11/br_reg_en.pdf" },
+    { "title": "FIFe – EMS system (01.07.2026)", "url": "https://fifeweb.org/wp-content/uploads/2023/12/ems_system_en.pdf" },
+    { "title": "WCF – Korat breed standard", "url": "https://wcf.de/pdf-en/breed/KOR_en_2010-01-01.pdf" },
+    { "title": "WCF – EMS code championship status", "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf" },
+    { "title": "Langford Vets – Korat GM1 Gangliosidosis", "url": "https://langfordvets.co.uk/media/ffeb41y0/korat-gm1-gangliosidosis.pdf" },
+    { "title": "Langford Vets – Korat GM2 Gangliosidosis", "url": "https://langfordvets.co.uk/media/h4llu5ic/korat-gm2-gangliosidosis.pdf" },
+    { "title": "UC Davis VGL – Korat GM1 Gangliosidosis", "url": "https://vgl.ucdavis.edu/test/korat-gm1" },
+    { "title": "UC Davis VGL – Korat GM2 Gangliosidosis", "url": "https://vgl.ucdavis.edu/test/korat-gm2" },
+    { "title": "Purina NZ – Korat cat breed", "url": "https://www.purina.co.nz/cats/cat-breeds/korat/" },
+    { "title": "The Cat API data (mirror) – Korat", "url": "https://cat-data-pages.onrender.com/cats/Korat" },
+    { "title": "Wikipedia – Korat", "url": "https://en.wikipedia.org/wiki/Korat_cat" },
+    { "title": "เดลินิวส์ – การเดินทางของ 'วิฬาร์' สมุดไทย 'ตำราแมวไทย'", "url": "https://www.dailynews.co.th/articles/2620459/" },
+    { "title": "ฐานเศรษฐกิจ – ครม. เห็นชอบแมวไทยเป็นเอกลักษณ์ประจำชาติ", "url": "https://www.thansettakij.com/lifestyle/644492" }
+  ]
+}

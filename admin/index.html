@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ระบบหลังร้าน Maew Cat House: ขายหน้าร้าน สต็อก ลูกค้า กะเงินสด และรายงานยอดขาย (ระบบจำลอง)" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#fff1e3" />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+    <title>Maew หลังร้าน</title>
+    <script>
+      // Same remembered theme as the brochure, applied before first paint so night mode never flashes light.
+      try {
+        var t = localStorage.getItem('maew.theme')
+        document.documentElement.dataset.theme = t === 'dark' ? 'dark' : 'light'
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light'
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/admin/main.tsx"></script>
+  </body>
+</html>

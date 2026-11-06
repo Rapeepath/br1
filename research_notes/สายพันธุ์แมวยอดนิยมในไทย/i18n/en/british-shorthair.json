@@ -1,0 +1,98 @@
+{
+  "id": "british-shorthair",
+  "origin": "United Kingdom",
+  "tagline": "A plush, round-faced gray teddy bear with true English composure",
+  "summary": "The British Shorthair is a sturdy, round-faced cat with a short, very dense coat as soft as velvet, best known in blue (blue-gray) with copper eyes. Calm, patient and undemanding, it gets on well with children and other pets, which makes it a good choice for first-time owners, but you need to watch its weight and have its heart checked periodically.",
+  "history": "Descended from Britain's domestic cats, the breed has been shown since the cat show at the Crystal Palace, London, in 1871. Harrison Weir, known as the father of the cat fancy, wrote its first standard. After both world wars its numbers fell sharply, so breeders crossed it with the Persian, Russian Blue, Burmese and Chartreux to revive the breed, before the CFA granted championship status in 1980.",
+  "coat": {
+    "texture": "Short and very dense, with a firm, springy, velvety feel",
+    "colors": [
+      "Blue (blue-gray)",
+      "Black",
+      "White",
+      "Lilac",
+      "Silver tabby",
+      "Bicolor"
+    ]
+  },
+  "appearance": [
+    "Large round head with full cheeks; males have distinct jowls",
+    "Large round eyes, copper or deep orange",
+    "Short, straight nose, not flat like a Persian's",
+    "Broad chest, stocky body and short, strong legs",
+    "Tail thick at the base with a rounded tip"
+  ],
+  "temperament": [
+    "Composed",
+    "Patient",
+    "Family-loving",
+    "Quiet",
+    "Fairly independent",
+    "Dislikes being picked up"
+  ],
+  "care": {
+    "grooming": "Comb or brush once a week with a metal comb, and more often during shedding season. Trim the nails and clean the ears regularly.",
+    "exercise": "Not a jumper or climber and prefers to stay on the ground. Encourage it to play every day to prevent obesity.",
+    "diet": "Has a slow metabolism and gains weight easily, so weigh or measure every meal and limit treats. Kittens should eat kitten food until they are at least one year old.",
+    "environment": "Well suited to condos and indoor living. The dense coat makes it prone to overheating, so provide a cool corner, a tiled floor or an air-conditioned room in the hot season."
+  },
+  "health": [
+    {
+      "name": "Hypertrophic cardiomyopathy (HCM)",
+      "detail": "Echocardiography of 329 British Shorthairs in Denmark found HCM in 8.5%, more often in males (20.4%) than in females (2.1%), and often at a young age.",
+      "screening": "Periodic heart ultrasound (echocardiography), especially for breeding cats, as there is no DNA test for HCM in this breed yet."
+    },
+    {
+      "name": "Polycystic kidney disease (PKD)",
+      "detail": "The PKD1 gene is found in this breed. The GCCF says it is better controlled thanks to DNA testing, but data from Japan for 2019–2022 have not yet shown a significant fall in the proportion of carriers among British Shorthairs.",
+      "screening": "Ask for the breeding parents' PKD1 DNA test results before buying."
+    },
+    {
+      "name": "Blood type B and neonatal isoerythrolysis",
+      "detail": "Many British Shorthair lines have blood type B, which is uncommon in cats in general. Mating parents with incompatible blood types can cause the kittens' red blood cells to break down, and a transfusion of the wrong blood type is dangerous.",
+      "screening": "Blood typing or a blood-type DNA test before breeding and before any transfusion."
+    },
+    {
+      "name": "Obesity",
+      "detail": "A study of 2,540 British Shorthairs in Australia found that 48% were overweight and 7% were obese.",
+      "screening": "Weigh regularly and assess the body condition score with your vet."
+    },
+    {
+      "name": "Autoimmune lymphoproliferative syndrome (ALPS)",
+      "detail": "An inherited disease reported in British Shorthairs that causes enlarged lymph nodes and spleen together with blood cell abnormalities.",
+      "screening": "A DNA test is available, and since 1 March 2025 the GCCF has required imported cats to have a negative ALPS result."
+    }
+  ],
+  "welfareNote": "Choose a breeder who screens the breeding cats' hearts by ultrasound and DNA tests them for PKD, because HCM is fairly common in this breed and there is no DNA test for it yet.",
+  "idealFor": [
+    "First-time cat owners",
+    "Families with children or other pets",
+    "Working people who are not home all day"
+  ],
+  "considerations": [
+    "Gains weight easily, so its diet must be strictly controlled",
+    "Most dislike being held for long",
+    "Ask for the parents' heart and PKD test results"
+  ],
+  "funFact": "The British Shorthair is a slow developer and may take up to 5 years to reach its full size.",
+  "price": {
+    "note": "Typical listings start in the high thousands of baht; cats with WCF/CFA/TICA pedigree papers or imported lines cost several tens of thousands of baht."
+  },
+  "gallery": [
+    {
+      "alt": "Blue British Shorthair female, 20 months old, with a round face and copper-orange eyes"
+    },
+    {
+      "alt": "The same blue British Shorthair at 7 years old, showing the stocky body and dense, plush coat"
+    },
+    {
+      "alt": "Blue British Shorthair sitting upright, showing its broad chest and sturdy legs"
+    },
+    {
+      "alt": "White British Shorthair kitten looking up at a leaf"
+    },
+    {
+      "alt": "Video: a 3-month-old silver tabby British Shorthair kitten grooming its legs after lunch"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "ragdoll",
+  "origin": "United States (California)",
+  "tagline": "A cuddly blue-eyed cat, soft and floppy as a doll",
+  "summary": "The Ragdoll is a large cat with a soft, silky semi-long coat, darker points on the face, ears, legs and tail, and blue eyes. It is calm, gentle, people-loving and soft-voiced, and it likes to follow its owner around the house, which makes it well suited to indoor life.",
+  "history": "The Ragdoll was developed in the 1960s by Ann Baker in Riverside, California, starting from a white longhaired cat named Josephine that carried the colorpoint gene. The breed reached Britain in 1981 and was recognized by GCCF in 1990, while CFA accepted it for registration in 1993 and granted it championship status in 2000.",
+  "coat": {
+    "texture": "Soft and silky, with little undercoat, so it rarely tangles",
+    "colors": [
+      "Seal point",
+      "Blue point",
+      "Chocolate point and lilac point",
+      "Red point and cream point",
+      "Mitted",
+      "Bicolor"
+    ]
+  },
+  "appearance": [
+    "Vivid blue eyes",
+    "Long body with a broad chest, heavy bones and good muscle",
+    "Darker points on the face, ears, legs and tail (colorpoint)",
+    "Kittens are born all white, and the color gradually deepens until it is complete at around 2 years"
+  ],
+  "temperament": [
+    "Gentle",
+    "Calm",
+    "People-loving",
+    "Affectionate but undemanding",
+    "Soft-voiced",
+    "Follows its owner around"
+  ],
+  "care": {
+    "grooming": "Comb with a metal comb 1–2 times a week, and more often during shedding season. With little undercoat, the coat tangles less easily than that of most longhaired cats, but it can still mat if it is neglected for long.",
+    "exercise": "Not a very active cat, so play with a wand toy every day to keep weight in check. Some can even learn clicker training or agility.",
+    "diet": "Ragdolls love to eat and gain weight easily. Measure every meal, count treats in the daily calorie total, and consider feeding wet food alongside dry.",
+    "environment": "Should be kept indoors only, because they are too trusting of people and other animals. In Thailand's hot climate, provide a cool, well-ventilated resting spot and clean water at all times, and avoid strenuous play when it is very hot."
+  },
+  "health": [
+    {
+      "name": "Hypertrophic cardiomyopathy (HCM)",
+      "detail": "Ragdolls carry the MYBPC3 R820W mutation, which is associated with this disease and which research has found only in Ragdolls.",
+      "screening": "MYBPC3 R820W DNA test (available since 2007) combined with heart ultrasound (echocardiography), because a negative DNA result does not guarantee the cat will not develop the disease."
+    },
+    {
+      "name": "Bladder stones",
+      "detail": "Stones can block the urinary tract and become life-threatening. Signs include urinating often but only a little at a time, straining, or going outside the litter box.",
+      "screening": "Keep an eye on their urination, and take them to a vet immediately if they strain or cannot pass urine."
+    },
+    {
+      "name": "Obesity",
+      "detail": "Ragdolls gain weight easily because they are not very active and love to eat, which raises the risk of arthritis as they age.",
+      "screening": "Weigh them and assess body condition regularly, and measure food carefully."
+    }
+  ],
+  "welfareNote": "Choose a breeder who can show the breeding parents' HCM DNA results, and keep the cat strictly indoors, because Ragdolls are not very wary of dangers outside.",
+  "idealFor": [
+    "Families with children and other pets",
+    "Condo or house dwellers who keep their cats strictly indoors",
+    "People who want a cuddly, soft-voiced lap cat"
+  ],
+  "considerations": [
+    "Slow to mature, taking about 4 years to reach full size and weight",
+    "Needs company and attention, so not suited to homes where no one is in all day",
+    "Gains weight easily, so needs portion control and regular play"
+  ],
+  "funFact": "Ragdolls are known for loving to be picked up, and they often go limp in your arms like a rag doll.",
+  "price": {
+    "note": "Typical prices are around 30,000–40,000 baht, and imported cats or cats sold with breeding rights can cost 100,000 baht or more."
+  },
+  "gallery": [
+    {
+      "alt": "Bicolor Ragdoll with a fluffy long coat and vivid blue eyes"
+    },
+    {
+      "alt": "Ragdoll kitten almost three months old, with dark points on the face, ears and tail, sitting on a wooden floor"
+    },
+    {
+      "alt": "Bicolor Ragdoll stretched out on a table"
+    },
+    {
+      "alt": "Three-week-old seal mitted Ragdoll kitten lying on a bed"
+    }
+  ]
+}

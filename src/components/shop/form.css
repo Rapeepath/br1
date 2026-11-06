@@ -1,0 +1,260 @@
+/* Shop forms: soft rounded fields on white, a teal focus ring, errors in rose with an icon (never colour alone) */
+.form {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4) var(--space-5);
+}
+
+.form-grid > .field--wide {
+  grid-column: 1 / -1;
+}
+
+.field {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-width: 0;
+}
+
+.field__label {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+
+.field__req,
+.field__opt {
+  color: var(--ink-subtle);
+  font-weight: 600;
+  font-size: var(--fs-xs);
+}
+
+.field__hint {
+  color: var(--ink-subtle);
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+}
+
+.field__error {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  color: var(--on-rose);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.field__error svg {
+  flex: none;
+  margin-top: 1px;
+}
+
+.input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 14px;
+  border: 1.5px solid var(--control-line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-md);
+  line-height: 1.5;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.input:hover {
+  border-color: var(--ink-muted);
+}
+
+.input:focus-visible {
+  outline: none;
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 30%, transparent);
+}
+
+.field--error .input {
+  border-color: var(--on-rose);
+  background: color-mix(in srgb, var(--tint-rose) 35%, var(--surface));
+}
+
+.input--area {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.input--select {
+  appearance: none;
+  padding-right: 40px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-muted) 50%),
+    linear-gradient(135deg, var(--ink-muted) 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) 50%,
+    calc(100% - 14px) 50%;
+  background-size: 6px 6px;
+  background-repeat: no-repeat;
+}
+
+.consent {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-2) var(--space-3);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--tint-mint);
+  color: var(--on-mint);
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+}
+
+.consent input {
+  width: 22px;
+  height: 22px;
+  margin: 2px 0 0;
+  accent-color: var(--btn-bg);
+}
+
+.consent a {
+  color: inherit;
+  font-weight: 700;
+}
+
+.consent .field__error {
+  grid-column: 1 / -1;
+}
+
+.consent--error {
+  background: var(--tint-rose);
+  color: var(--on-rose);
+}
+
+/* Off screen and out of reach for people; bots that fill every input still find it */
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3) var(--space-4);
+}
+
+.form-message {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.form-message svg {
+  flex: none;
+  margin-top: 2px;
+}
+
+.form-message--error {
+  background: var(--tint-rose);
+  color: var(--on-rose);
+}
+
+.form-message--info {
+  background: var(--tint-sky);
+  color: var(--on-sky);
+}
+
+@media (max-width: 640px) {
+  .form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .form-actions > .btn {
+    width: 100%;
+  }
+}
+
+/* Radio choices drawn as pills (privacy request type, pickup or delivery, payment method) */
+.choice-group {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.choice-group > legend {
+  margin-bottom: var(--space-2);
+  padding: 0;
+}
+
+.choice-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.choice {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 48px;
+  padding: var(--space-2) var(--space-4);
+  border: 1.5px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 1.35;
+}
+
+.choice input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  margin: 0;
+  cursor: inherit;
+}
+
+.choice::before {
+  content: '';
+  flex: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--control-line);
+  border-radius: 50%;
+  background: var(--surface);
+}
+
+.choice:has(input:checked) {
+  border-color: var(--selected-bg);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.choice:has(input:checked)::before {
+  border-color: var(--selected-bg);
+  background: radial-gradient(circle, var(--selected-bg) 45%, transparent 50%);
+}
+
+.choice:has(input:focus-visible) {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}

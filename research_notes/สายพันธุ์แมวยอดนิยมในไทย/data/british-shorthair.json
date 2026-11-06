@@ -1,0 +1,172 @@
+{
+  "id": "british-shorthair",
+  "nameTh": "บริติช ช็อตแฮร์",
+  "nameEn": "British Shorthair",
+  "group": "international",
+  "origin": "สหราชอาณาจักร",
+  "recognizedBy": ["CFA", "TICA", "FIFe", "GCCF", "WCF"],
+  "tagline": "หมีเทานุ่มหน้ากลม สุขุมแบบผู้ดีอังกฤษ",
+  "summary": "บริติช ช็อตแฮร์เป็นแมวตัวล่ำหน้ากลม ขนสั้นหนาแน่นนุ่มเหมือนกำมะหยี่ โด่งดังจากสีบลู (เทาอมฟ้า) และดวงตาสีทองแดง นิสัยสงบ อดทน ไม่เรียกร้องความสนใจ และเข้ากับเด็กและสัตว์เลี้ยงอื่นได้ดี จึงเหมาะกับมือใหม่ แต่ต้องระวังน้ำหนักเกินและควรตรวจหัวใจเป็นระยะ",
+  "history": "สืบเชื้อสายจากแมวบ้านของอังกฤษ และเข้าประกวดตั้งแต่งานแสดงแมวที่คริสตัลพาเลซ ลอนดอน ปี ค.ศ. 1871 แฮร์ริสัน เวียร์ ผู้ได้ฉายาว่าบิดาแห่งวงการแมว เป็นผู้เขียนมาตรฐานฉบับแรก หลังสงครามโลกทั้งสองครั้งจำนวนแมวลดลงมาก ผู้เพาะพันธุ์จึงผสมกับเปอร์เซีย รัสเซียนบลู เบอร์มีส และชาร์ทรูเพื่อฟื้นฟูสายพันธุ์ ก่อนที่ CFA จะให้สถานะแชมเปียนในปี ค.ศ. 1980",
+  "size": "medium",
+  "weightKg": { "female": [3.2, 5.4], "male": [4.1, 7.7] },
+  "lifespanYears": [12, 17],
+  "coat": {
+    "length": "short",
+    "texture": "ขนสั้นหนาแน่นมาก แน่นเด้งแบบกำมะหยี่",
+    "colors": ["บลู (เทาอมฟ้า)", "ดำ", "ขาว", "ไลแลค", "ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)", "สองสี (ไบคัลเลอร์)"]
+  },
+  "appearance": [
+    "หัวกลมใหญ่ แก้มป่อง ตัวผู้มีเหนียงแก้มชัด",
+    "ตากลมโต สีทองแดงหรือส้มเข้ม",
+    "จมูกสั้นตรง ไม่แบนแบบเปอร์เซีย",
+    "อกกว้าง ตัวล่ำ ขาสั้นแข็งแรง",
+    "หางโคนหนา ปลายมน"
+  ],
+  "temperament": ["สุขุม", "อดทน", "รักครอบครัว", "ร้องน้อย", "อิสระพอควร", "ไม่ชอบถูกอุ้ม"],
+  "ratings": {
+    "energy": 2,
+    "affection": 4,
+    "vocal": 1,
+    "intelligence": 3,
+    "grooming": 2,
+    "shedding": 4,
+    "kidFriendly": 4,
+    "petFriendly": 5,
+    "socialNeeds": 3
+  },
+  "care": {
+    "grooming": "หวีหรือแปรงขนสัปดาห์ละครั้งด้วยหวีโลหะ และบ่อยขึ้นช่วงผลัดขน ตัดเล็บและทำความสะอาดหูเป็นประจำ",
+    "exercise": "ไม่ใช่สายกระโดดปีนป่ายและชอบอยู่บนพื้น ควรชวนเล่นทุกวันเพื่อป้องกันความอ้วน",
+    "diet": "เผาผลาญช้าและอ้วนง่าย ควรชั่งตวงอาหารทุกมื้อและจำกัดขนม ลูกแมวควรกินอาหารลูกแมวอย่างน้อยจนครบหนึ่งปี",
+    "environment": "เหมาะกับคอนโดและการเลี้ยงในบ้าน ขนแน่นหนาทำให้ร้อนง่าย จึงควรมีมุมเย็น พื้นกระเบื้อง หรือห้องแอร์ในหน้าร้อน"
+  },
+  "health": [
+    {
+      "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+      "detail": "การตรวจคลื่นเสียงหัวใจแมวบริติช 329 ตัวในเดนมาร์กพบ HCM 8.5% โดยพบในตัวผู้ (20.4%) มากกว่าตัวเมีย (2.1%) และมักพบตั้งแต่อายุน้อย",
+      "screening": "ตรวจอัลตราซาวนด์หัวใจ (Echocardiography) เป็นระยะ โดยเฉพาะพ่อแม่พันธุ์ เพราะยังไม่มีการตรวจ DNA สำหรับ HCM ในสายพันธุ์นี้"
+    },
+    {
+      "name": "โรคถุงน้ำในไต (Polycystic Kidney Disease, PKD)",
+      "detail": "พบยีน PKD1 ในสายพันธุ์นี้ GCCF ระบุว่าควบคุมได้ดีขึ้นด้วยการตรวจ DNA แต่ข้อมูลจากญี่ปุ่นช่วงปี ค.ศ. 2019–2022 ยังไม่พบว่าสัดส่วนพาหะในบริติชลดลงอย่างมีนัยสำคัญ",
+      "screening": "ขอผลตรวจ DNA ยีน PKD1 ของพ่อแม่พันธุ์ก่อนซื้อ"
+    },
+    {
+      "name": "หมู่เลือด B และภาวะเม็ดเลือดแดงแตกในลูกแมวแรกเกิด (Neonatal isoerythrolysis)",
+      "detail": "บริติชหลายสายเลือดมีหมู่เลือด B ซึ่งพบน้อยในแมวทั่วไป การผสมพ่อแม่ที่หมู่เลือดไม่เข้ากันอาจทำให้ลูกแมวเกิดภาวะเม็ดเลือดแดงแตก และการให้เลือดผิดหมู่เป็นอันตราย",
+      "screening": "ตรวจหมู่เลือดหรือตรวจ DNA หมู่เลือดก่อนผสมพันธุ์และก่อนให้เลือด"
+    },
+    {
+      "name": "ภาวะอ้วน (Obesity)",
+      "detail": "การศึกษาแมวบริติช 2,540 ตัวในออสเตรเลียพบว่า 48% มีน้ำหนักเกินและ 7% อ้วน",
+      "screening": "ชั่งน้ำหนักและประเมินคะแนนรูปร่าง (Body Condition Score) กับสัตวแพทย์เป็นประจำ"
+    },
+    {
+      "name": "กลุ่มอาการต่อมน้ำเหลืองโตจากภูมิคุ้มกันผิดปกติ (Autoimmune Lymphoproliferative Syndrome, ALPS)",
+      "detail": "โรคทางพันธุกรรมที่มีรายงานในแมวบริติช ช็อตแฮร์ ทำให้ต่อมน้ำเหลืองและม้ามโตร่วมกับความผิดปกติของเซลล์เม็ดเลือด",
+      "screening": "มีการตรวจ DNA และ GCCF กำหนดให้แมวนำเข้าต้องมีผลตรวจ ALPS เป็นลบตั้งแต่ 1 มี.ค. 2568 (ค.ศ. 2025)"
+    }
+  ],
+  "welfareNote": "ควรเลือกผู้เพาะพันธุ์ที่ตรวจหัวใจด้วยอัลตราซาวนด์และตรวจ DNA โรค PKD ของพ่อแม่พันธุ์ เพราะ HCM พบได้ค่อนข้างบ่อยในสายพันธุ์นี้และยังไม่มีการตรวจ DNA",
+  "idealFor": [
+    "มือใหม่หัดเลี้ยงแมว",
+    "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่น",
+    "คนทำงานที่ไม่ได้อยู่บ้านทั้งวัน"
+  ],
+  "considerations": [
+    "อ้วนง่าย ต้องคุมอาหารอย่างจริงจัง",
+    "ส่วนใหญ่ไม่ชอบถูกอุ้มนาน ๆ",
+    "ขอผลตรวจหัวใจและ PKD ของพ่อแม่พันธุ์"
+  ],
+  "funFact": "บริติช ช็อตแฮร์เป็นแมวโตช้า อาจใช้เวลาถึง 5 ปีกว่าร่างกายจะโตเต็มที่",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mystica_from_British_Empire_Cattery.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mystica_from_British_Empire_Cattery.jpg",
+    "author": "Tamila Aspen (BritishEmpire)",
+    "license": "CC BY-SA 3.0"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/british-shorthair-1.jpg",
+      "srcSmall": "images/gallery/british-shorthair-1-sm.jpg",
+      "width": 1600,
+      "height": 1340,
+      "page": "https://commons.wikimedia.org/wiki/File:A_female_British_Shorthair_at_the_age_of_20_months.jpg",
+      "author": "George E. Koronaios",
+      "license": "CC BY-SA 4.0",
+      "alt": "บริติช ช็อตแฮร์สีบลูเพศเมียอายุ 20 เดือน หน้ากลม ตาสีส้มทองแดง",
+      "focus": "45% 45%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/british-shorthair-2.jpg",
+      "srcSmall": "images/gallery/british-shorthair-2-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:British_Shorthair_(female)_on_August_2,_2022.jpg",
+      "author": "George E. Koronaios",
+      "license": "CC BY-SA 4.0",
+      "alt": "บริติช ช็อตแฮร์สีบลูตัวเดียวกันเมื่ออายุ 7 ปี เห็นลำตัวล่ำและขนหนานุ่ม",
+      "focus": "30% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/british-shorthair-3.jpg",
+      "srcSmall": "images/gallery/british-shorthair-3-sm.jpg",
+      "width": 1600,
+      "height": 2133,
+      "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D1%82_%D0%91%D1%83%D0%B1%D0%BB%D0%B8%D0%BA.jpg",
+      "author": "DianaYud",
+      "license": "CC BY-SA 4.0",
+      "alt": "บริติช ช็อตแฮร์สีบลูนั่งตัวตรง อกกว้าง ขาแข็งแรง",
+      "focus": "50% 20%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/british-shorthair-4.jpg",
+      "srcSmall": "images/gallery/british-shorthair-4-sm.jpg",
+      "width": 1600,
+      "height": 1073,
+      "page": "https://commons.wikimedia.org/wiki/File:BRI_kitten_(5467742188).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "ลูกแมวบริติช ช็อตแฮร์สีขาวเงยหน้ามองใบไม้",
+      "focus": "65% 40%"
+    },
+    {
+      "kind": "video",
+      "src": "images/gallery/british-shorthair-video.jpg",
+      "srcSmall": "images/gallery/british-shorthair-video-sm.jpg",
+      "width": 960,
+      "height": 1707,
+      "page": "https://commons.wikimedia.org/wiki/File:British_Shorthair_Silver_Tabby_Grooming.mpg",
+      "author": "Kimtology",
+      "license": "CC BY-SA 4.0",
+      "alt": "วิดีโอ: ลูกแมวบริติช ช็อตแฮร์ลายสลิดสีเงินอายุ 3 เดือนเลียขนที่ขาหลังกินอาหาร",
+      "focus": "40% 60%",
+      "video": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/British_Shorthair_Silver_Tabby_Grooming.mpg/British_Shorthair_Silver_Tabby_Grooming.mpg.1080p.vp9.webm",
+        "duration": 13.0,
+        "width": 608,
+        "height": 1080
+      }
+    }
+  ],
+  "sources": [
+    { "title": "CFA – British Shorthair breed profile", "url": "https://cfa.org/breed/british-shorthair/" },
+    { "title": "GCCF – British Shorthair & Longhair", "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/british/" },
+    { "title": "VCA Animal Hospitals – British Shorthair", "url": "https://vcahospitals.com/know-your-pet/cat-breeds/british-shorthair" },
+    { "title": "Royal Canin UK – British Shorthair", "url": "https://www.royalcanin.com/uk/cats/breeds/british-shorthair" },
+    { "title": "Granström et al. 2011, Prevalence of HCM in a cohort of British Shorthair cats in Denmark (JVIM)", "url": "https://doi.org/10.1111/j.1939-1676.2011.0751.x" },
+    { "title": "Murphy et al. 2023, Bodyweight and body condition scores of Australian British Shorthair cats 2008–2017 (Frontiers in Veterinary Science)", "url": "https://doi.org/10.3389/fvets.2023.1241080" },
+    { "title": "Ukawa et al. 2026, Widespread genetic testing controls inherited PKD while avoiding inbreeding in cats (BMC Genomics)", "url": "https://doi.org/10.1186/s12864-026-13048-4" },
+    { "title": "Kehl et al. 2019, CMAH genotyping survey for blood types A, B and C in purpose-bred cats (Animal Genetics)", "url": "https://doi.org/10.1111/age.12778" },
+    { "title": "Tong et al. 2026, ALPS in Boerboel dogs (notes ALPS documented in British Shorthair cats) (JVIM)", "url": "https://doi.org/10.1093/jvimsj/aalag011" },
+    { "title": "Teng et al. 2024, Life tables of annual life expectancy in UK cats (JFMS)", "url": "https://journals.sagepub.com/doi/full/10.1177/1098612X241234556" },
+    { "title": "FIFe – Breeds list", "url": "https://fifeweb.org/cats/breeds/" },
+    { "title": "WCF – British Shorthair breed standard (PDF)", "url": "https://wcf.de/pdf-en/breed/BRI_en_2023-07-16.pdf" },
+    { "title": "The Cat API breeds data (archived snapshot 2025-12-09)", "url": "https://web.archive.org/web/20251209033623/https://api.thecatapi.com/v1/breeds" }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "exotic-shorthair",
+  "origin": "United States",
+  "tagline": "A Persian face in a plush, teddy-bear short coat",
+  "summary": "The Exotic Shorthair has the head and build of a Persian but a short, thick, plush coat like a teddy bear's, which has earned it the nickname \"the lazy person's Persian.\" It is calm, devoted to its owner without being demanding, and rarely meows. It still has the Persian's flat face, though, so its eyes, breathing and heat tolerance need extra care.",
+  "history": "The breed was created by Persian breeders in the western United States who crossed Persians with American Shorthairs in the 1950s–1960s. The crosses became so popular that CFA recognized them as a breed in 1966, while Britain's GCCF recognized the breed in 1986 and granted it championship status in 1995.",
+  "coat": {
+    "texture": "Short and dense, plush and standing away from the body, with a thick undercoat",
+    "colors": [
+      "Bicolor",
+      "Red tabby",
+      "Brown tabby",
+      "Silver",
+      "Blue (blue-gray)",
+      "Colorpoint"
+    ]
+  },
+  "appearance": [
+    "Large round head, flat face and short nose",
+    "Large round eyes set wide apart",
+    "Small ears with rounded tips",
+    "Stocky, big-boned body with short legs",
+    "Short, thick, plush coat like a teddy bear's"
+  ],
+  "temperament": [
+    "Calm",
+    "Affectionate",
+    "Loyal",
+    "Quiet",
+    "Moderately playful"
+  ],
+  "care": {
+    "grooming": "Comb with a metal comb once a week, and more often during shedding season, because the undercoat sheds heavily. Bathe occasionally and wipe away tear stains under the eyes every day.",
+    "exercise": "Fairly laid-back but still playful as an adult. Invite them to play with toys in short sessions every day in a cool, comfortable room.",
+    "diet": "Because they exercise little, portions need to be controlled. Choose kibble that is easy for a flat face to pick up, and keep clean water available at all times.",
+    "environment": "Suits a quiet house or condo. They need air conditioning or a cool corner in the hot season, because flat-faced cats shed little heat through the nose and are at risk of heatstroke even on days that are not extremely hot."
+  },
+  "health": [
+    {
+      "name": "Polycystic kidney disease (PKD)",
+      "detail": "The breed descends from the Persian, which carries a dominant PKD1 gene mutation that causes cysts in the kidneys and can lead to chronic kidney failure.",
+      "screening": "PKD1 DNA test (since 2016 GCCF has registered only breeding cats with a normal result) and a kidney ultrasound."
+    },
+    {
+      "name": "Brachycephalic obstructive airway syndrome",
+      "detail": "Narrow nostrils and a shortened face make breathing difficult and lower heat tolerance. Of UK vets who had treated flat-faced cats such as Persians and Exotics, 60% had treated breathing problems.",
+      "screening": "Choose a cat with wide-open nostrils that breathes quietly. If it snores or breathes through its mouth, see a vet."
+    },
+    {
+      "name": "Excessive tearing and tear staining (epiphora)",
+      "detail": "The flat face drains tears poorly, so they overflow and stain the fur under the eyes. In a survey of UK vets, eye problems were the issue most often treated in flat-faced cats (69%).",
+      "screening": "Wipe around the eyes every day with a soft, damp cloth, and see a vet if the eyes are red or squinting."
+    },
+    {
+      "name": "Dental problems and misaligned teeth (dental malocclusion)",
+      "detail": "The short jaw crowds the teeth and makes gum disease more likely. Of vets who had treated flat-faced cats, 45% had treated dental problems.",
+      "screening": "Have regular dental checks with a vet, and get the cat used to toothbrushing from kittenhood."
+    },
+    {
+      "name": "Progressive retinal atrophy (PRA-pd)",
+      "detail": "An inherited disease that causes the retina to degenerate. GCCF recommends testing Exotics used for breeding.",
+      "screening": "PRA-pd DNA test for the breeding parents."
+    }
+  ],
+  "welfareNote": "The Exotic has the same flat facial structure as the Persian, and GCCF states that this trait should not be bred to extremes. Buyers should choose a cat with a clearly visible nose, open nostrils, no constant tearing and silent breathing.",
+  "idealFor": [
+    "People who love the Persian look but have less time for grooming",
+    "Condo dwellers who like a quiet, mellow cat",
+    "Families who want an affectionate, people-oriented cat"
+  ],
+  "considerations": [
+    "The face and eyes still need wiping every day",
+    "Poor heat tolerance, so needs air conditioning or a cool corner in the hot season",
+    "Ask for the parents' PKD results and choose a face that is not extremely flat"
+  ],
+  "funFact": "The first name proposed for the breed was Sterling, after the silver color of the early cats, before the name Exotic was adopted instead.",
+  "price": {
+    "note": "Few are advertised for sale in Thailand, and the price depends on pedigree papers, facial structure and the parents' lines."
+  },
+  "gallery": [
+    {
+      "alt": "Silver classic tabby Exotic Shorthair with a flat face and large copper eyes, at a cat show"
+    },
+    {
+      "alt": "Three-year-old blue-and-white male Exotic Shorthair beside a window"
+    },
+    {
+      "alt": "Red Exotic Shorthair lying on a blue blanket"
+    },
+    {
+      "alt": "Brown tabby-and-white Exotic Shorthair resting on a table in a café"
+    }
+  ]
+}

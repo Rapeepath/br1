@@ -1,0 +1,152 @@
+{
+  "id": "maine-coon",
+  "nameTh": "เมนคูน",
+  "nameEn": "Maine Coon",
+  "group": "international",
+  "origin": "สหรัฐอเมริกา (รัฐเมน)",
+  "recognizedBy": ["CFA", "TICA", "FIFe", "GCCF", "WCF"],
+  "tagline": "ยักษ์ใจดีขนฟูแห่งรัฐเมน",
+  "summary": "เมนคูนเป็นแมวพันธุ์แท้ที่ตัวใหญ่ที่สุดพันธุ์หนึ่ง มีขนหนาฟู หางเป็นพวง และหูใหญ่ นิสัยใจดี เป็นมิตร ฉลาด และเข้ากับเด็กและสัตว์เลี้ยงอื่นได้ดี จนได้ฉายาว่า “ยักษ์ใจดี” (gentle giant)",
+  "history": "เมนคูนเป็นแมวพันธุ์ธรรมชาติจากแถบนิวอิงแลนด์ โดยเฉพาะรัฐเมนของสหรัฐฯ มีบันทึกย้อนไปถึงช่วงทศวรรษ 1850 แมวลายแทบบี้สีน้ำตาลชื่อ Cosey ได้รางวัล Best Cat ในงานประกวดแมวครั้งแรกของสหรัฐฯ เมื่อปี ค.ศ. 1895 และ CFA ให้สถานะแชมเปียนในปี 1976",
+  "size": "large",
+  "weightKg": { "female": [4.1, 5.9], "male": [5.9, 9.1] },
+  "lifespanYears": [10, 15],
+  "coat": {
+    "length": "long",
+    "texture": "ขนสองชั้นหนา เงางาม สั้นที่ไหล่ ยาวที่ท้องและขาหลัง",
+    "colors": ["ลายสลิดสีน้ำตาล (บราวน์แทบบี้)", "ลายสลิดสีเงิน (ซิลเวอร์แทบบี้)", "ดำ", "ขาว", "แดงและครีม", "สองสี (ไบคัลเลอร์)"]
+  },
+  "appearance": [
+    "ตัวใหญ่ ลำตัวยาวทรงสี่เหลี่ยม กระดูกใหญ่ อกกว้าง",
+    "หูใหญ่ ตั้งสูง มักมีพู่ขนที่ปลายหู",
+    "หางยาวเป็นพวงฟู",
+    "ขนรอบคอและขาหลังฟูหนาเหมือนสวมกางเกงขนฟู",
+    "อุ้งเท้าใหญ่ มีขนแซมระหว่างนิ้ว"
+  ],
+  "temperament": ["ใจดี อ่อนโยน", "เป็นมิตร", "ฉลาด ฝึกง่าย", "ขี้เล่น", "รักครอบครัว", "ไม่เรียกร้องมาก"],
+  "ratings": {
+    "energy": 3,
+    "affection": 5,
+    "vocal": 2,
+    "intelligence": 5,
+    "grooming": 3,
+    "shedding": 4,
+    "kidFriendly": 4,
+    "petFriendly": 5,
+    "socialNeeds": 3
+  },
+  "care": {
+    "grooming": "หวีขนสัปดาห์ละ 2–3 ครั้ง ครั้งละ 5–10 นาที เพื่อไม่ให้ขนพันเป็นก้อน โดยเฉพาะที่ท้องและขาหลัง และหวีให้บ่อยขึ้นช่วงผลัดขน",
+    "exercise": "ชอบเล่นและฝึกได้ เช่น เล่นคาบของหรือเดินด้วยสายจูง ควรชวนเล่นวันละ 2–3 รอบ รอบละ 10–15 นาที",
+    "diet": "ให้อาหารแมวโปรตีนสูงที่มีสารอาหารครบถ้วน แบ่งเป็น 3–4 มื้อต่อวันและตวงปริมาณ ไม่วางอาหารทิ้งไว้ทั้งวัน เพื่อคุมน้ำหนักและลดภาระต่อข้อสะโพก",
+    "environment": "ต้องการพื้นที่กว้างและคอนโดแมวสูงที่ฐานแข็งแรงพอรับน้ำหนัก ในอากาศร้อนชื้นของไทยควรเลี้ยงในบ้านที่อากาศถ่ายเทหรือเปิดแอร์ มีน้ำสะอาดตลอด และงดเล่นหนักช่วงกลางวันที่ร้อนจัด"
+  },
+  "health": [
+    {
+      "name": "โรคกล้ามเนื้อหัวใจหนาตัว (Hypertrophic Cardiomyopathy, HCM)",
+      "detail": "เมนคูนมียีนกลายพันธุ์ MYBPC3 A31P ที่สัมพันธ์กับโรคนี้ แมวที่ได้รับยีนจากทั้งพ่อและแม่มีความเสี่ยงสูงกว่าแมวที่มียีนชุดเดียวมาก",
+      "screening": "ตรวจ DNA MYBPC3 A31P จากสำลีป้ายกระพุ้งแก้ม ร่วมกับอัลตราซาวนด์หัวใจ (Echocardiography) เป็นระยะ เพราะผล DNA เป็นลบก็ยังไม่รับประกันว่าจะไม่เป็นโรค"
+    },
+    {
+      "name": "ข้อสะโพกผิดรูป (Hip Dysplasia)",
+      "detail": "พบบ่อยในเมนคูน ข้อมูลทะเบียน OFA พบราว 25% และโครงการคัดกรองในสวีเดนพบราว 37% โดยอาการรุนแรงขึ้นตามอายุและน้ำหนักตัว",
+      "screening": "เอกซเรย์สะโพกพ่อแม่พันธุ์ก่อนผสม และคุมน้ำหนักแมวให้เหมาะสม"
+    },
+    {
+      "name": "โรคกล้ามเนื้อลีบจากไขสันหลัง (Spinal Muscular Atrophy, SMA)",
+      "detail": "โรคพันธุกรรมแบบยีนด้อย ลูกแมวจะเริ่มเดินโยกเยกและกล้ามเนื้อขาหลังลีบเมื่ออายุราว 3–4 เดือน ไม่ถึงแก่ชีวิตแต่ทำให้พิการ",
+      "screening": "ตรวจ DNA SMA ในพ่อแม่พันธุ์ และไม่ผสมแมวที่เป็นพาหะทั้งคู่"
+    },
+    {
+      "name": "ภาวะขาดเอนไซม์ไพรูเวตไคเนส (Pyruvate Kinase Deficiency)",
+      "detail": "โรคโลหิตจางจากเม็ดเลือดแดงแตกที่ถ่ายทอดแบบยีนด้อย และเมนคูนเป็นหนึ่งในสายพันธุ์ที่แนะนำให้ตรวจ",
+      "screening": "ตรวจ DNA ยีน PKLR ในพ่อแม่พันธุ์"
+    }
+  ],
+  "welfareNote": "ควรเลือกผู้เพาะพันธุ์ที่แสดงผลตรวจ DNA HCM และ SMA รวมถึงผลเอกซเรย์สะโพกของพ่อแม่พันธุ์ได้",
+  "idealFor": [
+    "ครอบครัวที่มีเด็กหรือสัตว์เลี้ยงอื่น รวมถึงสุนัข",
+    "บ้านที่มีพื้นที่พอสำหรับแมวตัวใหญ่และคอนโดแมวสูง",
+    "คนที่อยากได้แมวฉลาด ขี้เล่น แต่ไม่ติดแจ"
+  ],
+  "considerations": [
+    "ตัวใหญ่ ค่าอาหารและอุปกรณ์สูงกว่าแมวทั่วไป และโตช้า อาจใช้เวลาถึง 3 ปีกว่าจะโตเต็มที่",
+    "ขนหนาต้องหวีสม่ำเสมอ และต้องดูแลเรื่องความร้อนในอากาศเมืองไทย",
+    "ควรตรวจหัวใจและข้อสะโพกเป็นระยะ"
+  ],
+  "funFact": "เมนคูนเป็นแมวประจำรัฐเมน และหลายตัวมีนิ้วเท้าเกิน (polydactyl) จน TICA แยกเป็นสายพันธุ์ Maine Coon Polydactyl ตั้งแต่ปี ค.ศ. 2015",
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Maine_Coon_cat_Toronto_home.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maine_Coon_cat_Toronto_home.jpg",
+    "author": "Oleg Morgan",
+    "license": "Public domain"
+  },
+  "gallery": [
+    {
+      "kind": "image",
+      "src": "images/gallery/maine-coon-1.jpg",
+      "srcSmall": "images/gallery/maine-coon-1-sm.jpg",
+      "width": 1600,
+      "height": 1110,
+      "page": "https://commons.wikimedia.org/wiki/File:MCO_Napoleon_XXXL*RU_(15457877888).jpg",
+      "author": "Nickolas Titkov from Moscow, Russian Federation",
+      "license": "CC BY-SA 2.0",
+      "alt": "เมนคูนเพศผู้ลายหินอ่อนสีดำ มีพู่ขนที่ปลายหูชัดเจน",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/maine-coon-2.jpg",
+      "srcSmall": "images/gallery/maine-coon-2-sm.jpg",
+      "width": 1600,
+      "height": 1128,
+      "page": "https://commons.wikimedia.org/wiki/File:Snow_is_Tasty_(38077337005).jpg",
+      "author": "Kumweni",
+      "license": "CC BY 2.0",
+      "alt": "เมนคูนลายสลิดสีเงินกลางหิมะ กำลังเลียริมฝีปาก",
+      "focus": "50% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/maine-coon-3.jpg",
+      "srcSmall": "images/gallery/maine-coon-3-sm.jpg",
+      "width": 1600,
+      "height": 1067,
+      "page": "https://commons.wikimedia.org/wiki/File:Tortie_maine_coon_in_grass.jpg",
+      "author": "Cobaltxstrike",
+      "license": "CC0",
+      "alt": "เมนคูนลายกระ (ทอร์ตี้) ตาสีเขียว หมอบในสนามหญ้า",
+      "focus": "45% 40%"
+    },
+    {
+      "kind": "image",
+      "src": "images/gallery/maine-coon-4.jpg",
+      "srcSmall": "images/gallery/maine-coon-4-sm.jpg",
+      "width": 1600,
+      "height": 1064,
+      "page": "https://commons.wikimedia.org/wiki/File:Kyrah-0018.jpg",
+      "author": "Alonakel",
+      "license": "CC BY-SA 4.0",
+      "alt": "ลูกแมวเมนคูนลายสลิดสีน้ำตาลนั่งเต็มตัว",
+      "focus": "50% 40%"
+    }
+  ],
+  "sources": [
+    { "title": "CFA – Maine Coon Cat", "url": "https://cfa.org/breeds/maine-coon-cat/" },
+    { "title": "TICA – Maine Coon Breed Introduction (PDF)", "url": "https://tica.org/wp-content/uploads/2018/08/TICA-Maine-Coon-Breed-Introduction.pdf" },
+    { "title": "TICA – MC/MCP Breed Group Standard (rev. 2025)", "url": "https://tica.org/wp-content/uploads/2025/04/MaineCoonMCP.pdf" },
+    { "title": "GCCF – Maine Coon", "url": "https://www.gccfcats.org/getting-a-cat/choosing/cat-breeds/maine-coon/" },
+    { "title": "FIFe – Breeds (MCO, Category 2)", "url": "https://fifeweb.org/cats/breeds/" },
+    { "title": "WCF – EMS breed code list (PDF)", "url": "https://wcf.de/pdf-en/WCF-EMS_EN.pdf" },
+    { "title": "VCA Animal Hospitals – Maine Coon", "url": "https://vcahospitals.com/know-your-pet/cat-breeds/maine-coon" },
+    { "title": "PetMD – Maine Coon (vet-reviewed, 2025)", "url": "https://www.petmd.com/cat/breeds/maine-coon" },
+    { "title": "Longeri et al. 2013, JVIM – MYBPC3 variants and HCM", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3602388" },
+    { "title": "Loder & Todhunter 2018 – Demographics of hip dysplasia in the Maine Coon cat", "url": "https://scholarworks.indianapolis.iu.edu/items/4c856d4e-bc27-4b6d-bdbe-62ecdb2021ca" },
+    { "title": "Low et al. 2019 – Hip dysplasia in Swedish Maine Coon screening programme", "url": "https://pub.epsilon.slu.se/16484/" },
+    { "title": "UC Davis VGL – Spinal Muscular Atrophy (Maine Coon)", "url": "https://vgl.ucdavis.edu/test/maine-coon-sma" },
+    { "title": "Grahn et al. 2012, BMC Vet Res – PK deficiency in multiple breeds", "url": "https://doaj.org/article/8da8592d416a47dd8b382a01244c5b4d" },
+    { "title": "Teng et al. 2024, JFMS – Life tables for cats in the UK (VetCompass)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156239/" },
+    { "title": "Cats Protection – Heatstroke in cats", "url": "https://cats.org.uk/help-and-advice/health/heatstroke-in-cats" },
+    { "title": "The Cat API breed data (mirror)", "url": "https://cat-data-pages.onrender.com/data/table" }
+  ]
+}

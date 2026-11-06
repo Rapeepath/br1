@@ -1,0 +1,90 @@
+{
+  "id": "scottish-fold",
+  "origin": "Scotland (United Kingdom)",
+  "tagline": "A round-faced cat with folded ears, to choose with your eyes open",
+  "summary": "The Scottish Fold is a medium-sized, rounded cat with a round head, large eyes and ears that fold forward, giving it an owl-like look. It is gentle, quiet and loving with its family without being demanding, but the gene that folds the ears (TRPV4) gives every fold-eared cat some degree of cartilage and joint abnormality, so it needs lifelong monitoring for joint pain.",
+  "history": "The first fold-eared cat, Susie, was a farm cat in the Tayside area of Scotland, discovered in 1961 by a shepherd named William Ross, who developed the breed from her kittens. The CFA in the United States recognized the shorthair for championship in 1978, while the GCCF in Britain stopped registering the breed in the early 1970s over health concerns.",
+  "coat": {
+    "texture": "Short, dense, soft and plush (a longhaired version also exists)",
+    "colors": [
+      "Blue (blue-gray)",
+      "White",
+      "Cream",
+      "Silver tabby",
+      "Calico (tricolor)",
+      "Bicolor"
+    ]
+  },
+  "appearance": [
+    "Small ears folded forward, lying close to the head",
+    "Round head and large round eyes, giving an owl-like face",
+    "Rounded, solid body with a short neck",
+    "Kittens are born with straight ears, which begin to fold in the first month",
+    "Comes in shorthair, longhair and straight-eared (Scottish Straight) forms"
+  ],
+  "temperament": [
+    "Gentle",
+    "Quiet and soft-voiced",
+    "Family-loving",
+    "Moderately playful",
+    "Likes to follow its owner",
+    "Adaptable"
+  ],
+  "care": {
+    "grooming": "Brush shorthairs once a week and longhairs 3–4 times a week. Cats with joint pain may not be able to groom themselves all over, so owners should help with extra brushing.",
+    "exercise": "Not high-energy. Encourage gentle play every day with a wand toy or puzzle toys, and never grab or pull the tail hard, as it may be stiff and painful.",
+    "diet": "A hearty eater that gains weight easily, so measure its food and control its weight to reduce the load on its joints. Ask your vet about omega-3, glucosamine or chondroitin joint supplements.",
+    "environment": "Provide soft bedding and place essentials where they can be reached without high jumps. Watch for signs of pain such as hesitating before jumping, a stiff gait, a stiff tail, sleeping more than usual or grooming less."
+  },
+  "health": [
+    {
+      "name": "Scottish Fold osteochondrodysplasia",
+      "detail": "Caused by the same TRPV4 gene that folds the ears, it deforms the bones of the ankles, wrists and tail, leading to arthritis and pain from a young age. Severity varies greatly, from almost no signs to difficulty walking.",
+      "screening": "Periodic X-rays of the front legs, hind legs and tail, TRPV4 testing of the breeding parents, and never mating a fold with a fold."
+    },
+    {
+      "name": "Polycystic kidney disease (PKD)",
+      "detail": "Research in Japan found the PKD1 mutation more often in Scottish Folds than in many other breeds. It causes cysts in the kidneys and can lead to kidney failure.",
+      "screening": "DNA test the breeding parents and the kittens for the PKD1 gene."
+    },
+    {
+      "name": "Hypertrophic cardiomyopathy (HCM)",
+      "detail": "Reported as a risk in this breed. The heart wall thickens so that the heart pumps blood poorly, and blood clots may form.",
+      "screening": "Heart ultrasound (echocardiography) by a vet."
+    },
+    {
+      "name": "Obesity",
+      "detail": "Eats well but moves little, and excess weight makes joint problems worse.",
+      "screening": "Weigh and assess body condition at every vet visit."
+    }
+  ],
+  "welfareNote": "The fold gene is dominant, so every fold-eared cat has some degree of cartilage abnormality. For this reason FIFe and the GCCF do not recognize the breed, breeding is banned in the Netherlands, Flanders (Belgium) and the state of Victoria (Australia), and responsible breeders never mate a fold with a fold.",
+  "idealFor": [
+    "People who like a quiet cat that enjoys staying at home",
+    "Families with gentle children or other pets",
+    "Owners ready for regular joint and heart checks"
+  ],
+  "considerations": [
+    "Every fold-eared cat is at risk of chronic joint pain, so budget for long-term treatment",
+    "Choose a cattery that only mates folds with straight-eared cats and has TRPV4 and PKD test results",
+    "Avoid Fold crosses with Munchkins or American Curls, as kittens may inherit two copies of the gene and severe bone deformities"
+  ],
+  "funFact": "When a fold is mated with a straight-eared cat, only about half the litter have folded ears, and some kittens whose ears once folded may straighten again as they grow, even though they still carry the fold gene.",
+  "price": {
+    "note": "Typical listings cost a few thousand baht; cats with pedigree papers from a registered cattery cost several times more."
+  },
+  "gallery": [
+    {
+      "alt": "Blue Scottish Fold with ears folded flat against its head and orange eyes"
+    },
+    {
+      "alt": "Blue-and-white Scottish Fold named Marimo resting on a box at a cat café"
+    },
+    {
+      "alt": "Chocolate Scottish Fold lying on a floral blanket, its folded ears clearly visible"
+    },
+    {
+      "alt": "Four blue Scottish kittens in a wooden box: three with folded ears and one with straight ears (Scottish Straight)"
+    }
+  ]
+}
